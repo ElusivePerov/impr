@@ -1,0 +1,182 @@
+
+1a rev0
+
+## game
+ 
+ [X] speed 3 changed to 0.6 from 0.5
+ [X] speed 4 changed to 0.4 from 0.25
+
+ [ ] mods don't disable achievements tooltip
+
+ [+] levy map mode redesign
+
+## warfare
+
+ [X] min warscore to demand reduced to 0 from 10
+ [X] separate peace block reduced to 0 from 36
+
+ [X] AE increase of non target reduced to 0 from 0.33
+ [X] WS increase of non target reduced to 0 from 0.33
+
+ [X] WS increase of conquest CB increased to 0.5 from -0.25 for attacker and 0.5 from 0 for defender
+ [X] WS increase of taking from owner's accepted culture increased to 0.33 from 0.10
+ [X] WS increase of taking from owner's accepted religion increased to 0.33 from 0.10
+
+ [X] PI cost decrease of fabricate claim to 10 from 20
+ 
+ [X] first fort cap usage reduced to 2 from 3
+
+ [ ] remove enforceable white peace
+
+ [+] timegated stronger CBs
+
+ [X] WE increase of raising levies reduced to 0 from 0.5
+ [X] WE increase per month of raised levies timer raised to 12 months from 6 months
+ [X] WE increase per month of raised levies for too long (timer above) reduced to 0.02 from 0.04
+
+ [X] minimum raise levy cooldown reduced to 3 months from 4 months
+ [X] maximum raise levy cooldown reduced to 18 months from 24 months
+
+## economy
+
+ [ ] aqueducts no longer require 30 civilization
+ [ ] aqueducts now provide 1 civilization cap
+
+ [+] remove scaling costs for provincial investment
+
+## diplomacy
+
+ [X] travel days reduced to 0 from 30
+ [ ] give up claims
+
+## religion
+
+ [ ] reduce PI cost to swap religion
+ [ ] change requirements from capital to whole country
+
+## culture
+
+ [+] found colony cultural decision overhaul
+ 	[X] now targets the provincial capital
+ 	[ ] now requires a minimum of 15 pops in the target territory
+ 	[ ] now requires that the territory doesn't have the colony modifier
+ 	[X] cooldown reduced from three years to one
+ 	[X] added 0.5 assimilation speed to the territory colony modifier
+ 	[X] cultural modifier now runs out after 10 years
+
+## government
+
+ [X] change governor policy no longer costs PI
+ ⭐ LOC DEBT ⭐
+ relocate capital block threshold lowered to 10 loyalty from 50 loyalty
+ [X] relocate provincial capital no longer costs loyalty
+ [X] relocate provincial capital threshold reduced to 10 loyalty from 33
+ ⭐ LOC DEBT ⭐
+ [+] reduce power bases at defines
+ [ ] reduce a third of the impact of stab on legitimacy loss
+ [ ] anoint heir minimum legitimacy required reduced to 80 from 90
+ [ ] anoint heir now grants loyalty to the targeted character
+
+ [+] changed ai will do for governor policies
+ 	[X] religious conversion takes first priority until all territories in the province have a plurality of correct religion
+ 	[X] cultural assimilation takes second priority until all territories in the province have a plurality of correct culture
+ 	[X] civilization effort takes third priority until all territories in the province have a minimum of 20 civilization
+ 	[X] encourage trade takes fourth priority
+ 	[X] harsh treatment overrides all the above if the province is below 40 loyalty
+ 	[X] acquisition of wealth, bleed them dry, social mobility, local autonomy, borderlands, centralize, decentralize voided
+
+ [X] monarchy religious laws swapped republic laws (rewrite this line)
+
+ [X] province disloyalty threshold lowered to 10 from 33
+
+ [ ] add laws for consort/two rulers
+
+ [ ] add something between major and great power
+
+## inventions
+
+ [+] remove exclusive inventions probably
+ [X] greek advanced mechanics made into a generic invention
+ ⭐ LOC DEBT ⭐
+
+## characters
+
+ [+] remove all bad traits probs
+ [ ] lower seek treatment cost from 200 to 20
+ [+] stop random murders
+ [X] request marriage opinion requirement lowered to 0 from 40
+
+## regions
+
+### mediterrenean
+
+ #### rome
+ [+] harmonic religion
+ [+] italic religion
+ [+] mission cleanup
+ [ ] add rivers
+ [ ] swap integration speed in heritage for hi discipline
+
+ #### carthage
+ [+] mission cleanup
+ [ ] add rivers
+ [ ] maybe import punic republic from invictus
+ [ ] every change goverment mission adds 60 influence
+ [ ] make starting feudatories into trade city subjects
+ [ ] add nations to uncolonized territories
+ [ ] rename carthago to qart hadasht
+
+ #### syracusae
+ [+] mission cleanup
+ [ ] add rivers?
+
+ #### epirus
+ [+] mission cleanup
+ [ ] add rivers?
+
+ #### athens
+ [+] mission cleanup
+ [ ] add rivers?
+ [ ] increased heritage monthly tyranny to -0.20 from -0.02 
+
+ #### sparta
+ [+] mission cleanup
+ [ ] add rivers?
+
+ #### cyrenaica
+ [+] mission cleanup
+ [ ] add rivers?
+
+### heirs of alexander
+
+ #### macedon
+ [+] add become greece path
+ [+] mission cleanup
+ [ ] add rivers?
+
+ #### antigonids
+ [+] add become anatolia path
+ [+] mission cleanup
+ [ ] add rivers?
+
+ #### seleukids
+ [+] add become iran path
+ [+] mission cleanup
+ [ ] add rivers?
+
+ #### ptolemids
+ [+] add become egypt path
+ [+] mission cleanup
+ [ ] add rivers?
+
+### indus
+
+ [+] removal
+
+### global
+
+ [+] generic missions overhaul
+ 	[ ] matter of rewards select provincial capitals
+
+ [ ] remove stab loss from dropping missions (not for 'the matter of' probs)
+ [X] control [province] mission's 3rd reward roll now only targets the provincial capital
