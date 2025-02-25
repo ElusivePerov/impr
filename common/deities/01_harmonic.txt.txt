@@ -1,0 +1,276 @@
+
+deity_harmo1 = {
+	trigger = {
+		polytheistic_check_religion_trigger = yes
+		OR = {
+			rare_deity_trigger = {
+				RELIGION = roman_pantheon
+			}
+			deity:omen_harmo1 = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_war
+	passive_modifier = { global_cohort_start_experience = deity_global_cohort_start_experience_svalue }
+	omen = { land_morale_modifier = omen_land_morale_modifier_svalue }
+	religion = roman_pantheon
+	deity_category = war
+	
+	deification_trigger = { can_deify_trigger = yes }
+	
+	on_activate = { military_apotheosis_manpower_effect = yes }
+}
+
+deity_harmo2 = {
+	trigger = {
+		polytheistic_check_religion_trigger = yes
+		OR = {
+			rare_deity_trigger = {
+				RELIGION = roman_pantheon
+			}
+			deity:omen_harmo2 = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_war
+	passive_modifier = { global_cohort_start_experience = deity_global_cohort_start_experience_svalue }
+	omen = { land_morale_modifier = omen_land_morale_modifier_svalue }
+	religion = roman_pantheon
+	deity_category = war
+	
+	deification_trigger = { can_deify_trigger = yes }
+	
+	on_activate = { military_apotheosis_manpower_effect = yes }
+}
+
+deity_harmo3 = {
+	trigger = {
+		polytheistic_check_religion_trigger = yes
+		OR = {
+			rare_deity_trigger = {
+				RELIGION = roman_pantheon
+			}
+			deity:omen_harmo3 = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_war
+	passive_modifier = { global_cohort_start_experience = deity_global_cohort_start_experience_svalue }
+	omen = { land_morale_modifier = omen_land_morale_modifier_svalue }
+	religion = roman_pantheon
+	deity_category = war
+	
+	deification_trigger = { can_deify_trigger = yes }
+	
+	on_activate = { military_apotheosis_manpower_effect = yes }
+}
+
+deity_harmo4 = {
+	trigger = {
+		polytheistic_check_religion_trigger = yes
+		OR = {
+			rare_deity_trigger = {
+				RELIGION = roman_pantheon
+			}
+			deity:omen_harmo4 = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_war
+	passive_modifier = { global_cohort_start_experience = deity_global_cohort_start_experience_svalue }
+	omen = { land_morale_modifier = omen_land_morale_modifier_svalue }
+	religion = roman_pantheon
+	deity_category = economy
+	
+	deification_trigger = { can_deify_trigger = yes }
+	
+	on_activate = { military_apotheosis_manpower_effect = yes }
+}
+
+deity_harmo5 = {
+	trigger = {
+		polytheistic_check_religion_trigger = yes
+		OR = {
+			rare_deity_trigger = {
+				RELIGION = roman_pantheon
+			}
+			deity:omen_harmo5 = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_war
+	passive_modifier = { global_cohort_start_experience = deity_global_cohort_start_experience_svalue }
+	omen = { land_morale_modifier = omen_land_morale_modifier_svalue }
+	religion = roman_pantheon
+	deity_category = economy
+	
+	deification_trigger = { can_deify_trigger = yes }
+	
+	on_activate = { military_apotheosis_manpower_effect = yes }
+}
+
+deity_harmo6 = {
+	trigger = {
+		polytheistic_check_religion_trigger = yes
+		OR = {
+			rare_deity_trigger = {
+				RELIGION = roman_pantheon
+			}
+			deity:omen_harmo6 = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_war
+	passive_modifier = { global_cohort_start_experience = deity_global_cohort_start_experience_svalue }
+	omen = { land_morale_modifier = omen_land_morale_modifier_svalue }
+	religion = roman_pantheon
+	deity_category = economy
+	
+	deification_trigger = { can_deify_trigger = yes }
+	
+	on_activate = { military_apotheosis_manpower_effect = yes }
+}
+
+deity_harmo7 = {
+	trigger = {
+		polytheistic_check_religion_trigger = yes
+		OR = {
+			rare_deity_trigger = {
+				RELIGION = roman_pantheon
+			}
+			deity:omen_harmo7 = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_war
+	passive_modifier = { global_cohort_start_experience = deity_global_cohort_start_experience_svalue }
+	omen = { land_morale_modifier = omen_land_morale_modifier_svalue }
+	religion = roman_pantheon
+	deity_category = culture
+	
+	deification_trigger = { can_deify_trigger = yes }
+	
+	on_activate = { military_apotheosis_manpower_effect = yes }
+}
+
+deity_harmo8 = {
+	trigger = {
+		polytheistic_check_religion_trigger = yes
+		OR = {
+			rare_deity_trigger = {
+				RELIGION = roman_pantheon
+			}
+			deity:omen_harmo8 = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_war
+	passive_modifier = { global_cohort_start_experience = deity_global_cohort_start_experience_svalue }
+	omen = { land_morale_modifier = omen_land_morale_modifier_svalue }
+	religion = roman_pantheon
+	deity_category = culture
+	
+	deification_trigger = { can_deify_trigger = yes }
+	
+	on_activate = { military_apotheosis_manpower_effect = yes }
+}
+
+deity_harmo9 = {
+	trigger = {
+		polytheistic_check_religion_trigger = yes
+		OR = {
+			rare_deity_trigger = {
+				RELIGION = roman_pantheon
+			}
+			deity:omen_harmo9 = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_war
+	passive_modifier = { global_cohort_start_experience = deity_global_cohort_start_experience_svalue }
+	omen = { land_morale_modifier = omen_land_morale_modifier_svalue }
+	religion = roman_pantheon
+	deity_category = culture
+	
+	deification_trigger = { can_deify_trigger = yes }
+	
+	on_activate = { military_apotheosis_manpower_effect = yes }
+}
+
+deity_harmo10 = {
+	trigger = {
+		polytheistic_check_religion_trigger = yes
+		OR = {
+			rare_deity_trigger = {
+				RELIGION = roman_pantheon
+			}
+			deity:omen_harmo10 = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_war
+	passive_modifier = { global_cohort_start_experience = deity_global_cohort_start_experience_svalue }
+	omen = { land_morale_modifier = omen_land_morale_modifier_svalue }
+	religion = roman_pantheon
+	deity_category = fertility
+	
+	deification_trigger = { can_deify_trigger = yes }
+	
+	on_activate = { military_apotheosis_manpower_effect = yes }
+}
+
+deity_harmo11 = {
+	trigger = {
+		polytheistic_check_religion_trigger = yes
+		OR = {
+			rare_deity_trigger = {
+				RELIGION = roman_pantheon
+			}
+			deity:omen_harmo11 = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_war
+	passive_modifier = { global_cohort_start_experience = deity_global_cohort_start_experience_svalue }
+	omen = { land_morale_modifier = omen_land_morale_modifier_svalue }
+	religion = roman_pantheon
+	deity_category = fertility
+	
+	deification_trigger = { can_deify_trigger = yes }
+	
+	on_activate = { military_apotheosis_manpower_effect = yes }
+}
+
+deity_harmo12 = {
+	trigger = {
+		polytheistic_check_religion_trigger = yes
+		OR = {
+			rare_deity_trigger = {
+				RELIGION = roman_pantheon
+			}
+			deity:omen_harmo12 = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_war
+	passive_modifier = { global_cohort_start_experience = deity_global_cohort_start_experience_svalue }
+	omen = { land_morale_modifier = omen_land_morale_modifier_svalue }
+	religion = roman_pantheon
+	deity_category = fertility
+	
+	deification_trigger = { can_deify_trigger = yes }
+	
+	on_activate = { military_apotheosis_manpower_effect = yes }
+}

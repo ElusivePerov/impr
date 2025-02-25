@@ -1,0 +1,16 @@
+deity_manager = {
+	deities_database = { # KEYS 1400 - 1411
+		1400 = { key = omen_harmo1 deity_harmo1 }
+		1401 = { key = omen_harmo1 deity_harmo2 }
+		1402 = { key = omen_harmo1 deity_harmo3 }
+		1403 = { key = omen_harmo1 deity_harmo4 }
+		1404 = { key = omen_harmo1 deity_harmo5 }
+		1405 = { key = omen_harmo1 deity_harmo6 }
+		1406 = { key = omen_harmo1 deity_harmo7 }
+		1407 = { key = omen_harmo1 deity_harmo8 }
+		1408 = { key = omen_harmo1 deity_harmo9 }
+		1409 = { key = omen_harmo1 deity_harmo10 }
+		1410 = { key = omen_harmo1 deity_harmo11 }
+		1411 = { key = omen_harmo1 deity_harmo12 }
+	}
+}

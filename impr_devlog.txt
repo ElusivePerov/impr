@@ -37,6 +37,8 @@
  [X] minimum raise levy cooldown reduced to 3 months from 4 months
  [X] maximum raise levy cooldown reduced to 18 months from 24 months
 
+ [ ] capital modifier now increases fort defense, garrison and limit
+
 ## economy
 
  [ ] aqueducts no longer require 30 civilization
@@ -87,7 +89,7 @@
 
  [X] monarchy religious laws swapped republic laws (rewrite this line)
 
- [X] province disloyalty threshold lowered to 10 from 33
+ [X] province disloyalty threshold lowered to 20 from 33
 
  [ ] add laws for consort/two rulers
 
@@ -101,10 +103,10 @@
 
 ## characters
 
- [+] remove all bad traits probs
- [ ] lower seek treatment cost from 200 to 20
- [+] stop random murders
+ [ ] lower seek treatment cost from 200 to 20 / make it scaling
+ [+] deal with random murders
  [X] request marriage opinion requirement lowered to 0 from 40
+ [+] deal with request marriage in multiplayer
 
 ## regions
 
@@ -112,13 +114,23 @@
 
  #### rome
  [+] harmonic religion
+ 	[X] history
+ 	[ ] deities
+ 	[ ] saturnalia for both hellenic and harmonic
  [+] italic religion
+ 	[X] history
+ 	[ ] deities
  [+] mission cleanup
  [ ] add rivers
  [ ] swap integration speed in heritage for hi discipline
 
  #### carthage
  [+] mission cleanup
+ 	[ ] africa
+ 	[ ] iberia
+ 	[ ] bomilcar
+ 	[ ] naval
+ 	[ ] trade
  [ ] add rivers
  [ ] maybe import punic republic from invictus
  [ ] every change goverment mission adds 60 influence
