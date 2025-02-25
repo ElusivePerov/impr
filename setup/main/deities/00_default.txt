@@ -1,5 +1,7 @@
 ### KEYS USED FOR DIFFERENT RELIGIONS
-# Hellenic 1 - 199
+# Harmonic 1 - 49
+# Italic 50 - 74
+# Hellenic 75 - 199
 # Druidic 200 - 299
 # Zoroastrianism 300 - 349
 # Cybelene 350 - 399
@@ -22,4 +24,3 @@
 # Matrist 1250 - 1299
 # Jain 1300 - 1349
 # Pre-Scripted Deified Characters 1350 - 1399
-# Harmonic 1400 - 1411

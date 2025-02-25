@@ -4888,10 +4888,10 @@ country = {
 			capital = 1
 			pantheon = {
 			
-			{ deity = 1400 }
-			{ deity = 1403 } 
-			{ deity = 1406 } 
-			{ deity = 1409 }
+			{ deity = 1 }
+			{ deity = 2 } 
+			{ deity = 6 } 
+			{ deity = 10 }
 			
 			}
 			is_antagonist = yes
@@ -4913,7 +4913,7 @@ country = {
 			government = aristocratic_republic
 			diplomatic_stance=warmongering_stance
 			primary_culture = samnite
-			religion = greek_pantheon
+			religion = italic_pantheon
 			centralization=10
 			capital = 32
 			
@@ -4934,7 +4934,7 @@ country = {
 		MRS = {
 			government = tribal_kingdom
 			primary_culture = roman
-			religion = greek_pantheon
+			religion = roman_pantheon
 			centralization=8
 			capital = 30
 			
@@ -4978,7 +4978,7 @@ country = {
 			government = plutocratic_republic
 			diplomatic_stance=trading_stance
 			primary_culture = samnite
-			religion = greek_pantheon
+			religion = italic_pantheon
 			
 			technology={
 				military_tech={ level=2 progress=0 }
@@ -5006,7 +5006,7 @@ country = {
 		PIE = {
 			government = tribal_kingdom
 			primary_culture = samnite
-			religion = greek_pantheon
+			religion = italic_pantheon
 			centralization = 35
 			capital = 106
 			
@@ -5027,7 +5027,7 @@ country = {
 		ETR = {
 			government = oligarchic_republic
 			primary_culture = etruscan
-			religion = greek_pantheon
+			religion = italic_pantheon
 			diplomatic_stance=trading_stance
 			capital = 114 
 			family = 18
@@ -5053,7 +5053,7 @@ country = {
 		FNT = {
 			government = tribal_kingdom
 			primary_culture = ligurian
-			religion = greek_pantheon
+			religion = italic_pantheon
 			centralization=8
 			capital = 138 
 			diplomatic_stance=trading_stance
@@ -5074,7 +5074,7 @@ country = {
 		SAB = {
 			government = tribal_kingdom
 			primary_culture = samnite
-			religion = greek_pantheon
+			religion = italic_pantheon
 			centralization=8
 			capital = 107
 			diplomatic_stance=trading_stance
@@ -5096,7 +5096,7 @@ country = {
 		UMB = {
 			government = aristocratic_republic
 			primary_culture = umbrian
-			religion = greek_pantheon
+			religion = italic_pantheon
 			centralization=8
 			capital = 103
 			diplomatic_stance=warmongering_stance
@@ -5151,7 +5151,7 @@ country = {
 		LCA = {
 			government = tribal_kingdom
 			primary_culture = lucanian
-			religion = greek_pantheon
+			religion = italic_pantheon
 			centralization=8
 			capital = 53
 			diplomatic_stance=appeasement_stance
@@ -5172,7 +5172,7 @@ country = {
 		BRT = {
 			government = tribal_kingdom
 			primary_culture = bruttian
-			religion = greek_pantheon
+			religion = italic_pantheon
 			centralization=8
 			capital = 77
 			
@@ -5255,7 +5255,7 @@ country = {
 		INM = {
 			government = tribal_kingdom
 			primary_culture = ligurian
-			religion = greek_pantheon
+			religion = italic_pantheon
 
 			capital = 3545
 			
@@ -5275,7 +5275,7 @@ country = {
 		IGN = {
 			government = tribal_kingdom
 			primary_culture = ligurian
-			religion = greek_pantheon
+			religion = italic_pantheon
 
 			capital = 3547
 			
@@ -5294,7 +5294,7 @@ country = {
 		GUN = {
 			government = tribal_kingdom
 			primary_culture = ligurian
-			religion = greek_pantheon
+			religion = italic_pantheon
 
 			capital = 141
 			
@@ -5315,7 +5315,7 @@ country = {
 		EPA = {
 			government = tribal_kingdom
 			primary_culture = ligurian
-			religion = greek_pantheon
+			religion = italic_pantheon
 
 			capital = 3553
 			
@@ -5420,7 +5420,7 @@ country = {
 		VNT = {
 			government = tribal_kingdom
 			primary_culture = venetic
-			religion = greek_pantheon
+			religion = italic_pantheon
 
 			capital = 3598
 		
@@ -5458,7 +5458,7 @@ country = {
 		RAE = {
 			government = tribal_kingdom
 			primary_culture = rhaetian
-			religion = greek_pantheon
+			religion = italic_pantheon
 			centralization=10
 
 			capital = 3663 
@@ -5471,7 +5471,7 @@ country = {
 		BRE = {
 			government = tribal_kingdom
 			primary_culture = noric
-			religion = greek_pantheon
+			religion = italic_pantheon
 			centralization=10
 
 			capital = 3667 
@@ -5645,7 +5645,7 @@ country = {
 		FRE = {
 			government = tribal_kingdom
 			primary_culture = samnite
-			religion = greek_pantheon
+			religion = italic_pantheon
 			#Vassal of Rome
 			capital = 35
 			
@@ -5666,7 +5666,7 @@ country = {
 		PEL = {
 			government = tribal_kingdom
 			primary_culture = samnite
-			religion = greek_pantheon
+			religion = italic_pantheon
 			
 			technology={
 				military_tech={ level=2 progress=0 }
@@ -5686,7 +5686,7 @@ country = {
 		SCU = {
 			government = tribal_kingdom
 			primary_culture = siculian
-			religion = greek_pantheon
+			religion = italic_pantheon
 
 			technology={
 				military_tech={ level=2 progress=0 }

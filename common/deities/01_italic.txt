@@ -5,7 +5,7 @@ deity_laran = {
 		primary_culture = etruscan
 		OR = {
 			common_deity_trigger = {
-				RELIGION = greek_pantheon
+				RELIGION = italic_pantheon
 			}
 			deity:omen_laran = {
 				holy_site_deity_check_trigger = yes
@@ -15,7 +15,7 @@ deity_laran = {
 	icon = deity_war
 	passive_modifier = { agressive_expansion_impact = deity_aggressive_expansion_impact_svalue }
 	omen = { land_morale_modifier = omen_land_morale_modifier_svalue } #Bonus from Omen
-	religion = greek_pantheon
+	religion = italic_pantheon
 	deity_category = war #This Deity uses a War slot.
 	
 	deification_trigger = {
@@ -34,7 +34,7 @@ deity_apulu = {
 		primary_culture = etruscan
 		OR = {
 			common_deity_trigger = {
-				RELIGION = greek_pantheon
+				RELIGION = italic_pantheon
 			}
 			deity:omen_apulu = {
 				holy_site_deity_check_trigger = yes
@@ -44,7 +44,7 @@ deity_apulu = {
 	icon = deity_war
 	passive_modifier = { manpower_recovery_speed = deity_global_manpower_recovery_speed_svalue }
 	omen = { global_freemen_happyness = omen_global_freemen_happiness_svalue } #Bonus from Omen
-	religion = greek_pantheon
+	religion = italic_pantheon
 	deity_category = war #This Deity uses a War slot.
 	
 	deification_trigger = {
@@ -63,7 +63,7 @@ deity_turms = {
 		primary_culture = etruscan
 		OR = {
 			rare_deity_trigger = {
-				RELIGION = greek_pantheon
+				RELIGION = italic_pantheon
 			}
 			deity:omen_turms = {
 				holy_site_deity_check_trigger = yes
@@ -73,7 +73,7 @@ deity_turms = {
 	icon = deity_wealth
 	passive_modifier = { global_commerce_modifier = deity_global_commerce_modifier_svalue }
 	omen = { civic_tech_investment = omen_civic_tech_investment_svalue } #Bonus from Omen
-	religion = greek_pantheon
+	religion = italic_pantheon
 	deity_category = economy #This Deity uses an Economy Slot
 	
 	deification_trigger = {
@@ -92,7 +92,7 @@ deity_aita = {
 		primary_culture = etruscan
 		OR = {
 			rare_deity_trigger = {
-				RELIGION = greek_pantheon
+				RELIGION = italic_pantheon
 			}
 			deity:omen_aita = {
 				holy_site_deity_check_trigger = yes
@@ -102,7 +102,7 @@ deity_aita = {
 	icon = deity_wealth
 	passive_modifier = { global_tax_modifier = deity_global_tax_modifier_svalue }
 	omen = { global_monthly_civilization = omen_global_monthly_civilization_svalue } #Bonus from Omen
-	religion = greek_pantheon
+	religion = italic_pantheon
 	deity_category = economy #This Deity uses an Economy Slot
 	
 	deification_trigger = {
@@ -121,7 +121,7 @@ deity_tinia = {
 		primary_culture = etruscan
 		OR = {
 			rare_deity_trigger = {
-				RELIGION = greek_pantheon
+				RELIGION = italic_pantheon
 			}
 			deity:omen_tinia = {
 				holy_site_deity_check_trigger = yes
@@ -131,7 +131,7 @@ deity_tinia = {
 	icon = deity_eloquence
 	passive_modifier = { monthly_political_influence_modifier = deity_monthly_political_influence_modifier_svalue }
 	omen = { ruler_popularity_gain = omen_ruler_popularity_gain_svalue } #Bonus from Omen
-	religion = greek_pantheon
+	religion = italic_pantheon
 	deity_category = culture #This Deity uses a Culture Slot
 	
 	deification_trigger = {
@@ -150,7 +150,7 @@ deity_menrva = {
 		primary_culture = etruscan
 		OR = {
 			common_deity_trigger = {
-				RELIGION = greek_pantheon
+				RELIGION = italic_pantheon
 			}
 			deity:omen_menrva = {
 				holy_site_deity_check_trigger = yes
@@ -160,7 +160,7 @@ deity_menrva = {
 	icon = deity_eloquence
 	passive_modifier = { research_points_modifier = deity_research_points_modifier_svalue }
 	omen = { global_citizen_output = omen_global_citizen_output_svalue } #Bonus from Omen
-	religion = greek_pantheon
+	religion = italic_pantheon
 	deity_category = culture #This Deity uses a Culture Slot
 	
 	deification_trigger = {
@@ -179,7 +179,7 @@ deity_nortia = {
 		primary_culture = etruscan
 		OR = {
 			rare_deity_trigger = {
-				RELIGION = greek_pantheon
+				RELIGION = italic_pantheon
 			}
 			deity:omen_nortia = {
 				holy_site_deity_check_trigger = yes
@@ -189,7 +189,7 @@ deity_nortia = {
 	icon = deity_eloquence
 	passive_modifier = { happiness_for_same_culture_modifier = deity_happiness_for_same_culture_modifier_svalue }
 	omen = { monthly_tyranny = omen_monthly_tyranny_svalue } #Bonus from Omen
-	religion = greek_pantheon
+	religion = italic_pantheon
 	deity_category = culture #This Deity uses a Culture Slot
 	
 	deification_trigger = {
@@ -208,7 +208,7 @@ diety_cels = {
 		primary_culture = etruscan
 		OR = {
 			common_deity_trigger = {
-				RELIGION = greek_pantheon
+				RELIGION = italic_pantheon
 			}
 			deity:omen_cels = {
 				holy_site_deity_check_trigger = yes
@@ -218,7 +218,7 @@ diety_cels = {
 	icon = deity_love
 	passive_modifier = { global_monthly_food_modifier = deity_global_monthly_food_modifier_svalue }
 	omen = { happiness_for_same_religion_modifier = omen_happiness_for_same_religion_modifier_svalue } #Bonus from Omen
-	religion = greek_pantheon
+	religion = italic_pantheon
 	deity_category = fertility #This Deity uses a Fertility Slot
 	
 	deification_trigger = {
@@ -237,7 +237,7 @@ deity_nethuns = {
 		primary_culture = etruscan
 		OR = {
 			rare_deity_trigger = {
-				RELIGION = greek_pantheon
+				RELIGION = italic_pantheon
 			}
 			deity:omen_nethuns = {
 				holy_site_deity_check_trigger = yes
@@ -247,7 +247,7 @@ deity_nethuns = {
 	icon = deity_war
 	passive_modifier = { global_ship_start_experience = deity_global_ship_start_experience_svalue }
 	omen = { naval_damage_done = omen_naval_damage_done_svalue } #Bonus from Omen
-	religion = greek_pantheon
+	religion = italic_pantheon
 	deity_category = war #This Deity uses a War slot.
 	
 	deification_trigger = {
@@ -269,7 +269,7 @@ deity_hercle = {
 		primary_culture = etruscan
 		OR = {
 			rare_deity_trigger = {
-				RELIGION = greek_pantheon
+				RELIGION = italic_pantheon
 			}
 			deity:omen_hercle = {
 				holy_site_deity_check_trigger = yes
@@ -279,7 +279,7 @@ deity_hercle = {
 	icon = deity_war
 	passive_modifier = { army_maintenance_cost = deity_army_maintenance_cost_svalue }
 	omen = { discipline = omen_discipline_svalue } #Bonus from Omen
-	religion = greek_pantheon
+	religion = italic_pantheon
 	deity_category = war #This Deity uses a War slot.
 	
 	deification_trigger = {
@@ -298,7 +298,7 @@ deity_sethlans = {
 		primary_culture = etruscan
 		OR = {
 			rare_deity_trigger = {
-				RELIGION = greek_pantheon
+				RELIGION = italic_pantheon
 			}
 			deity:omen_sethlans = {
 				holy_site_deity_check_trigger = yes
@@ -308,7 +308,7 @@ deity_sethlans = {
 	icon = deity_wealth
 	passive_modifier = { military_tech_investment = deity_military_tech_investment_svalue }
 	omen = { fort_maintenance_cost = omen_fort_maintenance_cost_svalue } #Bonus from Omen
-	religion = greek_pantheon
+	religion = italic_pantheon
 	deity_category = economy #This Deity uses an Economy Slot
 	
 	deification_trigger = {
@@ -326,7 +326,7 @@ deity_turan = {
 		primary_culture = etruscan
 		OR = {
 			rare_deity_trigger = {
-				RELIGION = greek_pantheon
+				RELIGION = italic_pantheon
 			}
 			deity:omen_turan = {
 				holy_site_deity_check_trigger = yes
@@ -336,7 +336,7 @@ deity_turan = {
 	icon = deity_love
 	passive_modifier = { global_supply_limit_modifier = deity_global_supply_limit_modifier_svalue }
 	omen = { monthly_wage_modifier = omen_monthly_wage_modifier_svalue } #Bonus from Omen
-	religion = greek_pantheon
+	religion = italic_pantheon
 	deity_category = fertility #This Deity uses a Fertility Slot
 	
 	deification_trigger = {
@@ -355,7 +355,7 @@ deity_uni = {
 		primary_culture = etruscan
 		OR = {
 			rare_deity_trigger = {
-				RELIGION = greek_pantheon
+				RELIGION = italic_pantheon
 			}
 			deity:omen_uni = {
 				holy_site_deity_check_trigger = yes
@@ -365,7 +365,7 @@ deity_uni = {
 	icon = deity_eloquence
 	passive_modifier = { global_population_capacity_modifier = deity_global_population_capacity_modifier_svalue }
 	omen = { global_citizen_happyness = omen_global_citizen_happiness_svalue } #Bonus from Omen
-	religion = greek_pantheon
+	religion = italic_pantheon
 	deity_category = culture #This Deity uses a Culture Slot
 	
 	deification_trigger = {
@@ -384,7 +384,7 @@ deity_artume = {
 		primary_culture = etruscan
 		OR = {
 			rare_deity_trigger = {
-				RELIGION = greek_pantheon
+				RELIGION = italic_pantheon
 			}
 			deity:omen_artume = {
 				holy_site_deity_check_trigger = yes
@@ -394,7 +394,7 @@ deity_artume = {
 	icon = deity_love
 	passive_modifier = { global_pop_assimilation_speed_modifier = deity_global_pop_assimilation_speed_modifier_svalue }
 	omen = { happiness_for_same_culture_modifier = omen_happiness_for_same_culture_modifier_svalue } #Bonus from Omen
-	religion = greek_pantheon
+	religion = italic_pantheon
 	deity_category = fertility #This Deity uses a Fertility slot.
 	
 	deification_trigger = {
@@ -413,7 +413,7 @@ deity_usil = {
 		primary_culture = etruscan
 		OR = {
 			rare_deity_trigger = {
-				RELIGION = greek_pantheon
+				RELIGION = italic_pantheon
 			}
 			deity:omen_usil = {
 				holy_site_deity_check_trigger = yes
@@ -423,7 +423,7 @@ deity_usil = {
 	icon = deity_eloquence
 	passive_modifier = { happiness_for_wrong_culture_modifier = deity_happiness_for_wrong_culture_modifier_svalue }
 	omen = { global_nobles_happyness = omen_global_nobles_happiness_svalue } #Bonus from Omen
-	religion = greek_pantheon
+	religion = italic_pantheon
 	deity_category = culture #This Deity uses a Culture Slot
 	
 	deification_trigger = {
@@ -442,7 +442,7 @@ deity_zerene = {
 		primary_culture = etruscan
 		OR = {
 			rare_deity_trigger = {
-				RELIGION = greek_pantheon
+				RELIGION = italic_pantheon
 			}
 			deity:omen_zerene = {
 				holy_site_deity_check_trigger = yes
@@ -452,7 +452,7 @@ deity_zerene = {
 	icon = deity_love
 	passive_modifier = { global_population_growth = deity_global_population_growth_svalue }
 	omen = { global_monthly_food_modifier = omen_global_monthly_food_modifier } #Bonus from Omen
-	religion = greek_pantheon
+	religion = italic_pantheon
 	deity_category = fertility #This Deity uses a Fertility Slot
 	
 	deification_trigger = {
@@ -471,7 +471,7 @@ deity_fufluns = {
 		primary_culture = etruscan
 		OR = {
 			rare_deity_trigger = {
-				RELIGION = greek_pantheon
+				RELIGION = italic_pantheon
 			}
 			deity:omen_fufluns = {
 				holy_site_deity_check_trigger = yes
@@ -481,7 +481,7 @@ deity_fufluns = {
 	icon = deity_love
 	passive_modifier = { global_population_capacity_modifier = deity_global_population_capacity_modifier_svalue }
 	omen = { global_freemen_happyness = omen_global_freemen_happiness_svalue } #Bonus from Omen
-	religion = greek_pantheon
+	religion = italic_pantheon
 	deity_category = fertility #This Deity uses a Fertility Slot
 	
 	deification_trigger = {

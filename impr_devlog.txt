@@ -114,18 +114,30 @@
 
  #### rome
  [+] harmonic religion
- 	[X] history
- 	[ ] deities
+ ⭐ LOC DEBT ⭐
+ 	[X] added harmonic religion with 4% global happiness modifier 
+ 	[X] converted the religion of all roman culture pops to harmonic religion
+ 	[X] set the religion of rome to harmonic
+ 	[X] assigned roman gods to the harmonic pantheon
  	[ ] saturnalia for both hellenic and harmonic
  [+] italic religion
- 	[X] history
- 	[ ] deities
- [+] mission cleanup
+ ⭐ LOC DEBT ⭐
+  	[X] added italic religion with 5% discipline modifier
+ 	[X] converted the religion of all non-roman italic culture pops to italic religion 
+ 	(except for the druidic ones)
+ 	[X] set the religion of etruria and all italic minors to italic
+ 	[X] assigned etrurian gods to the italic pantheon
+ [+] mission overhaul
+ 	[ ] italia
+ 	[ ] cis and trans gaul
+ 	[ ] religion
+ 	[ ] republic
+ 	[ ] romanization
  [ ] add rivers
  [ ] swap integration speed in heritage for hi discipline
 
  #### carthage
- [+] mission cleanup
+ [+] mission overhaul
  	[ ] africa
  	[ ] iberia
  	[ ] bomilcar
