@@ -46,6 +46,8 @@
 
  [+] remove scaling costs for provincial investment
 
+ [ ] earthenware surplus now provides 5% population cap instead of 3% freeman output
+
 ## diplomacy
 
  [X] travel days reduced to 0 from 30
@@ -95,6 +97,33 @@
 
  [ ] add something between major and great power
 
+ [ ] bellicose stance now provides AE decay instead of ws cost reduction
+
+ [+] prominence from titles reduced
+ 	[X] general reduced to 15 from 30 and monthly gain reduced to 0.05 from 0.2
+ 	[X] admiral reduced to 8 from 15 and monthly gain reduced to 0.02 from 0.1
+ 	[X] legate reduced to 10 from 30 and monthly gain reduced to 0.05 from 0.2
+ 	[X] tribune reduced to 5 from 25 
+ 	[X] deployed tribune reduced to 5 from 20 and monthly gain reduced to 0.01 from 0.2
+ 	[X] researcher reduced to 3 from 30 and monthly gain voided
+ 	[X] governor unchanged but monthly gain reduced to 0.02 from 0.1
+ 	[X] party leader unchanged but monthly gain reduced to 0.02 from 0.35
+ 	[X] great work construction leader reduced to 5 from 30 and monthly gain reduced to 0.01 from 0.1
+ [X] monthly statesmanship gain from researcher title reduced to -0.05 from 0.25
+ [X] martial, finesse, charisma and zeal now provide 1.6 prominence per point
+
+### republics
+
+ [X] prominence and statesmanship divider for electability reduced to 150 from 200
+ [X] family prestige divider for electability increased to 5000 from 4000
+ [X] family prestige cap for electability decreased to 16% from 20%
+ [X] not same party malus for electability decreased to 20% from 40%
+ [X] party leader bonus for electability decreased to 10% from 50% 
+ [X] fixed prominence display being hijacked by statesmanship !conflicts with better UI
+ [ ] fixed succession support tooltip
+
+ [ ] strengthen smear reputation, damage prominence
+
 ## inventions
 
  [+] remove exclusive inventions probably
@@ -108,24 +137,34 @@
  [X] request marriage opinion requirement lowered to 0 from 40
  [+] deal with request marriage in multiplayer
 
+ [ ] home country in ruins loyalty malus reduced to 15 from 20
+
+ [ ] prune low skill irrelevant characters
+
+ [X] monthly statesmanship gain from finesse increased to 0.035 from 0.025
+
 ## regions
 
 ### mediterrenean
 
  #### rome
  [+] harmonic religion
- ⭐ LOC DEBT ⭐
  	[X] added harmonic religion with 4% global happiness modifier 
+ 	⭐ LOC DEBT ⭐
  	[X] converted the religion of all roman culture pops to harmonic religion
  	[X] set the religion of rome to harmonic
  	[X] assigned roman gods to the harmonic pantheon
+ 	[X] set the religion of roman characters to harmonic
+ 	[ ] changed jupiter passive to stab gain from popularity gain 
+ 	[ ] changed bacchus passive to 4% population happiness from 10% tribesmen output
  	[ ] saturnalia for both hellenic and harmonic
  [+] italic religion
- ⭐ LOC DEBT ⭐
   	[X] added italic religion with 5% discipline modifier
+  	⭐ LOC DEBT ⭐
  	[X] converted the religion of all non-roman italic culture pops to italic religion 
  	(except for the druidic ones)
  	[X] set the religion of etruria and all italic minors to italic
+ 	[X] set the religion of etrurian and all italic minors characters to italic
  	[X] assigned etrurian gods to the italic pantheon
  [+] mission overhaul
  	[ ] italia
@@ -161,7 +200,7 @@
  #### athens
  [+] mission cleanup
  [ ] add rivers?
- [ ] increased heritage monthly tyranny to -0.20 from -0.02 
+ [ ] increased heritage monthly tyranny to -0.10 from -0.02 
 
  #### sparta
  [+] mission cleanup
@@ -204,3 +243,8 @@
 
  [ ] remove stab loss from dropping missions (not for 'the matter of' probs)
  [X] control [province] mission's 3rd reward roll now only targets the provincial capital
+
+----------------------------------------------------------------------------------------------------------------------
+investigation zone
+
+	REPUBLIC_NOT_ALLOWED_OFFICE = -0.8
