@@ -14,8 +14,8 @@
 
 ## warfare
 
- [X] min warscore to demand reduced to 0 from 10
- [X] separate peace block reduced to 0 from 36
+ [X] minimum warscore to demand peace reduced to 0 from 10
+ [X] separate peace block reduced to 0 months from 36 months
 
  [X] AE increase of non target reduced to 0 from 0.33
  [X] WS increase of non target reduced to 0 from 0.33
@@ -39,9 +39,57 @@
  [X] minimum raise levy cooldown reduced to 3 months from 4 months
  [X] maximum raise levy cooldown reduced to 18 months from 24 months
 
- [ ] capital modifier now increases fort defense, garrison and limit
+ [X] capital city modifier now increases fort defense by 10%
 
  [+] traditions restricted to the starting two
+
+ [+] standardized military laws
+ 	[+] small army
+ 	⭐ LOC DEBT ⭐
+ 		[X]	10% levy size
+ 		[X] allows legion recruitment in capital
+ 		[X] -35% legion maintenance cost
+ 		[X] +50% manpower recovery
+ 		[X] +50% manpower maximum
+ 	[+] medium army
+ 	⭐ LOC DEBT ⭐
+ 		[X]	12.5% levy size
+ 		[X] allows legion recruitment in capital
+ 		[X] -25% legion maintenance cost
+ 		[X] +40% manpower recovery
+ 		[X] +40% manpower maximum
+ 	[+] big army
+ 	⭐ LOC DEBT ⭐
+ 		[X]	8% levy size
+ 		[X] unrestricted recruitment
+ 		[X] -10% legion maintenance cost
+ 		[X] +30% manpower recovery
+ 		[X] +30% manpower maximum 		
+ 	[+] huge army
+ 	⭐ LOC DEBT ⭐
+ 		[X] 12% levy size
+ 		[X] unrestricted recruitment
+ 		[X] +15% manpower recovery
+ 		[X] +15% manpower maximum 
+ 	[ ] look into all the reform event chains
+
+ [X] raised base manpower from 1375 to 6875
+ [+] city state
+ 	[X] added -10% legion maintenance cost
+ 	[X] added +30% manpower recovery
+ 	[X] added +30% manpower maximum
+ 	[X] added 5500 base manpower
+ [+] local power
+ 	[X] added -10% legion maintenance cost
+ 	[X] added +30% manpower recovery
+ 	[X] added +30% manpower maximum
+ 	[X] added 5500 base manpower
+ [+] regional power
+ 	[X] added +10% manpower recovery
+ 	[X] added +10% manpower maximum
+ 	[X] added 2750 base manpower
+
+ [X] all cultural levies swapped for the default template (70% light infantry 30% light cavalry)
 
 ## economy
 
@@ -53,7 +101,13 @@
 
  [+] remove scaling costs for provincial investment
 
- [ ] earthenware surplus now provides 5% population cap instead of 3% freeman output
+ [X] earthenware surplus now provides 5% population cap instead of 3% freeman output
+
+ [+] army maintenance policies
+ 	[X] removed levy size from all policies
+ 	[X] removed happiness from all policies
+ 	[X] maintenance reduction on low pay increased to -35% from -25%
+ 	[X] maintenance increase on high pay decreased to 15% from 25%
 
 ## diplomacy
 
@@ -97,7 +151,9 @@
  	[X] acquisition of wealth, bleed them dry, social mobility, local autonomy, borderlands, centralize, decentralize voided
 
  [X] granted monarchy's religious laws to republics
- [ ] grant it to rome too lol
+ ⭐ LOC DEBT ⭐
+ [X] grant it to rome too lol
+ ⭐ LOC DEBT ⭐
 
  [ ] province disloyalty threshold lowered to 20 from 33
 
@@ -157,11 +213,9 @@
 
  [X] monthly statesmanship gain from finesse increased to 0.035 from 0.025
 
-## regions
+## natioms
 
-### mediterrenean
-
- #### rome
+### rome
  [+] harmonic religion
  	[X] added harmonic religion with 6% global happiness -60% conversion speed +33% omen power
  	⭐ LOC DEBT ⭐
@@ -249,7 +303,7 @@
  		requires faith_temples, prevents other branches
  		task: integrate italiotian
  		duration: takes 2 years to complete
- 		mission pulse: events fire to spawn pops in controlled parts of magna graecia, 6 waves of 6 pops in the campania, apulia, tarentum, lucania
+ 		mission pulse: events fire to spawn hellenic italiotian pops in owned cities in magna graecia, 6 waves of 6 pops in the campania (2x), apulia, tarentum, lucania
  		and bruttium areas
  		⭐ LOC DEBT ⭐
  		[X] faith_olympia
@@ -286,7 +340,7 @@
  [ ] add rivers
  [ ] swap integration speed in heritage for hi discipline
 
- #### carthage
+### carthage
  [+] mission overhaul
  	[ ] africa
  	[ ] iberia
@@ -315,54 +369,49 @@
  		[ ] a new city now instant but just starts a city production on the chosen territory
  [ ] add rivers?
 
- #### athens
+### athens
  [+] mission cleanup
  [ ] add rivers?
  [ ] increased heritage monthly tyranny to -0.10 from -0.02 
 
- #### sparta
+### sparta
  [+] mission cleanup
  [ ] add rivers?
 
- #### cyrenaica
+### cyrenaica
  [+] mission cleanup
  [ ] add rivers?
 
-### heirs of alexander
-
- #### macedon
+### macedon
  [+] add become greece path
  	[+] delayed
  [+] mission cleanup
  [ ] add rivers?
 
- #### antigonids
+### antigonids
  [+] add become anatolia path
  	[+] delayed
  [+] mission cleanup
  [ ] add rivers?
 
- #### seleukids
+### seleukids
  [+] add become iran path
  	[+] delayed
  [+] mission cleanup
  [ ] add rivers?
 
- #### ptolemids
+### ptolemids
  [+] add become egypt path
  	[+] delayed
  [+] mission cleanup
  [ ] add rivers?
-
-### indus
-
- [+] removal
 
 ### global
 
  [+] generic missions overhaul
  	[ ] matter of rewards select provincial capitals
 
+ [ ] remove indus region
  [ ] remove stab loss from dropping missions (not for 'the matter of' probs)
  [X] control [province] mission's 3rd reward roll now only targets the provincial capital
 

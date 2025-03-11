@@ -183,6 +183,7 @@ roman_10_faith = {
 			add_treasury = -800
 			set_variable = triad_ascension
 			p:1 = { remove_province_deity = yes set_province_deity = deity:omen_triad }
+			add_deity_to_pantheon = { deity = deity:omen_triad }
 		}
 
 		icon = task_expansion

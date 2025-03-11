@@ -1,11 +1,9 @@
-﻿republic_military_recruitment_laws = { # Military Reforms
+﻿republic_military_recruitment_laws_rom = { # Military Reforms
 	potential = {
-		is_republic = yes
-		NOT = {
-			tag = ROM
-		}
+		is_republic = yes 
+		tag = ROM
 	}
-	republican_recruitment_3 = {
+	testamentum_militis = { #Servian System
 		modifier = {
 			levy_size_multiplier = 0.1
 			army_maintenance_cost = -0.35
@@ -16,8 +14,8 @@
 			custom_tooltip = legions_in_capital_region
 			set_legion_recruitment = capital
 		}
-	}
-	republican_recruitment_1 = { 
+	} 
+	lex_porcia = { #Polybian System
 		modifier = {
 			levy_size_multiplier = 0.125
 			army_maintenance_cost = -0.25
@@ -29,7 +27,7 @@
 			set_legion_recruitment = capital
 		}
 	}
-	republican_recruitment_2 = {
+	punic_reforms = {
 		modifier = {
 			levy_size_multiplier = 0.08
 			army_maintenance_cost = -0.1
@@ -41,7 +39,7 @@
 			set_legion_recruitment = enabled
 		}
 	}
-	republican_recruitment_4 = {
+	marian_reforms = {
 		modifier = {
 			levy_size_multiplier = 0.12
 			manpower_recovery_speed = 0.15
@@ -54,28 +52,26 @@
 	}
 }
 
-republic_election_reforms = { # Electoral Reforms
+republic_election_reforms_rom = { # Electoral Reforms
 	potential = {
-		is_republic = yes 
-		NOT = {
-			tag = ROM
-		}
+		is_republic = yes
+		tag = ROM
 	}
-	republican_election_1 = {
+	leges_genuciae = {
 		modifier = {
 			stability_cost_modifier = -0.05
 		}
 	}
-	republican_election_2 = {
+	senatus_consultum_ultimum = {
 		modifier = {
 			election_term_duration = 5
 		}
 	}
-	republican_election_3 = {
+	lex_antonia = {
 		allow = {
 			NOT = {
 				hidden:current_ruler = {
-					party_type = oligarchic_party
+					party_type = populares_party
 				}
 			}
 		}
@@ -83,10 +79,10 @@ republic_election_reforms = { # Electoral Reforms
 			election_term_duration = -3
 		}
 	}
-	republican_election_4 = {
+	princeps_civitatis = {
 		allow = {
 			hidden:current_ruler = {
-				party_type = oligarchic_party
+				party_type = populares_party
 			}
 		}
 		modifier = {
@@ -95,28 +91,26 @@ republic_election_reforms = { # Electoral Reforms
 	}
 }
 
-corruption_laws = { # Endorse Legislative Body
+corruption_laws_rom = { # Assembly Endorsement
 
 	potential = {
 		is_republic = yes
-		NOT = {
-			tag = ROM
-		}
+		tag = ROM
 	}
 	
-	republic_corruption_2 = { 
+	lex_acilia_repetundarum = { 
 		modifier = {
 			monthly_corruption = -0.1
 		}
 	}
 	
-	republic_corruption_3 = {
+	lex_cassia_de_senatu = {
 		modifier = {
 			fabricate_claim_cost_modifier = -0.5
 		}
 	}
 	
-	republic_corruption_1 = {
+	no_laws_on_corruption = { 
 		modifier = {
 			monthly_tyranny = -0.02
 		}
@@ -125,7 +119,7 @@ corruption_laws = { # Endorse Legislative Body
 		}
 	}
 	
-	republic_corruption_4 = { 
+	lex_calpurnia = { 
 		modifier = {
 			monthly_political_influence_modifier = 0.05
 		}
@@ -136,35 +130,33 @@ corruption_laws = { # Endorse Legislative Body
 
 }
 
-republican_mediterranean_laws = { # Maritime Laws
+republican_mediterranean_laws_rom = { # Maritime Laws
 	potential = {
 		is_republic = yes
-		NOT = {
-			tag = ROM
-		}
+		tag = ROM
 	}
 	
-	republican_mediterranean_1 = {
+	lex_terentia_cassia = {
 		modifier = {
 			manpower_recovery_speed = 0.05
 		}
 	}
 	
-	republican_mediterranean_2 = {
-		allow  = {
-			num_of_ports >= 1
-		}
-		modifier = {
-			global_import_commerce_modifier = 0.25
-		}
-	}
-	
-	republican_mediterranean_3 = {
+	lex_gabinia = {
 		allow  = {
 			num_of_ports >= 1
 		}
 		modifier = {
 			global_export_commerce_modifier = 0.25
+		}
+	}
+	
+	lex_caecilia = {
+		allow  = {
+			num_of_ports >= 1
+		}
+		modifier = {
+			global_import_commerce_modifier = 0.25
 		}
 		on_enact = {
 			if = {
@@ -195,33 +187,30 @@ republican_mediterranean_laws = { # Maritime Laws
 		}
 	}
 	
-	republican_mediterranean_4 = {
+	lex_claudia = {
 		allow  = {
 			num_of_ports >= 1
 		}
 		modifier = {
 			anti_piracy_cb = yes
-			happiness_for_same_culture_modifier = 0.05  
 		}
 	}
 	
 }
 
-republican_religious_laws = { # Religious Laws
+republican_religious_laws_rom = { # Religious Laws
 	potential = {
 		is_republic = yes
-		NOT = {
-			tag = ROM
-		}
+		tag = ROM
 	}
 	
-	republican_religious_1 = {
+	grant_religious_freedoms = {
 		modifier = {
 			happiness_for_same_religion_modifier = happiness_small_svalue
 		}
 	}
 	
-	republican_religious_2 = {
+	lex_ogulnia = {
 		
 		allow  = {
 			invention = omen_power_inv_4
@@ -232,7 +221,7 @@ republican_religious_laws = { # Religious Laws
 		}
 	}
 	
-	republican_religious_3 = {
+	lex_aelia_et_fufia = {
 		
 		allow  = {
 			invention = omen_power_inv_4
@@ -243,11 +232,12 @@ republican_religious_laws = { # Religious Laws
 		}
 	}
 	
-	republican_religious_4 = {
+	lex_domitia_de_sacerdotiis = {
 	
 		allow = {
 			civic_tech >= 3
 		}
+	
 		modifier = {
 			stability_cost_modifier = -0.33
 		}
@@ -255,19 +245,17 @@ republican_religious_laws = { # Religious Laws
 	
 }
 
-republic_integration_laws = { # Integration Laws
+republic_integration_laws_rom = { # Integration Laws
 	potential = {
 		is_republic = yes
-		NOT = {
-			tag = ROM
-		}
+		tag = ROM
 	}
-	republican_integration_1 = {
+	lex_canuleia = {
 		modifier = {
 			global_freemen_happyness = happiness_small_svalue
 		}
 	}
-	republican_integration_2 = {
+	lex_papia = {
 		allow  = {
 			civic_tech >= 6
 		}
@@ -276,7 +264,7 @@ republic_integration_laws = { # Integration Laws
 			global_pop_demotion_speed = 6
 		}
 	}
-	republican_integration_3 = {
+	lex_licinia = {
 		allow  = {
 			civic_tech >= 6
 		}
@@ -284,7 +272,7 @@ republic_integration_laws = { # Integration Laws
 			global_citizen_output = 0.2
 		}
 	}
-	republican_integration_4 = {
+	lex_hortensia = {
 		allow  = {
 			civic_tech >= 6
 		}
@@ -294,36 +282,36 @@ republic_integration_laws = { # Integration Laws
 	}
 }
 
-republic_citizen_laws = { # Citizenship Laws
+republic_citizen_laws_rom = { # Citizenship Laws
 	potential = {
 		is_republic = yes
-		NOT = {
-			tag = ROM
-		}
+		tag = ROM
 	}
-	republican_citizen_1 = {
+	lex_aternia = {
 		modifier = {
 			global_tax_modifier = 0.05
 		}
 	}
-	republican_citizen_2 = {
+	lex_fufia_caninia = {
 		allow = {
 			civic_tech >= 9
 		}
+		
 		modifier = {
 			global_slaves_city_desired_pop_ratio = 0.15
 		}
 	}
-	republican_citizen_3 = {
+	lex_plautia_papiria = {
 	
 		allow = {
 			civic_tech >= 9
 		}
+	
 		modifier = {
 			global_citizen_city_desired_pop_ratio = 0.1
 		}
 	}
-	republican_citizen_4 = {
+	lex_aelia_sentia = {
 	
 		allow = {
 			civic_tech >= 9
@@ -331,22 +319,21 @@ republic_citizen_laws = { # Citizenship Laws
 		modifier = {
 			global_freemen_city_desired_pop_ratio = 0.1
 		}
+		
 	}
 }
 
-republican_land_reforms = { # Land Reforms
+republican_land_reforms_rom = { # Land Reforms
 	potential = {
 		is_republic = yes
-		NOT = {
-			tag = ROM
-		}
+		tag = ROM
 	}
-	republican_land_reform_1 = {
+	cassian_reform = {
 		modifier = {
 			agressive_expansion_impact = -0.10
 		}
 	}
-	republican_land_reform_2 = {
+	lex_servilia_glaucia = {
 	
 		allow = {
 			civic_tech >= 12
@@ -356,7 +343,7 @@ republican_land_reforms = { # Land Reforms
 			global_pop_promotion_speed = 6
 		}
 	}
-	republican_land_reform_3 = {
+	lex_sempronia_agraria = {
 	
 		allow = {
 			civic_tech >= 12
@@ -365,7 +352,7 @@ republican_land_reforms = { # Land Reforms
 			global_goods_from_slaves = -2
 		}
 	}
-	republican_land_reform_4 = {
+	gracchus_reforms = {
 		
 		allow = {
 			civic_tech >= 12
