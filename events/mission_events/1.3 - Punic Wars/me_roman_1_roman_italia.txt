@@ -5679,13 +5679,13 @@ me_roman_1_roman_italia.48 = {							# 1 - Destroy Latins Choice
 					custom = me_roman_1_roman_italia.48.modtt
 					add_state_modifier = {
 						name = destroyed_latins_smod
-						duration = 27375 # 75 years
+						duration = 1825 # 5 years
 					}
 				}
 			}
 		}
-		add_stability = -25.0
-		add_aggressive_expansion = 10.0
+		add_stability = -5.0
+		add_aggressive_expansion = 5.0
 		add_country_modifier = {
 			name = rm_destroy_latins_cmod
 			duration = 3650 # 10 years

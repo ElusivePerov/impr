@@ -69,6 +69,11 @@ deity_manager = {
 			key = omen_castores
 			deity = deity_castores
 		}
+		18 = {
+			key = omen_triad
+			deity = deity_triad
+		}
+
 	}
 }
 

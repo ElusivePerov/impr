@@ -1,6 +1,6 @@
 ﻿roman_pantheon = { # Harmonic
 	color = hsv { 0 0.91 0.55 }
-	modifier = { global_population_happiness = 0.04 }
+	modifier = { global_population_happiness = 0.06 global_pop_conversion_speed_modifier = -0.60 omen_power = 0.33 }
 	religion_category = pantheon
 }
 italic_pantheon = { # Italic

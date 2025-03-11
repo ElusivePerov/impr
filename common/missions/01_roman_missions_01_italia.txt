@@ -48,7 +48,8 @@
     }
 	
 	roman_1_italia_destroy_latins = {
-		prevented_by = { roman_1_italia_latin_congress roman_1_italia_latin_citizenship }
+		requires = { roman_1_italia_italian_colonia }
+		prevented_by = { roman_1_italia_latin_citizenship }
 
 		potential = {
 			is_ai = no
@@ -82,12 +83,6 @@
 	roman_1_italia_encourage_expansion = {
 		duration = 365 # 1 year
 		monthly_on_action = roman_1_italia_encourage_expansion_monthly_pulse
-		allow = {
-			custom_tooltip = {
-				text = rm_1_latin_congress_cooldown_tt
-				NOT = { has_variable = rm_1_latin_congress_cooldown }
-			}
-		}
 		on_start = {
 			set_variable = {
 				name = ongoing_mission_pulse_flag
@@ -128,26 +123,11 @@
 	}
 	
 	roman_1_italia_persuade_greeks = {
-		requires = { roman_1_italia_lash_lucanians }
-		allow = {
-			custom_tooltip = {
-				text = rm_befriend_cooldown_tooltip
-				NOT = { has_variable = rm_befriend_cooldown }
-			}
-		}
-		duration = 365 # 1 year
-		monthly_on_action = roman_1_italia_persuade_greeks_monthly_pulse
-		on_start = {
-			set_variable = {
-				name = ongoing_mission_pulse_flag
-				days = 365
-			}
-		}
+		requires = { roman_1_italia_subdue_samnites }
 		on_completion = {
 			custom_tooltip = roman_1_italia_persuade_greeks_tooltip
 			set_variable = {
-				name = rm_befriend_cooldown
-				days = 180
+				name = persuade_greeks
 			}
 		}
 		icon = task_diplomatic
@@ -225,60 +205,29 @@
 	
 	roman_1_italia_latin_congress = {
 		prevented_by = { roman_1_italia_destroy_latins }
+		requires = { roman_1_italia_etruscans }
 		allow = {
-			custom_tooltip = {
-				text = roman_1_italia_latin_congress_tooltip
-				any_country = {
-					count >= 3
-					country_culture_group = latin
-					is_subject = no
-					opinion = { target = c:ROM value > -50 }
-					NOT = { this = root }
-					capital_scope = {
-						OR = {
-							is_in_area = north_etruria_area
-							is_in_area = south_etruria_area
-							is_in_area = ariminum_area
-							is_in_area = asculum_area
-							is_in_area = roma_area
-							is_in_area = aternum_area
-							is_in_area = neapolis_area
-							is_in_area = cannae_area
-							is_in_area = tarentum_area
-							is_in_area = heraclea_area
-							is_in_area = croton_area
-						}
-					}
-					has_civil_war = no
-				}
+			OR = {
+				c:SAB = { opinion = { target = c:ROM value > 0 } }
+				C:SAB = { has_land = no }
 			}
-			custom_tooltip = {
-				text = rm_1_encourage_expansion_cooldown_tt
-				NOT = { has_variable = rm_1_encourage_expansion_cooldown }
+			OR = {
+				c:PIE = { opinion = { target = c:ROM value > 0 } }
+				C:PIE = { has_land = no }
 			}
-		}
-		duration = 365 # 1 years
-		monthly_on_action = roman_1_italia_latin_congress_monthly_pulse
-		on_start = {
-			set_variable = {
-				name = ongoing_mission_pulse_flag
-				days = 365
-			}
-			set_variable = {
-				name = rm_1_latin_congress_cooldown
-				days = 365
+			OR = { 
+				c:FNT = { opinion = { target = c:ROM value > 0 } }
+				C:FNT = { has_land = no }
 			}
 		}
 		bypass = {
-			has_variable = congress_bypass
+			C:SAB = { has_land = no }
+			C:PIE = { has_land = no }
+			C:FNT = { has_land = no }
 		}
 		on_completion = {
 			custom_tooltip = roman_1_italia_latin_congress_tooltip_2
-			c:ROM = {
-				trigger_event = {
-					id = me_roman_1_roman_italia.30
-				}
-			}
+			set_variable = { name = latin_congress }
 		}
 		icon = task_diplomatic
 	}
@@ -767,7 +716,7 @@
 	}
 	
 	roman_1_italia_roman_hegemony = {
-		requires = { roman_1_italia_italian_colonia }
+		requires = { roman_1_italia_italian_colonia roman_1_italia_destroy_latins }
 		prevented_by = { roman_1_italia_latin_citizenship }
 		duration = 180
 

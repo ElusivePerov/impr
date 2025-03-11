@@ -1971,9 +1971,6 @@ diplomacy = {
 	#Umbria (GP)
 	alliance = { first = UMB second = PIE }
 	
-	#Etruria
-	alliance = { first = ETR second = FNT }
-	
 	#Carthage
 	#dependency = { first = CAR second = BLD subject_type = feudatory }
 	#dependency = { first = CAR second = CTI subject_type = feudatory }

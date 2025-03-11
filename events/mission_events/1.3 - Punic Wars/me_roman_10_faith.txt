@@ -1,0 +1,310 @@
+namespace = me_roman_10_faith
+
+me_roman_10_faith.1 = {	
+    type = country_event
+    title = me_roman_10_faith.1.t
+    desc = me_roman_10_faith.1.desc
+    picture = council_country
+	
+	fire_only_once = yes
+
+    trigger = {
+		has_land = yes
+    }
+
+    option = {      
+        name = me_roman_10_faith.1.a
+		custom_tooltip = me_roman_10_faith.1.at
+		area:neapolis_area = {
+			random_area_province = {
+				limit = { 
+					has_city_status = yes
+					owner = root
+				}
+				while = {
+					count = 4
+					define_pop = { type = freemen culture = italiotian religion = greek_pantheon }
+				}
+				while = {
+					count = 2
+					define_pop = { type = citizen culture = italiotian religion = greek_pantheon }
+				}
+			}
+		}
+	}
+}
+
+me_roman_10_faith.2 = {	
+    type = country_event
+    title = me_roman_10_faith.2.t
+    desc = me_roman_10_faith.2.desc
+    picture = council_country
+	
+	fire_only_once = yes
+
+    trigger = {
+		has_land = yes
+    }
+
+    option = {      
+        name = me_roman_10_faith.2.a
+		custom_tooltip = me_roman_10_faith.2.at
+		area:cannae_area = {
+			random_area_province = {
+				limit = { 
+					has_city_status = yes
+					owner = root
+				}
+				while = {
+					count = 4
+					define_pop = { type = freemen culture = italiotian religion = greek_pantheon }
+				}
+				while = {
+					count = 2
+					define_pop = { type = citizen culture = italiotian religion = greek_pantheon }
+				}
+			}
+		}
+	}
+}
+
+me_roman_10_faith.3 = {	
+    type = country_event
+    title = me_roman_10_faith.3.t
+    desc = me_roman_10_faith.3.desc
+    picture = council_country
+	
+	fire_only_once = yes
+
+    trigger = {
+		has_land = yes
+    }
+
+    option = {      
+        name = me_roman_10_faith.3.a
+		custom_tooltip = me_roman_10_faith.3.at
+		area:tarentum_area = {
+			random_area_province = {
+				limit = { 
+					has_city_status = yes
+					owner = root
+				}
+				while = {
+					count = 4
+					define_pop = { type = freemen culture = italiotian religion = greek_pantheon }
+				}
+				while = {
+					count = 2
+					define_pop = { type = citizen culture = italiotian religion = greek_pantheon }
+				}
+			}
+		}
+	}
+}
+
+me_roman_10_faith.4 = {	
+    type = country_event
+    title = me_roman_10_faith.4.t
+    desc = me_roman_10_faith.4.desc
+    picture = council_country
+	
+	fire_only_once = yes
+
+    trigger = {
+		has_land = yes
+    }
+
+    option = {      
+        name = me_roman_10_faith.4.a
+		custom_tooltip = me_roman_10_faith.4.at
+		area:heraclea_area = {
+			random_area_province = {
+				limit = { 
+					has_city_status = yes
+					owner = root
+				}
+				while = {
+					count = 4
+					define_pop = { type = freemen culture = italiotian religion = greek_pantheon }
+				}
+				while = {
+					count = 2
+					define_pop = { type = citizen culture = italiotian religion = greek_pantheon }
+				}
+			}
+		}
+	}
+}
+
+me_roman_10_faith.5 = {	
+    type = country_event
+    title = me_roman_10_faith.5.t
+    desc = me_roman_10_faith.5.desc
+    picture = council_country
+	
+	fire_only_once = yes
+
+    trigger = {
+		has_land = yes
+    }
+
+    option = {      
+        name = me_roman_10_faith.5.a
+		custom_tooltip = me_roman_10_faith.5.at
+		area:croton_area = {
+			random_area_province = {
+				limit = {
+					has_city_status = yes
+					owner = root
+				}
+				while = {
+					count = 4
+					define_pop = { type = freemen culture = italiotian religion = greek_pantheon }
+				}
+				while = {
+					count = 2
+					define_pop = { type = citizen culture = italiotian religion = greek_pantheon }
+				}
+			}
+		}
+	}
+}
+
+me_roman_10_faith.6 = {	
+    type = country_event
+    title = me_roman_10_faith.6.t
+    desc = me_roman_10_faith.6.desc
+    picture = council_country
+	
+	fire_only_once = yes
+
+    trigger = {
+		has_land = yes
+    }
+
+    option = {      
+        name = me_roman_10_faith.6.a
+		custom_tooltip = me_roman_10_faith.6.at
+		area:neapolis_area = {
+			random_area_province = {
+				limit = {
+					has_city_status = yes
+					owner = root
+				}
+				while = {
+					count = 2
+					define_pop = { type = nobles culture = italiotian religion = greek_pantheon }
+				}
+				while = {
+					count = 4
+					define_pop = { type = citizen culture = italiotian religion = greek_pantheon }
+				}
+			}
+		}
+	}
+}
+
+me_roman_10_faith.7 = {
+	type = country_event
+	title = me_roman_10_faith.7.t
+	desc = me_roman_10_faith.7.desc
+	picture = council_country
+
+	fire_only_once = yes
+
+	trigger = {
+		has_land = yes
+	}
+
+	option = {
+		name = me_roman_faith.7.a
+		custom_tooltip = me_roman_10_faith.7.at
+	}
+}
+
+me_roman_10_faith.8 = {
+	type = country_event
+	title = me_roman_10_faith.8.t
+	desc = me_roman_10_faith.8.desc
+	picture = council_country
+
+	fire_only_once = yes
+
+	trigger = {
+		has_land = yes
+	}
+
+	option = {
+		name = me_roman_faith.8.a
+		custom_tooltip = me_roman_10_faith.8.at
+		c:ROM = { trigger_event = me_roman_10_faith.9 }
+
+		ai_chance = { factor = 10 }
+	}
+
+	option = {
+		name = me_roman_faith.8.b
+		custom_tooltip = me_roman_10_faith.8.bt
+		c:ROM = { trigger_event = me_roman_10_faith.10 }
+
+		ai_chance = { factor = 0 }
+	}
+}
+
+me_roman_10_faith.9 = {
+	type = country_event
+	title = me_roman_10_faith.9.t
+	desc = me_roman_10_faith.9.desc
+	picture = council_country
+
+	fire_only_once = yes
+
+	trigger = {
+		has_land = yes
+	}
+
+	option = {
+		name = me_roman_faith.9.a
+		custom_tooltip = me_roman_10_faith.9.at
+		add_treasury = -500
+		add_country_modifier = { name = zeus_offerings duration = 4382 }
+	}
+}
+
+me_roman_10_faith.10 = {
+	type = country_event
+	title = me_roman_10_faith.10.t
+	desc = me_roman_10_faith.10.desc
+	picture = council_country
+
+	fire_only_once = yes
+
+	trigger = {
+		has_land = yes
+	}
+
+	option = {
+		name = me_roman_faith.10.a
+		custom_tooltip = me_roman_10_faith.10.at
+		area:achaea_area = { every_area_province = { add_claim = root } }
+	}
+}
+
+me_roman_10_faith.391 = {
+	type = country_event
+	title = me_roman_10_faith.391.t
+	desc = me_roman_10_faith.391.desc
+	picture = council_country
+
+	fire_only_once = yes
+
+	trigger = {
+		has_land = yes
+	}
+
+	option = {
+		name = me_roman_faith.10.a
+		custom_tooltip = me_roman_10_faith.10.at
+		create_character = { no_stats = yes add_zeal = 12 }
+	}
+}

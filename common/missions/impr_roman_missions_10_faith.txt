@@ -1,0 +1,249 @@
+roman_10_faith = {
+	icon = rome_1
+	header = mission_image_rome
+	
+	repeatable = no
+
+    chance = {
+		factor = 3
+	}
+	
+	potential = { 
+		NOT = { has_variable = roman_mission_10_faith }
+		tag = ROM
+		c:ETR = { has_land = no }
+		has_civil_war = no
+	}
+	
+	abort = {
+		ai_mission_back_out_trigger = yes
+	}
+
+    on_start = {
+    	start_mission_ai_effect = yes
+    	save_scope_as = me_rome_scope
+    }
+
+    on_abort = {
+    	custom_tooltip = general_mission_cooldown_tt
+		set_variable = {
+			name = roman_mission_01_italia
+			days = 7300
+		}
+    }
+
+    on_completion = {
+    	complete_mission_effect = yes
+    }
+
+	roman_10_faith_vestal = {
+		duration = 365
+		on_completion = {
+			c:ROM = {
+				trigger_event = {
+					id = me_roman_10_faith.391
+				}
+			}
+			add_country_modifier = { name = roman_temple_architecture duration = 1825 }
+		}
+
+		icon = task_expansion
+	}
+
+	roman_10_faith_temples = {
+		requires = { roman_10_faith_vestal }
+
+		allow = {
+			any_owned_province = {
+				count >= 12
+				has_city_status = yes
+				num_of_temple_building >= 1
+			}
+		}
+
+		on_completion = { add_country_modifier = { name = roman_polytheism duration = 3650 } }
+
+		icon = task_expansion
+	}
+
+	roman_10_faith_italia = {
+		requires = { roman_10_faith_temples }
+		prevented_by = { roman_10_faith_greece roman_10_faith_orbis }
+
+		allow = {
+			any_owned_province = {
+				count >= 12
+				has_city_status = no
+				num_of_basic_settlement_infratructure_building >= 1
+			}
+			any_owned_province = {
+				count >= 12
+				has_city_status = yes
+				num_of_population_building >= 1
+			}
+		}
+
+		on_completion = { add_country_modifier = { name = roman_italia } }
+
+		icon = task_expansion
+	}
+
+	roman_10_faith_peace = {
+		requires = { roman_10_faith_italia }
+		prevented_by = { roman_10_faith_greece roman_10_faith_orbis }
+
+		allow = {
+			war = no
+		}
+
+		on_completion = {
+			any_country = {
+				limit = {
+					religion = italic_pantheon
+				}
+				NOT = { this = root }
+				has_civil_war = no
+				add_country_modifier = { name = italic_boom duration = 4382 }
+			}
+			add_country_modifier = { name = italic_boom duration = 4382 }
+		}
+
+		icon = task_expansion
+	}
+
+	roman_10_faith_italic = {
+		requires = { roman_10_faith_peace }
+		prevented_by = { roman_10_faith_greece roman_10_faith_orbis }
+
+		allow = {
+			any_character = {
+				has_office = office_pontifex
+				loyalty >= 60
+			}
+			any_character = {
+				has_office = office_augur
+				loyalty >= 60
+			}
+		}
+
+		on_completion = { 
+			c:ROM = { set_country_religion = italic_pantheon }
+			every_character = { set_character_religion = italic_pantheon }
+		}
+
+		# needs a custom tooltip
+
+		icon = task_expansion
+	}
+
+	roman_10_faith_orbis = {
+		requires = { roman_10_faith_temples }
+		prevented_by = { roman_10_faith_greece roman_10_faith_italia }
+
+		allow = {
+			any_character = {
+				has_office = office_augur
+				loyalty >= 60
+				zeal >= 12
+			}
+		}
+
+		on_completion = {
+			add_country_modifier = { name = harmonic_wave duration = 1095 }
+		}
+
+		icon = task_expansion
+	}
+
+	roman_10_faith_harmony = {
+		requires = { roman_10_faith_orbis }
+		prevented_by = { roman_10_faith_greece roman_10_faith_italia }
+
+		allow = {
+			religious_unity > 0.6
+		}
+
+		on_completion = {
+			add_country_modifier = { name = harmonic_awakening }
+		}
+
+		icon = task_expansion
+	}
+
+	roman_10_faith_the_capitoline_triad = {
+		requires = { roman_10_faith_harmony }
+		prevented_by = { roman_10_faith_greece roman_10_faith_italia }
+
+		allow = {
+			treasury >= 800 
+			p:1 = { has_province_rank = city_metropolis }
+		}
+
+		on_completion = {
+			add_treasury = -800
+			set_variable = triad_ascension
+			p:1 = { remove_province_deity = yes set_province_deity = deity:omen_triad }
+		}
+
+		icon = task_expansion
+	}
+
+	roman_10_faith_greece = {
+		duration = 730
+		requires = { roman_10_faith_temples }
+		prevented_by = { roman_10_faith_italia roman_10_faith_orbis }
+
+		monthly_on_action = roman_10_faith_greece_monthly_pulse
+
+		allow = { any_integrated_culture = { is_culture = italiotian } }
+
+		on_start = {
+			set_variable = { name = ongoing_mission_pulse_flag days = 730 }
+		}
+
+		on_completion = {
+			custom_tooltip = roman_10_faith_greece_tooltip
+			c:ROM = { trigger_event = { id = me_roman_10_faith.7 } }
+		}
+
+		icon = task_expansion
+	}
+
+	roman_10_faith_olympia = {
+		requires = { roman_10_faith_greece }
+		prevented_by = { roman_10_faith_italia roman_10_faith_orbis }
+
+		allow = {
+			treasury >= 500 
+		}
+
+		on_completion = {
+			p:439 = { owner = { trigger_event = { id = me_roman_10_faith.8 } } }
+		}
+
+		icon = task_expansion
+	}
+
+	roman_10_faith_hellenic = {
+		requires = { roman_10_faith_olympia }
+		prevented_by = { roman_10_faith_italia roman_10_faith_orbis }
+
+		allow = {
+			any_character = {
+				has_office = office_pontifex
+				loyalty >= 60
+			}
+			any_character = {
+				has_office = office_augur
+				loyalty >= 60
+			}
+		}
+
+		on_completion = { 
+			c:ROM = { set_country_religion = greek_pantheon }
+			every_character = { set_character_religion = greek_pantheon }
+		}
+
+		icon = task_expansion	
+	}
+}

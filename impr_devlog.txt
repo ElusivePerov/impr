@@ -10,6 +10,8 @@
 
  [+] levy map mode redesign
 
+ [ ] put research eff in the top bar
+
 ## warfare
 
  [X] min warscore to demand reduced to 0 from 10
@@ -39,10 +41,15 @@
 
  [ ] capital modifier now increases fort defense, garrison and limit
 
+ [+] traditions restricted to the starting two
+
 ## economy
 
- [ ] aqueducts no longer require 30 civilization
- [ ] aqueducts now provide 1 civilization cap
+ [+] aqueducts
+ 	[X] no longer require 30 civilization
+ 	[X] now provide 1 civilization cap
+ 	[X] construction time increased to 360 days from 180 days
+ 	[X] now capped at 12
 
  [+] remove scaling costs for provincial investment
 
@@ -72,9 +79,9 @@
 
  [X] change governor policy no longer costs PI
  ⭐ LOC DEBT ⭐
- relocate capital block threshold lowered to 10 loyalty from 50 loyalty
+ [ ] relocate capital block threshold lowered to 20 loyalty from 50 loyalty
  [X] relocate provincial capital no longer costs loyalty
- [X] relocate provincial capital threshold reduced to 10 loyalty from 33
+ [ ] relocate provincial capital threshold reduced to 20 loyalty from 33
  ⭐ LOC DEBT ⭐
  [+] reduce power bases at defines
  [ ] reduce a third of the impact of stab on legitimacy loss
@@ -89,9 +96,10 @@
  	[X] harsh treatment overrides all the above if the province is below 40 loyalty
  	[X] acquisition of wealth, bleed them dry, social mobility, local autonomy, borderlands, centralize, decentralize voided
 
- [X] monarchy religious laws swapped republic laws (rewrite this line)
+ [X] granted monarchy's religious laws to republics
+ [ ] grant it to rome too lol
 
- [X] province disloyalty threshold lowered to 20 from 33
+ [ ] province disloyalty threshold lowered to 20 from 33
 
  [ ] add laws for consort/two rulers
 
@@ -129,6 +137,12 @@
  [+] remove exclusive inventions probably
  [X] greek advanced mechanics made into a generic invention
  ⭐ LOC DEBT ⭐
+ [X] centralized comites changed to -0.02 corruption from -20% change policy cost
+ [X] tribal reserve, devolve responsibility and cultural judiciary removed
+ [X] coloniae now requires slave latifundia
+ [X] land tithe changed to 6% freemen output from 12% tribesmen output
+ [X] land tithe changed to grants 6 freemen pops from 6 tribesmen pops
+ ⭐ LOC DEBT ⭐
 
 ## characters
 
@@ -149,15 +163,15 @@
 
  #### rome
  [+] harmonic religion
- 	[X] added harmonic religion with 4% global happiness modifier 
+ 	[X] added harmonic religion with 6% global happiness -60% conversion speed +33% omen power
  	⭐ LOC DEBT ⭐
  	[X] converted the religion of all roman culture pops to harmonic religion
  	[X] set the religion of rome to harmonic
  	[X] assigned roman gods to the harmonic pantheon
  	[X] set the religion of roman characters to harmonic
- 	[ ] changed jupiter passive to stab gain from popularity gain 
- 	[ ] changed bacchus passive to 4% population happiness from 10% tribesmen output
- 	[ ] saturnalia for both hellenic and harmonic
+ 	[X] changed jupiter passive to stab gain from popularity gain 
+ 	[X] changed bacchus passive to 4% population happiness from 10% tribesmen output
+ 	[ ] saturnalia for hellenic, italic and harmonic
  [+] italic religion
   	[X] added italic religion with 5% discipline modifier
   	⭐ LOC DEBT ⭐
@@ -167,11 +181,108 @@
  	[X] set the religion of etrurian and all italic minors characters to italic
  	[X] assigned etrurian gods to the italic pantheon
  [+] mission overhaul
- 	[ ] italia
- 	[ ] cis and trans gaul
- 	[ ] religion
- 	[ ] republic
- 	[ ] romanization
+ 	[+] Italia
+ 		[+] Destroy Italian Allies
+ 			[X] now requires italian colonia and is a requirement for roman hegemony
+ 			[X] assim and happiness penalty duration reduced to 5 years from 75
+ 			[X] stab penalty reduced to 5 from 25
+ 			[X] AE increase reduced to 5 from 10
+ 			[ ] added 10 years of -2 diplo rep to the tooltip
+ 		[+] Pan-Italic Congress
+ 			[X] now requires end the etruscans
+ 			[X] now requires greater than 0 opinion with target nations
+ 			[X] targets are sabinia, picentia and frinatia and they start with -200 opinion of etruria
+ 			⭐ LOC DEBT ⭐
+ 			[X] etruria no longer starts with an alliance with frinatia
+ 			[X] reward overhauled to decisions instead of an event chain
+ 			⭐ LOC DEBT ⭐
+ 			[X] the decision costs 125g and turns the target into a feudatory
+ 			⭐ LOC DEBT ⭐
+ 		[+] Approach Greeks
+ 			[X] now requires Crush Samnites instead of Vanquish Lucanians
+ 			[X] targets are sipontum, ancona and elea		
+ 			[X] reward overhauled to a decision instead of an event chain
+ 			[X] the decision costs 180g 5pi and turns the target into a league city
+ 		[+] Cisalpine Gaul
+ 			[+] consider giving Italic Feudatorius and Befriend Gallic Tribe same treatment as above
+ 		[+] Subduing Gaul
+ 			[X] To the Rhenus and The Gallic Heartlands removed
+ 			[X] Gateway to the North and Into the West no longer give claims
+ 			⭐ LOC DEBT ⭐
+ 		[+] Fate of the Republic
+ 			[+] probs delayed to next patch
+ 		[+] Romanization
+ 			[+] probs delayed to next patch
+ 	[+] The Roman Faith
+ 		[X] new mission tree that allows rome to choose which religion to go with, requires that etruria no longer exists
+ 		⭐ LOC DEBT ⭐
+
+ 		[X] faith_vestal
+ 		duration: one year
+ 		reward: 5 year modifier for 33% temple discount and triggers an event that grants a 12 zeal character
+ 		⭐ LOC DEBT ⭐
+ 		[X] faith_temples
+ 		requires: faith_vestal
+ 		task: build 12 great temples
+ 		reward: 10 year modifier for 75% change deity discount and 0.10 monthly stab gain
+ 		⭐ LOC DEBT ⭐
+
+ 		italic branch
+ 		[X]	faith_italia
+ 		requires faith_temples, prevents other branches 
+ 		task: build 12 farming settlements and 12 granaries on completio
+ 		reward: permanent modifier for 12% global monthly food and 60 base food capacity
+ 		⭐ LOC DEBT ⭐
+ 		[X] faith_peace
+ 		requires faith_italia
+ 		task: be at peace
+ 		reward: 12 year modifier for 1.5% national pop growth for rome and all italic countries
+ 		⭐ LOC DEBT ⭐
+ 		[X] faith_italic
+ 		requires faith_peace
+ 		tasK: augur and pontifex must have 60 or greater loyalty
+ 		reward: changes country and all country characters religion to italic
+ 		⭐ LOC DEBT ⭐
+
+ 		hellenic branch
+ 		[X] faith_greece
+ 		requires faith_temples, prevents other branches
+ 		task: integrate italiotian
+ 		duration: takes 2 years to complete
+ 		mission pulse: events fire to spawn pops in controlled parts of magna graecia, 6 waves of 6 pops in the campania, apulia, tarentum, lucania
+ 		and bruttium areas
+ 		⭐ LOC DEBT ⭐
+ 		[X] faith_olympia
+ 		requires faith_greece
+ 		task: have 500 or more gold
+ 		reward: fires an event for the owner of olympia to choose between allowing rome to make offerings to the temple of zeus or refuse them
+ 		if they allow, rome gains a 12 year modifier for 33% omen power and 33% conversion speed
+ 		⭐ LOC DEBT ⭐
+ 		[X] faith_hellenic
+ 		requires faith_olympia
+ 		task: augur and pontifex must have 60 or greater loyalty
+ 		reward: changes country and all country characters religion to hellenic
+
+ 		harmonic branch
+ 		[X] faith_orbis
+ 		requires faith_temples, prevents other branches
+ 		task: requires a 12 zeal augur with 60 or greater loyalty
+ 		reward: 3 year modifier for 0.6 conversion speed and 120% conversion speed modifier
+ 		⭐ LOC DEBT ⭐
+ 		[X] faith_harmony
+ 		requires faith_orbis
+ 		task: have greater than 60% religious unity
+ 		reward: permanent 0.12 conversion speed and 30% conversion speed modifier
+ 		⭐ LOC DEBT ⭐
+ 		[X] faith_the_capitoline_triad
+ 		requires faith_harmony
+ 		task: have 800 or more gold, rome must be a metropolis
+ 		reward: the holy site in rome swaps from jupiter to the capitoline triad, jupiter, juno and minerva are removed from the pantheon
+ 		and the triad is added combining the passives of all three with a pop growth omen
+ 		⭐ LOC DEBT ⭐
+
+ 	[X] removed mission trees: First Provincia, Punic Rivals, Greece, Eastern Glory, Hispanian Ambition
+ [ ] removed Across the Adriatic event
  [ ] add rivers
  [ ] swap integration speed in heritage for hi discipline
 
@@ -194,7 +305,14 @@
  [ ] add rivers?
 
  #### epirus
- [+] mission cleanup
+ [+] mission overhaul
+ 	[+] Molossian Consolidation
+ 		[ ] Ambracia and Akarnania no longer start as macedonian tributaries
+ 		[X] Settled Crown Disputes modifier duration increased to 300 months from 240 months
+ 		[ ] AI now guaranteed to accept if offered the diplomatic approach on Taulantian Diplomacy
+ 		[ ] AI now guaranteed to accept on Lean on Korkyra
+ 		[ ] slash down all time based missions by 66%
+ 		[ ] a new city now instant but just starts a city production on the chosen territory
  [ ] add rivers?
 
  #### athens
@@ -214,21 +332,25 @@
 
  #### macedon
  [+] add become greece path
+ 	[+] delayed
  [+] mission cleanup
  [ ] add rivers?
 
  #### antigonids
  [+] add become anatolia path
+ 	[+] delayed
  [+] mission cleanup
  [ ] add rivers?
 
  #### seleukids
  [+] add become iran path
+ 	[+] delayed
  [+] mission cleanup
  [ ] add rivers?
 
  #### ptolemids
  [+] add become egypt path
+ 	[+] delayed
  [+] mission cleanup
  [ ] add rivers?
 
@@ -243,6 +365,13 @@
 
  [ ] remove stab loss from dropping missions (not for 'the matter of' probs)
  [X] control [province] mission's 3rd reward roll now only targets the provincial capital
+
+----------------------------------------------------------------------------------------------------------------------
+next patch
+
+	vassal cap
+	mil traditions overhaul
+	moar tags: nova cartago, vasconia?, lusitania, massilia, arvernia, pictonia, icenia, caledonia, ivernia, cheruscia, boihaemia, burgundia
 
 ----------------------------------------------------------------------------------------------------------------------
 investigation zone

@@ -59,7 +59,7 @@ deity_mercury = {
 deity_minerva = {
 	trigger = {
 		polytheistic_check_religion_trigger = yes
-		NOT = { primary_culture = etruscan }
+		NOT = { primary_culture = etruscan has_variable = triad_ascension }
 		country_culture_group = latin
 		OR = {
 			common_deity_trigger = {
@@ -147,7 +147,7 @@ deity_pluto = {
 deity_jupiter = {
 	trigger = {
 		polytheistic_check_religion_trigger = yes
-		NOT = { primary_culture = etruscan }
+		NOT = { primary_culture = etruscan has_variable = triad_ascension }
 		country_culture_group = latin
 		OR = {
 			common_deity_trigger = {
@@ -159,7 +159,7 @@ deity_jupiter = {
 		}
 	}
 	icon = deity_eloquence
-	passive_modifier = { ruler_popularity_gain = deity_ruler_popularity_gain_svalue }
+	passive_modifier = { stability_monthly_change = 0.025 }
 	omen = { agressive_expansion_monthly_change = omen_aggressive_expansion_monthly_change_svalue } #Bonus from Omen
 	religion = roman_pantheon
 	deity_category = culture #This Deity uses a Culture Slot
@@ -217,7 +217,7 @@ deity_bacchus = {
 		}
 	}
 	icon = deity_love
-	passive_modifier = { global_tribesmen_output = global_tribesmen_output_svalue }
+	passive_modifier = { global_population_happiness = 0.04 }
 	omen = { global_citizen_happyness = omen_global_citizen_happiness_svalue } #Bonus from Omen
 	religion = roman_pantheon
 	deity_category = fertility #This Deity uses a Fertility Slot
@@ -415,7 +415,7 @@ deity_faunus = {
 deity_juno = {
 	trigger = {
 		polytheistic_check_religion_trigger = yes
-		NOT = { primary_culture = etruscan }
+		NOT = { primary_culture = etruscan has_variable = triad_ascension }
 		country_culture_group = latin
 		OR = {
 			rare_deity_trigger = {
@@ -498,6 +498,40 @@ deity_castores = {
 	on_activate = {
 		military_apotheosis_military_experience_effect = yes
 	}	
+}
+
+deity_triad = {
+	trigger = {
+		polytheistic_check_religion_trigger = yes
+		NOT = { primary_culture = etruscan }
+		has_variable = triad_ascension
+		country_culture_group = latin
+		OR = {
+			rare_deity_trigger = {
+				RELIGION = roman_pantheon
+			}
+			deity:omen_triad = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_triad
+	passive_modifier = { 
+		stability_monthly_change = 0.025
+		global_population_capacity_modifier = 0.10
+		research_points_modifier = 0.05
+	}
+	omen = { global_population_growth = 0.04 } #Bonus from Omen
+	religion = roman_pantheon
+	deity_category = culture
+	
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+	
+	on_activate = {
+		culture_apotheosis_assimilate_effect = yes
+	}
 }
 
 ### Exclusive Deity Checks ###

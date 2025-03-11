@@ -1,4 +1,4 @@
-﻿country_decisions = {
+country_decisions = {
 	expand_the_campus_martius = {
 		potential = {
 			num_of_cities >= 1
@@ -104,6 +104,85 @@
 		}
 		ai_will_do = {
 			base = 1
+		}
+	}
+	offer_protection_sab = {
+		potential = {
+			tag = ROM
+			has_variable = latin_congress
+			NOT = { has_variable = sab_protected }
+		}
+		effect = {
+			add_treasury = -125
+			ROOT = { make_subject = { target = c:SAB type = feudatory } }
+			set_variable = { name = sab_protected }
+		}
+	}
+	offer_protection_pie = {
+		potential = {
+			tag = ROM
+			has_variable = latin_congress
+			NOT = { has_variable = pie_protected }
+		}
+		effect = {
+			add_treasury = -125
+			ROOT = { make_subject = { target = c:PIE type = feudatory } }
+			set_variable = { name = pie_protected }
+		}
+	}
+	offer_protection_fnt = {
+		potential = {
+			tag = ROM
+			has_variable = latin_congress
+			NOT = { has_variable = fnt_protected }
+		}
+		effect = {
+			add_treasury = -125
+			ROOT = { make_subject = { target = c:FNT type = feudatory } }
+			set_variable = { name = fnt_protected }
+		}
+	}
+	offer_protection_sio = {
+		potential = {
+			tag = ROM
+			has_variable = persuade_greeks
+			NOT = { has_variable = sio_protected }
+			c:SIO = { has_land = yes }
+		}
+		effect = {
+			add_treasury = -180
+			add_political_influence = -5
+			ROOT = { make_subject = { target = c:SIO type = subject_league_city_state } }
+			set_variable = { name = sio_protected }
+		}
+	}
+	offer_protection_ano = {
+		potential = {
+			tag = ROM
+			has_variable = persuade_greeks
+			NOT = { has_variable = ano_protected }
+			c:ANO = { has_land = yes }
+		}
+		effect = {
+			add_treasury = -180
+			add_political_influence = -5
+			ROOT = { make_subject = { target = c:ANO type = subject_league_city_state } }
+			set_variable = { name = ano_protected }
+		}
+	}
+	offer_protection_ele = {
+		potential = {
+			tag = ROM
+			has_variable = persuade_greeks
+			NOT = { has_variable = ele_protected }
+			c:ELE = { has_land = yes }
+		}
+		effect = {
+			add_treasury = -180
+			add_political_influence = -5
+			c:LCA = { release_subject = c:ELE }
+			ROOT = { make_subject = { target = c:ELE type = subject_league_city_state } }
+			set_variable = { name = ele_protected }
 		}
 	}
 }
