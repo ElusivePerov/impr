@@ -73,6 +73,12 @@
 			}
 			tag = ARS
 		}
+		trigger_else = {
+			OR = {
+				has_military_bonus = greek_persian_enable
+				has_military_bonus = mauryan_persia_enable
+			}
+		}
 	}
 
 	persian_bactrian_path_4 = { ###Persia 1A

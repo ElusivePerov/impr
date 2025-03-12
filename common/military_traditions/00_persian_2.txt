@@ -101,6 +101,12 @@
 			}
 			heritage = bosporan_heritage
 		}
+		trigger_else = {
+			OR = {
+				has_military_bonus = greek_persian_enable
+				has_military_bonus = mauryan_persia_enable
+			}
+		}
 	}
 
 	persian_scythian_path_end_bonus = { ###Persia 1A

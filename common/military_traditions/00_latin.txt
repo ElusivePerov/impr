@@ -27,6 +27,12 @@
 				}
 			}
 		}
+		trigger_else = {
+			OR = {
+				has_military_bonus = north_african_latin_enable
+				has_military_bonus = celtic_latin_enable
+			}
+		}
 	}
 	
 	

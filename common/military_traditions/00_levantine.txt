@@ -50,6 +50,13 @@
 			}
 			heritage = ptolemys_heritage
 		}
+		trigger_else = {
+			OR = {
+				has_military_bonus = persian_levantine_enable
+				has_military_bonus = greek_levantine_enable
+				has_military_bonus = north_african_levantine_enable
+			}
+		}
 	}
 
 	levantine_arabian_path_end_bonus = { ###Levantine 1A

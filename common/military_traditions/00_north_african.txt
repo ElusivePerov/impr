@@ -20,6 +20,12 @@
 			}
 			country_culture_group = numidian
 		}
+		trigger_else = {
+			OR = {
+				has_military_bonus = celtic_north_african_enable
+				has_military_bonus = levantine_north_africa_enable
+			}
+		}
 	}
 
 	north_african_army_path_end_bonus = { ###North Aftica 1B

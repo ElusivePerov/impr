@@ -38,6 +38,9 @@
 			}
 			country_culture_group = tibetan
 		}
+		trigger_else = {
+			has_military_bonus = persian_mauryan_enable
+		}
 	}
 
 	mauryan_coastal_path_7 = { ###Mauryan 1A

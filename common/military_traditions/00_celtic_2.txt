@@ -73,6 +73,9 @@
 			}
 			country_culture_group = proto_european
 		}
+		trigger_else = {
+			has_military_bonus = latin_celtic_enable
+		}
 	}
 
 	celtic_germanic_path_4 = { ###Celtic 1A

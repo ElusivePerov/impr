@@ -46,56 +46,69 @@
  		[X] no longer enabled by Italic Tribe traditions
  		[X] no longer enables Roman or Italic traditions
  		[X] Embrace Celto-Italic Influence heavy infantry offense bonus increased to 12.5% from 2.5%
+ 		⭐ LOC DEBT ⭐
  	[+] Britannic
  		[X] no longer enabled by Italic Tribe traditions
  		[X] no longer enables Punic or Numidian traditions
  		[X] Embrace Celtiberian-African Influence light cavalary defense bonus increased to 15% from 5%
+ 		⭐ LOC DEBT ⭐
  	[+] Greek Poleis
  		[X] no longer enabled by Roman or Levantine Maritime traditions
  		[X] no longer enables Levantine Kingdom or Levantine Maritime traditions
  		[X] Embrace Graeco-Levantine Influence open sea combat bonus increased to 7.5% from 5%
+ 		⭐ LOC DEBT ⭐
  	[+] Greek Kingdom
  		[X] no longer enabled by Roman or Levantine Maritime traditions
  		[X] no longer enables Persia or Persian Rural traditions
  		[X] Embrace Graeco-Persian Influence plains combat bonus increased to 7.5% from 5%
+ 		⭐ LOC DEBT ⭐
  	[+] Roman
  		[X] no longer enabled by Celtic or Numidian traditions
  		[X] no longer enables Greek Poleis or Greek Kingdom traditions
  		[X] Embrace Italo-Greek Influence plains combat bonus increased to 7.5% from 5%
+ 		⭐ LOC DEBT ⭐
  	[+] Italic Tribe
  		[X] no longer enabled by Celtic or Numidian traditions
  		[X] no longer enables Celtic or Britannic Traditions
  		[X] Embrace Italo-Celtic Influence forest combat bonus increased to 7.5% from 5%
+ 		⭐ LOC DEBT ⭐
  	[+] Levantine Kingdom
  		[X] no longer enabled by Persian or Greek Poleis or Punic
  		[X] no longer enables Punic or Numidian traditions
  		[X] Embrace Afro-Punic Influence plains combat bonus increased to 7.5% from 5%
+ 		⭐ LOC DEBT ⭐
  	[+] Levantine Maritime
  		[X] no longer enabled by Persian or Greek Poleis or Punic
  		[X] no longer enables Greek Poleis or Greek Kingdom traditions
  		[X] Embrace Levantine-Greek Influence coastal sea combat bonus increased to 7.5% from 5%
+ 		⭐ LOC DEBT ⭐
  	[+] Indian Kingdom
  		[X] no longer enabled by Persian traditions
  	[+] Indian Tribe
  		[X] no longer enabled by Persian traditions
  		[X] no longer enables Persian or Persian Rural traditions
  		[X] Embrace Indo-Persian Influence plains combat bonus increased to 7.5% from 5%
+ 		⭐ LOC DEBT ⭐
  	[+] Punic
  		[X] no longer enabled by Britannic or Levantine Kingdom traditions
  		[X] no longer enables Levantine Kingdom or Levatine Maritime traditions
  		[X] Embrace Afro-Levantine Influence open sea combat bonus increased to 7.5% from 5%
+ 		⭐ LOC DEBT ⭐
  	[+] Numidian
  		[X] no longer enabled by Britannic or Levantine Kingdom traditions
  		[X] no longer enables Roman or Italic Tribe traditions
  		[X] Embrace Punic-Italic Influence now grants a heavy infantry offense bonus of 12.5%
+ 		⭐ LOC DEBT ⭐
  	[+] Persian
  		[X] no longer enabled by Greek Kingdom or Indian Tribe traditions
  		[X] no longer enables 
  		[X] Embrace Perso-Indian Influence jungle combat bonus increased to 7.5% from 5%
+ 		⭐ LOC DEBT ⭐
  	[+] Persian Rural
  		[X] no longer enabled by Greek Kingdom or Indian Tribe traditions
  		[X] no longer enables Levantine Kingdom or Levantine Maritime traditions
  		[X] Embrace Perso-Levantine Influence open sea combat bonus increased to 7.5% from 5%
+ 		⭐ LOC DEBT ⭐
 
  [+] standardized military laws
  	[+] small army
@@ -191,7 +204,9 @@
  [X] relocate provincial capital no longer costs loyalty
  [ ] relocate provincial capital threshold reduced to 20 loyalty from 33
  ⭐ LOC DEBT ⭐
+ 
  [+] reduce power bases at defines
+
  [ ] reduce a third of the impact of stab on legitimacy loss
  [ ] anoint heir minimum legitimacy required reduced to 80 from 90
  [ ] anoint heir now grants loyalty to the targeted character
@@ -280,6 +295,12 @@
  	[X] changed jupiter passive to stab gain from popularity gain 
  	[X] changed bacchus passive to 4% population happiness from 10% tribesmen output
  	[ ] saturnalia for hellenic, italic and harmonic
+ 	[+] added capitoline triad deity
+ 		[X] passive effects are 0.025% mothly stab gain, 10% population capacity, 5% research points gain
+ 		[X] omen effect is 0.04% population growth
+ 		[X] deification effect is assimilation
+ 		[X] unlockable only by mission
+ 		[X] added gfx
  [+] italic religion
   	[X] added italic religion with 5% discipline modifier
   	⭐ LOC DEBT ⭐
@@ -460,12 +481,24 @@
  [+] mission cleanup
  [ ] add rivers?
 
+### removed tags
+ [X] all indian and tibetan minors
+ [X] removed starting characters too
+
+ [X] Silenia (SLN), Arronia (ARR) and Varrinia (VRR) annexed into Neria (NRI)
+ [X] Seurria (SUR), Baedia (BED) and Coporia (COP) annexed into Albionia (ABO)
+ [X] Aebocosia (AEB), Tamagania (TMG), Interamicia (INT), Gravia (GRV) and Leunia (LUN) annexed into Caladunia (CLD)
+ [X] Zoelia (ZLA) and Baniensia (BAN) annexed into Bracaria (BRC)
+ [X] Amacia (AMC), Beduniensia (BDU) and Gigurria (GGR) annexed into Superatia (SPT)
+ [X] Lugonia (LGO) and Paesicia (PSC) annexed into Selinia (SLI)
+ [X] Lanciensia (LCN) annexed into Tiburia (TBU)
+ [X] Tamaricia (TMC), Vadinia (VDI), Orgenomescia (ORM) annexed into Avariginia (AVG)
+ [X] Blendia (BLN), Coniscia (CNI) and Morecania (MRC) annexed into Concania (COC)
+
 ### global
 
  [+] generic missions overhaul
  	[ ] matter of rewards select provincial capitals
-
- [ ] remove indus region
  [ ] remove stab loss from dropping missions (not for 'the matter of' probs)
  [X] control [province] mission's 3rd reward roll now only targets the provincial capital
 

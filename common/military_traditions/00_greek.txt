@@ -24,6 +24,12 @@
 			}
 			country_culture_group = illyrian_group
 		}
+		trigger_else = {
+			OR = {
+				has_military_bonus = latin_greek_enable
+				has_military_bonus = levantine_greek_enable
+			}
+		}
 	}
 	
 	greek_seleucid_path_2 = {
