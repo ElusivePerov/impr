@@ -41,7 +41,61 @@
 
  [X] capital city modifier now increases fort defense by 10%
 
- [+] traditions restricted to the starting two
+ [+] military traditions 
+ 	[+] Celtic
+ 		[X] no longer enabled by Italic Tribe traditions
+ 		[X] no longer enables Roman or Italic traditions
+ 		[X] Embrace Celto-Italic Influence heavy infantry offense bonus increased to 12.5% from 2.5%
+ 	[+] Britannic
+ 		[X] no longer enabled by Italic Tribe traditions
+ 		[X] no longer enables Punic or Numidian traditions
+ 		[X] Embrace Celtiberian-African Influence light cavalary defense bonus increased to 15% from 5%
+ 	[+] Greek Poleis
+ 		[X] no longer enabled by Roman or Levantine Maritime traditions
+ 		[X] no longer enables Levantine Kingdom or Levantine Maritime traditions
+ 		[X] Embrace Graeco-Levantine Influence open sea combat bonus increased to 7.5% from 5%
+ 	[+] Greek Kingdom
+ 		[X] no longer enabled by Roman or Levantine Maritime traditions
+ 		[X] no longer enables Persia or Persian Rural traditions
+ 		[X] Embrace Graeco-Persian Influence plains combat bonus increased to 7.5% from 5%
+ 	[+] Roman
+ 		[X] no longer enabled by Celtic or Numidian traditions
+ 		[X] no longer enables Greek Poleis or Greek Kingdom traditions
+ 		[X] Embrace Italo-Greek Influence plains combat bonus increased to 7.5% from 5%
+ 	[+] Italic Tribe
+ 		[X] no longer enabled by Celtic or Numidian traditions
+ 		[X] no longer enables Celtic or Britannic Traditions
+ 		[X] Embrace Italo-Celtic Influence forest combat bonus increased to 7.5% from 5%
+ 	[+] Levantine Kingdom
+ 		[X] no longer enabled by Persian or Greek Poleis or Punic
+ 		[X] no longer enables Punic or Numidian traditions
+ 		[X] Embrace Afro-Punic Influence plains combat bonus increased to 7.5% from 5%
+ 	[+] Levantine Maritime
+ 		[X] no longer enabled by Persian or Greek Poleis or Punic
+ 		[X] no longer enables Greek Poleis or Greek Kingdom traditions
+ 		[X] Embrace Levantine-Greek Influence coastal sea combat bonus increased to 7.5% from 5%
+ 	[+] Indian Kingdom
+ 		[X] no longer enabled by Persian traditions
+ 	[+] Indian Tribe
+ 		[X] no longer enabled by Persian traditions
+ 		[X] no longer enables Persian or Persian Rural traditions
+ 		[X] Embrace Indo-Persian Influence plains combat bonus increased to 7.5% from 5%
+ 	[+] Punic
+ 		[X] no longer enabled by Britannic or Levantine Kingdom traditions
+ 		[X] no longer enables Levantine Kingdom or Levatine Maritime traditions
+ 		[X] Embrace Afro-Levantine Influence open sea combat bonus increased to 7.5% from 5%
+ 	[+] Numidian
+ 		[X] no longer enabled by Britannic or Levantine Kingdom traditions
+ 		[X] no longer enables Roman or Italic Tribe traditions
+ 		[X] Embrace Punic-Italic Influence now grants a heavy infantry offense bonus of 12.5%
+ 	[+] Persian
+ 		[X] no longer enabled by Greek Kingdom or Indian Tribe traditions
+ 		[X] no longer enables 
+ 		[X] Embrace Perso-Indian Influence jungle combat bonus increased to 7.5% from 5%
+ 	[+] Persian Rural
+ 		[X] no longer enabled by Greek Kingdom or Indian Tribe traditions
+ 		[X] no longer enables Levantine Kingdom or Levantine Maritime traditions
+ 		[X] Embrace Perso-Levantine Influence open sea combat bonus increased to 7.5% from 5%
 
  [+] standardized military laws
  	[+] small army
@@ -426,3 +480,4 @@ next patch
 investigation zone
 
 	REPUBLIC_NOT_ALLOWED_OFFICE = -0.8
+	enable_ability = naval_raiding
