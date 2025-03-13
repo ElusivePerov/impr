@@ -31,7 +31,6 @@ salt = { #177 territories
 
 iron = { #119 territories
 	category = 0
-	allow_unit_type = heavy_infantry
 	
 	gold = 0.3
 	
@@ -47,8 +46,6 @@ iron = { #119 territories
 
 horses = { #276 territories
 	category = 0
-	allow_unit_type = heavy_cavalry
-	allow_unit_type = light_cavalry
 	
 	gold = 0.25
 	
@@ -159,7 +156,6 @@ spices = { #58 territories
 
 elephants = { #82 territories
 	category = 0
-	allow_unit_type = warelephant
 	
 	gold = 0.3
 	
@@ -235,7 +231,6 @@ precious_metals = { #107 territories
 
 steppe_horses = { #90 territories
 	category = 0
-	allow_unit_type = horse_archers
 	
 	gold = 0.25
 	
@@ -460,7 +455,6 @@ gems = { #44 Territories
 }
 
 camel = { #63 territories
-	allow_unit_type = camels
 	category = 0
 	
 	gold = 0.25

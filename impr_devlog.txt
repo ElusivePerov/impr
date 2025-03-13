@@ -158,6 +158,62 @@
 
  [X] all cultural levies swapped for the default template (70% light infantry 30% light cavalry)
 
+ [+] Unit Rebalance
+ 	[+] Light Infantry
+ 		[X] Maintenance Cost reduced to 0.08 from 0.16
+ 		[X] Morale Damage Taken bonus decreased to -5% from -30%
+ 	[+] Heavy Infantry
+ 		[X] Maintenance Cost reduced to 0.24 from 0.32
+ 		[X] Attrition Weight reduced to 20% from 50%
+ 		[X] Now takes -5% strenght damage
+ 		[X] Light Cavalry damage bonus increased to 10% from -10%
+ 		[X] Light Infantry damage bonus increased to 25% from 20%
+ 		[X] Horse Archer damage malus decreased to -10% from -25%
+ 	[+] Light Cavalry
+ 		[X] Attrition Weight reduced to 10% from 50%
+ 		[X] Heavy Infantry damage bonus increased to 5% from -50%
+ 		[X] Horse Archers damage bonus decreased to 0% from 25%
+ 	[+] Horse Archers
+ 		[X] Maintenance Cost increased to 0.40 from 0.32
+ 		[X] Attrition Weight reduced to 40% from 50%
+ 		[X] Heavy Infantry damage bonus decreased to 10% from 25%
+ 		[X] Light Cavalry damage bonus increased to 5% from -10% 
+ 		[X] Now only buildable by horse lord tags
+
+ 	[X] Removed Archers, Camel Cavalry, Heavy Cavalry and War Elephants
+
+ [+] starting legions
+ 	[ ] Rome
+ 	Small Army Recruitment Law (Only capital)
+ 	Roma (24/30)
+ 	[ ] Carthage
+ 	Small Army Recruitment Law (Only capital)
+ 	Africa (16/16)
+ 	[ ] Syracusae
+ 	Small Army Recruitment Law (Only capital)
+ 	Magna Graecia (10/7)
+ 	[ ] Epirus
+ 	Small Army Recruitment Law (Only capital)
+ 	Greece (13/13)
+ 	[ ] Athens
+ 	Small Army Recruitment Law (Only capital)
+ 	Greece (7/4)
+ 	[ ] Sparta
+ 	Small Army Recruitment Law (Only capital)
+ 	Greece (10/6)
+ 	[ ] Cyrenaica
+ 	Small Army Recruitment Law (Only capital)
+ 	Cyrenaica (10/13)
+ 	[ ] Macedonia
+ 	Small Army Recruitment Law (Only capital)
+ 	Macedonia (33/37)
+ 	[ ] Antigonids
+ 	Small Army Recruitment Law (Only capital)
+ 	[ ] Seleukids
+ 	Small Army Recruitment Law (Only capital)
+ 	[ ] Egypt
+ 	Small Army Recruitment Law (Only capital)
+
 ## economy
 
  [+] aqueducts

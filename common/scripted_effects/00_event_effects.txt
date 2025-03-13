@@ -10599,8 +10599,173 @@ massilia_legion_setup_effect = {
 	capital_scope.governorship = {
 		raise_legion = {
 			create_unit = {
-				name = "Massalia Taxis"
 				location = p:2325 # Massalia
+				sub_unit = heavy_infantry
+				save_scope_as = legion_scope
+				add_subunit = heavy_infantry
+				add_subunit = archers
+				add_subunit = archers
+				add_subunit = light_cavalry
+				add_subunit = light_cavalry
+
+			}
+			if = {
+				limit = { has_dlc = "Heirs of Alexander" }
+				add_distinction = distinction_legio_primagena
+			}
+		}
+	}
+}
+
+rome_legion_setup_effect = {
+	capital_scope.governorship = {
+		raise_legion = {
+			create_unit = {
+				location = p:1 # Roma
+				sub_unit = heavy_infantry
+				save_scope_as = legion_scope
+				add_subunit = heavy_infantry
+				add_subunit = heavy_infantry
+				add_subunit = heavy_infantry
+				add_subunit = heavy_infantry
+				add_subunit = heavy_infantry
+				add_subunit = heavy_infantry
+				add_subunit = heavy_infantry
+				add_subunit = heavy_infantry
+				add_subunit = heavy_infantry
+				add_subunit = archers
+				add_subunit = archers
+				add_subunit = archers
+				add_subunit = archers
+				add_subunit = archers
+				add_subunit = light_cavalry
+				add_subunit = light_cavalry
+				add_subunit = light_cavalry
+				add_subunit = light_cavalry
+				add_subunit = light_cavalry
+				add_subunit = light_cavalry
+				add_subunit = supply_train
+				add_subunit = supply_train
+				add_subunit = engineer_cohort
+			}
+			if = {
+				limit = { has_dlc = "Heirs of Alexander" }
+				add_distinction = distinction_legio_primagena
+			}
+		}
+	}
+}
+
+carthage_legion_setup_effect = {
+	capital_scope.governorship = {
+		raise_legion = {
+			create_unit = {
+				location = p:3256 # Carthago
+				sub_unit = heavy_infantry
+				save_scope_as = legion_scope
+				add_subunit = heavy_infantry
+				add_subunit = heavy_infantry
+				add_subunit = heavy_infantry
+				add_subunit = heavy_infantry
+				add_subunit = heavy_infantry
+				add_subunit = heavy_infantry
+				add_subunit = heavy_infantry
+				add_subunit = heavy_infantry
+				add_subunit = heavy_infantry
+				add_subunit = archers
+				add_subunit = archers
+				add_subunit = archers
+				add_subunit = archers
+				add_subunit = archers
+				add_subunit = light_cavalry
+				add_subunit = light_cavalry
+				add_subunit = light_cavalry
+				add_subunit = light_cavalry
+				add_subunit = light_cavalry
+				add_subunit = light_cavalry
+				add_subunit = supply_train
+				add_subunit = supply_train
+				add_subunit = engineer_cohort
+			}
+			if = {
+				limit = { has_dlc = "Heirs of Alexander" }
+				add_distinction = distinction_legio_primagena
+			}
+		}
+	}
+}
+
+syracusae_legion_setup_effect = {
+	capital_scope.governorship = {
+		raise_legion = {
+			create_unit = {
+				location = p:
+				sub_unit = heavy_infantry
+				save_scope_as = legion_scope
+				add_subunit = heavy_infantry
+				add_subunit = archers
+				add_subunit = archers
+				add_subunit = light_cavalry
+				add_subunit = light_cavalry
+
+			}
+			if = {
+				limit = { has_dlc = "Heirs of Alexander" }
+				add_distinction = distinction_legio_primagena
+			}
+		}
+	}
+}
+
+athens_legion_setup_effect = {
+	capital_scope.governorship = {
+		raise_legion = {
+			create_unit = {
+				location = p:
+				sub_unit = heavy_infantry
+				save_scope_as = legion_scope
+				add_subunit = heavy_infantry
+				add_subunit = archers
+				add_subunit = archers
+				add_subunit = light_cavalry
+				add_subunit = light_cavalry
+
+			}
+			if = {
+				limit = { has_dlc = "Heirs of Alexander" }
+				add_distinction = distinction_legio_primagena
+			}
+		}
+	}
+}
+
+sparta_legion_setup_effect = {
+	capital_scope.governorship = {
+		raise_legion = {
+			create_unit = {
+				location = p:
+				sub_unit = heavy_infantry
+				save_scope_as = legion_scope
+				add_subunit = heavy_infantry
+				add_subunit = archers
+				add_subunit = archers
+				add_subunit = light_cavalry
+				add_subunit = light_cavalry
+
+			}
+			if = {
+				limit = { has_dlc = "Heirs of Alexander" }
+				add_distinction = distinction_legio_primagena
+			}
+		}
+	}
+}
+
+cyrenaica_legion_setup_effect = {
+	capital_scope.governorship = {
+		raise_legion = {
+			create_unit = {
+				location = p:
 				sub_unit = heavy_infantry
 				save_scope_as = legion_scope
 				add_subunit = heavy_infantry
