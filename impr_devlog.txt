@@ -192,7 +192,7 @@
  	[X] Removed Archers, Camel Cavalry, Heavy Cavalry and War Elephants
  	[ ] Removed damage bonuses targeted at removed units
 
- [+] starting legions
+ [+] Starting Legions
  	[ ] Rome
  	Small Army Recruitment Law (Only capital)
  	Roma (24/30) 15 Heavy Infantry | 6 Light Cavalry | 1 Engineer | 2 Supply Trains 
@@ -227,6 +227,35 @@
  	Persis (16/16) 10 Heavy Infantry | 5 Light Cavalry | 1 Supply Train
  	[ ] Egypt
  	Small Army Recruitment Law (Only capital)
+
+ [+] Combat Tactics
+ 	[ ] Neutralized Cohort Type effectiveness
+ 	[ ] Normalized all damage bonuses to 10% and maluses to 5%
+
+ 	[+] Shock Action
+ 		[ ] Added damage bonus against Deception
+ 		[ ] Added damage malus against Skirmishing
+ 	[+] Envelopment
+ 		[ ] Added damage bonus against Skirmishing
+ 		[ ] Added damage malus against Bottleneck
+ 	[+] Skirmishing
+ 		[ ] Added damage bonus against Shock Action
+ 		[ ] Added damage malus against Envelopment
+ 	[+] Deception
+ 		[ ] Added damage bonus against Bottleneck
+ 		[ ] Added damage malus against Shock Action
+ 		[ ] Removed damage malus against Hit and Run Tactics
+ 	[+] Bottleneck
+ 		[ ] Added damage bonus against Envelopment
+ 		[ ] Added damage malus against Deception
+ 		[ ] Removed damage bonus against Hit and Run Tactics
+ 	[+] Hit and Run Tactics
+ 		[ ]	Added damage bonuses against Shock Action and Envelopment
+ 		[ ] Added damage malus against Bottleneck
+ 		[X] Removed from Celtic Traditions
+
+ 	[X] Removed Triplex Acies, Phalanx, Padma Vyuha and Cavalry Skirmish
+
 
 ## economy
 

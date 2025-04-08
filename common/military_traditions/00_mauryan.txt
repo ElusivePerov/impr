@@ -92,7 +92,6 @@
 
 	mauryan_noble_path_4 = { ###Mauryan 3AC
 		modifier = {}
-		enable_tactic = padma_vyuha
 		icon = mauryan_noble_path_4
 		requires = {mauryan_mauryas_path_5}
 	}

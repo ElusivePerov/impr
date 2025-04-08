@@ -214,7 +214,6 @@
 	}
 
 	celtic_germanic_path_3 = { ###Celtic 4A
-		enable_tactic = hit_and_run_tactics
 		modifier = { 
 			forest_combat_bonus = 0.25
 		}

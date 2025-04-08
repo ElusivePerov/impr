@@ -142,7 +142,6 @@
 
 	north_african_tribal_path_4 = { ###North Aftica 4CB
 		modifier = { light_cavalry_discipline = 0.05 }
-		enable_tactic = cavalry_skirmish
 		icon = north_african_tribal_path_4
 		requires = {north_african_tribal_path_3}
 	}

@@ -58,7 +58,6 @@
 	
 	greek_philosophy_start_bonus = {
 		modifier = { heavy_infantry_offensive = 0.15 }
-		enable_tactic = greek_phalanx
 		requires = { greek_seleucid_path_2 }
 		icon = greek_philosophy_start_bonus
 	}
@@ -138,7 +137,6 @@
 		modifier = { 
 			light_cavalry_cost = -0.1
 		}
-		enable_tactic = cavalry_skirmish
 		requires = { greek_states_path_2 }
 		icon = greek_seleucid_path_4
 	}
