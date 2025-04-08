@@ -14,13 +14,8 @@
 	legions = no
 	light_infantry = 1.25
 	heavy_infantry = 1.10
-	heavy_cavalry = 0.9
-	warelephant = 0.8
 	horse_archers = 1.0
-	chariots = 1.25
-	archers = 1.25
 	light_cavalry = 1.05
-	camels = 0.9
 	supply_train = 2.0
 	
 	attrition_weight = 1.4

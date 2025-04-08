@@ -6,7 +6,6 @@
 	testamentum_militis = { #Servian System
 		modifier = {
 			levy_size_multiplier = 0.125
-			army_maintenance_cost = -0.35
 			mercenary_land_maintenance_cost = -0.10
 			recruit_mercenary_cost_modifier = -0.10
 			max_mercenary_stacks = 2

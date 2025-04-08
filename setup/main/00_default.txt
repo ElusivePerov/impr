@@ -5898,7 +5898,7 @@ country = {
 			primary_culture = carthaginian
 			religion = carthaginian_pantheon
 			diplomatic_stance=trading_stance
-			republic_military_recruitment_laws = republican_recruitment_1
+			republic_military_recruitment_laws = republican_recruitment_3
 			capital = 3256
 			
 			#is_antagonist = yes
@@ -6031,6 +6031,7 @@ country = {
 			primary_culture = syracusan
 			religion = greek_pantheon
 			capital = 84
+			monarchy_military_reforms = mercenary_reliance
 
 			technology={
 				military_tech={ level=2 progress=0 }
@@ -6139,6 +6140,7 @@ country = {
 			primary_culture = cyrenaican
 			religion = greek_pantheon
 			capital = 3360
+			monarchy_military_reforms = recruit_from_nobles
 			
 			technology={
 				military_tech={ level=2 progress=0 }
@@ -9316,6 +9318,7 @@ country = {
 			religion = greek_pantheon
 			diplomatic_stance=trading_stance
 			capital = 416
+			republic_military_reforms = republican_recruitment_2
 			
 			technology={
 				military_tech={ level=2 progress=0 }
@@ -9442,7 +9445,7 @@ country = {
 			religion = greek_pantheon
 			diplomatic_stance=warmongering_stance
 			capital = 476
-			monarchy_military_reforms = work_for_the_best
+			monarchy_military_reforms = mercenary_reliance
 			
 			technology={
 				military_tech={ level=2 progress=0 }
@@ -10022,7 +10025,7 @@ country = {
 			government = stratocratic_monarchy
 			primary_culture = peloponnesian
 			religion = greek_pantheon
-			monarchy_military_reforms = recruit_from_nobles
+			monarchy_military_reforms = work_for_the_best
 			
 			technology={
 				military_tech={ level=2 progress=0 }

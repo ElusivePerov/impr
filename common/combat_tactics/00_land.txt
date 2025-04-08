@@ -19,6 +19,8 @@ shock_action = {
 		horse_archers = 1.0
 		light_cavalry = 1.0
 		light_infantry = 1.0
+		supply_train = 1.0
+		engineer_cohort = 1.0
 	}
 }
 
@@ -37,6 +39,8 @@ envelopment = {
 		horse_archers = 1.0
 		light_cavalry = 1.0
 		light_infantry = 1.0
+		supply_train = 1.0
+		engineer_cohort = 1.0	
 	}
 }
 
@@ -57,6 +61,8 @@ skirmishing = {
 		horse_archers = 1.0
 		light_cavalry = 1.0
 		light_infantry = 1.0
+		supply_train = 1.0
+		engineer_cohort = 1.0	
 	}
 }
 
@@ -75,6 +81,8 @@ deception = {
 		horse_archers = 1.0
 		light_cavalry = 1.0
 		light_infantry = 1.0
+		supply_train = 1.0
+		engineer_cohort = 1.0	
 	}
 }
 
@@ -93,6 +101,8 @@ bottleneck = {
 		horse_archers = 1.0
 		light_cavalry = 1.0
 		light_infantry = 1.0
+		supply_train = 1.0
+		engineer_cohort = 1.0	
 	}
 }
 
@@ -114,5 +124,7 @@ hit_and_run_tactics = {
 		horse_archers = 1.0
 		light_cavalry = 1.0
 		light_infantry = 1.0
+		supply_train = 1.0
+		engineer_cohort = 1.0	
 	}
 }

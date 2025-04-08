@@ -12,12 +12,7 @@ supply_train = {
 
 	light_infantry = 0.1
 	heavy_infantry = 0.1
-	heavy_cavalry = 0.1
-	warelephant = 0.1
 	horse_archers = 0.1
-	archers = 0.1
-	chariots = 0.1
-	camels = 0.1
 	light_cavalry = 0.1
 	supply_train = 1
 	
@@ -25,13 +20,13 @@ supply_train = {
 	attrition_loss = 0.1
 	
 	food_consumption = 0.05
-	food_storage = 50
+	food_storage = 40
 	
 	
 	morale_damage_taken = 2.0
 	
 	build_cost = {
-		gold = 20
+		gold = 10
 		manpower = 1
 	}
 	

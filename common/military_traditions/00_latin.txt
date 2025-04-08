@@ -11,7 +11,14 @@
 			}
 			country_culture_group = latin
 		}
+		trigger_else = {
+			OR = {
+				has_military_bonus = north_african_latin_enable
+				has_military_bonus = celtic_latin_enable
+			}
+		}
 	}
+	
 	latin_roman_path_1 = { ###Latin 1A
 		modifier = { 
 			heavy_infantry_offensive = 0.15
@@ -25,12 +32,6 @@
 					add_martial = 8
 					add_trait = steadfast
 				}
-			}
-		}
-		trigger_else = {
-			OR = {
-				has_military_bonus = north_african_latin_enable
-				has_military_bonus = celtic_latin_enable
 			}
 		}
 	}

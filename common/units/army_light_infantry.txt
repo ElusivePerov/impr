@@ -11,12 +11,7 @@
 
 	light_infantry = 1.0
 	heavy_infantry = 0.8
-	heavy_cavalry = 0.75
-	warelephant = 0.8
 	horse_archers = 0.5
-	archers = 0.9
-	chariots = 0.9
-	camels = 1.0
 	light_cavalry = 1.0
 	supply_train = 2.0
 	

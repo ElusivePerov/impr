@@ -203,3 +203,18 @@ decentralize_pops = {
 
 	#deprecatedon_action = decentralize_pops_pulse
 }
+
+scorched_earth = {
+
+	province = {
+		supply_limit_modifier = -0.5
+		local_monthly_civilization = -0.025
+		local_output_modifier = -0.4
+		local_migration_speed = 1
+		local_migration_attraction = -6
+		local_monthly_state_loyalty = -0.3
+		local_pop_demotion_speed_modifier = 1
+	}
+
+	ai_will_do = { modifier = { factor = 0 } }
+}

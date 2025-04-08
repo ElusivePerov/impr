@@ -12,6 +12,8 @@
 
  [ ] put research eff in the top bar
 
+ [ ] denser fog
+
 ## warfare
 
  [X] minimum warscore to demand peace reduced to 0 from 10
@@ -111,7 +113,7 @@
  		⭐ LOC DEBT ⭐
 
  [+] Standardized Military Laws
- 	[+] Mercenary Army
+ 	[+] Mercenary Reliance
  	⭐ LOC DEBT ⭐
  		[X]	12.5% Levy Size
  		[X] Unrestricted Recruitment
@@ -120,7 +122,7 @@
  		[X] +2 Mercenary Army Limit
  		[X] -5% Land Morale
  		[X] -2.5% Discipline
- 	[+] No Standards
+ 	[+] No Standards Recruitment
  	⭐ LOC DEBT ⭐
  		[X]	12.5% Levy Size
  		[X] Unrestricted Recruitment
@@ -130,7 +132,7 @@
  		[X] +85% Manpower Maximum
  		[X] -10% Land Morale
  		[X] -7.5% Discipline
- 	[+] Low Standards
+ 	[+] Low Standards Recruitment
  	⭐ LOC DEBT ⭐
  		[X]	12.5% Levy Size
  		[X] Unrestricted Recruitment
@@ -140,7 +142,7 @@
  		[X] +35% Manpower Maximum
  		[X] -5% Land Morale
  		[X] -2.5% Discipline
- 	[+] High Standards
+ 	[+] High Standards Recruitment
  	⭐ LOC DEBT ⭐
  		[X] 12.5% Levy Size
  		[X] Unrestricted Recruitment
@@ -150,6 +152,7 @@
  	[ ] look into all the reform event chains
 
  [X] Raised Base Manpower from 1375 to 6875
+
  [+] City State
  	[X] Added -10% Legion Maintenance Cost
  	[X] Added +30% Manpower Recovery
@@ -172,13 +175,14 @@
  		[X] Maintenance Cost reduced to 0.08 from 0.16
  		[X] Morale Damage Taken bonus decreased to -5% from -30%
  	[+] Heavy Infantry
- 		[X] Maintenance Cost reduced to 0.24 from 0.32
+ 		[X] Maintenance Cost reduced to 0.20 from 0.32
  		[X] Attrition Weight reduced to 20% from 50%
  		[X] Now takes -5% strenght damage
  		[X] Light Cavalry damage bonus increased to 10% from -10%
  		[X] Light Infantry damage bonus increased to 25% from 20%
  		[X] Horse Archer damage malus decreased to -10% from -25%
  	[+] Light Cavalry
+ 		[X] Maintenance Cost reduced to 0.16 from 0.20
  		[X] Attrition Weight reduced to 10% from 50%
  		[X] Heavy Infantry damage bonus increased to 5% from -50%
  		[X] Horse Archers damage bonus decreased to 0% from 25%
@@ -188,74 +192,79 @@
  		[X] Heavy Infantry damage bonus decreased to 10% from 25%
  		[X] Light Cavalry damage bonus increased to 5% from -10% 
  		[X] Now only buildable by horse lord tags
+ 	[+] Supply Trains 
+ 		[X] Maintenance Cost reduced to 0.20 from 0.40
+ 		[X] Food Storage reduced to 40 from 50
 
  	[X] Removed Archers, Camel Cavalry, Heavy Cavalry and War Elephants
- 	[ ] Removed damage bonuses targeted at removed units
+ 	[X] Removed damage bonuses targeted at removed units
 
  [+] Starting Legions
  	[ ] Rome
- 	Small Army Recruitment Law (Only capital)
- 	Roma (24/30) 15 Heavy Infantry | 6 Light Cavalry | 1 Engineer | 2 Supply Trains 
+ 	Low Standards Recruitment
+ 	Roma (25/36) 20 Heavy Infantry | 2 Light Cavalry | 1 Engineer | 2 Supply Trains 
  	[ ] Carthage
- 	Small Army Recruitment Law (Only capital)
- 	Africa (16/16) 10 Heavy Infantry | 5 Light Cavalry | 1 Supply Train
+ 	Mercenary Reliance
+ 	Africa (22/22) 16 Heavy Infantry | 4 Light Cavalry | 2 Supply Train
  	[ ] Syracusae
- 	Small Army Recruitment Law (Only capital)
- 	Magna Graecia (10/7) 6 Heavy Infantry | 4 Light Cavalry
+ 	Low Standards Recruitment
+ 	Magna Graecia (12/9) 8 Heavy Infantry | 4 Light Cavalry
  	[ ] Epirus
- 	Small Army Recruitment Law (Only capital)
- 	Greece (13/13) 8 Heavy Infantry | 4 Light Cavalry | 1 Supply Train
+ 	Low Standards Recruitment
+ 	Greece (14/13) 10 Heavy Infantry | 4 Light Cavalry
  	[ ] Athens
- 	Small Army Recruitment Law (Only capital)
- 	Greece (7/4) 5 Heavy Infantry | 2 Light Cavalry
+ 	Low Standards Recruitment
+ 	Greece (7/5) 5 Heavy Infantry | 2 Light Cavalry
  	[ ] Sparta
- 	Small Army Recruitment Law (Only capital)
- 	Greece (10/6) 6 Heavy Infantry | 4 Light Cavalry
+ 	High Standards Recruitment
+ 	Greece (10/7) 8 Heavy Infantry | 2 Light Cavalry
  	[ ] Cyrenaica
- 	Small Army Recruitment Law (Only capital)
- 	Cyrenaica (10/13) 6 Heavy Infantry | 4 Light Cavalry
+ 	No Standards Recruitment
+ 	Cyrenaica (10/16) 6 Heavy Infantry | 4 Light Cavalry
  	[ ] Macedonia
- 	Small Army Recruitment Law (Only capital)
- 	Macedonia (33/37) 20 Heavy Infantry | 10 Light Cavalry | 3 Supply Trains
+ 	High Standards Recruitment
+ 	Macedonia (31/46) 24 Heavy Infantry | 4 Light Cavalry | 3 Supply Trains
  	[ ] Antigonids
- 	Huge Army Recruitment Law (Unrestricted)
- 	Syria (27/27) 17 Heavy Infantry | 8 Light Cavalry | 2 Supply Train
- 	Phyrgia (26/26) 16 Heavy Infantry | 8 Light Cavalry | 2 Supply Train
+ 	High Standards Recruitment
+ 	Syria (40/28) 	32 Heavy Infantry | 4 Light Cavalry | 4 Supply Train
+ 	#Phyrgia (27/27) 17 Heavy Infantry | 8 Light Cavalry | 2 Supply Train
+ 	#Cilicia (8/8)	 7 Heavy Infantry | 1 Supply Train
+ 	#Assyria (8/8)	 7 Heavy Infantry | 1 Supply Train
  	[ ] Seleukids
- 	Large Army Recruitment Law (Unrestricted)
- 	Mesopotamia (30/30) 18 Heavy Infantry | 10 Light Cavalry | 2 Supply Train
- 	Persis (16/16) 10 Heavy Infantry | 5 Light Cavalry | 1 Supply Train
+ 	High Standards Recruitment
+ 	Mesopotamia (40/30) 32 Heavy Infantry | 4 Light Cavalry | 4 Supply Trains
+ 	#Persis (16/16) 10 Heavy Infantry | 5 Light Cavalry | 1 Supply Train
  	[ ] Egypt
- 	Small Army Recruitment Law (Only capital)
+ 	High Standards Recruitment
+ 	Lower Egypt (40/59) 32 Heavy Infantry | 4 Light Cavalry | 4 Supply Trains
 
  [+] Combat Tactics
- 	[ ] Neutralized Cohort Type effectiveness
- 	[ ] Normalized all damage bonuses to 10% and maluses to 5%
+ 	[X] Neutralized Cohort Type effectiveness
+ 	[X] Normalized all damage bonuses to 10% and maluses to 5%
 
  	[+] Shock Action
- 		[ ] Added damage bonus against Deception
- 		[ ] Added damage malus against Skirmishing
+ 		[X] Added damage bonus against Deception
+ 		[X] Added damage malus against Skirmishing
  	[+] Envelopment
- 		[ ] Added damage bonus against Skirmishing
- 		[ ] Added damage malus against Bottleneck
+ 		[X] Added damage bonus against Skirmishing
+ 		[X] Added damage malus against Bottleneck
  	[+] Skirmishing
- 		[ ] Added damage bonus against Shock Action
- 		[ ] Added damage malus against Envelopment
+ 		[x] Added damage bonus against Shock Action
+ 		[x] Added damage malus against Envelopment
  	[+] Deception
- 		[ ] Added damage bonus against Bottleneck
- 		[ ] Added damage malus against Shock Action
- 		[ ] Removed damage malus against Hit and Run Tactics
+ 		[x] Added damage bonus against Bottleneck
+ 		[x] Added damage malus against Shock Action
+ 		[x] Removed damage malus against Hit and Run Tactics
  	[+] Bottleneck
- 		[ ] Added damage bonus against Envelopment
- 		[ ] Added damage malus against Deception
- 		[ ] Removed damage bonus against Hit and Run Tactics
+ 		[X] Added damage bonus against Envelopment
+ 		[X] Added damage malus against Deception
+ 		[X] Removed damage bonus against Hit and Run Tactics
  	[+] Hit and Run Tactics
- 		[ ]	Added damage bonuses against Shock Action and Envelopment
- 		[ ] Added damage malus against Bottleneck
+ 		[X]	Added damage bonuses against Shock Action and Envelopment
+ 		[X] Added damage malus against Bottleneck
  		[X] Removed from Celtic Traditions
 
  	[X] Removed Triplex Acies, Phalanx, Padma Vyuha and Cavalry Skirmish
-
 
 ## economy
 
@@ -303,6 +312,9 @@
  [X] relocate provincial capital no longer costs loyalty
  [ ] relocate provincial capital threshold reduced to 20 loyalty from 33
  ⭐ LOC DEBT ⭐
+
+ [+] Added Scorched Earth governor policy
+ 	[ ] Decreases supply limit by 50%, 
  
  [+] reduce power bases at defines
 
@@ -326,8 +338,6 @@
  [ ] province disloyalty threshold lowered to 20 from 33
 
  [ ] add laws for consort/two rulers
-
- [ ] add something between major and great power
 
  [ ] bellicose stance now provides AE decay instead of ws cost reduction
 
@@ -377,8 +387,6 @@
 
  [ ] home country in ruins loyalty malus reduced to 15 from 20
 
- [ ] prune low skill irrelevant characters
-
  [X] monthly statesmanship gain from finesse increased to 0.035 from 0.025
 
 ## natioms
@@ -400,6 +408,7 @@
  		[X] deification effect is assimilation
  		[X] unlockable only by mission
  		[X] added gfx
+
  [+] italic religion
   	[X] added italic religion with 5% discipline modifier
   	⭐ LOC DEBT ⭐
@@ -408,6 +417,7 @@
  	[X] set the religion of etruria and all italic minors to italic
  	[X] set the religion of etrurian and all italic minors characters to italic
  	[X] assigned etrurian gods to the italic pantheon
+
  [+] mission overhaul
  	[+] Italia
  		[+] Destroy Italian Allies
@@ -431,16 +441,18 @@
  			[X] targets are sipontum, ancona and elea		
  			[X] reward overhauled to a decision instead of an event chain
  			[X] the decision costs 180g 5pi and turns the target into a league city
- 		[+] Cisalpine Gaul
- 			[+] consider giving Italic Feudatorius and Befriend Gallic Tribe same treatment as above
- 		[+] Subduing Gaul
- 			[X] To the Rhenus and The Gallic Heartlands removed
- 			[X] Gateway to the North and Into the West no longer give claims
- 			⭐ LOC DEBT ⭐
- 		[+] Fate of the Republic
- 			[+] probs delayed to next patch
- 		[+] Romanization
- 			[+] probs delayed to next patch
+ 	[+] Cisalpine Gaul
+ 		[+] consider giving Italic Feudatorius and Befriend Gallic Tribe same treatment as above
+ 	[+] Subduing Gaul
+ 		[X] To the Rhenus and The Gallic Heartlands removed
+ 		[X] Gateway to the North and Into the West no longer give claims
+ 		⭐ LOC DEBT ⭐
+
+ 	[+] Fate of the Republic
+ 		[+] probs delayed to next patch
+ 	[+] Romanization
+ 		[+] probs delayed to next patch
+
  	[+] The Roman Faith
  		[X] new mission tree that allows rome to choose which religion to go with, requires that etruria no longer exists
  		⭐ LOC DEBT ⭐
@@ -510,6 +522,7 @@
  		⭐ LOC DEBT ⭐
 
  	[X] removed mission trees: First Provincia, Punic Rivals, Greece, Eastern Glory, Hispanian Ambition
+
  [ ] removed Across the Adriatic event
  [ ] add rivers
  [ ] swap integration speed in heritage for hi discipline
@@ -521,6 +534,7 @@
  	[ ] bomilcar
  	[ ] naval
  	[ ] trade
+ 	
  [ ] add rivers
  [ ] maybe import punic republic from invictus
  [ ] every change goverment mission adds 60 influence
@@ -594,7 +608,7 @@
  [X] Tamaricia (TMC), Vadinia (VDI), Orgenomescia (ORM) annexed into Avariginia (AVG)
  [X] Blendia (BLN), Coniscia (CNI) and Morecania (MRC) annexed into Concania (COC)
 
-### global
+## global
 
  [+] generic missions overhaul
  	[ ] matter of rewards select provincial capitals
@@ -607,6 +621,8 @@ next patch
 	vassal cap
 	mil traditions overhaul
 	moar tags: nova cartago, vasconia?, lusitania, massilia, arvernia, pictonia, icenia, caledonia, ivernia, cheruscia, boihaemia, burgundia
+	add something between major and great power
+	prune low skill irrelevant characters
 
 ----------------------------------------------------------------------------------------------------------------------
 investigation zone
