@@ -1,0 +1,19 @@
+#country_decisions = {
+#	naughty_checker = {
+#		potential = {
+#			tag = ROM
+#		}
+#		effect = {
+#			#any_legion = {
+#			#	ordered_legion_sub_unit = {
+#			#		limit = { sub_unit_type = light_infantry }
+#			#		destroy_subunit = yes
+#			#	}
+#			#}
+#			ordered_country_sub_unit = {
+#				limit = { sub_unit_type = archers }
+#				destroy_subunit = yes
+#			}
+#		}
+#	}
+#}

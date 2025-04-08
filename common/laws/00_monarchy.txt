@@ -62,36 +62,45 @@ monarchy_military_reforms = {
 	
 	relaxed_recruiting_standards = { #Noble Retinues - Macedon
 		modifier = {
-			levy_size_multiplier = 0.1
+			levy_size_multiplier = 0.125
 			army_maintenance_cost = -0.35
-			manpower_recovery_speed = 0.5
-			global_manpower_modifier = 0.5
+			mercenary_land_maintenance_cost = -0.10
+			recruit_mercenary_cost_modifier = -0.10
+			max_mercenary_stacks = 2
+			land_morale_modifier = -0.05
+			discipline = -0.025
 		}
 		on_enact = {
-			custom_tooltip = legions_in_capital_region
-			set_legion_recruitment = capital
+			custom_tooltip = legions_in_any_region
+			set_legion_recruitment = enabled
 		}
 	}
 	
 	recruit_from_nobles = {	#Military Service - Sparta
 		modifier = {
 			levy_size_multiplier = 0.125
-			army_maintenance_cost = -0.25
-			manpower_recovery_speed = 0.4
-			global_manpower_modifier = 0.4
+			army_maintenance_cost = -0.35
+			mercenary_land_maintenance_cost = 0.30
+			manpower_recovery_speed = 0.85
+			global_manpower_modifier = 0.85
+			land_morale_modifier = -0.1
+			discipline = -0.075
 		}
 		on_enact = {
-			custom_tooltip = legions_in_capital_region
-			set_legion_recruitment = capital
+			custom_tooltip = legions_in_any_region
+			set_legion_recruitment = enabled
 		}
 	}
 	
 	mercenary_reliance = {
 		modifier = {
-			levy_size_multiplier = 0.08
-			army_maintenance_cost = -0.1
-			manpower_recovery_speed = 0.3
-			global_manpower_modifier = 0.3
+			levy_size_multiplier = 0.125
+			army_maintenance_cost = -0.2
+			mercenary_land_maintenance_cost = 0.15
+			manpower_recovery_speed = 0.35
+			global_manpower_modifier = 0.35
+			land_morale_modifier = -0.05
+			discipline = -0.025
 		}
 		on_enact = {
 			custom_tooltip = legions_in_any_region
@@ -101,9 +110,9 @@ monarchy_military_reforms = {
 	
 	work_for_the_best = { #Royal Guard - Diadochi
 		modifier = {
-			levy_size_multiplier = 0.12
-			manpower_recovery_speed = 0.15
-			global_manpower_modifier = 0.15
+			levy_size_multiplier = 0.125
+			mercenary_land_maintenance_cost = 0.25
+			discipline = 0.025
 		}
 		on_enact = {
 			custom_tooltip = legions_in_any_region

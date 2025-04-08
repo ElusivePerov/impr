@@ -110,53 +110,62 @@
  		[X] Embrace Perso-Levantine Influence open sea combat bonus increased to 7.5% from 5%
  		⭐ LOC DEBT ⭐
 
- [+] standardized military laws
- 	[+] small army
+ [+] Standardized Military Laws
+ 	[+] Mercenary Army
  	⭐ LOC DEBT ⭐
- 		[X]	10% levy size
- 		[X] allows legion recruitment in capital
- 		[X] -35% legion maintenance cost
- 		[X] +50% manpower recovery
- 		[X] +50% manpower maximum
- 	[+] medium army
+ 		[X]	12.5% Levy Size
+ 		[X] Unrestricted Recruitment
+ 		[X] -10% Mercenary Maintenance Cost
+ 		[X] -10% Recruit Mercenary Cost
+ 		[X] +2 Mercenary Army Limit
+ 		[X] -5% Land Morale
+ 		[X] -2.5% Discipline
+ 	[+] No Standards
  	⭐ LOC DEBT ⭐
- 		[X]	12.5% levy size
- 		[X] allows legion recruitment in capital
- 		[X] -25% legion maintenance cost
- 		[X] +40% manpower recovery
- 		[X] +40% manpower maximum
- 	[+] big army
+ 		[X]	12.5% Levy Size
+ 		[X] Unrestricted Recruitment
+ 		[X] -35% Legion Maintenance Cost
+ 		[X] +30% Mercenary Maintenace Cost
+ 		[X] +85% Manpower Recovery
+ 		[X] +85% Manpower Maximum
+ 		[X] -10% Land Morale
+ 		[X] -7.5% Discipline
+ 	[+] Low Standards
  	⭐ LOC DEBT ⭐
- 		[X]	8% levy size
- 		[X] unrestricted recruitment
- 		[X] -10% legion maintenance cost
- 		[X] +30% manpower recovery
- 		[X] +30% manpower maximum 		
- 	[+] huge army
+ 		[X]	12.5% Levy Size
+ 		[X] Unrestricted Recruitment
+ 		[X] -20% Legion Maintenance Cost
+ 		[X] +15% Mercenary Maintenace Cost
+ 		[X] +35% Manpower Recovery
+ 		[X] +35% Manpower Maximum
+ 		[X] -5% Land Morale
+ 		[X] -2.5% Discipline
+ 	[+] High Standards
  	⭐ LOC DEBT ⭐
- 		[X] 12% levy size
- 		[X] unrestricted recruitment
- 		[X] +15% manpower recovery
- 		[X] +15% manpower maximum 
+ 		[X] 12.5% Levy Size
+ 		[X] Unrestricted Recruitment
+ 		[X] +25% Mercenary Maintenace Cost
+ 		[X] 2.5% Discipline
+
  	[ ] look into all the reform event chains
 
- [X] raised base manpower from 1375 to 6875
- [+] city state
- 	[X] added -10% legion maintenance cost
- 	[X] added +30% manpower recovery
- 	[X] added +30% manpower maximum
- 	[X] added 5500 base manpower
- [+] local power
- 	[X] added -10% legion maintenance cost
- 	[X] added +30% manpower recovery
- 	[X] added +30% manpower maximum
- 	[X] added 5500 base manpower
- [+] regional power
- 	[X] added +10% manpower recovery
- 	[X] added +10% manpower maximum
- 	[X] added 2750 base manpower
+ [X] Raised Base Manpower from 1375 to 6875
+ [+] City State
+ 	[X] Added -10% Legion Maintenance Cost
+ 	[X] Added +30% Manpower Recovery
+ 	[X] Added +30% Manpower Maximum
+ 	[X] Added 5500 Base Manpower
+ [+] Local Power
+ 	[X] Added -10% Legion Maintenance Cost
+ 	[X] Added +30% Manpower Recovery
+ 	[X] Added +30% Manpower Maximum
+ 	[X] Added 5500 Base Manpower
+ [+] Regional Power
+ 	[X] Added +10% Manpower Recovery
+ 	[X] Added +10% Manpower Maximum
+ 	[X] Added 2750 Base Manpower
 
- [X] all cultural levies swapped for the default template (70% light infantry 30% light cavalry)
+ [X] All cultural levies swapped for the default template (70% light infantry 30% light cavalry)
 
  [+] Unit Rebalance
  	[+] Light Infantry
@@ -181,36 +190,41 @@
  		[X] Now only buildable by horse lord tags
 
  	[X] Removed Archers, Camel Cavalry, Heavy Cavalry and War Elephants
+ 	[ ] Removed damage bonuses targeted at removed units
 
  [+] starting legions
  	[ ] Rome
  	Small Army Recruitment Law (Only capital)
- 	Roma (24/30)
+ 	Roma (24/30) 15 Heavy Infantry | 6 Light Cavalry | 1 Engineer | 2 Supply Trains 
  	[ ] Carthage
  	Small Army Recruitment Law (Only capital)
- 	Africa (16/16)
+ 	Africa (16/16) 10 Heavy Infantry | 5 Light Cavalry | 1 Supply Train
  	[ ] Syracusae
  	Small Army Recruitment Law (Only capital)
- 	Magna Graecia (10/7)
+ 	Magna Graecia (10/7) 6 Heavy Infantry | 4 Light Cavalry
  	[ ] Epirus
  	Small Army Recruitment Law (Only capital)
- 	Greece (13/13)
+ 	Greece (13/13) 8 Heavy Infantry | 4 Light Cavalry | 1 Supply Train
  	[ ] Athens
  	Small Army Recruitment Law (Only capital)
- 	Greece (7/4)
+ 	Greece (7/4) 5 Heavy Infantry | 2 Light Cavalry
  	[ ] Sparta
  	Small Army Recruitment Law (Only capital)
- 	Greece (10/6)
+ 	Greece (10/6) 6 Heavy Infantry | 4 Light Cavalry
  	[ ] Cyrenaica
  	Small Army Recruitment Law (Only capital)
- 	Cyrenaica (10/13)
+ 	Cyrenaica (10/13) 6 Heavy Infantry | 4 Light Cavalry
  	[ ] Macedonia
  	Small Army Recruitment Law (Only capital)
- 	Macedonia (33/37)
+ 	Macedonia (33/37) 20 Heavy Infantry | 10 Light Cavalry | 3 Supply Trains
  	[ ] Antigonids
- 	Small Army Recruitment Law (Only capital)
+ 	Huge Army Recruitment Law (Unrestricted)
+ 	Syria (27/27) 17 Heavy Infantry | 8 Light Cavalry | 2 Supply Train
+ 	Phyrgia (26/26) 16 Heavy Infantry | 8 Light Cavalry | 2 Supply Train
  	[ ] Seleukids
- 	Small Army Recruitment Law (Only capital)
+ 	Large Army Recruitment Law (Unrestricted)
+ 	Mesopotamia (30/30) 18 Heavy Infantry | 10 Light Cavalry | 2 Supply Train
+ 	Persis (16/16) 10 Heavy Infantry | 5 Light Cavalry | 1 Supply Train
  	[ ] Egypt
  	Small Army Recruitment Law (Only capital)
 
