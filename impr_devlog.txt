@@ -176,65 +176,65 @@
  		[X] Morale Damage Taken bonus decreased to -5% from -30%
  	[+] Heavy Infantry
  		[X] Maintenance Cost reduced to 0.20 from 0.32
- 		[X] Attrition Weight reduced to 20% from 50%
+ 		[X] Attrition Weight increase reduced to 0% from 50%
  		[X] Now takes -5% strenght damage
  		[X] Light Cavalry damage bonus increased to 10% from -10%
  		[X] Light Infantry damage bonus increased to 25% from 20%
  		[X] Horse Archer damage malus decreased to -10% from -25%
  	[+] Light Cavalry
  		[X] Maintenance Cost reduced to 0.16 from 0.20
- 		[X] Attrition Weight reduced to 10% from 50%
+ 		[X] Attrition Weight increase reduced to -10% from 50%
  		[X] Heavy Infantry damage bonus increased to 5% from -50%
  		[X] Horse Archers damage bonus decreased to 0% from 25%
  	[+] Horse Archers
  		[X] Maintenance Cost increased to 0.40 from 0.32
- 		[X] Attrition Weight reduced to 40% from 50%
+ 		[X] Attrition Weight reduced to 10% from 50%
  		[X] Heavy Infantry damage bonus decreased to 10% from 25%
  		[X] Light Cavalry damage bonus increased to 5% from -10% 
  		[X] Now only buildable by horse lord tags
  	[+] Supply Trains 
  		[X] Maintenance Cost reduced to 0.20 from 0.40
- 		[X] Food Storage reduced to 40 from 50
+ 		[X] Food Storage increased to 40 from 50
 
  	[X] Removed Archers, Camel Cavalry, Heavy Cavalry and War Elephants
  	[X] Removed damage bonuses targeted at removed units
 
  [+] Starting Legions
- 	[ ] Rome
+ 	[X] Rome
  	Low Standards Recruitment
  	Roma (25/36) 20 Heavy Infantry | 2 Light Cavalry | 1 Engineer | 2 Supply Trains 
- 	[ ] Carthage
+ 	[X] Carthage
  	Mercenary Reliance
  	Africa (22/22) 16 Heavy Infantry | 4 Light Cavalry | 2 Supply Train
- 	[ ] Syracusae
+ 	[X] Syracusae
  	Low Standards Recruitment
  	Magna Graecia (12/9) 8 Heavy Infantry | 4 Light Cavalry
- 	[ ] Epirus
+ 	[X] Epirus
  	Low Standards Recruitment
  	Greece (14/13) 10 Heavy Infantry | 4 Light Cavalry
- 	[ ] Athens
+ 	[X] Athens
  	Low Standards Recruitment
  	Greece (7/5) 5 Heavy Infantry | 2 Light Cavalry
- 	[ ] Sparta
+ 	[X] Sparta
  	High Standards Recruitment
  	Greece (10/7) 8 Heavy Infantry | 2 Light Cavalry
- 	[ ] Cyrenaica
+ 	[X] Cyrenaica
  	No Standards Recruitment
  	Cyrenaica (10/16) 6 Heavy Infantry | 4 Light Cavalry
- 	[ ] Macedonia
+ 	[X] Macedonia
  	High Standards Recruitment
  	Macedonia (31/46) 24 Heavy Infantry | 4 Light Cavalry | 3 Supply Trains
- 	[ ] Antigonids
+ 	[X] Antigonids
  	High Standards Recruitment
  	Syria (40/28) 	32 Heavy Infantry | 4 Light Cavalry | 4 Supply Train
  	#Phyrgia (27/27) 17 Heavy Infantry | 8 Light Cavalry | 2 Supply Train
  	#Cilicia (8/8)	 7 Heavy Infantry | 1 Supply Train
  	#Assyria (8/8)	 7 Heavy Infantry | 1 Supply Train
- 	[ ] Seleukids
+ 	[X] Seleukids
  	High Standards Recruitment
  	Mesopotamia (40/30) 32 Heavy Infantry | 4 Light Cavalry | 4 Supply Trains
  	#Persis (16/16) 10 Heavy Infantry | 5 Light Cavalry | 1 Supply Train
- 	[ ] Egypt
+ 	[X] Egypt
  	High Standards Recruitment
  	Lower Egypt (40/59) 32 Heavy Infantry | 4 Light Cavalry | 4 Supply Trains
 
@@ -265,6 +265,7 @@
  		[X] Removed from Celtic Traditions
 
  	[X] Removed Triplex Acies, Phalanx, Padma Vyuha and Cavalry Skirmish
+ 	[X] Unit Reorganzation unit ability now increases supply limit by 50%
 
 ## economy
 
@@ -314,7 +315,9 @@
  ⭐ LOC DEBT ⭐
 
  [+] Added Scorched Earth governor policy
- 	[ ] Decreases supply limit by 50%, 
+ 	[X] Decreases Supply Limit by 50%, Monthly Civilization by 0.25%, Population Output by 40%, Migration Attraction by 6
+ 		and Monthly State Loyalty by 0.3%
+ 	[X] Increases Migration Speed and Demotion Speed by 1
  
  [+] reduce power bases at defines
 
@@ -629,3 +632,9 @@ investigation zone
 
 	REPUBLIC_NOT_ALLOWED_OFFICE = -0.8
 	enable_ability = naval_raiding
+
+----------------------------------------------------------------------------------------------------------------------
+wish list
+
+	reorganize ability increase food gain
+	bottleneck and envelopment affect combat width

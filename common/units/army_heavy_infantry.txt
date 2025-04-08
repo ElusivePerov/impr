@@ -15,7 +15,7 @@
 	light_cavalry = 1.1
 	supply_train = 2.0
 	
-	attrition_weight = 1.2
+	attrition_weight = 1.0
 	attrition_loss = 0.05
 	
 	strength_damage_taken = 0.95
