@@ -1,0 +1,555 @@
+﻿#Republics
+
+aristocratic_republic = { #military party
+	military_ideas = 1
+	civic_ideas = 1
+	oratory_ideas = 1
+	religious_ideas = 1
+	type = republic
+	
+	bonus = {
+		global_nobles_happyness = happiness_large_svalue
+		character_loyalty = 5
+	}
+	base = {
+		country_civilization_value = 20
+		global_nobles_city_desired_pop_ratio = 0.04
+	}
+	
+	minimum_electable_age = 35
+	election_delay = 10
+	ruler_term = 5
+	
+	color = hsv { 0.6  0.8  0.7 }
+	
+	can_deify_ruler = no
+}
+
+theocratic_republic = { #religious party
+	military_ideas = 1
+	civic_ideas = 1
+	oratory_ideas = 1
+	religious_ideas = 1
+	type = republic
+	
+	bonus = {
+		omen_power = 0.15
+		happiness_for_same_religion_modifier = 0.1
+	}
+	base = {
+		country_civilization_value = 20
+		global_pop_conversion_speed = 0.6
+	}
+	
+	minimum_electable_age = 35
+
+	election_delay = 10
+	ruler_term = 5
+	
+	color = hsv { 0.6  0.7  0.5 }
+}
+
+oligarchic_republic = { #civic party
+	military_ideas = 1
+	civic_ideas = 1
+	oratory_ideas = 1
+	religious_ideas = 1
+	type = republic
+	
+	bonus = {	
+		global_citizen_happyness = happiness_large_svalue
+		monthly_wage_modifier = -0.10
+	}
+	base = {
+		country_civilization_value = 20
+		global_citizen_city_desired_pop_ratio = 0.08
+	}
+	
+	minimum_electable_age = 40
+	
+	can_deify_ruler = no
+	
+	election_delay = 10
+	ruler_term = 5
+	
+	color = hsv { 0.6  0.75  0.6 }
+}
+
+democratic_republic = { #populist/stepping stone party
+	military_ideas = 1
+	civic_ideas = 1
+	oratory_ideas = 1
+	religious_ideas = 1
+	type = republic
+	
+	bonus = {
+		global_freemen_happyness = happiness_large_svalue
+	}
+	base = {
+		country_civilization_value = 15
+		global_citizen_happyness = 0.08
+	}
+	
+	minimum_electable_age = 25
+
+	election_delay = 10
+	ruler_term = 5
+	
+	color = hsv { 0.6  0.85  0.9 }
+	
+	can_deify_ruler = no
+}
+
+plutocratic_republic = { #mercantile party
+	military_ideas = 1
+	civic_ideas = 1
+	oratory_ideas = 1
+	religious_ideas = 1		
+	type = republic
+	
+	bonus = {
+		global_commerce_modifier = 0.1
+	}
+	base = {
+		country_civilization_value = 20
+		global_capital_trade_routes = 1
+	}
+	
+	minimum_electable_age = 35
+
+	election_delay = 10
+	ruler_term = 5
+	
+	can_deify_ruler = no
+	
+	color = hsv { 0.6  0.9  0.8 }
+}
+
+athenian_republic = { # Mission Reward
+	military_ideas = 1
+	civic_ideas = 1
+	oratory_ideas = 2
+	religious_ideas = 1
+	type = republic
+	
+	bonus = {
+		enact_law_cost_modifier = -0.25
+		global_citizen_happyness = happiness_huge_svalue
+		monthly_tyranny = -0.1
+	}
+	base = {
+		country_civilization_value = 25
+		monthly_political_influence = 0.1
+		global_citizen_city_desired_pop_ratio = 0.15
+	}
+	
+	minimum_electable_age = 25
+
+	election_delay = 10
+	ruler_term = 5
+	
+	color = hsv { 0.62  0.87  0.88 }
+}
+
+indomitable_republic = {
+	military_ideas = 2
+	civic_ideas = 1
+	oratory_ideas = 1
+	religious_ideas = 1
+	type = republic
+
+	bonus = {
+		character_loyalty = 10
+		global_freemen_output = 0.15
+		global_citizen_output = 0.1
+	}
+	base = {
+		country_civilization_value = 20
+		monthly_political_influence = 0.1
+		global_manpower_modifier = 0.4
+	}
+
+	minimum_electable_age = 35
+	election_delay = 10
+	ruler_term = 5
+	
+	color = hsv { 0.6  0.8  0.7 }
+	
+	can_deify_ruler = no	
+}
+
+sacrosanct_republic = {
+	military_ideas = 1
+	civic_ideas = 1
+	oratory_ideas = 1
+	religious_ideas = 2
+	type = republic
+	
+	bonus = {
+		omen_power = 0.4
+		happiness_for_same_religion_modifier = 0.2
+		global_pop_conversion_speed_modifier = 0.2
+	}
+	base = {
+		country_civilization_value = 20
+		monthly_political_influence = 0.1
+		global_pop_conversion_speed = 1.2
+	}
+	
+	minimum_electable_age = 35
+
+	election_delay = 10
+	ruler_term = 5
+	
+	color = hsv { 0.6  0.7  0.5 }	
+}
+
+mercantile_republic = {
+	military_ideas = 1
+	civic_ideas = 2
+	oratory_ideas = 1
+	religious_ideas = 1		
+	type = republic
+	
+	bonus = {
+		global_commerce_modifier = 0.15
+		build_cost = -0.15
+		navy_maintenance_cost = -0.25
+	}
+	base = {
+		country_civilization_value = 20
+		monthly_political_influence = 0.1
+		global_citizen_output = 0.1
+	}
+	
+	minimum_electable_age = 35
+
+	election_delay = 10
+	ruler_term = 5
+	
+	can_deify_ruler = no
+	
+	color = hsv { 0.6  0.9  0.8 }	
+}
+
+#Monarchies:
+
+despotic_monarchy = { #stepping stone/starting type
+	military_ideas = 1
+	civic_ideas = 1
+	oratory_ideas = 1
+	religious_ideas = 1
+	type = monarchy
+	
+	bonus = {
+		global_slaves_output = output_large_svalue
+	}
+	base = {
+		country_civilization_value = 15
+		monthly_political_influence = 0.05
+	}
+	
+	election_delay = 0
+	
+	use_regnal_numbers = yes
+	
+	
+	ruler_consort_benefits = yes
+	
+	color = hsv { 0  0.85  0.4 }
+}
+
+aristocratic_monarchy = {
+	military_ideas = 1
+	civic_ideas = 1
+	oratory_ideas = 1
+	religious_ideas = 1
+	type = monarchy
+	
+	bonus = {
+		monthly_tyranny = -0.05
+		global_citizen_happyness = happiness_large_svalue
+	}
+	base = {
+		country_civilization_value = 20
+		global_nobles_city_desired_pop_ratio = 0.04
+	}
+	election_delay = 0
+	
+	use_regnal_numbers = yes
+	
+	ruler_consort_benefits = yes
+	
+	color = hsv { 0  0.8  0.3 }
+}
+
+stratocratic_monarchy = {
+	military_ideas = 1
+	civic_ideas = 1
+	oratory_ideas = 1
+	religious_ideas = 1
+	type = monarchy
+	
+	bonus = {
+		global_freemen_output = output_large_svalue
+		character_loyalty = 5
+	}
+	base = {
+		country_civilization_value = 20
+		global_freemen_city_desired_pop_ratio = 0.1
+		global_manpower_modifier = 0.2
+	}
+	
+	election_delay = 0
+	use_regnal_numbers = yes
+	
+	ruler_consort_benefits = yes
+	
+	color = hsv { 0  0.75  0.2 }
+}
+
+theocratic_monarchy = {
+	military_ideas = 1
+	civic_ideas = 1
+	oratory_ideas = 1
+	religious_ideas = 1
+	
+	bonus = {
+		omen_power = 0.15
+		happiness_for_same_religion_modifier = 0.1
+	}
+	base = {
+		country_civilization_value = 20
+		global_pop_conversion_speed = 0.6
+	}
+	
+	use_regnal_numbers = yes
+	
+	ruler_consort_benefits = yes
+	
+	color = hsv { 0  0.7  0.1 }
+}
+
+plutocratic_monarchy = {
+	military_ideas = 1
+	civic_ideas = 1
+	oratory_ideas = 1
+	religious_ideas = 1
+	
+	bonus = {
+		global_commerce_modifier = 0.1
+	}
+	base = {
+		country_civilization_value = 20
+		global_capital_trade_routes = 1
+	}
+	
+	use_regnal_numbers = yes
+	
+	ruler_consort_benefits = yes
+	
+	color = hsv { 0  0.9  0.5 }
+}
+
+dictatorship = {
+	military_ideas = 1
+	civic_ideas = 1
+	oratory_ideas = 1
+	religious_ideas = 1
+	type = monarchy
+	revolt = no
+	
+	bonus = {
+		global_freemen_happyness = happiness_huge_svalue
+		global_citizen_output = output_huge_svalue
+	}
+	base = {
+		country_civilization_value = 20
+		monthly_political_influence = 0.1
+	}
+	
+	ruler_consort_benefits = yes
+	
+	election_delay = 0
+	
+	color = hsv { 0  0.8  0.5 }
+}
+
+imperium = {
+	military_ideas = 2
+	civic_ideas = 1
+	oratory_ideas = 1
+	religious_ideas = 1
+	revolt = no
+	type = monarchy
+	
+	bonus = {
+		global_freemen_output = output_huge_svalue
+		global_slaves_output = output_huge_svalue
+		war_score_cost = -0.1
+	}
+	base = {
+		country_civilization_value = 20
+		monthly_political_influence = 0.1
+		global_manpower_modifier = 0.4
+	}
+
+	use_regnal_numbers = yes
+	
+	
+	election_delay = 0
+	ruler_consort_benefits = yes
+	
+	
+	color = hsv { 0.9  0.8  0.1 }
+}
+
+imperial_cult = {
+	military_ideas = 1
+	civic_ideas = 1
+	oratory_ideas = 1
+	religious_ideas = 2
+	type = monarchy
+	revolt = no
+		
+	bonus = {
+		global_slaves_output = output_huge_svalue
+		global_freemen_output = output_huge_svalue
+		omen_power = 0.4
+	}
+	base = {
+		country_civilization_value = 20
+		monthly_political_influence = 0.1
+		global_pop_conversion_speed = 1.2
+	}
+
+	use_regnal_numbers = yes
+	
+	
+	election_delay = 0
+	ruler_consort_benefits = yes
+	
+	color = hsv { 0.9  0.7  0.12 }
+}
+
+gilded_monarchy = {
+	military_ideas = 1
+	civic_ideas = 2
+	oratory_ideas = 1
+	religious_ideas = 1
+	
+	bonus = {
+		global_commerce_modifier = 0.15
+		build_cost = -0.15
+		navy_maintenance_cost = -0.25
+	}
+	base = {
+		country_civilization_value = 20
+		monthly_political_influence = 0.1
+		global_slaves_output = 0.25
+		global_goods_from_slaves = -2
+	}
+	
+	use_regnal_numbers = yes
+	
+	ruler_consort_benefits = yes
+	
+	color = hsv { 0  0.9  0.5 }
+}
+
+cosmopolitan_monarchy = {
+	military_ideas = 1
+	civic_ideas = 1
+	oratory_ideas = 2
+	religious_ideas = 1
+	type = monarchy
+	
+	bonus = {
+		global_freemen_output = 0.24
+		global_citizen_output = 0.12
+		global_population_happiness = 0.06
+		
+	}
+	base = {
+		country_civilization_value = 20
+		monthly_political_influence = 0.1
+		global_pop_assimilation_speed = 1.2
+	}
+	
+	election_delay = 0
+	
+	use_regnal_numbers = yes
+	
+	
+	ruler_consort_benefits = yes
+	
+	color = hsv { 0  0.85  0.4 }
+}
+
+# Tribal Governments
+
+
+tribal_chiefdom = {
+	military_ideas = 1
+	civic_ideas = 1
+	oratory_ideas = 1
+	religious_ideas = 1
+	type = tribal
+	
+	allows_migration = yes
+	
+	bonus = {
+		global_tribesmen_output = output_huge_svalue
+	}
+	base = {
+		global_tribesmen_happyness = happiness_large_svalue
+		levy_size_multiplier = 0.1
+	}
+
+	election_delay = 0
+	
+	color = hsv { 0.333  0.8  0.2 }
+}
+
+tribal_kingdom = {
+	military_ideas = 1
+	civic_ideas = 1
+	oratory_ideas = 1
+	religious_ideas = 1
+	type = tribal
+	
+	bonus = {
+		global_tribesmen_happyness = happiness_huge_svalue
+	}
+	base = {
+		country_civilization_value = 5
+		levy_size_multiplier = 0.05
+	}
+
+	election_delay = 0
+	
+	color = hsv { 0.333  0.85  0.35 }
+}
+
+tribal_federation = {
+	military_ideas = 1
+	civic_ideas = 1
+	oratory_ideas = 1
+	religious_ideas = 1
+	type = tribal
+	
+
+	
+	bonus = {
+		global_tribesmen_output = 0.2
+		global_pop_promotion_speed_modifier = 0.25
+	}
+	base = {
+		country_civilization_value = 10
+		levy_size_multiplier = 0.1
+	}
+
+	election_delay = 0
+	
+	color = hsv { 0.333  0.7  0.5 }
+}

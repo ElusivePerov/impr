@@ -357,6 +357,97 @@
  [X] monthly statesmanship gain from researcher title reduced to -0.05 from 0.25
  [X] martial, finesse, charisma and zeal now provide 1.6 prominence per point
 
+ [+] government types
+ 	[X] standardized the idea slot amount to a base of 4 (one for each kind)
+
+ 	[+] aristocratic republic
+ 		[X] swapped base modifier of enabling co ruler for 0.04 city noble desired ratio
+ 		[X] swapped government bonus of 0.08 freeman happiness for 0.08 noble happiness
+ 	[+] theocratic republic
+ 		[X] added base modifier of 0.6 conversion speed
+ 	[+] oligarchic republic
+ 		[X] added base modifier of 0.08 city citizen desired ratio
+ 	[+] democractic republic
+ 		[X] added government bonus of 0.08 citizen happiness
+ 	[+] plutocratic republic
+ 		[X] moved +1 capital import routes from government bonus to base modifier
+ 	[+] athenian republic
+ 		[X] added one oratory idea slot
+ 		[X] added base modifier of 0.1 monthly political influence modifier
+ 		[X] added base modifier of 0.15 city citizen desired ratio
+ 		[X] added government modifier of -0.1 monthly tyranny
+
+ 	# new republican government types
+ 	[+] indomitable republic
+ 		[X] added one military idea slot
+ 		[X] added base modifier of 0.1 monthly political influence modifier
+ 		[X] added base modifier of 0.4 manpower maximum
+ 		[X] added government modifier of +10 character loyalty
+ 		[X] added government modifier of 0.15 freeman output
+ 		[X] added government modifier of 0.1 citizen output
+ 		[X] inherits election age, term and delay from aristocratic republic
+ 		⭐ LOC DEBT ⭐
+ 	[+] sacrosanct republic
+ 		[X] added one religious idea slot
+ 		[X] added base modifier of 0.1 monthly political influence modifier
+ 		[X] added base modifier of 1.2 conversion speed
+ 		[X] added government modifier of 0.4 omen power
+ 		[X] added government modifier of 0.2 correct religion happiness
+ 		[X] added government modifier of 0.2 conversion speed modifier
+ 		[X] inherits election age, term and delay from theocratic republic
+ 		⭐ LOC DEBT ⭐
+ 	[+] mercantile republic
+ 		[X] added one civic idea slot
+ 		[X] added base modifier of 0.1 monthly political influence modifier
+ 		[X] added base modifier of 0.1 citizen output
+ 		[X] added government modifier of 0.15 national commerce income
+ 		[X] added government modifier of -0.15 build cost
+ 		[X] added government modifier of -0.25 naval maintenance cost
+ 		[X] inherits election age, term and delay from plutocratic republic
+ 		⭐ LOC DEBT ⭐
+
+ 	[+] autocratic monarchy
+ 		[X] added base modifier of 0.05 monthly political influence modifier
+ 	[+] aristocratic monarchy
+ 		[X] added base modifier of 0.04 city noble desired ratio
+ 		[X] removed government bonus of 0.10 desired freeman ratio
+ 	[+] stratocratic monarchy
+ 		[X] added base modifier of 0.2 manpower maximum 
+ 	[+] theocratic monarchy
+ 		[X] added base modifier of 0.6 conversion speed
+ 	[+] plutocratic monarchy
+ 		[X] moved +1 capital import routes from government bonus to base modifier
+ 	[+] dictatorship
+ 		[X] added base modifier of 0.1 monthly political influence modifier
+ 	[+] empire
+ 		[X] added one military idea slot
+ 		[X] added base modifier of 0.1 monthly political influence modifier
+ 		[X] added base modifier of 0.4 manpower modifier
+ 	[+] imperial cult
+ 		[X] added one religious idea slot
+ 		[X] added base modifier of 0.1 monthly political influence modifier
+ 		[X] added base modifier of 1.2 conversion speed
+ 		[X] increased government modifier of omen power to 0.4 from 0.15
+
+ 	# new monarchy government types
+ 	[+] gilded monarchy
+ 		[X] added one civic idea slot
+ 		[X] added base modifier of 0.1 monthly political influence modifier
+ 		[X] added base modifier of 0.25 slave output
+ 		[X] added base modifier of -2 slaves needed for surplus
+ 		[X] added government modifier of 0.15 national commerce income
+ 		[X] added government modifier of -0.15 build cost
+ 		[X] added government modifier of -0.25 naval maintenance cost
+ 		⭐ LOC DEBT ⭐
+ 	[+] cosmopolitan monarchy
+ 		[X] added one oratory idea slot
+ 		[X] added base modifier of 0.1 monthly political influence modifier
+ 		[X] added base modifier of 1.2 assimilation speed
+ 		[X] added government modifier of 0.24 freeman output
+ 		[X] added government modifier of 0.12 citizen output
+ 		[X] added government modifier of 0.06 population happiness
+ 		⭐ LOC DEBT ⭐
+
 ### republics
 
  [X] prominence and statesmanship divider for electability reduced to 150 from 200
@@ -396,7 +487,7 @@
 
 ### rome
  [+] harmonic religion
- 	[X] added harmonic religion with 6% global happiness -60% conversion speed +33% omen power
+ 	[X] added harmonic religion with 6% global happiness -60% conversion speed modifier +33% omen power
  	⭐ LOC DEBT ⭐
  	[X] converted the religion of all roman culture pops to harmonic religion
  	[X] set the religion of rome to harmonic
@@ -528,13 +619,14 @@
 
  [ ] removed Across the Adriatic event
  [ ] add rivers
- [ ] swap integration speed in heritage for hi discipline
+ [ ] swap integration speed in heritage for manpower recovery
 
 ### carthage
  [+] mission overhaul
+ 	[ ] bomilcar
+
  	[ ] africa
  	[ ] iberia
- 	[ ] bomilcar
  	[ ] naval
  	[ ] trade
  	
