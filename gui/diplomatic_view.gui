@@ -523,7 +523,7 @@ base_window = {
 							position = { 118 78 }
 							container = {
 								flowcontainer = {
-									position = { 0 3 }
+									position = { -40 3 }
 									spacing = 16
 									name = "dummy_ideas_grid" 
 											
@@ -556,15 +556,23 @@ base_window = {
 											
 										}
 									}
+									container = {
+										button = {
+											name = "space5"
+											using = idea_slot_not_available
+											size = { 42 42 }
+											
+										}
+									}
 								} 
 									
 								fixedgridbox = {
-									position = { 0 -1 }
+									position = { -40 -1 }
 									name = "ideas_grid"
 									flipdirection = yes
 									addcolumn = 58
 									addrow = 50
-									maxhorizontalslots = 4
+									maxhorizontalslots = 5
 									maxverticalslots = 1
 									item = {
 										widget = { 

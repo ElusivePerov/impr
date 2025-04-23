@@ -359,6 +359,7 @@
 
  [+] government types
  	[X] standardized the idea slot amount to a base of 4 (one for each kind)
+ 	[X] added gfx for fifth idea slot
 
  	[+] aristocratic republic
  		[X] swapped base modifier of enabling co ruler for 0.04 city noble desired ratio
@@ -430,23 +431,62 @@
  		[X] increased government modifier of omen power to 0.4 from 0.15
 
  	# new monarchy government types
- 	[+] gilded monarchy
- 		[X] added one civic idea slot
- 		[X] added base modifier of 0.1 monthly political influence modifier
- 		[X] added base modifier of 0.25 slave output
- 		[X] added base modifier of -2 slaves needed for surplus
- 		[X] added government modifier of 0.15 national commerce income
- 		[X] added government modifier of -0.15 build cost
- 		[X] added government modifier of -0.25 naval maintenance cost
+ 	[+] Gilded Monarchy
+ 		[X] Added one civic idea slot
+ 		[X] Added base modifier of 0.1 monthly political influence modifier
+ 		[X] Added base modifier of 0.25 slave output
+ 		[X] Added base modifier of -2 slaves needed for surplus
+ 		[X] Added government modifier of 0.15 national commerce income
+ 		[X] Added government modifier of -0.15 build cost
+ 		[X] Added government modifier of -0.25 naval maintenance cost
  		⭐ LOC DEBT ⭐
- 	[+] cosmopolitan monarchy
- 		[X] added one oratory idea slot
- 		[X] added base modifier of 0.1 monthly political influence modifier
- 		[X] added base modifier of 1.2 assimilation speed
- 		[X] added government modifier of 0.24 freeman output
- 		[X] added government modifier of 0.12 citizen output
- 		[X] added government modifier of 0.06 population happiness
+ 	[+] Cosmopolitan Monarchy
+ 		[X] Added one oratory idea slot
+ 		[X] Added base modifier of 0.1 monthly political influence modifier
+ 		[X] Added base modifier of 1.2 assimilation speed
+ 		[X] Added government modifier of 0.24 freeman output
+ 		[X] Added government modifier of 0.12 citizen output
+ 		[X] Added government modifier of 0.06 population happiness
  		⭐ LOC DEBT ⭐
+
+ [+] Change government decisions
+ 	[X] Proclaim the Invicibility of the Republic
+ 	Requires: 400 territories, Imperium invention, 60% senate approval, be a republic and not an empire tier government
+ 	Effect: lose 10 stability, adopt Indomitable Republic government, gain 3 province investments, disables changing to dictatorship
+ 	⭐ LOC DEBT ⭐
+ 	[X] Rule of the Wealthy
+ 	Requires: 400 territories, Imperium invention, 60% senate approval, be a republic and not an empire tier government
+ 	Effect: lose 10 stability, adopt Mercantile Republic government, gain 3 province investments, disables changing to dictatorship
+ 	⭐ LOC DEBT ⭐
+ 	[X] Adopt the Athenian Republic
+ 	Requires: 400 territories, Imperium invention, 60% senate approval, be a republic and not an empire tier government
+ 	Effect: lose 10 stability, adopt Athenian Republic government, gain 4 province investments, disables changing to dictatorship
+ 	⭐ LOC DEBT ⭐
+ 	[X] Proclaim the Sanctity of the Republic
+ 	Requires: 200 territories, 4 deified rulers, Imperium invention, 60% senate approval, be a republic and not an empire tier government
+ 	Effect: lose 10 stability, adopt Sacrosanct Republic government, gain 4 province investments, disables changing to dictatorship
+ 	⭐ LOC DEBT ⭐
+
+ 	[X] Imperial Opulence
+ 	Requires: 400 territories, Imperium invention, 90 ruler popularity, be a monarchy and not an empire tier government
+ 	Effect: lose 10 stability, adopt Gilded Monarchy government, gain 3 province investments
+ 	⭐ LOC DEBT ⭐
+ 	[X] Empire of the Many
+ 	Requires: 400 territories, Imperium invention, 90 ruler popularity, be a monarchy and not an empire tier government
+ 	Effect: lose 10 stability, adopt Cosmopolitan Monarchy government, gain 3 province investments
+ 	⭐ LOC DEBT ⭐
+
+ 	[X] Proclaim Theocratic Republic/Monarchy no longer requires 6 religious advances
+
+ 	[+] Imperial Ambition
+ 		[X] Reduced required territories from 600 to 400
+ 		[X] Added Imperium invention to the requirements
+ 		[X] Added not an empire tier government to the requirements
+ 	[+] Divine Sanction
+ 		[X] Added Imperium invention to the requirements
+ 		[X] Added not an empire tier government to the requirements
+ 		[X] Removed monotheistic relegion block
+ 		[X] Reduced Stability loss to 10 from 30
 
 ### republics
 
@@ -463,14 +503,28 @@
 ## inventions
 
  [+] remove exclusive inventions probably
+
+### civic inventions
+
  [X] greek advanced mechanics made into a generic invention
  ⭐ LOC DEBT ⭐
- [X] centralized comites changed to -0.02 corruption from -20% change policy cost
  [X] tribal reserve, devolve responsibility and cultural judiciary removed
  [X] coloniae now requires slave latifundia
  [X] land tithe changed to 6% freemen output from 12% tribesmen output
  [X] land tithe changed to grants 6 freemen pops from 6 tribesmen pops
  ⭐ LOC DEBT ⭐
+
+### oratory inventions
+
+ [X] Centralized Comites changed to -0.02 corruption from -20% change policy cost
+ [X] Added Aggressive Protection as a possible requirement for Book Binding
+ [X] Removed Permanent Ambassadors
+
+ [+] Imperium Invention
+ 	[X] Takes over Permanent Ambassadors' position in the oratory advances tree
+ 	[X] Grants 5% monthly political influence
+ 	[X] Unlocks Empire tier governments
+ 	⭐ LOC DEBT ⭐
 
 ## characters
 
@@ -483,7 +537,7 @@
 
  [X] monthly statesmanship gain from finesse increased to 0.035 from 0.025
 
-## natioms
+## tags
 
 ### rome
  [+] harmonic religion

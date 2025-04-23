@@ -148,7 +148,7 @@
 	book_binding_invention = {
 		allow = {  }
 		
-		requires = { subject_loyalty_inv }
+		requires_or = { subject_loyalty_inv fabricate_claim_cost_modifier_inv }
 		modifier = { max_research_efficiency = 0.25 }
 	}
 
@@ -320,9 +320,9 @@
 	}
 
 	# Level 7
-	relation_inv_3 = {
-		modifier = { improve_relation_impact = 0.10 }
-		
+	imperium_inv = {
+		modifier = { monthly_political_influence = 0.05 }
+		keystone = yes
 		requires_or = { relation_inv_2 tribute_income_modifier_inv_2 }
 	}
 
@@ -341,7 +341,7 @@
 			improve_relation_impact = 0.2
 		}
 		keystone = yes
-		requires = { relation_inv_3 }
+		requires = { imperium_inv }
 		on_activate = {
 			custom_tooltip = "add_gold_commanders_invention"
 			hidden_effect = {
@@ -360,7 +360,7 @@
 	agressive_expansion_monthly_decay_inv_2 = {
 		modifier = { agressive_expansion_monthly_change = -0.02 }
 		
-		requires = { relation_inv_3 }
+		requires = { imperium_inv }
 	}
 
 	# Level 9
