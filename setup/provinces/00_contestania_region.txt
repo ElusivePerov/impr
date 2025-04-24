@@ -1594,7 +1594,7 @@
 	culture="talaiotic"
 	port_building=1
 	province_rank="city"
-	religion="carthaginian_pantheon"
+	religion="druidism"
 	terrain="hills"
 	trade_goods="precious_metals"
 	freemen=
@@ -1613,7 +1613,7 @@
 	civilization_value=17
 	culture="talaiotic"
 	province_rank="settlement"
-	religion="carthaginian_pantheon"
+	religion="druidism"
 	terrain="farmland"
 	trade_goods="hemp"
 	citizen=
@@ -1640,7 +1640,7 @@
 	civilization_value=13
 	culture="talaiotic"
 	province_rank="settlement"
-	religion="carthaginian_pantheon"
+	religion="druidism"
 	terrain="hills"
 	trade_goods="salt"
 	citizen=
@@ -1663,7 +1663,7 @@
 	civilization_value=15
 	culture="talaiotic"
 	province_rank="settlement"
-	religion="carthaginian_pantheon"
+	religion="druidism"
 	terrain="plains"
 	trade_goods="glass"
 	freemen=
@@ -1683,7 +1683,7 @@
 	culture="talaiotic"
 	port_building=1
 	province_rank="settlement"
-	religion="carthaginian_pantheon"
+	religion="druidism"
 	terrain="plains"
 	trade_goods="fish"
 	freemen=

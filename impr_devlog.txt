@@ -686,11 +686,24 @@
  	[ ] trade
  	
  [ ] add rivers
- [ ] maybe import punic republic from invictus
+
  [ ] every change goverment mission adds 60 influence
  [ ] make starting feudatories into trade city subjects
- [ ] add nations to uncolonized territories
- [ ] rename carthago to qart hadasht
+
+ [ ] Renamed Carthago (3256) to Qart Hadasht
+
+ [X] Converted all Corsian, Nuragic and Talaiotic pops to Druidic
+
+ [X] Granted Mauretania the following territories: Ifran (6484), Zemmour (6302), Rob'a (6470), Mdakra (6487), Ouardigha (6473), 
+ Amer (6472), Mousa (6471), Mzamza (6489), Meskine (6474), Amrane (6480), Zaakna (6492), Mizab (7221), Bouzerrara (6479), Frej (6477), Haouzia (6481), Anfa (6475) and Azama (6491)
+
+ [X] Granted Musulamia the following territories: Bezeros (3292), Turris Tamalleni (3290), Silesva (3202), Capsa Iustiniana (3196), Thiges (3190) and Castra Neptitana (3191)
+
+ [X] Granted Massylia the following territories: Cerva (3193), Ad Speculum (3189), Casae Nigrae (3188), Ubaza Castellum (3186),
+ Mascula Tiberia (3168), Leges Maiores (3185), Midili (3187), Badias (3169), Aurasius Inferior (3176), Claudi (3174), Lambafundi (3170),
+ Burgus Gaetulia (3173), Aurasius Superior (3172), Tabudium (3171), Gemellae (3154), Aqua Viva (3155), Mesarietta (3153), Thubunae (3152) 
+ 
+ [X] Granted Massaesylia the following territory: Macri (3151)
 
  #### syracusae
  [+] mission cleanup

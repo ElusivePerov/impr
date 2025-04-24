@@ -1859,7 +1859,7 @@
 	civilization_value=28
 	culture="nuragic"
 	province_rank="settlement"
-	religion="carthaginian_pantheon"
+	religion="druidism"
 	terrain="farmland"
 	trade_goods="iron"
 	citizen=
@@ -1951,7 +1951,7 @@
 	civilization_value=24
 	culture="nuragic"
 	province_rank="settlement"
-	religion="carthaginian_pantheon"
+	religion="druidism"
 	terrain="hills"
 	trade_goods="fish"
 	citizen=
@@ -1978,7 +1978,7 @@
 	civilization_value=24
 	culture="nuragic"
 	province_rank="settlement"
-	religion="carthaginian_pantheon"
+	religion="druidism"
 	terrain="hills"
 	trade_goods="fish"
 	citizen=
@@ -2005,7 +2005,7 @@
 	civilization_value=24
 	culture="nuragic"
 	province_rank="settlement"
-	religion="carthaginian_pantheon"
+	religion="druidism"
 	terrain="hills"
 	trade_goods="base_metals"
 	citizen=
@@ -2032,7 +2032,7 @@
 	civilization_value=24
 	culture="nuragic"
 	province_rank="settlement"
-	religion="carthaginian_pantheon"
+	religion="druidism"
 	terrain="hills"
 	trade_goods="wine"
 	citizen=
@@ -2059,7 +2059,7 @@
 	civilization_value=26
 	culture="nuragic"
 	province_rank="settlement"
-	religion="carthaginian_pantheon"
+	religion="druidism"
 	terrain="plains"
 	trade_goods="iron"
 	citizen=
@@ -2086,7 +2086,7 @@
 	civilization_value=6
 	culture="nuragic"
 	province_rank="settlement"
-	religion="carthaginian_pantheon"
+	religion="druidism"
 	terrain="mountain"
 	trade_goods="wood"
 	freemen=
@@ -2109,7 +2109,7 @@
 	civilization_value=26
 	culture="nuragic"
 	province_rank="settlement"
-	religion="carthaginian_pantheon"
+	religion="druidism"
 	terrain="plains"
 	trade_goods="cattle"
 	citizen=
@@ -2141,7 +2141,7 @@
 	civilization_value=28
 	culture="nuragic"
 	province_rank="settlement"
-	religion="carthaginian_pantheon"
+	religion="druidism"
 	terrain="farmland"
 	trade_goods="cattle"
 	citizen=
@@ -2152,6 +2152,7 @@
 	{
 		amount=4
 		culture="carthaginian"
+		religion="carthaginian_pantheon"
 	}
 	freemen=
 	{
@@ -2174,13 +2175,14 @@
 	culture="nuragic"
 	port_building=1
 	province_rank="settlement"
-	religion="carthaginian_pantheon"
+	religion="druidism"
 	terrain="hills"
 	trade_goods="cattle"
 	citizen=
 	{
 		amount=3
 		culture="carthaginian"
+		religion="carthaginian_pantheon"
 	}
 	freemen=
 	{
@@ -2194,7 +2196,7 @@
 	civilization_value=6
 	culture="nuragic"
 	province_rank="settlement"
-	religion="carthaginian_pantheon"
+	religion="druidism"
 	terrain="mountain"
 	trade_goods="grain"
 	citizen=
@@ -2221,7 +2223,7 @@
 	civilization_value=15
 	culture="nuragic"
 	province_rank="settlement"
-	religion="carthaginian_pantheon"
+	religion="druidism"
 	terrain="plains"
 	trade_goods="grain"
 	citizen=
@@ -2248,7 +2250,7 @@
 	civilization_value=24
 	culture="nuragic"
 	province_rank="settlement"
-	religion="carthaginian_pantheon"
+	religion="druidism"
 	terrain="hills"
 	trade_goods="hemp"
 	citizen=
@@ -2275,7 +2277,7 @@
 	civilization_value=11
 	culture="nuragic"
 	province_rank="settlement"
-	religion="carthaginian_pantheon"
+	religion="druidism"
 	terrain="mountain"
 	trade_goods="base_metals"
 	citizen=
@@ -2302,7 +2304,7 @@
 	civilization_value=28
 	culture="nuragic"
 	province_rank="settlement"
-	religion="carthaginian_pantheon"
+	religion="druidism"
 	terrain="farmland"
 	trade_goods="wine"
 	citizen=
@@ -2325,7 +2327,7 @@
 	civilization_value=28
 	culture="nuragic"
 	province_rank="settlement"
-	religion="carthaginian_pantheon"
+	religion="druidism"
 	terrain="farmland"
 	trade_goods="salt"
 	freemen=
@@ -2348,7 +2350,7 @@
 	civilization_value=13
 	culture="nuragic"
 	province_rank="settlement"
-	religion="carthaginian_pantheon"
+	religion="druidism"
 	terrain="hills"
 	trade_goods="grain"
 	citizen=
@@ -2375,7 +2377,7 @@
 	civilization_value=11
 	culture="nuragic"
 	province_rank="settlement"
-	religion="carthaginian_pantheon"
+	religion="druidism"
 	terrain="mountain"
 	trade_goods="base_metals"
 	citizen=
@@ -2402,7 +2404,7 @@
 	civilization_value=24
 	culture="nuragic"
 	province_rank="settlement"
-	religion="carthaginian_pantheon"
+	religion="druidism"
 	terrain="hills"
 	trade_goods="wine"
 	citizen=
@@ -2422,13 +2424,14 @@
 	culture="nuragic"
 	port_building=1
 	province_rank="city"
-	religion="carthaginian_pantheon"
+	religion="druidism"
 	terrain="plains"
 	trade_goods="salt"
 	nobles=
 	{
 		amount=1
 		culture="carthaginian"
+		religion="carthaginian_pantheon"
 	}
 	citizen=
 	{
@@ -2438,6 +2441,7 @@
 	{
 		amount=2
 		culture="carthaginian"
+		religion="carthaginian_pantheon"
 	}
 	citizen=
 	{
@@ -2477,7 +2481,7 @@
 	civilization_value=24
 	culture="nuragic"
 	province_rank="settlement"
-	religion="carthaginian_pantheon"
+	religion="druidism"
 	terrain="hills"
 	trade_goods="fish"
 	citizen=
@@ -2500,7 +2504,7 @@
 	civilization_value=24
 	culture="nuragic"
 	province_rank="settlement"
-	religion="carthaginian_pantheon"
+	religion="druidism"
 	terrain="hills"
 	trade_goods="stone"
 	citizen=
@@ -2523,7 +2527,7 @@
 	civilization_value=26
 	culture="corsian"
 	province_rank="settlement"
-	religion="carthaginian_pantheon"
+	religion="druidism"
 	terrain="plains"
 	trade_goods="fish"
 	citizen=
@@ -2551,7 +2555,7 @@
 	culture="corsian"
 	port_building=1
 	province_rank="settlement"
-	religion="carthaginian_pantheon"
+	religion="druidism"
 	terrain="hills"
 	trade_goods="stone"
 	citizen=
@@ -2574,7 +2578,7 @@
 	civilization_value=0
 	culture="corsian"
 	province_rank="settlement"
-	religion="carthaginian_pantheon"
+	religion="druidism"
 	terrain="hills"
 	trade_goods="salt"
 	citizen=
@@ -2597,7 +2601,7 @@
 	civilization_value=0
 	culture="corsian"
 	province_rank="settlement"
-	religion="carthaginian_pantheon"
+	religion="druidism"
 	terrain="hills"
 	trade_goods="wood"
 	citizen=
@@ -2625,7 +2629,7 @@
 	culture="corsian"
 	port_building=1
 	province_rank="settlement"
-	religion="carthaginian_pantheon"
+	religion="druidism"
 	terrain="hills"
 	trade_goods="fish"
 	citizen=
@@ -2648,7 +2652,7 @@
 	civilization_value=0
 	culture="corsian"
 	province_rank="settlement"
-	religion="carthaginian_pantheon"
+	religion="druidism"
 	terrain="hills"
 	trade_goods="fish"
 	citizen=
@@ -2675,7 +2679,7 @@
 	civilization_value=24
 	culture="corsian"
 	province_rank="settlement"
-	religion="carthaginian_pantheon"
+	religion="druidism"
 	terrain="hills"
 	trade_goods="salt"
 	citizen=
@@ -2702,7 +2706,7 @@
 	civilization_value=24
 	culture="corsian"
 	province_rank="settlement"
-	religion="carthaginian_pantheon"
+	religion="druidism"
 	terrain="hills"
 	trade_goods="wine"
 	citizen=
@@ -2762,7 +2766,7 @@
 	civilization_value=22
 	culture="corsian"
 	province_rank="settlement"
-	religion="carthaginian_pantheon"
+	religion="druidism"
 	terrain="mountain"
 	trade_goods="grain"
 	citizen=
