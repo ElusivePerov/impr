@@ -497,6 +497,7 @@
  [X] party leader bonus for electability decreased to 10% from 50% 
  [X] fixed prominence display being hijacked by statesmanship !conflicts with better UI
  [ ] fixed succession support tooltip
+ [ ] fixed party allegiance portrait gfx
 
  [ ] strengthen smear reputation, damage prominence
 
@@ -747,6 +748,7 @@
  [X] all indian and tibetan minors
  [X] removed starting characters too
 
+ # Iberia
  [X] Silenia (SLN), Arronia (ARR) and Varrinia (VRR) annexed into Neria (NRI)
  [X] Seurria (SUR), Baedia (BED) and Coporia (COP) annexed into Albionia (ABO)
  [X] Aebocosia (AEB), Tamagania (TMG), Interamicia (INT), Gravia (GRV) and Leunia (LUN) annexed into Caladunia (CLD)
@@ -756,6 +758,23 @@
  [X] Lanciensia (LCN) annexed into Tiburia (TBU)
  [X] Tamaricia (TMC), Vadinia (VDI), Orgenomescia (ORM) annexed into Avariginia (AVG)
  [X] Blendia (BLN), Coniscia (CNI) and Morecania (MRC) annexed into Concania (COC)
+
+ # France
+ [X] Tarusatia (TRS) annexed into Cocosatia (CCS)
+ [X] Auscia (ASC) annexed into Vocatia (VCT)
+ [X] Sibuzatia (SBZ) annexed into Bigerrionia (BIG)
+ [X] Ambiania (ABM) annexed into Caletia (CLT)
+ [X] Bellovacia (BLV) annexed into Veliocassia (VCL)
+
+ # Ireland
+ [X] Usdia (USD) annexed into Ivernia (IVE)
+ [X] Voluntia (ULT) and Darinia (DAR) annexed into Eblania (ELA)
+ [X] Venicnia (VEN) and Voluntia Borealis (2206) annexed into Robogdia (ROB)
+ [X] Manapia (MNA) annexed into Coriondia (COR)
+
+ # Britain
+ [ ] Taexalia (TXL), Pinnatra Castra (2133) and Venicones (2115) annexed into Caledonia (CAL)
+ [ ] Carnonacia (CAN), Ouirouedroum Akron (2131) and Orcades (2132) annexed into Cornavia (CON)
 
 ## global
 

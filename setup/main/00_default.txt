@@ -6202,19 +6202,6 @@ country = {
 		
 		#Britannia
 		
-		TXL = {
-			government = tribal_kingdom
-			primary_culture = taexalian
-			religion = druidism
-			centralization=5
-
-			capital = 2116
-
-			own_control_core = 	{
-				2116 2125 7740
-			}
-		}
-		
 		CAL = {
 			government = tribal_kingdom
 			primary_culture = caledonian
@@ -6224,7 +6211,7 @@ country = {
 			capital = 2120
 
 			own_control_core = 	{
-				2120 2123 7739
+				2120 2123 7739 2116 2125 7740 2133 2115
 			}
 		}
 		
@@ -6251,19 +6238,6 @@ country = {
 
 			own_control_core = 	{
 				2112 2109 2110 2091 2124 2117
-			}
-		}
-		
-		ULT = {
-			government = tribal_kingdom
-			primary_culture = hibernian
-			religion = druidism
-			centralization=5
-
-			capital = 2172
-
-			own_control_core = 	{
-				2172 2205
 			}
 		}
 		
@@ -7119,21 +7093,8 @@ country = {
 			capital = 2252
 
 			own_control_core = 	{
-				2252 2251 2277
+				2252 2251 2277 2248 2246 2247 2249
 			}
-		}
-		
-		ASC = {
-			government = tribal_kingdom
-			primary_culture = aquitani
-			religion = druidism
-			centralization=10
-
-			capital = 2275
-
-			own_control_core = 	{
-				2275 2278 2279 2271 2273
- 			}
 		}
 		
 		TRB = {
@@ -7149,19 +7110,6 @@ country = {
  			}
 		}
 		
-		SBZ = {
-			government = tribal_kingdom
-			primary_culture = aquitani
-			religion = druidism
-			centralization=10
-
-			capital = 2248
-
-			own_control_core = 	{
-				2248 2246 2247 2249
- 			}
-		}
-		
 		VCT = {
 			government = tribal_kingdom
 			primary_culture = aquitani
@@ -7171,7 +7119,7 @@ country = {
 			capital = 2272
 
 			own_control_core = 	{
-				2288 2272 2281 2289
+				2288 2272 2281 2289 2275 2278 2279 2271 2273
  			}
 		}
 		
@@ -7184,7 +7132,7 @@ country = {
 			capital = 2241
 
 			own_control_core = 	{
-				2237 2241 2245
+				2237 2241 2245 2274 2250 2242
  			}
 		}
 		
@@ -7198,19 +7146,6 @@ country = {
 
 			own_control_core = 	{
 				2236 2235 2233
- 			}
-		}
-		
-		TRS = {
-			government = tribal_kingdom
-			primary_culture = aquitani
-			religion = druidism
-			centralization=10
-
-			capital = 2250
-
-			own_control_core = 	{
-				2274 2250 2242
  			}
 		}
 		
@@ -7631,19 +7566,6 @@ country = {
 			}
 		}
 		
-		VCL = {
-			government = tribal_kingdom
-			primary_culture = veliocassian
-			religion = druidism
-			centralization=10
-
-			capital = 2443 
-
-			own_control_core = 	{
-				2443 2473 2474 2469 2472 2444
-			}
-		}
-		
 		VNL = {
 			government = tribal_kingdom
 			primary_culture = aremorican
@@ -7918,20 +7840,7 @@ country = {
 			capital = 2470
 
 			own_control_core = 	{
-				2468 2470 2471 3034
-			}
-		}
-		
-		ABM = {
-			government = tribal_kingdom
-			primary_culture = veliocassian
-			religion = druidism
-			centralization=10
-
-			capital = 3035
-
-			own_control_core = 	{
-				3035 3033
+				2468 2470 2471 3034 3035 3033
 			}
 		}
 		
@@ -7970,7 +7879,7 @@ country = {
 			capital = 2446
 
 			own_control_core = 	{
-				2446 2445 3032 2493
+				2446 2445 3032 2493 2443 2473 2474 2469 2472 2444
 			}
 		}
 		
@@ -12550,19 +12459,6 @@ country = {
 				3491 3495
 			}
 		}
-		
-		DAR = {
-			government = tribal_kingdom
-			primary_culture = hibernian
-			religion = druidism
-			centralization = 25
-
-			capital = 2173
-
-			own_control_core = {
-				2173 2208
-			}
-		}
 
 		ELA = {
 			government = tribal_kingdom
@@ -12573,20 +12469,7 @@ country = {
 			capital = 2170
 
 			own_control_core = {
-				2170 2195
-			}
-		}
-
-		MNA = {
-			government = tribal_kingdom
-			primary_culture = hibernian
-			religion = druidism
-			centralization = 25
-
-			capital = 2165
-
-			own_control_core = {
-				2190 2165
+				2170 2195 2172 2205 2173 2208
 			}
 		}
 
@@ -12612,7 +12495,7 @@ country = {
 			capital = 2189
 
 			own_control_core = {
-				2188 2189
+				2188 2189 2190 2165
 			}
 		}
 
@@ -12625,20 +12508,7 @@ country = {
 			capital = 2161
 
 			own_control_core = {
-				2161 2177
-			}
-		}
-
-		USD = {
-			government = tribal_kingdom
-			primary_culture = hibernian
-			religion = druidism
-			centralization = 25
-
-			capital = 2178
-
-			own_control_core = {
-				2178 2162
+				2161 2177 2178 2162
 			}
 		}
 
@@ -12651,20 +12521,7 @@ country = {
 			capital = 2207
 
 			own_control_core = {
-				2207 2174
-			}
-		}
-
-		VEN = {
-			government = tribal_kingdom
-			primary_culture = hibernian
-			religion = druidism
-			centralization = 25
-
-			capital = 2203
-
-			own_control_core = {
-				2203 2204
+				2207 2174 2203 2204 2206
 			}
 		}
 
@@ -12681,19 +12538,6 @@ country = {
 			}
 		}
 
-		CAN = {
-			government = tribal_kingdom
-			primary_culture = caledonian
-			religion = druidism
-			centralization = 25
-
-			capital = 2119
-
-			own_control_core = {
-				2119 2118 2128
-			}
-		}
-
 		CON = {
 			government = tribal_kingdom
 			primary_culture = caledonian
@@ -12703,7 +12547,7 @@ country = {
 			capital = 2122
 
 			own_control_core = {
-				2122 2121
+				2122 2121 2119 2118 2128 2131 2132
 			}
 		}	
 
