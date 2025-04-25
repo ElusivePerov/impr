@@ -96,7 +96,6 @@
 		
 		allow = {
 			war = yes
-			manpower_percentage <= 0.5
 		}
 
 		on_start = {
@@ -515,4 +514,80 @@
 
 		final = yes
 	}
+
+	syracuse_4_9 = { # Hellenic Support
+		icon = task_diplomatic
+
+		allow = {
+			custom_tooltip = {
+				text = syracuse_4_9_allow_tt
+				any_country = {
+                    has_land = yes
+                    country_culture_group = hellenic
+                    rank > root.rank
+                    NOR = {
+                        alliance_with = root
+                        war_with = root
+                        opinion = { target = root value <= -25 }
+                    }
+                }
+			}
+		}
+
+		on_completion = {
+			trigger_event = { id = me_syracuse_4_magna.15 }
+		}
+	}
+
+    syracuse_3_1 = { # Maritime Revival
+		icon = task_economical
+		
+		allow = {
+			custom_tooltip = {
+				text = syracuse_3_1_allow_tt_1
+				num_of_unit_type = { type = trireme value >= 16 }
+			}
+			custom_tooltip = {
+				text = syracuse_3_1_allow_tt_3
+				num_of_unit_type = { type = hexere value >= 4 }
+			}
+			custom_tooltip = {
+				text = syracuse_3_1_allow_tt_2
+				num_of_ships >= 30
+			}
+		}
+		
+		on_completion = {
+			trigger_event = { id = me_syracuse_3_punic.3 }
+			show_as_tooltip = {
+				add_country_modifier = {
+					name = me_syr_3_1_cmod
+					duration = 7300 # 20 years
+				}
+			}
+		}	
+	}
+
+	syracuse_3_2 = { # Naval Advances
+		requires = { syracuse_3_1 }
+		icon = task_expansion
+		duration = 90
+		
+		allow = {
+			custom_tooltip = {
+				text = syracuse_3_2_allow_tt
+				num_of_ships >= 40
+			}
+		}
+
+		on_start = {
+			trigger_event = { id = me_syracuse_3_punic.4 }
+		}
+		
+		on_completion = {
+			trigger_event = { id = me_syracuse_3_punic.5 }
+			custom_tooltip = syracuse_3_2_reward_tt
+		}
+	}
+
 }

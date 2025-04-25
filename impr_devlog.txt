@@ -709,6 +709,19 @@
 
  #### Syracusae
  [!] Mission Overhaul
+ 	[+] Leadership of the Siceliotes
+ 		[+] Soldiers of Fortune
+ 			[X] No longer requires 50% manpower or less
+ 		[+] Hellenic Support
+ 		 	[X] Moved from Hegemon of Magna Graecia mission tree
+ 		[ ] Maritime Revival
+ 			[X] Moved from Punic Rivalry mission tree
+ 		[ ] Naval Advances
+ 			[X] Moved from Punic Rivalry mission tree
+ 			[X] Reward modifiers now last forever
+
+ 	[X] Removed Mission Trees: Punic Rivalry and Hegemon of Magna Graecia
+
  [ ] add rivers?
 
  #### Epirus

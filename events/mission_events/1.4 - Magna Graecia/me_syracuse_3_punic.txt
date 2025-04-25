@@ -154,18 +154,12 @@ me_syracuse_3_punic.5 = { # Naval Advances end
 
     option = {      
         name = me_syracuse_3_punic.5.a # defensive
-        add_country_modifier = {
-            name = me_syr_3_5_1_cmod
-            duration = 9125 # 25 years
-        }
+        add_country_modifier = { name = me_syr_3_5_1_cmod }
     }
 
     option = {      
         name = me_syracuse_3_punic.5.b # offensive
-        add_country_modifier = {
-            name = me_syr_3_5_2_cmod
-            duration = 9125 # 25 years
-        }
+        add_country_modifier = { name = me_syr_3_5_2_cmod }
     }
 
     after = {
