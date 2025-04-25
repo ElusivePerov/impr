@@ -8,7 +8,7 @@
 
  [ ] mods don't disable achievements tooltip
 
- [+] levy map mode redesign
+ [!] Levy Map Mode Redesign
 
  [ ] put research eff in the top bar
 
@@ -32,7 +32,7 @@
 
  [ ] remove enforceable white peace
 
- [+] timegated stronger CBs
+ [?] timegated stronger CBs
 
  [X] WE increase of raising levies reduced to 0 from 0.5
  [X] WE increase per month of raised levies timer raised to 12 months from 6 months
@@ -43,7 +43,7 @@
 
  [X] capital city modifier now increases fort defense by 10%
 
- [+] military traditions 
+ [+] Military Traditions Stacking Block
  	[+] Celtic
  		[X] no longer enabled by Italic Tribe traditions
  		[X] no longer enables Roman or Italic traditions
@@ -111,6 +111,8 @@
  		[X] no longer enables Levantine Kingdom or Levantine Maritime traditions
  		[X] Embrace Perso-Levantine Influence open sea combat bonus increased to 7.5% from 5%
  		⭐ LOC DEBT ⭐
+
+ [!] Military Traditions Rebalance
 
  [+] Standardized Military Laws
  	[+] Mercenary Reliance
@@ -269,31 +271,26 @@
 
 ## economy
 
- [+] aqueducts
- 	[X] no longer require 30 civilization
- 	[X] now provide 1 civilization cap
- 	[X] construction time increased to 360 days from 180 days
- 	[X] now capped at 12
+ [+] Aqueducts
+ 	[X] No longer require 30 civilization
+ 	[X] Now provide 1 civilization cap
+ 	[X] Construction time increased to 360 days from 180 days
+ 	[X] Now capped at 12
 
- [+] remove scaling costs for provincial investment
+ [?] Remove scaling costs for provincial investment
 
- [X] earthenware surplus now provides 5% population cap instead of 3% freeman output
+ [X] Earthenware surplus now provides 5% population cap instead of 3% freeman output
 
- [+] army maintenance policies
- 	[X] removed levy size from all policies
- 	[X] removed happiness from all policies
- 	[X] maintenance reduction on low pay increased to -35% from -25%
- 	[X] maintenance increase on high pay decreased to 15% from 25%
+ [+] Army maintenance policies
+ 	[X] Removed levy size from all policies
+ 	[X] Removed happiness from all policies
+ 	[X] Maintenance reduction on low pay increased to -35% from -25%
+ 	[X] Maintenance increase on high pay decreased to 15% from 25%
 
 ## diplomacy
 
- [X] travel days reduced to 0 from 30
- [ ] give up claims
-
-## religion
-
- [ ] reduce PI cost to swap religion
- [ ] change requirements from capital to whole country
+ [X] Travel days reduced to 0 from 30
+ [!] Give up claims
 
 ## culture
 
@@ -319,7 +316,7 @@
  		and Monthly State Loyalty by 0.3%
  	[X] Increases Migration Speed and Demotion Speed by 1
  
- [+] reduce power bases at defines
+ [!] Reduce power bases at defines
 
  [ ] reduce a third of the impact of stab on legitimacy loss
  [ ] anoint heir minimum legitimacy required reduced to 80 from 90
@@ -501,11 +498,11 @@
 
  [ ] strengthen smear reputation, damage prominence
 
-## inventions
+## Inventions
 
- [+] remove exclusive inventions probably
+ [?] Remove exclusive inventions probably
 
-### civic inventions
+### Civic Inventions
 
  [X] greek advanced mechanics made into a generic invention
  ⭐ LOC DEBT ⭐
@@ -515,7 +512,7 @@
  [X] land tithe changed to grants 6 freemen pops from 6 tribesmen pops
  ⭐ LOC DEBT ⭐
 
-### oratory inventions
+### Oratory Inventions
 
  [X] Centralized Comites changed to -0.02 corruption from -20% change policy cost
  [X] Added Aggressive Protection as a possible requirement for Book Binding
@@ -527,47 +524,46 @@
  	[X] Unlocks Empire tier governments
  	⭐ LOC DEBT ⭐
 
-## characters
+## Characters
 
- [ ] lower seek treatment cost from 200 to 20 / make it scaling
- [+] deal with random murders
- [X] request marriage opinion requirement lowered to 0 from 40
- [+] deal with request marriage in multiplayer
+ [!] Deal with random murders
+ [X] Request marriage opinion requirement lowered to 0 from 40
+ [?] Deal with request marriage in multiplayer
 
  [ ] home country in ruins loyalty malus reduced to 15 from 20
 
  [X] monthly statesmanship gain from finesse increased to 0.035 from 0.025
 
-## tags
+## Tags
 
-### rome
- [+] harmonic religion
- 	[X] added harmonic religion with 6% global happiness -60% conversion speed modifier +33% omen power
+### Rome
+ [+] Harmonic religion
+ 	[X] Added harmonic religion with 6% global happiness -60% conversion speed modifier +33% omen power
  	⭐ LOC DEBT ⭐
- 	[X] converted the religion of all roman culture pops to harmonic religion
- 	[X] set the religion of rome to harmonic
- 	[X] assigned roman gods to the harmonic pantheon
- 	[X] set the religion of roman characters to harmonic
- 	[X] changed jupiter passive to stab gain from popularity gain 
- 	[X] changed bacchus passive to 4% population happiness from 10% tribesmen output
- 	[ ] saturnalia for hellenic, italic and harmonic
- 	[+] added capitoline triad deity
- 		[X] passive effects are 0.025% mothly stab gain, 10% population capacity, 5% research points gain
- 		[X] omen effect is 0.04% population growth
- 		[X] deification effect is assimilation
- 		[X] unlockable only by mission
- 		[X] added gfx
+ 	[X] Converted the religion of all roman culture pops to harmonic religion
+ 	[X] Set the religion of rome to harmonic
+ 	[X] Assigned roman gods to the harmonic pantheon
+ 	[X] Set the religion of roman characters to harmonic
+ 	[X] Changed jupiter passive to stab gain from popularity gain 
+ 	[X] Changed bacchus passive to 4% population happiness from 10% tribesmen output
+ 	[ ] Saturnalia for hellenic, italic and harmonic
+ 	[+] Added capitoline triad deity
+ 		[X] Passive effects are 0.025% mothly stab gain, 10% population capacity, 5% research points gain
+ 		[X] Omen effect is 0.04% population growth
+ 		[X] Deification effect is assimilation
+ 		[X] Unlockable only by mission
+ 		[X] Added gfx
 
- [+] italic religion
-  	[X] added italic religion with 5% discipline modifier
+ [+] Italic religion
+  	[X] Added italic religion with 5% discipline modifier
   	⭐ LOC DEBT ⭐
- 	[X] converted the religion of all non-roman italic culture pops to italic religion 
+ 	[X] Converted the religion of all non-roman italic culture pops to italic religion 
  	(except for the druidic ones)
- 	[X] set the religion of etruria and all italic minors to italic
- 	[X] set the religion of etrurian and all italic minors characters to italic
- 	[X] assigned etrurian gods to the italic pantheon
+ 	[X] Set the religion of etruria and all italic minors to italic
+ 	[X] Set the religion of etrurian and all italic minors characters to italic
+ 	[X] Assigned etrurian gods to the italic pantheon
 
- [+] mission overhaul
+ [+] Mission Overhaul
  	[+] Italia
  		[+] Destroy Italian Allies
  			[X] now requires italian colonia and is a requirement for roman hegemony
@@ -590,17 +586,10 @@
  			[X] targets are sipontum, ancona and elea		
  			[X] reward overhauled to a decision instead of an event chain
  			[X] the decision costs 180g 5pi and turns the target into a league city
- 	[+] Cisalpine Gaul
- 		[+] consider giving Italic Feudatorius and Befriend Gallic Tribe same treatment as above
  	[+] Subduing Gaul
  		[X] To the Rhenus and The Gallic Heartlands removed
  		[X] Gateway to the North and Into the West no longer give claims
  		⭐ LOC DEBT ⭐
-
- 	[+] Fate of the Republic
- 		[+] probs delayed to next patch
- 	[+] Romanization
- 		[+] probs delayed to next patch
 
  	[+] The Roman Faith
  		[X] new mission tree that allows rome to choose which religion to go with, requires that etruria no longer exists
@@ -670,29 +659,42 @@
  		and the triad is added combining the passives of all three with a pop growth omen
  		⭐ LOC DEBT ⭐
 
- 	[X] removed mission trees: First Provincia, Punic Rivals, Greece, Eastern Glory, Hispanian Ambition
+ 	[X] Removed Mission Trees: First Provincia, Punic Rivals, Greece, Eastern Glory, Hispanian Ambition
 
  [ ] removed Across the Adriatic event
  [ ] add rivers
  [ ] swap integration speed in heritage for manpower recovery
 
-### carthage
- [+] mission overhaul
- 	[ ] bomilcar
+### Carthage
+ [+] Mission Overhaul
+ 	[+] Iberian Struggle
+ 		[+] The Balearides
+ 			[X] Removed the bypass conditions: be overlord of Gymnaesia or Gymnaesia doesn't exist
+ 			[X] Added completion reward of Gymnaesia as a league city subject
+ 		[+] Slinger Port
+ 			[X] Changed the 'Balearic Slingers' modifier to a permanent +10% Light Infantry Discipline bonus from 
+ 			15% Archers Discipline and -20% Archer Maintenance Cost for 240 months
+ 			[X] Added completion reward of turning Guium into a city, if already a city spawns 3 Canaanite Talaiotic Freemen, 
+ 			2 Canaanite Talaiotic Citizen and 1 Canaanite Talaiotic Noble in Guium
+ 		[+] Silver Port
+ 			[X] Changed the requirement for the targeted territories to have at least a level 2 port instead of having city status
+ 			[X] Now grants the 'Silver Port' modifier to all targeted territories
+ 		[+] Restoring Tartessos
+ 			[X] Added completion rewards of -10 Aggressive Expansion, the trade good in Tartessos gets swapped for precious metals 
+ 			and the 'Tin Mines of Tartessos' modifier which grants 5% tax income bonus
+ 			⭐ LOC DEBT ⭐
 
- 	[ ] africa
- 	[ ] iberia
- 	[ ] naval
- 	[ ] trade
- 	
+ 	[X] Removed Mission Trees: An End to Sicilian Warfare, Entering Magna Graecia, End the Roman Wolf, Liberating Phoenicia
+ 	and Iberian Investments
+
  [ ] add rivers
 
- [ ] every change goverment mission adds 60 influence
- [ ] make starting feudatories into trade city subjects
+ [X] Made starting Feudatories and Client States into League City subjects
 
- [ ] Renamed Carthago (3256) to Qart Hadasht
+ [X] Renamed Carthago to Qart Hadasht
 
  [X] Converted all Corsian, Nuragic and Talaiotic pops to Druidic
+ [X] Converted Gymnaesia, Balaria and Iliensia to Druidic
 
  [X] Granted Mauretania the following territories: Ifran (6484), Zemmour (6302), Rob'a (6470), Mdakra (6487), Ouardigha (6473), 
  Amer (6472), Mousa (6471), Mzamza (6489), Meskine (6474), Amrane (6480), Zaakna (6492), Mizab (7221), Bouzerrara (6479), Frej (6477), Haouzia (6481), Anfa (6475) and Azama (6491)
@@ -705,12 +707,12 @@
  
  [X] Granted Massaesylia the following territory: Macri (3151)
 
- #### syracusae
- [+] mission cleanup
+ #### Syracusae
+ [!] Mission Overhaul
  [ ] add rivers?
 
- #### epirus
- [+] mission overhaul
+ #### Epirus
+ [!] Mission Overhaul
  	[+] Molossian Consolidation
  		[ ] Ambracia and Akarnania no longer start as macedonian tributaries
  		[X] Settled Crown Disputes modifier duration increased to 300 months from 240 months
@@ -720,46 +722,38 @@
  		[ ] a new city now instant but just starts a city production on the chosen territory
  [ ] add rivers?
 
-### athens
- [+] mission cleanup
+### Athens
+ [!] Mission Overhaul
  [ ] add rivers?
- [ ] increased heritage monthly tyranny to -0.10 from -0.02 
+ [ ] Increased Heritage bonus of monthly tyranny to -0.10 from -0.02 
 
-### sparta
- [+] mission cleanup
- [ ] add rivers?
-
-### cyrenaica
- [+] mission cleanup
+### Sparta
+ [!] Mission Overhaul
  [ ] add rivers?
 
-### macedon
- [+] add become greece path
- 	[+] delayed
- [+] mission cleanup
+### Cyrenaica
+ [!] Mission Overhaul
  [ ] add rivers?
 
-### antigonids
- [+] add become anatolia path
- 	[+] delayed
- [+] mission cleanup
+### Macedon
+ [!] Mission Overhaul
  [ ] add rivers?
 
-### seleukids
- [+] add become iran path
- 	[+] delayed
- [+] mission cleanup
+### Antigonids
+ [!] Mission Overhaul
  [ ] add rivers?
 
-### ptolemids
- [+] add become egypt path
- 	[+] delayed
- [+] mission cleanup
+### Seleukids
+ [!] Mission Overhaul
  [ ] add rivers?
 
-### removed tags
- [X] all indian and tibetan minors
- [X] removed starting characters too
+### Ptolemids
+ [!] Mission Overhaul
+ [ ] add rivers?
+
+### Removed Tags
+ [X] All Indian and Tibetan minors
+ [X] Removed starting characters too
 
  # Iberia
  [X] Silenia (SLN), Arronia (ARR) and Varrinia (VRR) annexed into Neria (NRI)
@@ -791,10 +785,7 @@
 
 ## global
 
- [+] generic missions overhaul
- 	[ ] matter of rewards select provincial capitals
- [ ] remove stab loss from dropping missions (not for 'the matter of' probs)
- [X] control [province] mission's 3rd reward roll now only targets the provincial capital
+ [X] Control [province] mission's 3rd reward roll now only targets the provincial capital
 
 ----------------------------------------------------------------------------------------------------------------------
 next patch

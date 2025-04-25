@@ -9,38 +9,38 @@
     }
 
     potential = {
-        has_variable = num_of_completed_missions
-        var:num_of_completed_missions >= 1
-        NOT = { has_variable = "carthaginian_mission_03_iberia_cooldown" }
-        has_dlc = "The Punic Wars"
+        #has_variable = num_of_completed_missions
+        #var:num_of_completed_missions >= 1
+        #NOT = { has_variable = "carthaginian_mission_03_iberia_cooldown" }
+        #has_dlc = "The Punic Wars"
     	primary_culture = carthaginian
-        any_owned_province = {
-            OR = {
-                is_in_region = contestania_region
-                is_in_region = baetica_region
-            }
-        }
-        area:mastiania_area = {
-            any_area_province = {
-                NOT = { owned_or_subject_owned = root }
-            }
-        }
-        area:contestania_meridionalis_area = {
-            any_area_province = {
-                NOT = { owned_or_subject_owned = root }
-            }
-        }
-        area:malacita_area = {
-            any_area_province = {
-                NOT = { owned_or_subject_owned = root }
-            }
-        }
-        OR = {
-            rank = major_power
-            rank = great_power
-        }
-        is_subject = no
-        has_civil_war = no
+        #any_owned_province = {
+        #    OR = {
+        #        is_in_region = contestania_region
+        #        is_in_region = baetica_region
+        #    }
+        #}
+        #area:mastiania_area = {
+        #    any_area_province = {
+        #        NOT = { owned_or_subject_owned = root }
+        #    }
+        #}
+        #area:contestania_meridionalis_area = {
+        #    any_area_province = {
+        #        NOT = { owned_or_subject_owned = root }
+        #    }
+        #}
+        #area:malacita_area = {
+        #    any_area_province = {
+        #        NOT = { owned_or_subject_owned = root }
+        #    }
+        #}
+        #OR = {
+        #    rank = major_power
+        #    rank = great_power
+        #}
+        #is_subject = no
+        #has_civil_war = no
     }
 
     abort = {
@@ -196,80 +196,31 @@
 
         allow = {
         	treasury >= 150
-        	owns = 1036
-        	OR = {
-                custom_tooltip = {
-        			text = carthaginian_iberia_expansion_mission_task_3_tt_1
-        			AND = {
-	        			owns = 3121
-	        			trigger_if = {
-                            limit = { is_ai = no }
-                            scope:qishi_province = { has_city_status = yes }
-                        }
-                        trigger_else = {
-                            OR = {
-                                can_pay_price = price_found_city
-                                scope:qishi_province = { has_city_status = yes }
-                            }
-                        }
-	        		}
-        		}
-        		custom_tooltip = {
-        			text = carthaginian_iberia_expansion_mission_task_3_tt_2
-        			AND = {
-	        			owns = 3145
-	        			trigger_if = {
-                            limit = { is_ai = no }
-                            scope:choba_province = { has_city_status = yes }
-                        }
-                        trigger_else = {
-                            OR = {
-                                can_pay_price = price_found_city
-                                scope:choba_province = { has_city_status = yes }
-                            }
-                        }
-	        		}
-        		}
-        		custom_tooltip = {
-        			text = carthaginian_iberia_expansion_mission_task_3_tt_3
-        			AND = {
-	        			owns = 3150
-	        			trigger_if = {
-                            limit = { is_ai = no }
-                            scope:igilgili_province = { has_city_status = yes }
-                        }
-                        trigger_else = {
-                            OR = {
-                                can_pay_price = price_found_city
-                                scope:igilgili_province = { has_city_status = yes }
-                            }
-                        }
-	        		}
-        		}
-        		custom_tooltip = {
-        			text = carthaginian_iberia_expansion_mission_task_3_tt_4
-        			AND = {
-	        			owns = 3126
-	        			trigger_if = {
-                            limit = { is_ai = no }
-                            scope:zalda_province = { has_city_status = yes }
-                        }
-                        trigger_else = {
-                            OR = {
-                                can_pay_price = price_found_city
-                                scope:zalda_province = { has_city_status = yes }
-                            }
-                        }
-	        		}
-        		}
+        	AND = {
+                AND = {
+        	       owns = 1036
+                   p:1036 = { num_of_port_building >= 2 }
+                }
+        		AND = {
+	        		owns = 3121
+                    scope:qishi_province = { num_of_port_building >= 2 }
+	        	}
+        		AND = {
+	        		owns = 3145
+                    scope:choba_province = { num_of_port_building >= 2  }
+	        	}
+        		AND = {
+	        		owns = 3150
+                    scope:igilgili_province = { num_of_port_building >= 2  }
+	        	}
+        		AND = {
+	        		owns = 3126
+                    scope:zalda_province = { num_of_port_building >= 2  }
+	        	}
         	}
         }
 
         on_completion = {
-            ai_build_city_pay_price_effect = { CITY = scope:qishi_province } # AI fallback.
-            ai_build_city_pay_price_effect = { CITY = scope:choba_province } # AI fallback.
-            ai_build_city_pay_price_effect = { CITY = scope:igilgili_province } # AI fallback.
-            ai_build_city_pay_price_effect = { CITY = scope:zalda_province } # AI fallback.
         	add_treasury = -150
         	ordered_owned_province = {
         		order_by = total_population
@@ -280,9 +231,8 @@
         				province_id = 3150
         				province_id = 3126
         			}
-        			has_city_status = yes
         		}
-        		max = 1
+        		max = 4
         		add_province_modifier = {
         			name = punic_mission_iberian_silver_port_modifier
         			duration = -1
@@ -569,11 +519,7 @@
         }
 
         bypass = {
-        	OR = {
-        		NOT = { exists = c:BLD }
-        		c:BLD = { NOT = { is_subject_of = CAR } }
-                owns_area = balearides_area
-        	}
+            owns_area = balearides_area
         }
 
         monthly_on_action = carthage_iberian_expansion_mission_task_7_pulse
@@ -586,17 +532,12 @@
 		}
 
         on_completion = {
-        	if = {
-        		limit = {
-        			exists = c:BLD
-        			c:BLD = { is_subject_of = root }
-        		}
-        		c:BLD = {
-        			add_opinion = {
-    					target = root
-    					modifier = mission_carthaginian_iberian_balearides_allies
-    				}
-        		}
+            make_subject = { target = c:BLD type = subject_league_city_state }
+        	c:BLD = {
+        		add_opinion = {
+    				target = root
+    				modifier = mission_carthaginian_iberian_balearides_allies
+    			}
         	}
         	add_country_modifier = {
         		name = carthage_mission_iberian_integration_modifier
@@ -623,8 +564,26 @@
         on_completion = {
         	add_country_modifier = {
         		name = carthage_mission_iberian_balearic_slingers_modifier
-        		duration = 7300
         	}
+            if = {
+                limit = {
+                    p:1466 = { has_city_status = no }
+                }
+                p:1466 = { set_city_status = city }
+            }
+            else = {
+                p:1466 = {  
+                    while = {
+                        count = 3
+                        define_pop = { type = freemen culture = talaiotic religion = carthaginian_pantheon }
+                    }
+                    while = {
+                       count = 2
+                       define_pop = { type = citizen culture = talaiotic religion = carthaginian_pantheon }
+                    }
+                    define_pop = { type = nobles culture = talaiotic religion = carthaginian_pantheon }
+                }
+            }
         }
     }
 
@@ -994,6 +953,8 @@
 					type = subject_colony
 				}
 			}
+            add_aggressive_expansion = -10
+            add_country_modifier = { name = carthage_tartessos_tin_mines }
     	}
     }
 
