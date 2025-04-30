@@ -602,26 +602,6 @@ me_epirus_2_magna.11 = {							# Western Hegemon - End
 
     immediate = {
         custom_tooltip = me_epirus_2_magna.11.tt
-        if = {
-            limit = {
-                region:magna_graecia_region = {
-                    any_region_province = {
-                        NOT = { owned_or_subject_owned = root }
-                    }
-                }
-            }
-            hidden_effect = {
-                region:magna_graecia_region = {
-                    every_region_province = {
-                        limit = {
-                            NOT = { owned_or_subject_owned = root }
-                        }
-                        add_claim = root
-                    }
-                }
-            }
-            custom_tooltip = epirus_2_magna_11_reward_tt_2
-        }
         add_country_modifier = {
             name = me_epi_2_11_cmod
             duration = 8125

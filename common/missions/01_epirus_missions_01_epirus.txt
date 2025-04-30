@@ -147,7 +147,7 @@
 	
 	epirus_1_epirus_3 = { # Tribal Command
 		icon = task_conquest
-		duration = 365
+		duration = 90
 
 		allow = {
 			stability > 5
@@ -189,7 +189,7 @@
 	
 	epirus_1_epirus_4 = { # Southern Claims
 		icon = task_expansion
-		duration = 365
+		duration = 90
 
 		allow = { 
 			political_influence >= 5
@@ -226,7 +226,7 @@
 	
 	epirus_1_epirus_5 = { # Tighten Administration
 		icon = task_political
-		duration = 365
+		duration = 180
 
 		allow = {
 			stability > 5
@@ -292,7 +292,7 @@
 	epirus_1_epirus_8 = { # A New City
 		icon = task_economical
 		requires = { epirus_1_epirus_4 }
-		duration = 365
+		duration = 180
 
 		allow = {
 			OR = {
@@ -397,7 +397,7 @@
 	epirus_1_epirus_9 = { # Lean on Korkyra
 		icon = task_expansion
 		requires = { epirus_1_epirus_3 }
-		duration = 180
+		duration = 30
 
 		allow = {
 			NOT = { owns_or_subject_owns = 470 }
@@ -414,13 +414,12 @@
 			trigger_event = { id = me_epirus_1_epirus.33 }
 			set_variable = {
 				name = me_epi_1_9_bypass
-				days = 180
+				days = 30
 			}
 		}
 
 		on_completion = {
-			custom_tooltip = epirus_1_epirus_9_reward_tt
-			trigger_event = { id = me_epirus_1_epirus.9 }
+			make_subject = { target = KRK type = feudatory }
 		}
 
 		bypass = {
@@ -555,7 +554,7 @@
 	epirus_1_epirus_12 = { # Urbanize Passaron
 		icon = task_economical
 		requires = { epirus_1_epirus_5 }
-		duration = 180
+		duration = 90
 
 		allow = {
 			capital_scope = {
@@ -659,7 +658,7 @@
 	epirus_1_epirus_14 = { # Macedonian Lessons
 		icon = task_conquest
 		requires = { epirus_1_epirus_9 }
-		duration = 365
+		duration = 180
 		
 		potential = {
 
@@ -725,7 +724,7 @@
 
 	epirus_1_epirus_15 = { # A Royal Wedding
 		icon = task_diplomatic
-		duration = 90
+		duration = 30
 		
 		allow = {
 			treasury > 50
@@ -825,7 +824,7 @@
 		
 		allow = {
 			political_influence >= 20
-			hidden:c:TLN = {
+			c:TLN = {
 				OR = {
 					is_subject_of = root
 					alliance_with = root
@@ -857,8 +856,7 @@
 
 		on_completion = {
 			add_political_influence = -20
-			custom_tooltip = epirus_1_epirus_16_reward_tt
-			trigger_event = { id = me_epirus_1_epirus.39 }
+			make_subject = { target = c:TLN type = feudatory }
 		}
 
 		bypass = {
@@ -876,7 +874,7 @@
 	epirus_1_epirus_17 = { # Coastal Capital
 		icon = task_economical
 		requires = { epirus_1_epirus_11 }
-		duration = 365
+		duration = 180
 		
 		allow = {
 			owns = 465

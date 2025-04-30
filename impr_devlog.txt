@@ -707,16 +707,16 @@
  
  [X] Granted Massaesylia the following territory: Macri (3151)
 
- #### Syracusae
+### Syracusae
  [!] Mission Overhaul
  	[+] Leadership of the Siceliotes
  		[+] Soldiers of Fortune
  			[X] No longer requires 50% manpower or less
  		[+] Hellenic Support
  		 	[X] Moved from Hegemon of Magna Graecia mission tree
- 		[ ] Maritime Revival
+ 		[+] Maritime Revival
  			[X] Moved from Punic Rivalry mission tree
- 		[ ] Naval Advances
+ 		[+] Naval Advances
  			[X] Moved from Punic Rivalry mission tree
  			[X] Reward modifiers now last forever
 
@@ -724,15 +724,52 @@
 
  [ ] add rivers?
 
- #### Epirus
+### Epirus
  [!] Mission Overhaul
- 	[+] Molossian Consolidation
- 		[ ] Ambracia and Akarnania no longer start as macedonian tributaries
- 		[X] Settled Crown Disputes modifier duration increased to 300 months from 240 months
- 		[ ] AI now guaranteed to accept if offered the diplomatic approach on Taulantian Diplomacy
- 		[ ] AI now guaranteed to accept on Lean on Korkyra
- 		[ ] slash down all time based missions by 66%
- 		[ ] a new city now instant but just starts a city production on the chosen territory
+ 	[+] Molossian Consolidation 
+ 		[+] Tribal Command
+ 			[X] Time to complete reduced to 90 days from 365
+ 			[X] Maximum Manpower bonus increased to +20% from +10%
+ 		[+] Leon on Korkyra
+ 			[X] Time to complete reduced to 30 days from 180
+ 			[X] Now always vassalizes Korkyra on completion
+ 		[+] Macedonian Lessons
+ 			[X] Time to complete reduced to 180 days from 365
+ 			[X] Swapped +10% Heavy Cavalry Offense for +10% Light Cavalry Offense 
+ 		[+] Expanded Royal Kennels
+ 			[X] Swapped +5% Light Infantry Offense for +5% Light Cavalry Offense
+ 		[+] Taulantian Diplomacy
+ 			[X] AI now guaranteed to accept the diplomatic approach
+ 		[+] The Illyrian Hinterland
+ 			[X] Changed mission reward to a guaranteed feudatory vassalization for Taulantia
+ 		[+] Southern Claims
+ 			[X] Time to complete reduced to 90 days from 365
+ 		[+] A New City
+ 			[X] Time to complete reduced to 180 days from 365
+ 		[+] Tighten Administration
+ 			[X] Time to complete reduced to 180 days from 365
+ 		[+] Urbanize Passaron
+ 			[X] Time to complete reduced to 90 days from 180
+ 		[+] A Royal Wedding
+ 			[X] Time to complete reduced to 30 days from 90
+ 		[+] Settled Crown Disputes
+ 			[X] Settled Crown Disputes modifier duration increased to 300 months from 240 months
+ 		[+] Coastal Capital
+ 			[X] Time to completed reduced to 180 days from 365
+ 			[X] Increased migration attraction bonus to 6 from 3
+
+ 		[✓] Did a hoi dev make this focus tree
+
+ 	[+] Alexandrine Ambition
+ 		[+] Western Hegemon
+ 			[X] Removed claims from the mission reward
+ 		[+] Tharrhypas' Legacy
+ 			[x] Moved from Hellenic Contender
+
+ 		[X] Removed missions: Siceliote Succors, Sicilian Champion, Master of Sicily, African Ambition
+
+ 	[+] Removed Mission Tree: Hellenic Contender
+ 	
  [ ] add rivers?
 
 ### Athens
@@ -793,8 +830,8 @@
  [X] Manapia (MNA) annexed into Coriondia (COR)
 
  # Britain
- [ ] Taexalia (TXL), Pinnatra Castra (2133) and Venicones (2115) annexed into Caledonia (CAL)
- [ ] Carnonacia (CAN), Ouirouedroum Akron (2131) and Orcades (2132) annexed into Cornavia (CON)
+ [X] Taexalia (TXL), Pinnatra Castra (2133) and Venicones (2115) annexed into Caledonia (CAL)
+ [X] Carnonacia (CAN), Ouirouedroum Akron (2131) and Orcades (2132) annexed into Cornavia (CON)
 
 ## global
 
@@ -808,6 +845,7 @@ next patch
 	moar tags: nova cartago, vasconia?, lusitania, massilia, arvernia, pictonia, icenia, caledonia, ivernia, cheruscia, boihaemia, burgundia
 	add something between major and great power
 	prune low skill irrelevant characters
+	implement kuyu tactics
 
 ----------------------------------------------------------------------------------------------------------------------
 investigation zone

@@ -19,15 +19,15 @@
 			tag = EPI
 			has_variable = me_epirus_start_flag
 		}
-		is_subject = no
-		has_completed_mission = epirus_1_epirus
-		region:greece_region = {
-			any_region_province = {
-				count >= 1
-				NOT = { owned_or_subject_owned = root }
-			}
-		}
-		has_civil_war = no
+		#is_subject = no
+		#has_completed_mission = epirus_1_epirus
+		#region:greece_region = {
+		#	any_region_province = {
+		#		count >= 1
+		#		NOT = { owned_or_subject_owned = root }
+		#	}
+		#}
+		#has_civil_war = no
 	}
 	
 	abort = {
@@ -980,80 +980,6 @@
 					NOT = { has_variable = epi_3_12_complete }
 				}
 				set_variable = epi_3_12_complete
-			}
-		}
-	}
-
-	epirus_3_greece_13 = { # Tharrhypas' Legacy
-		icon = task_economical
-		requires = { epirus_3_greece_10 }
-
-		allow = {
-			custom_tooltip = {
-				text = epirus_3_greece_13_allow_tt
-				any_owned_province = {
-					is_in_area = epirus_area
-					has_province_rank = city_metropolis
-				}
-			}
-		}
-
-		highlight = {
-			scope:province = { is_in_area = epirus_area }
-		}
-
-		on_completion = {
-			if = {
-				limit = {
-					any_owned_province = {
-						is_in_area = epirus_area
-						has_province_rank = city_metropolis
-					}
-				}
-				ordered_owned_province = {
-					limit = {
-						is_in_area = epirus_area
-						has_province_rank = city_metropolis
-					}
-					order_by = total_population
-					save_scope_as = me_3_13_scope
-					show_as_tooltip = {
-						add_province_modifier = {
-							name = epirus_3_greece_13_pmod
-							duration = -1
-						}
-					}
-				}
-			}
-			else = {
-				custom_tooltip = epirus_3_greece_13_reward_tt
-				show_as_tooltip = {
-					area:epirus_area = {
-						ordered_area_province = {
-							limit = { is_in_area = epirus_area }
-							order_by = total_population
-							add_province_modifier = {
-								name = epirus_3_greece_13_pmod
-								duration = -1
-							}
-						}
-					}
-				}
-			}
-			trigger_event = { id = me_epirus_3_greece.13 }
-			set_variable = epi_3_13_complete
-		}
-
-		bypass = {
-			has_variable = epi_3_13_complete
-		}
-
-		on_bypass = {
-			if = {
-				limit = {
-					NOT = { has_variable = epi_3_13_complete }
-				}
-				set_variable = epi_3_13_complete
 			}
 		}
 	}

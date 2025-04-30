@@ -2101,7 +2101,7 @@ me_epirus_1_epirus.30 = {                           # Taulantian Diplomacy - Pin
         }
         set_variable = me_epi_1_friendship_accept
         ai_chance = {
-            factor = 3
+            factor = 300
             modifier = {
                 factor = 2
                 current_ruler = char:105
@@ -2126,12 +2126,7 @@ me_epirus_1_epirus.30 = {                           # Taulantian Diplomacy - Pin
             }
         }
         ai_chance = {
-            factor = 1
-            modifier = {
-                factor = 3
-                current_ruler = char:105
-                scope:me_epirus_scope.current_ruler = char:118
-            }
+            factor = 0
         }
     }
 
