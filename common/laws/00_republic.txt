@@ -231,7 +231,7 @@ republican_religious_laws = { # Religious Laws
 	
 	republican_religious_2 = {
 		
-		allow  = {
+		allow = {
 			invention = omen_power_inv_4
 		}
 		modifier = {
@@ -242,7 +242,7 @@ republican_religious_laws = { # Religious Laws
 	
 	republican_religious_3 = {
 		
-		allow  = {
+		allow = {
 			invention = omen_power_inv_4
 		}
 		modifier = {

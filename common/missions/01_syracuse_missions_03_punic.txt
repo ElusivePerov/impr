@@ -5,26 +5,26 @@
     chance = { factor = 3 }
 
 	potential = { 
-		NOT = { has_variable = syracuse_mission_03_sicily }
-		has_dlc = "Magna Graecia"
-		is_subject = no
+		#NOT = { has_variable = syracuse_mission_03_sicily }
+		#has_dlc = "Magna Graecia"
+		#is_subject = no
 		OR = {
             tag = SYR
             tag = SII
             has_variable = me_syracuse_start_flag
         }
-		c:CAR = { 
-			has_land = yes
-			is_subject = no
-			NOT = { alliance_with = root }
-		}
-		country_culture_group = hellenic
-		num_of_cities > 5
-		OR = {
-			num_of_cities > 12
-			has_completed_mission = me_syracuse_2_sicily
-		}
-		has_civil_war = no
+		#c:CAR = { 
+		#	has_land = yes
+		#	is_subject = no
+		#	NOT = { alliance_with = root }
+		#}
+		#country_culture_group = hellenic
+		#num_of_cities > 5
+		#OR = {
+		#	num_of_cities > 12
+		#	has_completed_mission = me_syracuse_2_sicily
+		#}
+		#has_civil_war = no
 	}
 
 	on_potential = {
