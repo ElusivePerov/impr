@@ -448,5 +448,4 @@ monarchy_subject_laws = {
 			diplomatic_relations = 2
 		}
 	}
-	
 }

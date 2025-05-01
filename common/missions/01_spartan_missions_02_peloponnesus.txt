@@ -144,7 +144,7 @@
     }
 
     01_sparta_missions_02_peloponnesus_task_1 = { # Elean Barbarians 
-    	duration = 180
+    	duration = 90
 
         icon = "task_diplomatic"
 
@@ -271,7 +271,7 @@
     }
 
     01_sparta_missions_02_peloponnesus_task_4 = { # Religious Backing
-    	duration = 365
+    	duration = 90
 
         icon = "task_political"
 

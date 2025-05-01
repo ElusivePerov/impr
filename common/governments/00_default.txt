@@ -19,6 +19,8 @@ aristocratic_republic = { #military party
 	minimum_electable_age = 35
 	election_delay = 10
 	ruler_term = 5
+
+	has_co_ruler = yes
 	
 	color = hsv { 0.6  0.8  0.7 }
 	
@@ -45,6 +47,8 @@ theocratic_republic = { #religious party
 
 	election_delay = 10
 	ruler_term = 5
+
+	has_co_ruler = yes
 	
 	color = hsv { 0.6  0.7  0.5 }
 }
@@ -71,6 +75,8 @@ oligarchic_republic = { #civic party
 	
 	election_delay = 10
 	ruler_term = 5
+
+	has_co_ruler = yes
 	
 	color = hsv { 0.6  0.75  0.6 }
 }
@@ -94,6 +100,8 @@ democratic_republic = { #populist/stepping stone party
 
 	election_delay = 10
 	ruler_term = 5
+
+	has_co_ruler = yes
 	
 	color = hsv { 0.6  0.85  0.9 }
 	
@@ -119,6 +127,8 @@ plutocratic_republic = { #mercantile party
 
 	election_delay = 10
 	ruler_term = 5
+
+	has_co_ruler = yes
 	
 	can_deify_ruler = no
 	
@@ -147,6 +157,8 @@ athenian_republic = { # Mission Reward
 
 	election_delay = 10
 	ruler_term = 5
+
+	has_co_ruler = yes
 	
 	color = hsv { 0.62  0.87  0.88 }
 }
@@ -174,6 +186,8 @@ indomitable_republic = {
 	ruler_term = 5
 	
 	color = hsv { 0.6  0.8  0.7 }
+
+	has_co_ruler = yes
 	
 	can_deify_ruler = no	
 }
@@ -200,6 +214,8 @@ sacrosanct_republic = {
 
 	election_delay = 10
 	ruler_term = 5
+
+	has_co_ruler = yes
 	
 	color = hsv { 0.6  0.7  0.5 }	
 }
@@ -226,6 +242,8 @@ mercantile_republic = {
 
 	election_delay = 10
 	ruler_term = 5
+
+	has_co_ruler = yes
 	
 	can_deify_ruler = no
 	

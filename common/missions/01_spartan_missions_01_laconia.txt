@@ -450,7 +450,7 @@
     spartan_mission_01_laconia_task_9 = { # Helots of Messenia
         icon = "task_diplomatic"
 
-        duration = 180
+        duration = 90
 
         highlight = {
         	scope:province = {
@@ -545,6 +545,7 @@
         		create_state_pop = slaves
         		create_state_pop = slaves
         	}
+            p:433 = { add_claim = root }
         }
     }
 

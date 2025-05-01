@@ -340,8 +340,6 @@
 
  [ ] province disloyalty threshold lowered to 20 from 33
 
- [ ] add laws for consort/two rulers
-
  [ ] bellicose stance now provides AE decay instead of ws cost reduction
 
  [+] prominence from titles reduced
@@ -500,6 +498,8 @@
  [ ] fixed party allegiance portrait gfx
 
  [ ] strengthen smear reputation, damage prominence
+
+ [X] Enabled co-ruler for all republics
 
 ## Inventions
 
@@ -783,6 +783,23 @@
 
 ### Sparta
  [!] Mission Overhaul
+ 	[+] Spartan Restoration
+ 		[+] Helots of Messenia
+ 			[X] Reduced time to complete to 90 days from 180
+ 		[+] Helots Once More
+ 			[X] Now grants a claim on the Lepreon territory
+
+ 	[+] Protector of the Peloponnesus
+ 		[+] Elean Barbarians
+ 			[X] Reduced time to complete to 90 days from 180
+ 		[+] Religious Backing
+ 			[X] Reduced time to complete to 90 days from 365
+
+ 	[+] The Second Peloponnesian League
+ 		[X] Removed Protector of Greece and Liberation of Greece missions
+
+ 	[X] Removed Mission Tree: Ancient Rivals
+
  [ ] add rivers?
 
 ### Cyrenaica
@@ -864,3 +881,4 @@ wish list
 	reorganize ability increase food gain
 	bottleneck and envelopment affect combat width
 	citizen output visual bug fixed
+	laws that enable/disable co ruler
