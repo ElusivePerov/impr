@@ -290,7 +290,10 @@
 ## diplomacy
 
  [X] Travel days reduced to 0 from 30
+
  [!] Give up claims
+
+ [X] Removed limited diplomacy from Colony subject type
 
 ## culture
 
@@ -769,8 +772,14 @@
 
 ### Athens
  [!] Mission Overhaul
+ 	[+] Athens in Chains
+ 		[X] No longer changes government type to Oligarchic Republic on mission tree completion
+
+ 	[X] Restoring Attica, Democracy in Athens and Restoring the Delian League are no longer blocked by being a subject
+
+ [X] Increased Heritage bonus of monthly tyranny to -0.10 from -0.02
+
  [ ] add rivers?
- [ ] Increased Heritage bonus of monthly tyranny to -0.10 from -0.02 
 
 ### Sparta
  [!] Mission Overhaul
@@ -847,9 +856,11 @@ investigation zone
 
 	REPUBLIC_NOT_ALLOWED_OFFICE = -0.8
 	enable_ability = naval_raiding
+	democracy in athens -> organized citizens
 
 ----------------------------------------------------------------------------------------------------------------------
 wish list
 
 	reorganize ability increase food gain
 	bottleneck and envelopment affect combat width
+	citizen output visual bug fixed

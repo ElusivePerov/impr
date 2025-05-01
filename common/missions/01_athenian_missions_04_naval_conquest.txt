@@ -15,8 +15,7 @@
             tag = ATH
             has_variable = ath_unique_mech
         }
-        is_subject = no
-    	has_completed_mission = athenian_mission_02_attica
+        has_completed_mission = athenian_mission_02_attica
         has_civil_war = no
     }
 
