@@ -6,14 +6,15 @@
 income_tax = {
 	low = {
 		global_tax_modifier = -0.50
-		global_population_happiness = 0.1
+		global_monthly_state_loyalty = 0.2
 	}
 	default = {
 	}
 	
 	high = {
 		global_slaves_output = output_huge_svalue
-		research_points_modifier = -0.2
+		global_freemen_output = 0.12 
+		research_points_modifier = -0.3
 	}
 }
 

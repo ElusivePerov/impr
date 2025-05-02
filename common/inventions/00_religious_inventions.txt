@@ -60,7 +60,7 @@ religious_1 = {
 
 	# Level 3
 	omen_power_inv_1 = { 
-		modifier = { omen_power = 0.025 }
+		modifier = { omen_power = 0.125 }
 		requires = { global_unrest_inv_2 }		
 	}
 

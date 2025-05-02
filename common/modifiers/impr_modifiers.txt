@@ -1,0 +1,3 @@
+starting_deity_swap_discount = {
+	change_pantheon_cost_modifier = -0.99
+}

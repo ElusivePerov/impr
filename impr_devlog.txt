@@ -6,13 +6,13 @@
  [X] speed 3 changed to 0.6 from 0.5
  [X] speed 4 changed to 0.4 from 0.25
 
- [ ] mods don't disable achievements tooltip
-
  [!] Levy Map Mode Redesign
 
  [ ] put research eff in the top bar
 
  [ ] denser fog
+
+ [ ] Integrated localization from patch 2.0.5
 
 ## warfare
 
@@ -41,7 +41,7 @@
  [X] minimum raise levy cooldown reduced to 3 months from 4 months
  [X] maximum raise levy cooldown reduced to 18 months from 24 months
 
- [X] capital city modifier now increases fort defense by 10%
+ [X] Capital city modifier now increases Fort Defense by 10%
 
  [+] Military Traditions Stacking Block
  	[+] Celtic
@@ -170,7 +170,7 @@
  	[X] Added +10% Manpower Maximum
  	[X] Added 2750 Base Manpower
 
- [X] All cultural levies swapped for the default template (70% light infantry 30% light cavalry)
+ [X] All cultural levies Swapped for the default template (70% light infantry 30% light cavalry)
 
  [+] Unit Rebalance
  	[+] Light Infantry
@@ -239,6 +239,9 @@
  	[X] Egypt
  	High Standards Recruitment
  	Lower Egypt (40/59) 32 Heavy Infantry | 4 Light Cavalry | 4 Supply Trains
+ 	[X] Non-AI Generics (Fires on a month tick)
+ 	Unchanged Recruitment
+ 	Capital Region (?/?) 6 Heavy Infantry | 2 Light Cavalry
 
  [+] Combat Tactics
  	[X] Neutralized Cohort Type effectiveness
@@ -287,6 +290,11 @@
  	[X] Maintenance reduction on low pay increased to -35% from -25%
  	[X] Maintenance increase on high pay decreased to 15% from 25%
 
+ [+] Tax policies
+	[X] Swapped +10 Population Happiness for 0.2 Monthly Provincial Loyalty in Lax Tax
+	[X] Increased Research Points malus to 30% from 20% in Harsh Taxation
+	[X] Added +12% National Freeman Output to Harsh Taxation
+
 ## diplomacy
 
  [X] Travel days reduced to 0 from 30
@@ -295,6 +303,11 @@
 
  [X] Removed limited diplomacy from Colony subject type
 
+## religion
+
+ [X] Added a year long modifier granted at game start that discounts deity swap by 99%
+ ⭐ LOC DEBT ⭐
+
 ## culture
 
  [+] found colony cultural decision overhaul
@@ -302,7 +315,7 @@
  	[ ] now requires a minimum of 15 pops in the target territory
  	[ ] now requires that the territory doesn't have the colony modifier
  	[X] cooldown reduced from three years to one
- 	[X] added 0.5 assimilation speed to the territory colony modifier
+ 	[X] Added 0.5 assimilation speed to the territory colony modifier
  	[X] cultural modifier now runs out after 10 years
 
 ## government
@@ -333,7 +346,7 @@
  	[X] harsh treatment overrides all the above if the province is below 40 loyalty
  	[X] acquisition of wealth, bleed them dry, social mobility, local autonomy, borderlands, centralize, decentralize voided
 
- [X] granted monarchy's religious laws to republics
+ [X] granted Monarchy's religious laws to Republics
  ⭐ LOC DEBT ⭐
  [X] grant it to rome too lol
  ⭐ LOC DEBT ⭐
@@ -355,80 +368,83 @@
  [X] monthly statesmanship gain from researcher title reduced to -0.05 from 0.25
  [X] martial, finesse, charisma and zeal now provide 1.6 prominence per point
 
- [+] government types
- 	[X] standardized the idea slot amount to a base of 4 (one for each kind)
- 	[X] added gfx for fifth idea slot
+ [+] Government Types
+ 	[X] Standardized the idea slot amount to a base of 4 (one for each kind)
+ 	[X] Added gfx for fifth idea slot
 
- 	[+] aristocratic republic
- 		[X] swapped base modifier of enabling co ruler for 0.04 city noble desired ratio
- 		[X] swapped government bonus of 0.08 freeman happiness for 0.08 noble happiness
- 	[+] theocratic republic
- 		[X] added base modifier of 0.6 conversion speed
- 	[+] oligarchic republic
- 		[X] added base modifier of 0.08 city citizen desired ratio
- 	[+] democractic republic
- 		[X] added government bonus of 0.08 citizen happiness
- 	[+] plutocratic republic
- 		[X] moved +1 capital import routes from government bonus to base modifier
- 	[+] athenian republic
- 		[X] added one oratory idea slot
- 		[X] added base modifier of 0.1 monthly political influence modifier
- 		[X] added base modifier of 0.15 city citizen desired ratio
- 		[X] added government modifier of -0.1 monthly tyranny
+ 	[+] Aristocratic Republic
+ 		[X] Swapped base modifier of enabling co ruler for 4% city noble desired ratio
+ 		[X] Swapped government bonus of 8% freeman happiness for 8% noble happiness
+ 	[+] Theocratic Republic
+ 		[X] Added base modifier of 0.6 conversion speed
+ 	[+] Oligarchic Republic
+ 		[X] Added base modifier of 0.08 city citizen desired ratio
+ 	[+] Democractic Republic
+ 		[X] Added government bonus of 0.08 citizen happiness
+ 	[+] Plutocratic Republic
+ 		[X] Moved +1 capital import routes from government bonus to base modifier
+ 	[+] Athenian Republic
+ 		[X] Added one oratory idea slot
+ 		[X] Added base modifier of 0.1 monthly political influence modifier
+ 		[X] Added base modifier of 0.15 city citizen desired ratio
+ 		[X] Added government modifier of -0.1 monthly tyranny
 
- 	# new republican government types
- 	[+] indomitable republic
- 		[X] added one military idea slot
- 		[X] added base modifier of 0.1 monthly political influence modifier
- 		[X] added base modifier of 0.4 manpower maximum
- 		[X] added government modifier of +10 character loyalty
- 		[X] added government modifier of 0.15 freeman output
- 		[X] added government modifier of 0.1 citizen output
- 		[X] inherits election age, term and delay from aristocratic republic
+ 	# new Republican government types
+ 	[+] Indomitable Republic
+ 		[X] Added one military idea slot
+ 		[X] Added base modifier of 0.1 monthly political influence modifier
+ 		[X] Added base modifier of 0.4 manpower maximum
+ 		[X] Added government modifier of +10 character loyalty
+ 		[X] Added government modifier of 0.15 freeman output
+ 		[X] Added government modifier of 0.1 citizen output
+ 		[X] inherits election age, term and delay from Aristocratic Republic
  		⭐ LOC DEBT ⭐
- 	[+] sacrosanct republic
- 		[X] added one religious idea slot
- 		[X] added base modifier of 0.1 monthly political influence modifier
- 		[X] added base modifier of 1.2 conversion speed
- 		[X] added government modifier of 0.4 omen power
- 		[X] added government modifier of 0.2 correct religion happiness
- 		[X] added government modifier of 0.2 conversion speed modifier
- 		[X] inherits election age, term and delay from theocratic republic
+ 	[+] Sacrosanct Republic
+ 		[X] Added one religious idea slot
+ 		[X] Added base modifier of 0.1 monthly political influence modifier
+ 		[X] Added base modifier of 1.2 conversion speed
+ 		[X] Added government modifier of 0.4 omen power
+ 		[X] Added government modifier of 0.2 correct religion happiness
+ 		[X] Added government modifier of 0.2 conversion speed modifier
+ 		[X] inherits election age, term and delay from Theocratic Republic
  		⭐ LOC DEBT ⭐
- 	[+] mercantile republic
- 		[X] added one civic idea slot
- 		[X] added base modifier of 0.1 monthly political influence modifier
- 		[X] added base modifier of 0.1 citizen output
- 		[X] added government modifier of 0.15 national commerce income
- 		[X] added government modifier of -0.15 build cost
- 		[X] added government modifier of -0.25 naval maintenance cost
- 		[X] inherits election age, term and delay from plutocratic republic
+ 	[+] Mercantile Republic
+ 		[X] Added one civic idea slot
+ 		[X] Added base modifier of 0.1 monthly political influence modifier
+ 		[X] Added base modifier of 10% citizen output
+ 		[X] Added government modifier of 0.15 national commerce income
+ 		[X] Added government modifier of -0.15 build cost
+ 		[X] Added government modifier of -0.25 naval maintenance cost
+ 		[X] inherits election age, term and delay from Plutocratic Republic
  		⭐ LOC DEBT ⭐
 
- 	[+] autocratic monarchy
- 		[X] added base modifier of 0.05 monthly political influence modifier
- 	[+] aristocratic monarchy
- 		[X] added base modifier of 0.04 city noble desired ratio
- 		[X] removed government bonus of 0.10 desired freeman ratio
- 	[+] stratocratic monarchy
- 		[X] added base modifier of 0.2 manpower maximum 
- 	[+] theocratic monarchy
- 		[X] added base modifier of 0.6 conversion speed
- 	[+] plutocratic monarchy
- 		[X] moved +1 capital import routes from government bonus to base modifier
- 	[+] dictatorship
- 		[X] added base modifier of 0.1 monthly political influence modifier
- 	[+] empire
- 		[X] added one military idea slot
- 		[X] added base modifier of 0.1 monthly political influence modifier
- 		[X] added base modifier of 0.4 manpower modifier
- 	[+] imperial cult
- 		[X] added one religious idea slot
- 		[X] added base modifier of 0.1 monthly political influence modifier
- 		[X] added base modifier of 1.2 conversion speed
- 		[X] increased government modifier of omen power to 0.4 from 0.15
+ 	[+] Autocratic Monarchy
+ 		[X] Added base modifier of 5% monthly political influence modifier
+ 		[X] Increased slave output bonus from 6% to 12%
+ 		[X] Added government bonus of +8% freemen output
+ 		[X] Added government bonus of +0.05 monthly tyranny
+ 	[+] Aristocratic Monarchy
+ 		[X] Added base modifier of 4% city noble desired ratio
+ 		[X] Removed government bonus of +10% desired freeman ratio
+ 	[+] Stratocratic Monarchy
+ 		[X] Added base modifier of 20% manpower maximum 
+ 	[+] Theocratic Monarchy
+ 		[X] Added base modifier of 0.6 conversion speed
+ 	[+] Plutocratic Monarchy
+ 		[X] Moved +1 capital import routes from government bonus to base modifier
+ 	[+] Dictatorship
+ 		[X] Added base modifier of 10% monthly political influence modifier
+ 	[+] Empire
+ 		[X] Added one military idea slot
+ 		[X] Added base modifier of 10% monthly political influence modifier
+ 		[X] Added base modifier of 4$ manpower modifier
+ 	[+] Imperial Cult
+ 		[X] Added one religious idea slot
+ 		[X] Added base modifier of 10% monthly political influence modifier
+ 		[X] Added base modifier of 1.2 conversion speed
+ 		[X] Increased government modifier of omen power to 40% from 15%
 
- 	# new monarchy government types
+ 	# new Monarchy government types
  	[+] Gilded Monarchy
  		[X] Added one civic idea slot
  		[X] Added base modifier of 0.1 monthly political influence modifier
@@ -449,28 +465,28 @@
 
  [+] Change government decisions
  	[X] Proclaim the Invicibility of the Republic
- 	Requires: 400 territories, Imperium invention, 60% senate approval, be a republic and not an empire tier government
+ 	Requires: 400 territories, Imperium invention, 60% senate approval, be a Republic and not an empire tier government
  	Effect: lose 10 stability, adopt Indomitable Republic government, gain 3 province investments, disables changing to dictatorship
  	⭐ LOC DEBT ⭐
  	[X] Rule of the Wealthy
- 	Requires: 400 territories, Imperium invention, 60% senate approval, be a republic and not an empire tier government
+ 	Requires: 400 territories, Imperium invention, 60% senate approval, be a Republic and not an empire tier government
  	Effect: lose 10 stability, adopt Mercantile Republic government, gain 3 province investments, disables changing to dictatorship
  	⭐ LOC DEBT ⭐
  	[X] Adopt the Athenian Republic
- 	Requires: 400 territories, Imperium invention, 60% senate approval, be a republic and not an empire tier government
+ 	Requires: 400 territories, Imperium invention, 60% senate approval, be a Republic and not an empire tier government
  	Effect: lose 10 stability, adopt Athenian Republic government, gain 4 province investments, disables changing to dictatorship
  	⭐ LOC DEBT ⭐
  	[X] Proclaim the Sanctity of the Republic
- 	Requires: 200 territories, 4 deified rulers, Imperium invention, 60% senate approval, be a republic and not an empire tier government
+ 	Requires: 200 territories, 4 deified rulers, Imperium invention, 60% senate approval, be a Republic and not an empire tier government
  	Effect: lose 10 stability, adopt Sacrosanct Republic government, gain 4 province investments, disables changing to dictatorship
  	⭐ LOC DEBT ⭐
 
  	[X] Imperial Opulence
- 	Requires: 400 territories, Imperium invention, 90 ruler popularity, be a monarchy and not an empire tier government
+ 	Requires: 400 territories, Imperium invention, 90 ruler popularity, be a Monarchy and not an empire tier government
  	Effect: lose 10 stability, adopt Gilded Monarchy government, gain 3 province investments
  	⭐ LOC DEBT ⭐
  	[X] Empire of the Many
- 	Requires: 400 territories, Imperium invention, 90 ruler popularity, be a monarchy and not an empire tier government
+ 	Requires: 400 territories, Imperium invention, 90 ruler popularity, be a Monarchy and not an empire tier government
  	Effect: lose 10 stability, adopt Cosmopolitan Monarchy government, gain 3 province investments
  	⭐ LOC DEBT ⭐
 
@@ -486,7 +502,7 @@
  		[X] Removed monotheistic relegion block
  		[X] Reduced Stability loss to 10 from 30
 
-### republics
+### Republics
 
  [X] prominence and statesmanship divider for electability reduced to 150 from 200
  [X] family prestige divider for electability increased to 5000 from 4000
@@ -499,13 +515,13 @@
 
  [ ] strengthen smear reputation, damage prominence
 
- [X] Enabled co-ruler for all republics
+ [X] Enabled co-ruler for all Republics
 
-## Inventions
+## Innovations
 
  [?] Remove exclusive inventions probably
 
-### Civic Inventions
+### Civic Advances
 
  [X] greek advanced mechanics made into a generic invention
  ⭐ LOC DEBT ⭐
@@ -515,7 +531,7 @@
  [X] land tithe changed to grants 6 freemen pops from 6 tribesmen pops
  ⭐ LOC DEBT ⭐
 
-### Oratory Inventions
+### Oratory Advances
 
  [X] Centralized Comites changed to -0.02 corruption from -20% change policy cost
  [X] Added Aggressive Protection as a possible requirement for Book Binding
@@ -526,6 +542,10 @@
  	[X] Grants 5% monthly political influence
  	[X] Unlocks Empire tier governments
  	⭐ LOC DEBT ⭐
+
+### Religious Advances
+
+ 	[X] Increased Omen Power bonus in Hierarchical Haruspication to 12.5% from 2.5%
 
 ## Characters
 
@@ -573,7 +593,7 @@
  			[X] assim and happiness penalty duration reduced to 5 years from 75
  			[X] stab penalty reduced to 5 from 25
  			[X] AE increase reduced to 5 from 10
- 			[ ] added 10 years of -2 diplo rep to the tooltip
+ 			[ ] Added 10 years of -2 diplo rep to the tooltip
  		[+] Pan-Italic Congress
  			[X] now requires end the etruscans
  			[X] now requires greater than 0 opinion with target nations
@@ -659,7 +679,7 @@
  		requires faith_harmony
  		task: have 800 or more gold, rome must be a metropolis
  		reward: the holy site in rome swaps from jupiter to the capitoline triad, jupiter, juno and minerva are removed from the pantheon
- 		and the triad is added combining the passives of all three with a pop growth omen
+ 		and the triad is Added combining the passives of all three with a pop growth omen
  		⭐ LOC DEBT ⭐
 
  	[X] Removed Mission Trees: First Provincia, Punic Rivals, Greece, Eastern Glory, Hispanian Ambition
@@ -683,7 +703,7 @@
  			[X] Changed the requirement for the targeted territories to have at least a level 2 port instead of having city status
  			[X] Now grants the 'Silver Port' modifier to all targeted territories
  		[+] Restoring Tartessos
- 			[X] Added completion rewards of -10 Aggressive Expansion, the trade good in Tartessos gets swapped for precious metals 
+ 			[X] Added completion rewards of -10 Aggressive Expansion, the trade good in Tartessos gets Swapped for precious metals 
  			and the 'Tin Mines of Tartessos' modifier which grants 5% tax income bonus
  			⭐ LOC DEBT ⭐
 
@@ -802,10 +822,6 @@
 
  [ ] add rivers?
 
-### Cyrenaica
- [!] Mission Overhaul
- [ ] add rivers?
-
 ### Macedon
  [!] Mission Overhaul
  [ ] add rivers?
@@ -871,7 +887,7 @@ next patch
 ----------------------------------------------------------------------------------------------------------------------
 investigation zone
 
-	REPUBLIC_NOT_ALLOWED_OFFICE = -0.8
+	Republic_NOT_ALLOWED_OFFICE = -0.8
 	enable_ability = naval_raiding
 	democracy in athens -> organized citizens
 

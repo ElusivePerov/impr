@@ -1,17 +1,24 @@
 ﻿l_english:
 
-#######
-########  [ Oratory Inventions ]
-#########
-##########
+#####
+#######  [ Religion ]
+######## 
+
+ roman_pantheon:0 "Harmonic"
+ desc_roman_pantheon:0 ""
+ italic_pantheon:0 "Italic"
+ desc_italic_pantheon:0 ""
+
+#####
+#######  [ Oratory Inventions ]
+########
 
  imperium_inv:0 "Imperium"
  imperium_inv_desc:0 "It is no longer enough to present our state as its current title, our elevated position must be made clear to our lessers."
 
-#######
-########  [ Carthage ]
-#########
-##########
+#####
+#######  [ Carthage ]
+######## 
 
  PROV3256_carthaginian:0 "Qart Hadasht"
  carthage_area:0 "Qart Hadasht"

@@ -786,6 +786,7 @@
 		potential = {
 			num_of_cities >= 1
 			OR = {
+				government = despotic_monarchy
 				government = aristocratic_monarchy
 				government = stratocratic_monarchy
 				government = theocratic_monarchy
@@ -818,6 +819,7 @@
 		potential = {
 			num_of_cities >= 1
 			OR = {
+				government = despotic_monarchy
 				government = aristocratic_monarchy
 				government = stratocratic_monarchy
 				government = theocratic_monarchy
@@ -860,6 +862,7 @@
 		potential = {
 			num_of_cities >= 1
 			OR = {
+				government = despotic_monarchy
 				government = aristocratic_monarchy
 				government = stratocratic_monarchy
 				government = theocratic_monarchy
@@ -892,6 +895,7 @@
 		potential = {
 			num_of_cities >= 1
 			OR = {
+				government = despotic_monarchy
 				government = aristocratic_monarchy
 				government = stratocratic_monarchy
 				government = theocratic_monarchy
