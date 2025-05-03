@@ -3,21 +3,19 @@
 
 ## game
  
- [X] speed 3 changed to 0.6 from 0.5
- [X] speed 4 changed to 0.4 from 0.25
+ [X] Speed 3 changed to 0.6 from 0.5
+ [X] Speed 4 changed to 0.4 from 0.25
 
  [!] Levy Map Mode Redesign
+ [!] Put research efficiency in the top bar
+ [!] Denser fog
 
- [ ] put research eff in the top bar
-
- [ ] denser fog
-
- [ ] Integrated localization from patch 2.0.5
+ [X] Integrated localization from patch 2.0.5
 
 ## warfare
 
- [X] minimum warscore to demand peace reduced to 0 from 10
- [X] separate peace block reduced to 0 months from 36 months
+ [X] Minimum warscore to demand peace reduced to 0 from 10
+ [X] Separate peace block reduced to 0 months from 36 months
 
  [X] AE increase of non target reduced to 0 from 0.33
  [X] WS increase of non target reduced to 0 from 0.33
@@ -28,20 +26,20 @@
 
  [X] PI cost decrease of fabricate claim to 10 from 20
  
- [X] first fort cap usage reduced to 2 from 3
+ [X] First fort cap usage reduced to 2 from 3
 
- [ ] remove enforceable white peace
+ [ ] Remove enforceable white peace
 
- [?] timegated stronger CBs
+ [?] Timegated stronger CBs
 
  [X] WE increase of raising levies reduced to 0 from 0.5
  [X] WE increase per month of raised levies timer raised to 12 months from 6 months
  [X] WE increase per month of raised levies for too long (timer above) reduced to 0.02 from 0.04
 
- [X] minimum raise levy cooldown reduced to 3 months from 4 months
- [X] maximum raise levy cooldown reduced to 18 months from 24 months
+ [X] Minimum raise levy cooldown reduced to 3 months from 4 months
+ [X] Maximum raise levy cooldown reduced to 18 months from 24 months
 
- [X] Capital city modifier now increases Fort Defense by 10%
+ [X] Capital City modifier now increases Fort Defense by 10%
 
  [+] Military Traditions Stacking Block
  	[+] Celtic
@@ -310,7 +308,7 @@
 
 ## culture
 
- [+] found colony cultural decision overhaul
+ [+] Found colony cultural decision overhaul
  	[X] now targets the provincial capital
  	[ ] now requires a minimum of 15 pops in the target territory
  	[ ] now requires that the territory doesn't have the colony modifier
@@ -320,11 +318,11 @@
 
 ## government
 
- [X] change governor policy no longer costs PI
+ [X] Change governor policy no longer costs PI
  ⭐ LOC DEBT ⭐
- [ ] relocate capital block threshold lowered to 20 loyalty from 50 loyalty
- [X] relocate provincial capital no longer costs loyalty
- [ ] relocate provincial capital threshold reduced to 20 loyalty from 33
+ [ ] Relocate capital block threshold lowered to 20 loyalty from 50 loyalty
+ [X] Relocate provincial capital no longer costs loyalty
+ [ ] Relocate provincial capital threshold reduced to 20 loyalty from 33
  ⭐ LOC DEBT ⭐
 
  [+] Added Scorched Earth governor policy
@@ -334,11 +332,11 @@
  
  [!] Reduce power bases at defines
 
- [ ] reduce a third of the impact of stab on legitimacy loss
- [ ] anoint heir minimum legitimacy required reduced to 80 from 90
- [ ] anoint heir now grants loyalty to the targeted character
+ [ ] Reduce a third of the impact of stab on legitimacy loss
+ [ ] Anoint heir minimum legitimacy required reduced to 80 from 90
+ [ ] Anoint heir now grants loyalty to the targeted character
 
- [+] changed ai will do for governor policies
+ [+] Changed ai will do for governor policies
  	[X] religious conversion takes first priority until all territories in the province have a plurality of correct religion
  	[X] cultural assimilation takes second priority until all territories in the province have a plurality of correct culture
  	[X] civilization effort takes third priority until all territories in the province have a minimum of 20 civilization
@@ -346,16 +344,16 @@
  	[X] harsh treatment overrides all the above if the province is below 40 loyalty
  	[X] acquisition of wealth, bleed them dry, social mobility, local autonomy, borderlands, centralize, decentralize voided
 
- [X] granted Monarchy's religious laws to Republics
+ [X] Granted Monarchy's religious laws to Republics
  ⭐ LOC DEBT ⭐
- [X] grant it to rome too lol
+ [X] Grant it to rome too lol
  ⭐ LOC DEBT ⭐
 
- [ ] province disloyalty threshold lowered to 20 from 33
+ [ ] Province disloyalty threshold lowered to 20 from 33
 
- [ ] bellicose stance now provides AE decay instead of ws cost reduction
+ [ ] Bellicose stance now provides AE decay instead of ws cost reduction
 
- [+] prominence from titles reduced
+ [+] Prominence from titles reduced
  	[X] general reduced to 15 from 30 and monthly gain reduced to 0.05 from 0.2
  	[X] admiral reduced to 8 from 15 and monthly gain reduced to 0.02 from 0.1
  	[X] legate reduced to 10 from 30 and monthly gain reduced to 0.05 from 0.2
@@ -365,8 +363,8 @@
  	[X] governor unchanged but monthly gain reduced to 0.02 from 0.1
  	[X] party leader unchanged but monthly gain reduced to 0.02 from 0.35
  	[X] great work construction leader reduced to 5 from 30 and monthly gain reduced to 0.01 from 0.1
- [X] monthly statesmanship gain from researcher title reduced to -0.05 from 0.25
- [X] martial, finesse, charisma and zeal now provide 1.6 prominence per point
+ [X] Monthly Statesmanship gain from researcher title reduced to -0.05 from 0.25
+ [X] Martial, Finesse, Charisma and Zeal now provide 1.6 prominence per point
 
  [+] Government Types
  	[X] Standardized the idea slot amount to a base of 4 (one for each kind)
@@ -722,7 +720,8 @@
  [X] Granted Mauretania the following territories: Ifran (6484), Zemmour (6302), Rob'a (6470), Mdakra (6487), Ouardigha (6473), 
  Amer (6472), Mousa (6471), Mzamza (6489), Meskine (6474), Amrane (6480), Zaakna (6492), Mizab (7221), Bouzerrara (6479), Frej (6477), Haouzia (6481), Anfa (6475) and Azama (6491)
 
- [X] Granted Musulamia the following territories: Bezeros (3292), Turris Tamalleni (3290), Silesva (3202), Capsa Iustiniana (3196), Thiges (3190) and Castra Neptitana (3191)
+ [X] Granted Musulamia the following territories: Bezeros (3292), Turris Tamalleni (3290), Silesva (3202), Capsa Iustiniana (3196), Thiges (3190) 
+ and Castra Neptitana (3191)
 
  [X] Granted Massylia the following territories: Cerva (3193), Ad Speculum (3189), Casae Nigrae (3188), Ubaza Castellum (3186),
  Mascula Tiberia (3168), Leges Maiores (3185), Midili (3187), Badias (3169), Aurasius Inferior (3176), Claudi (3174), Lambafundi (3170),
@@ -824,6 +823,19 @@
 
 ### Macedon
  [!] Mission Overhaul
+ 	[+] Antipatros' Legacy
+ 		[X] Moved Flourishing Makedon, Vibrant Court, Expand Dion Complex, Oracular Supremacy, Hellenic Capital and God Among Men missions to this tree
+
+ 		[+] Formalize Monarchy
+ 			[X] Now requires Thessalian Fetter
+ 		[+] God Among Men
+ 			[X] Now requires Formalize Monarchy
+
+ 		[X] Removed Missions: The Illyrian Question, Dominate Epirus, Paionia Makedonias, Western Hegemony, Athenian Machinations, Demestrios' Folly,
+ 		and League of Korinthos
+
+ 	[X] Removed Mission Trees: Adriatic Dominion and Hellenic Mastery
+
  [ ] add rivers?
 
 ### Antigonids
