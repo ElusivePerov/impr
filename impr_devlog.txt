@@ -16,6 +16,10 @@
 
  [ ] Removed being a subject blocking declaring using conquest war goal
 
+ Imperators' Navigatable Rivers is now a requirement to run this mod
+
+ [X] Added a crossing between Ektonopolis and Yendi
+
 ## Warfare
 
  [X] Minimum warscore to demand peace reduced to 0 from 10
@@ -949,13 +953,28 @@
 
 ## Generic Missions
 
- [ ] Generic greeks no longer blocked from generic mission trees until their exclusive tree is completed
+ [X] Generic greeks no longer blocked from generic mission trees until their exclusive tree is completed
 
  [+] Matter of [Region] # Generic Conquest Tree
  	[+] Control [Province]
- 		[ ] Third reward roll now only targets the provincial capital
+ 		[X] No longer requires uncolonized provinces
+ 		[X] Second reward roll's modifier now lasts forever
+ 		[X] Third reward roll now only targets the provincial capital
+ 	[+] Acquire [Province]
+ 		[X] No longer requires uncolonized provinces
+ 	[+] Making Gains
+ 		[X] No longer requires uncolonized provinces
+ 		[X] Second reward roll now only targets the provincial capital
+ 		[X] Third reward roll's modifier now lasts forever
+ 	[+] Annex [Province]
+ 		[X] No longer requires uncolonized provinces
  	[+] Acquire [Province] 
  		[X] No longer requires uncolonized provinces
+ 	[+] Conquer [Province]
+ 		[X] No longer requires uncolonized provinces
+
+ [+] Pearl of [Region] # Generic Infrastructure Tree
+ 	[X] No longer permanently blocks a region from being targeted again, instead its just blocked for 20 years
 
 ### Removed Tags
  [X] All Indian and Tibetan minors

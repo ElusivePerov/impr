@@ -7,7 +7,6 @@
 	potential = {
 		any_owned_province = {
 			governorship = {
-				NOT = { has_variable = mission_happened_here } #Set on completion
 				NOT = { has_variable = mission_governorship_countdown }
 				exists = governor_or_ruler
 				governor_or_ruler = {
@@ -49,8 +48,6 @@
 	#shrine_mission_over = Cleared on end of mission but not before.
 	#food_done = Cleared on end of mission but not before.
 	#infra_mission_branches = Absolutely must be set to 0 in on potential.
-	#
-	#mission_happened_here = Should NOT be cleared
 	
 	on_potential = {
 		ROOT = { set_variable = capital_trade_mission_ongoing } #Must be cleared in both abort and complete!
@@ -64,7 +61,6 @@
 			limit = {
 				governorship = {
 					exists = governor_or_ruler
-					NOT = { has_variable = mission_happened_here } #Set on completion
 					NOT = { has_variable = mission_governorship_countdown }
 					any_governorship_state = {
 						count >= 4
@@ -547,10 +543,6 @@
 				name = mission_governorship_countdown
 				days = 7300
 			}
-			if = {
-				limit = { has_variable = mission_happened_here }
-				remove_variable = mission_happened_here
-			}
 		}
 		if = {
 			limit = { has_variable = shrine_mission_ongoing }
@@ -638,7 +630,6 @@
 	
 	on_start = {
 		start_mission_ai_effect = yes
-		scope:infra_governorship = { set_variable = mission_happened_here }
 		scope:governorship_capital = {
 			if = {
 				limit = { has_city_status = no }
