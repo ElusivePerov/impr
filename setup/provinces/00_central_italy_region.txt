@@ -585,9 +585,9 @@
 {
 	barbarian_power=0
 	civilization_value=9.8
-	culture="roman"
+	culture="samnite"
 	province_rank="settlement"
-	religion="roman_pantheon"
+	religion="italic_pantheon"
 	terrain="hills"
 	trade_goods="wood"
 	citizen=
@@ -1802,9 +1802,9 @@
 {
 	barbarian_power=0
 	civilization_value=9.8
-	culture="roman"
+	culture="samnite"
 	province_rank="settlement"
-	religion="roman_pantheon"
+	religion="italic_pantheon"
 	terrain="hills"
 	trade_goods="wine"
 	citizen=

@@ -11,8 +11,6 @@
 	secondary_navy = hexere
 	flank_navy = liburnian
 	
-	use_latin_name_rules = yes
-	
 	male_names = {
 		Amtnie Amuni Anche Anthai Aninas Arunth Araz Arzni Arnth Autu Aule Cei Ceile Ceisi
 		Cire Cnaive Clate Cruthni Cuinte Cursni Fapi Felce Felsnas Fulu Hapre Hirumina Husi
@@ -690,11 +688,10 @@
 	
 	barbarian_names = { BRUTTII CAMUNNI CARACENI CENOMANI EUGANEI FRINIATES LIBURNI LIGURES LEPONTII LUCANI MAMERTINI PATAVINI PENTRI }
 	
-	graphical_culture = celtic_gfx
+	graphical_culture = roman_gfx
 
 	ethnicities = {
 		10 = roman
-		10 = celtic
 	}
 
 }

@@ -8,6 +8,8 @@
  desc_roman_pantheon:0 ""
  italic_pantheon:0 "Italic"
  desc_italic_pantheon:0 ""
+ greek_pantheon:0 "Hellenic"
+ desc_greek_pantheon:0 "Having spread from the Greek heartland, the Olympian pantheon is venerated by many. The names, aspects and hierarchy of many of the gods can vary widely from region to region, however, Zeus, or Jupiter as he is known to the Romans, is regarded as the figurehead of the Olympian pantheon."
 
 #####
 #######  [ Culture ]
@@ -15,6 +17,23 @@
 
  latin:1 "Latin"
  italic:1 "Italic"
+ italic_malename:0 "$NAME_MALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
+ italic_femalename:1 "$FAMILY_FEMALE$ $FEMALE_ORDER$ $REGNALNUMBER$ $NICKNAME$"
+
+#####
+#######  [ Government ]
+######## 
+
+ oligarchic_republic_co_ruler:0 "Co-Archon"
+ oligarchic_republic_co_ruler_female:0 "Co-Archon"
+ democratic_republic_co_ruler:0 "Co-Archon"
+ democratic_republic_co_ruler_female:0 "Co-Archon"
+ theocratic_republic_co_ruler:0 "Priest-Archon"
+ theocratic_republic_co_ruler_female:0 "Priestess-Archon"
+ plutocratic_republic_co_ruler:0 "Co-Archon"
+ plutocratic_republic_co_ruler_female:0 "Co-Archon"
+ athenian_republic_co_ruler:0 "Co-Archon"
+ athenian_republic_co_ruler_female:0 "Co-Archon"
 
 #####
 #######  [ Innovations ]

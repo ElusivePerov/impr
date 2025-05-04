@@ -673,6 +673,9 @@
  	[X] Set the religion of etrurian and all italic minors characters to italic
  	[X] Assigned etrurian gods to the italic pantheon
 
+ [X] Removed non-romans from the latin culture group and added them to the italic culture group
+ [X] Converted Marsia's pops to sabellian culture and italic religion
+
  [+] Mission Overhaul
  	[+] Italia
  		[+] Destroy Italian Allies
@@ -876,8 +879,8 @@
 
  	[+] Removed Mission Tree: Hellenic Contender
 
- [X] Converted most Illyrian and all Pannonian pops to druidic
- [X] Converted all Illyrian and Pannonian tags to druidic
+ [ ] Converted most Illyrian (I forgot messapian) all Pannonian pops to druidic
+ [ ] Converted all Illyrian (I forgot messapian) and Pannonian tags to druidic
 
  [ ] add rivers?
 
