@@ -1,0 +1,82 @@
+﻿NGame = {
+	GAME_SPEED_TICKS = {	 #how many seconds should a day take in every game speed
+		1
+		0.75
+		0.6
+		0.4
+		0.0
+	}
+}
+
+NCountry = {
+	FORT_MAINTENANCE = 0.2
+	FIRST_FORT_COST_IN_POINTS = 2 # Is measured against BASE_FORT_LIMIT_PER_STATE. This applies for the first fort in every province - every other fort in the same province is 1 point towards this limit
+	POTENTIAL_MISSION_COUNT = 6 # Number of random missions to pick between
+}  
+
+NDiplomacy = {
+	MIN_WARSCORE_TO_DEMAND = 0
+	
+	PEACE_SEPERATE_BLOCK_MONTHS = 0
+	PEACE_CLAIM_AE_REDUCTION = -0.5 # AE reduction if the taker has a claim
+	PEACE_SUBJECT_AE_REDUCTION = -0.5 # AE reduction if it is taken for a subject
+	PEACE_AE_INCREASE_FOR_NON_TARGET = 0 # AE increase for countries that are not main targets of the war
+
+	PEACE_COST_MODIFIER_FOR_NON_TARGET = 0 # Applied for countries that are not the main targets of the war
+	PEACE_COST_MODIFIER_FOR_CLAIM = -0.33 # Applied if the taker has a claim
+	PEACE_COST_MODIFIER_FOR_SAME_CULTURE = 0.33 # Applied if dominant culture in province is the same as taker's primary culture
+	PEACE_COST_MODIFIER_FOR_SAME_RELIGION = 0.33 # Applied if dominant religion in province is the same as taker's religion
+	
+	TRAVEL_DAYS = 0
+}
+
+NSuccession = {	
+	REPUBLIC_POPULARITY_DIV = 200
+	REPUBLIC_PROMINENCE_DIV = 150
+	REPUBLIC_PRESTIGE_DIV = 5000
+	REPUBLIC_PRESTIGE_CAP = 0.16
+	REPUBLIC_NOT_SAME_PARTY = -0.2
+	REPUBLIC_PARTY_LEADER = 0.1
+	REPUBLIC_FRIEND_PARTY_LEADER = 0.25
+	REPUBLIC_FAMILY_PARTY_LEADER = 0.1
+	REPUBLIC_RIVAL_PARTY_LEADER = -0.25
+	REPUBLIC_WRONG_RELIGION = -0.25
+	REPUBLIC_WRONG_CULTURE = -0.25
+	REPUBLIC_NOT_ALLOWED_OFFICE = -0.8
+	REPUBLIC_DISLOYAL = -0.5
+	
+	COGNATIC_FEMALE_PENALTY = -0.5
+	EGYPTIAN_FEMALE_PENALTY = -0.5
+	FALLBACK_FEMALE_PENALTY = -0.50
+	FALLBACK_CHILD_PENALTY = -0.5
+	FALLBACK_FAMILY = 2
+	FALLBACK_POPULARITY_DIV = 500
+	FALLBACK_PROMINENCE_DIV = 100
+	FALLBACK_PRESTIGE_DIV = 400
+	FALLBACK_PRESTIGE_CAP = 2.0
+	FALLBACK_AGE_DIV = 40
+	
+	TRIBAL_CLAN_CHIEF = 100
+	TRIBAL_MARTIAL = 2.0
+	TRIBAL_CHARISMA = 1.5
+	TRIBAL_FINESSE = 1.0
+	TRIBAL_ZEAL = 1.0
+	TRIBAL_CHILD_PENALTY = -0.9
+	TRIBAL_FEMALE_PENALTY = -0.9
+	TRIBAL_SAME_FAMILY_PENALTY = -0.5
+	TRIBAL_MINOR_CHARACTER_PENALTY = -1.0
+	
+	ELECTIVE_CHARISMA_MULTIPLIER = 5
+}
+
+NProvince = {
+	#State
+	TOO_DISLOYAL_THRESHOLD = 20
+}
+
+NLevy = {
+	WAR_EXHAUSTION_ON_RAISE = 0 # amount of war exhaustion gained from simply raising a levy
+	MONTHLY_WAR_EXHAUSTION = 0.02 # each governorship contributes this much to war exhaustion after having levies raised for too long
+	RAISE_LEVY_COOLDOWN_MONTHS = 3 # number of months of cooldown after disbanding before you can raise a levy again
+	MONTHS_TO_ADD_TO_DISBAND = 18 #The maximum months that can be added to a levy cooldown when disbanded, based on the strength of the levy at disband time.
+}

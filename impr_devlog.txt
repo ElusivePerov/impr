@@ -358,7 +358,7 @@
  [+] Added Scorched Earth governor policy
  	[X] Decreases Supply Limit by 50%, Monthly Civilization by 0.25%, Population Output by 40%, Migration Attraction by 6
  		and Monthly State Loyalty by 0.3%
- 	[X] Increases Migration Speed and Demotion Speed by 1
+ 	[ ] Increases Migration Speed by 2, Demotion Speed by 1 and Hostile Attrition by 2
  
  [!] Reduce power bases at defines
 
@@ -883,8 +883,8 @@
 
  	[+] Removed Mission Tree: Hellenic Contender
 
- [ ] Converted most Illyrian (I forgot messapian) all Pannonian pops to druidic
- [ ] Converted all Illyrian (I forgot messapian) and Pannonian tags to druidic
+ [X] Converted most Illyrian (I forgot messapian) all Pannonian pops to druidic
+ [X] Converted all Illyrian (I forgot messapian) and Pannonian tags to druidic
 
  [ ] add rivers?
 
@@ -932,7 +932,7 @@
  		[+] God Among Men
  			[X] Now requires Formalize Monarchy
 
- 		[X] Removed Missions: The Illyrian Question, Dominate Epirus, Paionia Makedonias, Western Hegemony, Athenian Machinations, Demestrios' Folly,
+ 		[X] Removed Missions: The Illyrian Question, Dominate Epirus, Paionia Makedonias, Western Hegemony, Athenian Machinations, Demetrios' Folly,
  		and League of Korinthos
 
  	[X] Removed Mission Trees: Adriatic Dominion and Hellenic Mastery
@@ -941,6 +941,33 @@
 
 ### Antigonids
  [!] Mission Overhaul
+ 	[+] Antigonos' Vision
+ 		[X] Moved Blades of Tainaron, Poseidon's Throne and Stable Dynasty from Macedonian Aspirations
+ 		[X] Moved Naval Precedents, Kypriot Cornerstone and Ports of the East from Antigonid Birthright
+
+ 		[+] Secure Frontiers 
+ 			[X] No longer requires Eastern Capital
+ 			[X] Reduced time to complete from 90 days to 30
+ 		[+] Attract Greek Colonists 
+ 			[X] Now requires Secure Frontiers
+ 		[+] Kypriot Cornerstone
+ 			[X] Reduced time to complete from 365 days to 90
+ 		[+] Poseidon's Throne
+ 			[X] Now requires Ports of the East
+ 		[+] Eastern Capital
+ 			[X] Reduced time to complete from 720 days to 250
+ 		[+] Phoenician Timber
+ 			[X] Reduced time to complete from 365 days to 90
+ 		[+] Antigoneia's Port
+ 			[X] Reduced time to complete from 365 days to 180
+ 		[+] Formalize Divinity
+ 			[X] Now requires Antigoneia's Port and Poseidon's Throne
+ 		
+ 		[X] Removed missions: Pragmatic Alliance, Demetrios' Playground, Reiterate Tyre Proclamation, Hellenic Liberator, League of Korinthos, Diadochi
+ 		Conquest and Rhodian Closure
+
+ 	[X] Removed Mission Trees: Macedonian Aspirations and Antigonid Birthright
+
  [ ] add rivers?
 
 ### Seleukids
