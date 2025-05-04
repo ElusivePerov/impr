@@ -202,7 +202,7 @@
 	civilization_value=6
 	culture="letobician"
 	province_rank="settlement"
-	religion="greek_pantheon"
+	religion="druidism"
 	terrain="mountain"
 	trade_goods="wood"
 	freemen=
@@ -225,7 +225,7 @@
 	civilization_value=6
 	culture="carnian"
 	province_rank="settlement"
-	religion="greek_pantheon"
+	religion="druidism"
 	terrain="mountain"
 	trade_goods="stone"
 	freemen=
@@ -248,7 +248,7 @@
 	civilization_value=8
 	culture="letobician"
 	province_rank="settlement"
-	religion="greek_pantheon"
+	religion="druidism"
 	terrain="hills"
 	trade_goods="cattle"
 	citizen=
@@ -275,7 +275,7 @@
 	civilization_value=8
 	culture="carnian"
 	province_rank="settlement"
-	religion="greek_pantheon"
+	religion="druidism"
 	terrain="forest"
 	trade_goods="stone"
 	citizen=
@@ -302,7 +302,7 @@
 	civilization_value=8
 	culture="letobician"
 	province_rank="settlement"
-	religion="greek_pantheon"
+	religion="druidism"
 	terrain="hills"
 	trade_goods="wood"
 	freemen=
@@ -321,7 +321,7 @@
 	civilization_value=7
 	culture="carnian"
 	province_rank="settlement"
-	religion="greek_pantheon"
+	religion="druidism"
 	terrain="mountain"
 	trade_goods="marble"
 	freemen=
@@ -344,7 +344,7 @@
 	civilization_value=6
 	culture="carnian"
 	province_rank="settlement"
-	religion="greek_pantheon"
+	religion="druidism"
 	terrain="mountain"
 	trade_goods="horses"
 	citizen=
@@ -367,7 +367,7 @@
 	civilization_value=10
 	culture="deurian"
 	province_rank="settlement"
-	religion="greek_pantheon"
+	religion="druidism"
 	terrain="plains"
 	trade_goods="wood"
 	citizen=
@@ -394,7 +394,7 @@
 	civilization_value=8
 	culture="deurian"
 	province_rank="settlement"
-	religion="greek_pantheon"
+	religion="druidism"
 	terrain="forest"
 	trade_goods="honey"
 	citizen=
@@ -444,7 +444,7 @@
 	civilization_value=8
 	culture="letobician"
 	province_rank="settlement"
-	religion="greek_pantheon"
+	religion="druidism"
 	terrain="forest"
 	trade_goods="base_metals"
 	freemen=
@@ -467,7 +467,7 @@
 	civilization_value=8
 	culture="letobician"
 	province_rank="settlement"
-	religion="greek_pantheon"
+	religion="druidism"
 	terrain="forest"
 	trade_goods="grain"
 	citizen=
@@ -494,7 +494,7 @@
 	civilization_value=8
 	culture="carnian"
 	province_rank="settlement"
-	religion="greek_pantheon"
+	religion="druidism"
 	terrain="forest"
 	trade_goods="horses"
 	freemen=
@@ -513,7 +513,7 @@
 	civilization_value=12
 	culture="letobician"
 	province_rank="settlement"
-	religion="greek_pantheon"
+	religion="druidism"
 	terrain="farmland"
 	trade_goods="stone"
 	freemen=
@@ -536,7 +536,7 @@
 	civilization_value=12
 	culture="letobician"
 	province_rank="settlement"
-	religion="greek_pantheon"
+	religion="druidism"
 	terrain="farmland"
 	trade_goods="woad"
 	citizen=
@@ -605,7 +605,7 @@
 	civilization_value=8
 	culture="letobician"
 	province_rank="settlement"
-	religion="greek_pantheon"
+	religion="druidism"
 	terrain="forest"
 	trade_goods="wood"
 	freemen=
@@ -662,7 +662,7 @@
 	civilization_value=8
 	culture="letobician"
 	province_rank="settlement"
-	religion="greek_pantheon"
+	religion="druidism"
 	terrain="forest"
 	trade_goods="stone"
 	freemen=
@@ -1297,7 +1297,7 @@
 	civilization_value=8
 	culture="letobician"
 	province_rank="settlement"
-	religion="greek_pantheon"
+	religion="druidism"
 	terrain="hills"
 	trade_goods="cattle"
 	freemen=

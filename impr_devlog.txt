@@ -597,10 +597,15 @@
 
  [+] New Regions
  	[X] Epirus provinces: Epirus (from Greece), Illyria Graeca (from Greece) and Aetolia (from Greece)
+ 	⭐ LOC DEBT ⭐
  	[X] Attica provinces: Attica (from Greece), Boeotia (from Greece) and Euboea (from Greece)
+ 	⭐ LOC DEBT ⭐
  	[X] Peloponnese provinces: Achaea (from Greece), Arcadia (from Greece) and Laconia (from Greece)
+ 	⭐ LOC DEBT ⭐
  	[X] Aegean provinces: Crete (from Greece), Cyclades (from Greece) and Sporades (from Asia)
+ 	⭐ LOC DEBT ⭐
  	[X] Sardinia et Corsica provinces: Corsica (from Italia), Sardinia Borealis (from Italia) and Sardinia Australis (from Italia)
+ 	⭐ LOC DEBT ⭐
 
  [+] Changed Regions
  	[ ] Moesia moved provinces: Dindaria (from Macedonia) and Dardania (from Macedonia)
@@ -839,8 +844,8 @@
 
  	[+] Removed Mission Tree: Hellenic Contender
 
- [ ] Converted all Pannonian and Illyrian pops to druidic
- [ ] Converted all Pannonian and Illyrian tags to druidic
+ [X] Converted most Illyrian and all Pannonian pops to druidic
+ [X] Converted all Illyrian and Pannonian tags to druidic
 
  [ ] add rivers?
 

@@ -75,7 +75,7 @@
 	civilization_value=18
 	culture="taulantian"
 	province_rank="settlement"
-	religion="greek_pantheon"
+	religion="druidism"
 	terrain="forest"
 	trade_goods="olive"
 	freemen=
@@ -94,7 +94,7 @@
 	civilization_value=16
 	culture="taulantian"
 	province_rank="settlement"
-	religion="greek_pantheon"
+	religion="druidism"
 	terrain="mountain"
 	trade_goods="leather"
 	freemen=
@@ -113,12 +113,13 @@
 	civilization_value=18
 	culture="taulantian"
 	province_rank="settlement"
-	religion="greek_pantheon"
+	religion="druidism"
 	terrain="hills"
 	trade_goods="fur"
 	citizen=
 	{
 		amount=2
+		religion="greek_pantheon"
 	}
 	freemen=
 	{
@@ -140,12 +141,13 @@
 	civilization_value=16
 	culture="taulantian"
 	province_rank="settlement"
-	religion="greek_pantheon"
+	religion="druidism"
 	terrain="mountain"
 	trade_goods="leather"
 	citizen=
 	{
 		amount=2
+		religion="greek_pantheon"
 	}
 	freemen=
 	{
@@ -168,7 +170,7 @@
 	culture="taulantian"
 	port_building=1
 	province_rank="settlement"
-	religion="greek_pantheon"
+	religion="druidism"
 	terrain="farmland"
 	trade_goods="fish"
 	freemen=
@@ -187,7 +189,7 @@
 	civilization_value=10
 	culture="histrian"
 	province_rank="settlement"
-	religion="greek_pantheon"
+	religion="druidism"
 	terrain="plains"
 	trade_goods="wine"
 	citizen=
@@ -210,7 +212,7 @@
 	civilization_value=12
 	culture="histrian"
 	province_rank="settlement"
-	religion="greek_pantheon"
+	religion="druidism"
 	terrain="farmland"
 	trade_goods="fish"
 	citizen=
@@ -238,7 +240,7 @@
 	culture="histrian"
 	port_building=1
 	province_rank="settlement"
-	religion="greek_pantheon"
+	religion="druidism"
 	terrain="farmland"
 	trade_goods="wine"
 	citizen=
@@ -261,7 +263,7 @@
 	civilization_value=8
 	culture="histrian"
 	province_rank="settlement"
-	religion="greek_pantheon"
+	religion="druidism"
 	terrain="forest"
 	trade_goods="wine"
 	citizen=
@@ -284,7 +286,7 @@
 	civilization_value=8
 	culture="histrian"
 	province_rank="settlement"
-	religion="greek_pantheon"
+	religion="druidism"
 	terrain="hills"
 	trade_goods="olive"
 	citizen=
@@ -311,7 +313,7 @@
 	civilization_value=8
 	culture="histrian"
 	province_rank="settlement"
-	religion="greek_pantheon"
+	religion="druidism"
 	terrain="hills"
 	trade_goods="cloth"
 	citizen=
@@ -338,7 +340,7 @@
 	civilization_value=7
 	culture="carnian"
 	province_rank="settlement"
-	religion="greek_pantheon"
+	religion="druidism"
 	terrain="mountain"
 	trade_goods="horses"
 	freemen=
@@ -361,7 +363,7 @@
 	civilization_value=7
 	culture="carnian"
 	province_rank="settlement"
-	religion="greek_pantheon"
+	religion="druidism"
 	terrain="mountain"
 	trade_goods="cattle"
 	citizen=
@@ -388,7 +390,7 @@
 	civilization_value=9
 	culture="carnian"
 	province_rank="settlement"
-	religion="greek_pantheon"
+	religion="druidism"
 	terrain="hills"
 	trade_goods="horses"
 	freemen=
@@ -411,7 +413,7 @@
 	civilization_value=6
 	culture="letobician"
 	province_rank="settlement"
-	religion="greek_pantheon"
+	religion="druidism"
 	terrain="mountain"
 	trade_goods="stone"
 	citizen=
@@ -438,7 +440,7 @@
 	civilization_value=8
 	culture="histrian"
 	province_rank="settlement"
-	religion="greek_pantheon"
+	religion="druidism"
 	terrain="hills"
 	trade_goods="fish"
 	citizen=
@@ -465,7 +467,7 @@
 	civilization_value=8
 	culture="histrian"
 	province_rank="settlement"
-	religion="greek_pantheon"
+	religion="druidism"
 	terrain="hills"
 	trade_goods="vegetables"
 	citizen=
@@ -507,11 +509,13 @@
 	{
 		amount=2
 		culture="histrian"
+		religion="druidism"
 	}
 	slaves=
 	{
 		amount=1
 		culture="histrian"
+		religion="druidism"
 	}
 }
 #Ortopla
@@ -521,7 +525,7 @@
 	civilization_value=8
 	culture="histrian"
 	province_rank="settlement"
-	religion="greek_pantheon"
+	religion="druidism"
 	terrain="hills"
 	trade_goods="salt"
 	citizen=
@@ -548,7 +552,7 @@
 	civilization_value=8
 	culture="catari"
 	province_rank="settlement"
-	religion="greek_pantheon"
+	religion="druidism"
 	terrain="forest"
 	trade_goods="fur"
 	freemen=
@@ -571,7 +575,7 @@
 	civilization_value=8
 	culture="catari"
 	province_rank="settlement"
-	religion="greek_pantheon"
+	religion="druidism"
 	terrain="hills"
 	trade_goods="wood"
 	freemen=
@@ -594,7 +598,7 @@
 	civilization_value=8
 	culture="catari"
 	province_rank="settlement"
-	religion="greek_pantheon"
+	religion="druidism"
 	terrain="forest"
 	trade_goods="vegetables"
 	freemen=
@@ -617,7 +621,7 @@
 	civilization_value=8
 	culture="catari"
 	province_rank="settlement"
-	religion="greek_pantheon"
+	religion="druidism"
 	terrain="hills"
 	trade_goods="cattle"
 	freemen=
@@ -636,7 +640,7 @@
 	civilization_value=8
 	culture="catari"
 	province_rank="settlement"
-	religion="greek_pantheon"
+	religion="druidism"
 	terrain="forest"
 	trade_goods="wood"
 	freemen=
@@ -659,7 +663,7 @@
 	civilization_value=8
 	culture="deurian"
 	province_rank="settlement"
-	religion="greek_pantheon"
+	religion="druidism"
 	terrain="forest"
 	trade_goods="horses"
 	freemen=
@@ -682,7 +686,7 @@
 	civilization_value=8
 	culture="catari"
 	province_rank="settlement"
-	religion="greek_pantheon"
+	religion="druidism"
 	terrain="hills"
 	trade_goods="wood"
 	freemen=
@@ -701,7 +705,7 @@
 	civilization_value=8
 	culture="catari"
 	province_rank="settlement"
-	religion="greek_pantheon"
+	religion="druidism"
 	terrain="forest"
 	trade_goods="fur"
 	citizen=
@@ -724,7 +728,7 @@
 	civilization_value=12
 	culture="catari"
 	province_rank="settlement"
-	religion="greek_pantheon"
+	religion="druidism"
 	terrain="farmland"
 	trade_goods="horses"
 	freemen=
@@ -747,7 +751,7 @@
 	civilization_value=8
 	culture="liburnian_culture"
 	province_rank="settlement"
-	religion="greek_pantheon"
+	religion="druidism"
 	terrain="hills"
 	trade_goods="olive"
 	freemen=
@@ -766,7 +770,7 @@
 	civilization_value=8
 	culture="histrian"
 	province_rank="settlement"
-	religion="greek_pantheon"
+	religion="druidism"
 	terrain="hills"
 	trade_goods="leather"
 	freemen=
@@ -789,7 +793,7 @@
 	civilization_value=8
 	culture="liburnian_culture"
 	province_rank="settlement"
-	religion="greek_pantheon"
+	religion="druidism"
 	terrain="forest"
 	trade_goods="wood"
 	freemen=
@@ -808,7 +812,7 @@
 	civilization_value=10
 	culture="liburnian_culture"
 	province_rank="settlement"
-	religion="greek_pantheon"
+	religion="druidism"
 	terrain="plains"
 	trade_goods="salt"
 	citizen=
@@ -835,7 +839,7 @@
 	civilization_value=12
 	culture="liburnian_culture"
 	province_rank="settlement"
-	religion="greek_pantheon"
+	religion="druidism"
 	terrain="farmland"
 	trade_goods="fish"
 	citizen=
@@ -863,7 +867,7 @@
 	culture="liburnian_culture"
 	port_building=1
 	province_rank="city"
-	religion="greek_pantheon"
+	religion="druidism"
 	terrain="plains"
 	trade_goods="fish"
 	freemen=
@@ -886,7 +890,7 @@
 	civilization_value=8
 	culture="liburnian_culture"
 	province_rank="settlement"
-	religion="greek_pantheon"
+	religion="druidism"
 	terrain="hills"
 	trade_goods="leather"
 	citizen=
@@ -913,7 +917,7 @@
 	civilization_value=12
 	culture="liburnian_culture"
 	province_rank="settlement"
-	religion="greek_pantheon"
+	religion="druidism"
 	terrain="farmland"
 	trade_goods="grain"
 	freemen=
@@ -936,7 +940,7 @@
 	civilization_value=12
 	culture="greco_illyrian"
 	province_rank="settlement"
-	religion="greek_pantheon"
+	religion="druidism"
 	terrain="farmland"
 	trade_goods="cattle"
 	freemen=
@@ -957,7 +961,7 @@
 {
 	barbarian_power=0
 	civilization_value=10
-	culture="greco_illyrian"
+	culture="druidism"
 	province_rank="settlement"
 	religion="greek_pantheon"
 	terrain="plains"
@@ -978,7 +982,7 @@
 	civilization_value=12
 	culture="greco_illyrian"
 	province_rank="settlement"
-	religion="greek_pantheon"
+	religion="druidism"
 	terrain="farmland"
 	trade_goods="olive"
 	freemen=
@@ -1002,7 +1006,7 @@
 	culture="greco_illyrian"
 	port_building=1
 	province_rank="settlement"
-	religion="greek_pantheon"
+	religion="druidism"
 	terrain="farmland"
 	trade_goods="hemp"
 	freemen=
@@ -1021,7 +1025,7 @@
 	civilization_value=6
 	culture="greco_illyrian"
 	province_rank="settlement"
-	religion="greek_pantheon"
+	religion="druidism"
 	terrain="mountain"
 	trade_goods="fur"
 	freemen=
@@ -1040,12 +1044,13 @@
 	civilization_value=8
 	culture="greco_illyrian"
 	province_rank="settlement"
-	religion="greek_pantheon"
+	religion="druidism"
 	terrain="hills"
 	trade_goods="marble"
 	citizen=
 	{
 		amount=1
+		religion="greek_pantheon"
 	}
 	freemen=
 	{
@@ -1067,7 +1072,7 @@
 	civilization_value=8
 	culture="greco_illyrian"
 	province_rank="settlement"
-	religion="greek_pantheon"
+	religion="druidism"
 	terrain="forest"
 	trade_goods="cattle"
 	freemen=
@@ -1090,7 +1095,7 @@
 	civilization_value=8
 	culture="greco_illyrian"
 	province_rank="settlement"
-	religion="greek_pantheon"
+	religion="druidism"
 	terrain="forest"
 	trade_goods="vegetables"
 	freemen=
@@ -1113,7 +1118,7 @@
 	civilization_value=8
 	culture="greco_illyrian"
 	province_rank="settlement"
-	religion="greek_pantheon"
+	religion="druidism"
 	terrain="hills"
 	trade_goods="vegetables"
 	freemen=
@@ -1136,7 +1141,7 @@
 	civilization_value=8
 	culture="greco_illyrian"
 	province_rank="settlement"
-	religion="greek_pantheon"
+	religion="druidism"
 	terrain="forest"
 	trade_goods="cattle"
 	freemen=
@@ -1159,12 +1164,13 @@
 	civilization_value=8
 	culture="greco_illyrian"
 	province_rank="settlement"
-	religion="greek_pantheon"
+	religion="druidism"
 	terrain="forest"
 	trade_goods="cattle"
 	citizen=
 	{
 		amount=1
+		religion="greek_pantheon"
 	}
 	freemen=
 	{
@@ -1186,7 +1192,7 @@
 	civilization_value=8
 	culture="greco_illyrian"
 	province_rank="settlement"
-	religion="greek_pantheon"
+	religion="druidism"
 	terrain="forest"
 	trade_goods="wood"
 	freemen=
@@ -1209,7 +1215,7 @@
 	civilization_value=8
 	culture="greco_illyrian"
 	province_rank="settlement"
-	religion="greek_pantheon"
+	religion="druidism"
 	terrain="forest"
 	trade_goods="wood"
 	freemen=
@@ -1232,12 +1238,13 @@
 	civilization_value=8
 	culture="greco_illyrian"
 	province_rank="settlement"
-	religion="greek_pantheon"
+	religion="druidism"
 	terrain="hills"
 	trade_goods="wood"
 	citizen=
 	{
 		amount=1
+		religion="greek_pantheon"
 	}
 	freemen=
 	{
@@ -1259,7 +1266,7 @@
 	civilization_value=8
 	culture="greco_illyrian"
 	province_rank="settlement"
-	religion="greek_pantheon"
+	religion="druidism"
 	terrain="hills"
 	trade_goods="vegetables"
 	freemen=
@@ -1282,12 +1289,13 @@
 	civilization_value=8
 	culture="deurian"
 	province_rank="settlement"
-	religion="greek_pantheon"
+	religion="druidism"
 	terrain="forest"
 	trade_goods="woad"
 	citizen=
 	{
 		amount=1
+		religion="greek_pantheon"
 	}
 	freemen=
 	{
@@ -1309,7 +1317,7 @@
 	civilization_value=8
 	culture="deurian"
 	province_rank="settlement"
-	religion="greek_pantheon"
+	religion="druidism"
 	terrain="forest"
 	trade_goods="stone"
 	freemen=
@@ -1332,12 +1340,13 @@
 	civilization_value=8
 	culture="deurian"
 	province_rank="settlement"
-	religion="greek_pantheon"
+	religion="druidism"
 	terrain="hills"
 	trade_goods="stone"
 	citizen=
 	{
 		amount=1
+		religion="greek_pantheon"
 	}
 	freemen=
 	{
@@ -1359,7 +1368,7 @@
 	civilization_value=10
 	culture="deurian"
 	province_rank="settlement"
-	religion="greek_pantheon"
+	religion="druidism"
 	terrain="plains"
 	trade_goods="woad"
 	freemen=
@@ -1382,12 +1391,13 @@
 	civilization_value=8
 	culture="deurian"
 	province_rank="settlement"
-	religion="greek_pantheon"
+	religion="druidism"
 	terrain="forest"
 	trade_goods="wood"
 	citizen=
 	{
 		amount=1
+		religion="greek_pantheon"
 	}
 	freemen=
 	{
@@ -1409,7 +1419,7 @@
 	civilization_value=8
 	culture="deraemestian"
 	province_rank="settlement"
-	religion="greek_pantheon"
+	religion="druidism"
 	terrain="hills"
 	trade_goods="horses"
 	freemen=
@@ -1428,7 +1438,7 @@
 	civilization_value=8
 	culture="deraemestian"
 	province_rank="settlement"
-	religion="greek_pantheon"
+	religion="druidism"
 	terrain="forest"
 	trade_goods="wood"
 	freemen=
@@ -1447,7 +1457,7 @@
 	civilization_value=8
 	culture="deraemestian"
 	province_rank="settlement"
-	religion="greek_pantheon"
+	religion="druidism"
 	terrain="forest"
 	trade_goods="cattle"
 	freemen=
@@ -1470,16 +1480,18 @@
 	civilization_value=8
 	culture="greco_illyrian"
 	province_rank="settlement"
-	religion="greek_pantheon"
+	religion="druidism"
 	terrain="hills"
 	trade_goods="grain"
 	citizen=
 	{
 		amount=1
+		religion="greek_pantheon"
 	}
 	freemen=
 	{
 		amount=1
+		religion="greek_pantheon"
 	}
 	slaves=
 	{
@@ -1497,12 +1509,13 @@
 	civilization_value=12
 	culture="greco_illyrian"
 	province_rank="settlement"
-	religion="greek_pantheon"
+	religion="druidism"
 	terrain="farmland"
 	trade_goods="fish"
 	freemen=
 	{
 		amount=1
+		religion="greek_pantheon"
 	}
 	slaves=
 	{
@@ -1520,16 +1533,18 @@
 	civilization_value=12
 	culture="greco_illyrian"
 	province_rank="settlement"
-	religion="greek_pantheon"
+	religion="druidism"
 	terrain="farmland"
 	trade_goods="olive"
 	citizen=
 	{
 		amount=1
+		religion="greek_pantheon"
 	}
 	freemen=
 	{
 		amount=1
+		religion="greek_pantheon"
 	}
 	slaves=
 	{
@@ -1563,11 +1578,13 @@
 	{
 		amount=2
 		culture="greco_illyrian"
+		religion="druidism"
 	}
 	slaves=
 	{
 		amount=2
 		culture="greco_illyrian"
+		religion="druidism"
 	}
 }
 #Epidauros Illyrias
@@ -1597,16 +1614,19 @@
 	{
 		amount=1
 		culture="taulantian"
+		religion="druidism"
 	}
 	tribesmen=
 	{
 		amount=1
 		culture="taulantian"
+		religion="druidism"
 	}
 	tribesmen=
 	{
 		amount=2
 		culture="greco_illyrian"
+		religion="druidism"
 	}
 }
 #Daorson
@@ -1616,7 +1636,7 @@
 	civilization_value=8
 	culture="greco_illyrian"
 	province_rank="settlement"
-	religion="greek_pantheon"
+	religion="druidism"
 	terrain="forest"
 	trade_goods="wine"
 	freemen=
@@ -1635,7 +1655,7 @@
 	civilization_value=8
 	culture="greco_illyrian"
 	province_rank="settlement"
-	religion="greek_pantheon"
+	religion="druidism"
 	terrain="forest"
 	trade_goods="olive"
 	freemen=
@@ -1658,7 +1678,7 @@
 	civilization_value=8
 	culture="taulantian"
 	province_rank="settlement"
-	religion="greek_pantheon"
+	religion="druidism"
 	terrain="hills"
 	trade_goods="fish"
 	freemen=
@@ -1677,12 +1697,13 @@
 	civilization_value=8
 	culture="taulantian"
 	province_rank="settlement"
-	religion="greek_pantheon"
+	religion="druidism"
 	terrain="forest"
 	trade_goods="earthware"
 	citizen=
 	{
 		amount=1
+		religion="greek_pantheon"
 	}
 	freemen=
 	{
@@ -1739,7 +1760,7 @@
 	civilization_value=6
 	culture="greco_illyrian"
 	province_rank="settlement"
-	religion="greek_pantheon"
+	religion="druidism"
 	terrain="mountain"
 	trade_goods="stone"
 	freemen=
@@ -1762,7 +1783,7 @@
 	civilization_value=6
 	culture="deraemestian"
 	province_rank="settlement"
-	religion="greek_pantheon"
+	religion="druidism"
 	terrain="mountain"
 	trade_goods="wood"
 	freemen=
@@ -1785,7 +1806,7 @@
 	civilization_value=8
 	culture="deraemestian"
 	province_rank="settlement"
-	religion="greek_pantheon"
+	religion="druidism"
 	terrain="forest"
 	trade_goods="woad"
 	freemen=
@@ -1808,7 +1829,7 @@
 	civilization_value=8
 	culture="catari"
 	province_rank="settlement"
-	religion="greek_pantheon"
+	religion="druidism"
 	terrain="hills"
 	trade_goods="horses"
 	citizen=
@@ -1831,7 +1852,7 @@
 	civilization_value=10
 	culture="catari"
 	province_rank="settlement"
-	religion="greek_pantheon"
+	religion="druidism"
 	terrain="plains"
 	trade_goods="woad"
 	freemen=
@@ -1892,7 +1913,7 @@
 	civilization_value=10
 	culture="catari"
 	province_rank="settlement"
-	religion="greek_pantheon"
+	religion="druidism"
 	terrain="plains"
 	trade_goods="horses"
 	citizen=
@@ -1962,7 +1983,7 @@
 	culture="italiotian"
 	port_building=1
 	province_rank="city"
-	religion="greek_pantheon"
+	religion="druidism"
 	terrain="hills"
 	trade_goods="wine"
 	citizen=
@@ -1977,11 +1998,13 @@
 	{
 		amount=1
 		culture="greco_illyrian"
+		religion="druidism"
 	}
 	slaves=
 	{
 		amount=3
 		culture="greco_illyrian"
+		religion="druidism"
 	}
 }
 #Korkyra Melaina
@@ -2007,10 +2030,12 @@
 	{
 		amount=2
 		culture="greco_illyrian"
+		religion="druidism"
 	}
 	slaves=
 	{
 		amount=1
 		culture="greco_illyrian"
+		religion="druidism"
 	}
 }

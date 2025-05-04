@@ -5430,7 +5430,7 @@ country = {
 		HIS = {
 			government = tribal_kingdom
 			primary_culture = histrian
-			religion = greek_pantheon
+			religion = druidism
 
 			capital = 4019 
 		
@@ -5442,7 +5442,7 @@ country = {
 		KRN = {
 			government = tribal_kingdom
 			primary_culture = carnian
-			religion = greek_pantheon
+			religion = druidism
 			centralization=10
 
 			capital = 4025 
@@ -8401,7 +8401,7 @@ country = {
 		DIT = {
 			government = tribal_kingdom
 			primary_culture = histrian
-			religion = greek_pantheon
+			religion = druidism
 
 			capital = 4033
 
@@ -8413,7 +8413,7 @@ country = {
 		LBN = {
 			government = tribal_kingdom
 			primary_culture = liburnian_culture
-			religion = greek_pantheon
+			religion = druidism
 
 			capital = 4053
 
@@ -8425,7 +8425,7 @@ country = {
 		DLM = {
 			government = tribal_kingdom
 			primary_culture = greco_illyrian
-			religion = greek_pantheon
+			religion = druidism
 
 			capital = 4066
 
@@ -8437,7 +8437,7 @@ country = {
 		PII = {
 			government = tribal_kingdom
 			primary_culture = greco_illyrian
-			religion = greek_pantheon
+			religion = druidism
 
 			capital = 4083
 
@@ -8449,7 +8449,7 @@ country = {
 		DRI = {
 			government = tribal_kingdom
 			primary_culture = greco_illyrian
-			religion = greek_pantheon
+			religion = druidism
 
 			capital = 4086
 
@@ -8461,7 +8461,7 @@ country = {
 		CAA = {
 			government = tribal_kingdom
 			primary_culture = catari
-			religion = greek_pantheon
+			religion = druidism
 
 			capital = 4038
 
@@ -8473,7 +8473,7 @@ country = {
 		LTB = {
 			government = tribal_kingdom
 			primary_culture = letobician
-			religion = greek_pantheon
+			religion = druidism
 
 			capital = 4027
 
@@ -8485,7 +8485,7 @@ country = {
 		ABI = {
 			government = tribal_kingdom
 			primary_culture = taulantian
-			religion = greek_pantheon
+			religion = druidism
 
 			capital = 4091
 
@@ -8497,7 +8497,7 @@ country = {
 		CVI = {
 			government = tribal_kingdom
 			primary_culture = taulantian
-			religion = greek_pantheon
+			religion = druidism
 
 			capital = 4092
 
@@ -8509,7 +8509,7 @@ country = {
 		DNT = {
 			government = tribal_kingdom
 			primary_culture = greco_illyrian
-			religion = greek_pantheon
+			religion = druidism
 
 			capital = 4061
 
@@ -8521,7 +8521,7 @@ country = {
 		BCI = {
 			government = tribal_kingdom
 			primary_culture = deurian
-			religion = greek_pantheon
+			religion = druidism
 
 			capital = 4123
 
@@ -8533,7 +8533,7 @@ country = {
 		DUI = {
 			government = tribal_kingdom
 			primary_culture = deurian
-			religion = greek_pantheon
+			religion = druidism
 
 			capital = 4074
 
@@ -8545,7 +8545,7 @@ country = {
 		AMI = {
 			government = tribal_kingdom
 			primary_culture = deraemestian
-			religion = greek_pantheon
+			religion = druidism
 
 			capital = 4106
 
@@ -8557,7 +8557,7 @@ country = {
 		OXU = {
 			government = tribal_kingdom
 			primary_culture = deraemestian
-			religion = greek_pantheon
+			religion = druidism
 
 			capital = 4105
 
@@ -8635,7 +8635,7 @@ country = {
 			family = 53
 			government = despotic_monarchy
 			primary_culture = taulantian
-			religion = greek_pantheon
+			religion = druidism
 
 			capital = 415
 
@@ -8660,7 +8660,7 @@ country = {
 			family = 52
 			government = tribal_kingdom
 			primary_culture = dardanian
-			religion = greek_pantheon
+			religion = druidism
 
 			historical_regnal_numbers = {
 				Bardylis = 1
@@ -9129,7 +9129,7 @@ country = {
 			family = 50
 			government = tribal_kingdom
 			primary_culture = paeonian
-			religion = greek_pantheon
+			religion = druidism
 			diplomatic_stance=appeasement_stance
 			capital = 397 #Stobi
 
@@ -9143,7 +9143,7 @@ country = {
 		MAD = {
 			government = tribal_kingdom
 			primary_culture = paeonian
-			religion = greek_pantheon
+			religion = druidism
 			diplomatic_stance=appeasement_stance
 			capital = 498 #
 

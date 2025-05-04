@@ -128,7 +128,7 @@
 	civilization_value=8
 	culture="deurian"
 	province_rank="settlement"
-	religion="greek_pantheon"
+	religion="druidism"
 	terrain="hills"
 	trade_goods="horses"
 	citizen=
@@ -155,7 +155,7 @@
 	civilization_value=11
 	culture="celtic_pannonian"
 	province_rank="settlement"
-	religion="greek_pantheon"
+	religion="druidism"
 	terrain="plains"
 	trade_goods="wine"
 	freemen=
@@ -174,7 +174,7 @@
 	civilization_value=9
 	culture="deurian"
 	province_rank="settlement"
-	religion="greek_pantheon"
+	religion="druidism"
 	terrain="hills"
 	trade_goods="horses"
 	citizen=
@@ -197,7 +197,7 @@
 	civilization_value=11
 	culture="deurian"
 	province_rank="settlement"
-	religion="greek_pantheon"
+	religion="druidism"
 	terrain="plains"
 	trade_goods="wine"
 	freemen=
@@ -220,7 +220,7 @@
 	civilization_value=10
 	culture="deurian"
 	province_rank="settlement"
-	religion="greek_pantheon"
+	religion="druidism"
 	terrain="plains"
 	trade_goods="stone"
 	freemen=
@@ -239,7 +239,7 @@
 	civilization_value=10
 	culture="deurian"
 	province_rank="settlement"
-	religion="greek_pantheon"
+	religion="druidism"
 	terrain="plains"
 	trade_goods="wood"
 	freemen=
