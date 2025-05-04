@@ -301,8 +301,8 @@
  		[X] Added +0.25% monthly pop growth
  	[+] Provincial Legation
  		[X] Added +0.1 monthly Provincial Loyalty
- 		[X] Added +1 assimilation and conversion speed
- 		[X] Added +15% conversion speed modifier
+ 		[X] Added +1 assimilation and monthly conversion speed
+ 		[X] Added +15% monthly conversion speed modifier
 
  [X] Remove scaling gold cost for provincial investment
 
@@ -339,7 +339,7 @@
  	[ ] now requires a minimum of 15 pops in the target territory
  	[ ] now requires that the territory doesn't have the colony modifier
  	[X] cooldown reduced from three years to one
- 	[X] Added 0.5 assimilation speed to the territory colony modifier
+ 	[X] Added 0.5 monthly assimilation speed to the territory colony modifier
  	[X] cultural modifier now runs out after 10 years
 
 ## Government
@@ -397,95 +397,127 @@
  	[X] Added gfx for fifth idea slot
 
  	[+] Aristocratic Republic
- 		[X] Swapped base modifier of enabling co ruler for 4% city noble desired ratio
- 		[X] Swapped government bonus of 8% freeman happiness for 8% noble happiness
+ 		[X] Swapped base modifier of enabling co ruler for +6% city noble desired ratio
+ 		[X] Swapped government bonus of +8% freeman happiness for +12% noble happiness
+ 		[X] Added base modifier of +0.05 monthly tyranny
+ 		[X] Added government bonus of +12% nobles output
  	[+] Theocratic Republic
- 		[X] Added base modifier of 0.6 conversion speed
+ 		[X] Added base modifier of +0.6 monthly conversion speed
+ 		[X] Added base modifier of -20% tax modifier
+ 		[X] Added government bonus of +20% monthly conversion speed modifier
  	[+] Oligarchic Republic
- 		[X] Added base modifier of 0.08 city citizen desired ratio
+ 		[X] Added base modifier of +8% city citizen desired ratio
+ 		[X] Added base modifier of +0.02 monthly corruption
+ 		[X] Added government bonus of +10% monthly political influence
  	[+] Democractic Republic
- 		[X] Added government bonus of 0.08 citizen happiness
+ 		[X] Increased government bonus of freeman happiness to +12% from 8%
+ 		[X] Added base modifier of 0.6 monthly assimilation speed
+ 		[X] Added base modifier of -8% noble happiness
+  		[X] Added government bonus of +8% citizen happiness
+  		[X] Added government bonus of +20% monthly assimilation speed modifier 
+  		[X] Added government bonus of -0.10 monthly corruption
  	[+] Plutocratic Republic
- 		[X] Moved +1 capital import routes from government bonus to base modifier
+ 		[X] Changed +1 capital import routes to +1 province import routes and moved it from government bonus to base modifier
+ 		[X] Added base modifier of -2.5% discipline
+ 		[X] Added government bonus of -10% build cost
+ 		[X] Added government bonus of -15% naval maintenace cost
  	[+] Athenian Republic
  		[X] Added one oratory idea slot
- 		[X] Added base modifier of 0.1 monthly political influence modifier
- 		[X] Added base modifier of 0.15 city citizen desired ratio
- 		[X] Added government modifier of -0.1 monthly tyranny
+ 		[X] Changed government bonus of -25% enact law cost to -0.15 monthly tyranny
+ 		[X] Changed government bonus of +8% citizen happiness for 8% population happiness
+ 		[X] Added base modifier of +10% monthly political influence modifier
+ 		[X] Added base modifier of +15% city citizen desired ratio
+ 		[X] Added government bonus of -0.1 monthly corruption
+ 		[X] Added government bonus of +40% citizen output 
 
  	# new Republican government types
  	[+] Indomitable Republic
  		[X] Added one military idea slot
- 		[X] Added base modifier of 0.1 monthly political influence modifier
- 		[X] Added base modifier of 0.4 manpower maximum
+ 		[X] Added base modifier of 10% monthly political influence modifier
+ 		[X] Added base modifier of 40% manpower maximum modifier
  		[X] Added government modifier of +10 character loyalty
- 		[X] Added government modifier of 0.15 freeman output
- 		[X] Added government modifier of 0.1 citizen output
+ 		[X] Added government modifier of +25% freeman output
+ 		[X] Added government modifier of +5% land morale
  		[X] inherits election age, term and delay from Aristocratic Republic
  		⭐ LOC DEBT ⭐
  	[+] Sacrosanct Republic
  		[X] Added one religious idea slot
- 		[X] Added base modifier of 0.1 monthly political influence modifier
- 		[X] Added base modifier of 1.2 conversion speed
- 		[X] Added government modifier of 0.4 omen power
- 		[X] Added government modifier of 0.2 correct religion happiness
- 		[X] Added government modifier of 0.2 conversion speed modifier
+ 		[X] Added base modifier of 10% monthly political influence modifier
+ 		[X] Added base modifier of 1.2 monthly conversion speed
+ 		[X] Added government modifier of +40% omen power
+ 		[X] Added government modifier of +20% correct religion happiness
+ 		[X] Added government modifier of +20% monthly conversion speed modifier
  		[X] inherits election age, term and delay from Theocratic Republic
  		⭐ LOC DEBT ⭐
  	[+] Mercantile Republic
  		[X] Added one civic idea slot
- 		[X] Added base modifier of 0.1 monthly political influence modifier
+ 		[X] Added base modifier of 10% monthly political influence modifier
  		[X] Added base modifier of 10% citizen output
- 		[X] Added government modifier of 0.15 national commerce income
- 		[X] Added government modifier of -0.15 build cost
- 		[X] Added government modifier of -0.25 naval maintenance cost
+ 		[X] Added government modifier of +15% national commerce income
+ 		[X] Added government modifier of -25% build cost
+ 		[X] Added government modifier of -30% naval maintenance cost
  		[X] inherits election age, term and delay from Plutocratic Republic
  		⭐ LOC DEBT ⭐
 
  	[+] Autocratic Monarchy
- 		[X] Added base modifier of 5% monthly political influence modifier
+ 		[X] Added base modifier of +5% monthly political influence modifier
  		[X] Added base modifier of +0.05 monthly tyranny
  		[X] Increased slave output bonus from 6% to 12%
  		[X] Added government bonus of +8% freemen output
- 		[ ] Added government bonus of -2 slaves needed for surplus
+ 		[X] Added government bonus of -2 slaves needed for surplus
  	[+] Aristocratic Monarchy
- 		[X] Added base modifier of 4% city noble desired ratio
- 		[X] Removed government bonus of +10% desired freeman ratio
- 	[+] Stratocratic Monarchy
- 		[X] Added base modifier of 20% manpower maximum 
+ 		[X] Swapped government bonus of +10% desired freeman ratio for +12% noble output
+ 		[X] Added base modifier of 8% city noble desired ratio
+ 		[X] Added base modifier of -4% freeman happiness
+  	[+] Stratocratic Monarchy
+  		[X] Added base modifier of -6% slave happiness
+ 		[X] Added government bonus modifier of 25% manpower maximum
  	[+] Theocratic Monarchy
- 		[X] Added base modifier of 0.6 conversion speed
+ 		[X] Added base modifier of +0.6 monthly conversion speed
+ 		[X] Added base modifier of -20% tax modifier
+ 		[X] Added government bonus of +20% monthly conversion speed modifier		
  	[+] Plutocratic Monarchy
- 		[X] Moved +1 capital import routes from government bonus to base modifier
+ 		[X] Changed +1 capital import routes to +1 province import routes and moved it from government bonus to base modifier
+ 		[X] Added base modifier of -2.5% discipline
+ 		[X] Added government bonus of -10% build cost
+ 		[X] Added government bonus of -15% naval maintenace cost
  	[+] Dictatorship
- 		[X] Added base modifier of 10% monthly political influence modifier
+ 		[X] Added base modifier of +10% monthly political influence modifier
+ 		[X] Added base modifier of +0.02 monthly tyranny
+ 		[X] Added base modifier of +5% discipline
+ 		[X] Added government bonus of +25% maximum manpower
  	[+] Empire
  		[X] Added one military idea slot
- 		[X] Added base modifier of 10% monthly political influence modifier
- 		[X] Added base modifier of 4$ manpower modifier
+ 		[X] Swapped government bonus of -10% war score cost for +5% land morale
+ 		[X] Increased government bonus of freeman output to +25% from +12%
+ 		[X] Increased government bonus of slave output to +30% from +12%
+  		[X] Added base modifier of +10% monthly political influence modifier
+ 		[X] Added base modifier of +40% manpower modifier
  	[+] Imperial Cult
  		[X] Added one religious idea slot
- 		[X] Added base modifier of 10% monthly political influence modifier
- 		[X] Added base modifier of 1.2 conversion speed
- 		[X] Increased government modifier of omen power to 40% from 15%
+ 		[X] Swapped government modifier of +12% freeman output for +20% correct religion happiness
+ 		[X] Swapped government modifier of +12% slave output for +20% monthly conversion speed modifier
+ 		[X] Added base modifier of +10% monthly political influence modifier
+ 		[X] Added base modifier of +1.2 monthly conversion speed
+ 		[X] Increased government modifier of omen power to +40% from +15%
 
  	# new Monarchy government types
  	[+] Gilded Monarchy
  		[X] Added one civic idea slot
- 		[X] Added base modifier of 0.1 monthly political influence modifier
- 		[X] Added base modifier of 0.25 slave output
+ 		[X] Added base modifier of +10% monthly political influence modifier
+ 		[X] Added base modifier of +25% slave output
  		[X] Added base modifier of -3 slaves needed for surplus
- 		[X] Added government modifier of 0.15 national commerce income
- 		[X] Added government modifier of -0.15 build cost
- 		[X] Added government modifier of -0.25 naval maintenance cost
+ 		[X] Added government modifier of +15% national commerce income
+ 		[X] Added government modifier of -25% build cost
+ 		[X] Added government modifier of -30% naval maintenance cost
  		⭐ LOC DEBT ⭐
  	[+] Cosmopolitan Monarchy
  		[X] Added one oratory idea slot
- 		[X] Added base modifier of 0.1 monthly political influence modifier
- 		[X] Added base modifier of 1.2 assimilation speed
- 		[X] Added government modifier of 0.24 freeman output
- 		[X] Added government modifier of 0.12 citizen output
- 		[X] Added government modifier of 0.06 population happiness
+ 		[X] Added base modifier of +10% monthly political influence modifier
+ 		[X] Added base modifier of +1.2 monthly assimilation speed
+ 		[X] Added government modifier of +30% monthly assimilation speed
+ 		[X] Added government modifier of +24% citizen output
+ 		[X] Added government modifier of +12% population happiness
  		⭐ LOC DEBT ⭐
 
  [+] Change government decisions
@@ -616,7 +648,7 @@
 
 ### Rome
  [+] Harmonic religion
- 	[X] Added harmonic religion with 6% global happiness -60% conversion speed modifier +33% omen power
+ 	[X] Added harmonic religion with 6% global happiness -60% monthly conversion speed modifier +33% omen power
  	⭐ LOC DEBT ⭐
  	[X] Converted the religion of all roman culture pops to harmonic religion
  	[X] Set the religion of rome to harmonic
@@ -712,7 +744,7 @@
  		requires faith_greece
  		task: have 500 or more gold
  		reward: fires an event for the owner of olympia to choose between allowing rome to make offerings to the temple of zeus or refuse them
- 		if they allow, rome gains a 12 year modifier for 33% omen power and 33% conversion speed
+ 		if they allow, rome gains a 12 year modifier for 33% omen power and 33% monthly conversion speed
  		⭐ LOC DEBT ⭐
  		[X] faith_hellenic
  		requires faith_olympia
@@ -723,12 +755,12 @@
  		[X] faith_orbis
  		requires faith_temples, prevents other branches
  		task: requires a 12 zeal augur with 60 or greater loyalty
- 		reward: 3 year modifier for 0.6 conversion speed and 120% conversion speed modifier
+ 		reward: 3 year modifier for 0.6 monthly conversion speed and 120% monthly conversion speed modifier
  		⭐ LOC DEBT ⭐
  		[X] faith_harmony
  		requires faith_orbis
  		task: have greater than 60% religious unity
- 		reward: permanent 0.12 conversion speed and 30% conversion speed modifier
+ 		reward: permanent 0.12 monthly conversion speed and 30% monthly conversion speed modifier
  		⭐ LOC DEBT ⭐
  		[X] faith_the_capitoline_triad
  		requires faith_harmony

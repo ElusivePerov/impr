@@ -6,7 +6,7 @@
 		family_name="Tollius"
 		birth_date=418.5.25
 		culture="venetic"
-		religion="greek_pantheon"
+		religion="italic_pantheon"
 		no_stats=yes
 		add_martial=5
 		add_charisma=5
@@ -27,7 +27,7 @@
 		family_name="Petrus"
 		birth_date=418.5.25
 		culture="venetic"
-		religion="greek_pantheon"
+		religion="italic_pantheon"
 		no_stats=yes
 		add_martial=5
 		add_charisma=5
@@ -48,7 +48,7 @@
 		family_name="Marica"
 		birth_date=426.4.4
 		culture="histrian"
-		religion="greek_pantheon"
+		religion="druidism"
 		female = yes
 		no_stats=yes
 		add_martial=5

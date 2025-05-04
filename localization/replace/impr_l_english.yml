@@ -10,7 +10,14 @@
  desc_italic_pantheon:0 ""
 
 #####
-#######  [ Oratory Inventions ]
+#######  [ Culture ]
+######## 
+
+ latin:1 "Latin"
+ italic:1 "Italic"
+
+#####
+#######  [ Innovations ]
 ########
 
  imperium_inv:0 "Imperium"

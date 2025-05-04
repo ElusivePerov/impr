@@ -621,7 +621,7 @@ generic_mission_conquer_region = { #Conquer Region
 		prevented_by = { generic_mission_conquer_region_branch_family2 }
 
 		potential = {
-			exists = scope:first
+			#exists = scope:first
 		} 
 		allow = {
 			owns_or_subject_owns_area = scope:first
@@ -796,7 +796,7 @@ generic_mission_conquer_region = { #Conquer Region
 		prevented_by = { generic_mission_conquer_region_branch_family2 }
 
 		potential = {
-			exists = scope:second
+			#exists = scope:second
 		} 
 		allow = {
 			owns_or_subject_owns_area = scope:second
@@ -914,7 +914,7 @@ generic_mission_conquer_region = { #Conquer Region
 		prevented_by = { generic_mission_conquer_region_branch_i_have_lost_track }
 
 		potential = {
-			exists = scope:third
+			#exists = scope:third
 		} 
 		allow = { 
 			owns_or_subject_owns_area = scope:third
@@ -1079,7 +1079,7 @@ generic_mission_conquer_region = { #Conquer Region
 		prevented_by = { generic_mission_conquer_region_branch_family2 }
 
 		potential = {
-			exists = scope:first_follow
+			#exists = scope:first_follow
 		} 
 		allow = { 
 			scope:first_follow = {
@@ -1121,7 +1121,7 @@ generic_mission_conquer_region = { #Conquer Region
 		prevented_by = { generic_mission_conquer_region_branch_i_have_lost_track }
 
 		potential = {
-			exists = scope:third_follow
+			#exists = scope:third_follow
 		} 
 		allow = { 
 			owns_or_subject_owns_area = scope:third_follow
@@ -1166,7 +1166,7 @@ generic_mission_conquer_region = { #Conquer Region
 		requires = { generic_mission_conquer_region_branch_1_c }  
 
 		potential = {
-			exists = scope:second_follow
+			#exists = scope:second_follow
 		} 
 		allow = { 
 			owns_or_subject_owns_area = scope:second_follow
@@ -1209,10 +1209,10 @@ generic_mission_conquer_region = { #Conquer Region
 		prevented_by = { generic_mission_conquer_region_branch_family2 }
 
 		potential = {
-			NOT = {
-				exists = scope:first_follow
-			}
-			exists = scope:first
+			#NOT = {
+			#	exists = scope:first_follow
+			#}
+			#exists = scope:first
 		} 
 		allow = { 
 			trigger_if = {
@@ -1288,10 +1288,10 @@ generic_mission_conquer_region = { #Conquer Region
 		requires = { generic_mission_conquer_region_branch_1_c }  
 
 		potential = {
-			NOT = {
-				exists = scope:second_follow
-			}
-			exists = scope:second
+			#NOT = {
+			#	exists = scope:second_follow
+			#}
+			#exists = scope:second
 		} 
 		allow = { 
 			trigger_if = {
@@ -1380,10 +1380,10 @@ generic_mission_conquer_region = { #Conquer Region
 		prevented_by = { generic_mission_conquer_region_branch_i_have_lost_track }
 
 		potential = {
-			NOT = {
-				exists = scope:third_follow
-			}
-			exists = scope:third
+			#NOT = {
+			#	exists = scope:third_follow
+			#}
+			#exists = scope:third
 		} 
 		allow = { 
 			trigger_if = {
@@ -1622,22 +1622,22 @@ generic_mission_conquer_region = { #Conquer Region
 		}
 		
 		potential = {
-			is_ai = no #This is too esoteric for the AI to understand.
-			OR = {
-				AND = {
-					exists = scope:first_follow
-					NOT = {
-						scope:first_follow.region = root.capital_scope.region
-					}
-				}
-				AND = {
-					exists = scope:first
-					NOT = {
-						scope:first.region = root.capital_scope.region
-					}
-				}
-			}
-			is_ai = no
+			#is_ai = no #This is too esoteric for the AI to understand.
+			#OR = {
+			#	AND = {
+			#		exists = scope:first_follow
+			#		NOT = {
+			#			scope:first_follow.region = root.capital_scope.region
+			#		}
+			#	}
+			#	AND = {
+			#		exists = scope:first
+			#		NOT = {
+			#			scope:first.region = root.capital_scope.region
+			#		}
+			#	}
+			#}
+			#is_ai = no
 		}
 		
 		allow = {
@@ -1751,23 +1751,23 @@ generic_mission_conquer_region = { #Conquer Region
 		}
 		
 		potential = {
-			is_ai = no #This is too esoteric for the AI to understand.
-			exists = scope:gov_fam2
-			OR = {
-				AND = {
-					exists = scope:third_follow
-					NOT = {
-						scope:third_follow.region = root.capital_scope.region
-					}
-				}
-				AND = {
-					exists = scope:third
-					NOT = {
-						scope:third.region = root.capital_scope.region
-					}
-				}
-			}
-			is_ai = no
+			#is_ai = no #This is too esoteric for the AI to understand.
+			#exists = scope:gov_fam2
+			#OR = {
+			#	AND = {
+			#		exists = scope:third_follow
+			#		NOT = {
+			#			scope:third_follow.region = root.capital_scope.region
+			#		}
+			#	}
+			#	AND = {
+			#		exists = scope:third
+			#		NOT = {
+			#			scope:third.region = root.capital_scope.region
+			#		}
+			#	}
+			#}
+			#is_ai = no
 		}
 		
 		allow = {
@@ -1873,9 +1873,9 @@ generic_mission_conquer_region = { #Conquer Region
 		icon = "task_economical"
 
 		potential = {
-			exists = scope:development_branch_area
-			has_variable = side_branch_selector
-			var:side_branch_selector = 1 
+			#exists = scope:development_branch_area
+			#has_variable = side_branch_selector
+			#var:side_branch_selector = 1 
 		} 
 		allow = {
 			custom_tooltip = {
@@ -1966,9 +1966,9 @@ generic_mission_conquer_region = { #Conquer Region
 		requires = { generic_mission_conquer_region_branch_develop_owned } 
 
 		potential = {
-			exists = scope:development_branch_area
-			has_variable = side_branch_selector
-			var:side_branch_selector = 1
+			#exists = scope:development_branch_area
+			#has_variable = side_branch_selector
+			#var:side_branch_selector = 1
 		} 
 		allow = {
 			custom_tooltip = {
@@ -2050,9 +2050,9 @@ generic_mission_conquer_region = { #Conquer Region
 		requires = { generic_mission_conquer_region_branch_develop_owned_follow_1 } 
 
 		potential = {
-			exists = scope:development_branch_area
-			has_variable = side_branch_selector
-			var:side_branch_selector = 1
+			#exists = scope:development_branch_area
+			#has_variable = side_branch_selector
+			#var:side_branch_selector = 1
 		} 
 		allow = {
 			trigger_if = {
@@ -2116,8 +2116,8 @@ generic_mission_conquer_region = { #Conquer Region
 		icon = "task_expansion"
 
 		potential = {
-			exists = scope:colonize_target
-			var:side_branch_selector = 2
+			#exists = scope:colonize_target
+			#var:side_branch_selector = 2
 		} 
 		allow = {
 			owns_or_subject_owns_area = scope:colonize_target.area
@@ -2141,8 +2141,8 @@ generic_mission_conquer_region = { #Conquer Region
 		icon = "task_political"
 
 		potential = {
-			exists = scope:defend_target
-			var:side_branch_selector = 3
+			#exists = scope:defend_target
+			#var:side_branch_selector = 3
 		} 
 		allow = {
 			trigger_if = {
@@ -2200,8 +2200,8 @@ generic_mission_conquer_region = { #Conquer Region
 		}
 		
 		potential = {
-			exists = scope:third
-			root.var:reward_roll = 2
+			#exists = scope:third
+			#root.var:reward_roll = 2
 		}
 		
 		allow = {
@@ -2240,8 +2240,8 @@ generic_mission_conquer_region = { #Conquer Region
 		}
 		
 		potential = {
-			exists = scope:first
-			root.var:reward_roll = 1
+			#exists = scope:first
+			#root.var:reward_roll = 1
 		}
 		
 		allow = {

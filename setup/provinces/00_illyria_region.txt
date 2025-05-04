@@ -961,9 +961,9 @@
 {
 	barbarian_power=0
 	civilization_value=10
-	culture="druidism"
+	culture="greco_illyrian"
 	province_rank="settlement"
-	religion="greek_pantheon"
+	religion="druidism"
 	terrain="plains"
 	trade_goods="hemp"
 	freemen=
