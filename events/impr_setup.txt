@@ -28,7 +28,10 @@ impr_setup.1 = { # Generic nations get their legion
 
     fire_only_once = yes
 
-    immediate = { generic_legion_setup_effect = yes }
+    immediate = { 
+        generic_legion_setup_effect = yes 
+        set_legion_recruitment = enabled
+    }
 
     option = { }
 }

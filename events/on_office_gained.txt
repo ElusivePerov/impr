@@ -17,17 +17,8 @@ office_gain.1 = {
 	}
 	
 	immediate = {
-		if = {
-			limit = {
-				NOT = { has_loyalty = loyalty_office_lost }
-			}
-			add_loyalty = loyalty_office_gained
-			add_popularity = 5
-		}
-		else_if = {
-			limit = { has_loyalty = loyalty_office_lost }
-			remove_loyalty = loyalty_office_lost
-		}
+		add_loyalty = loyalty_office_gained
+		add_popularity = 5
 	}
 }
 

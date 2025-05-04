@@ -58,7 +58,7 @@ NCountry = {
 	INTEGRATE_COST_PER_POP = 0.75
 	MINIMUM_COLONISATION_POP = 8
 	MAX_COLONISATION_BARB_IN_TARGET = 2
-	FORT_MAINTENANCE = 0.4
+	FORT_MAINTENANCE = 0.2
 	
 	BASE_FORT_LIMIT_PER_STATE = 5
 	FIRST_FORT_COST_IN_POINTS = 2 # Is measured against BASE_FORT_LIMIT_PER_STATE. This applies for the first fort in every province - every other fort in the same province is 1 point towards this limit
@@ -144,7 +144,7 @@ NCountry = {
 	
 	BASE_NAVAL_RANGE = 650
 
-	POTENTIAL_MISSION_COUNT = 4 # Number of random missions to pick between
+	POTENTIAL_MISSION_COUNT = 6 # Number of random missions to pick between
 
 	EXPECTED_DEITY_COUNT = 4 # Number of deities each country is expected to have at game start. 
 

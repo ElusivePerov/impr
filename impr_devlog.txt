@@ -1,7 +1,7 @@
 
 1a rev0
 
-## game
+## Game
  
  [X] Speed 3 changed to 0.6 from 0.5
  [X] Speed 4 changed to 0.4 from 0.25
@@ -12,7 +12,11 @@
 
  [X] Integrated localization from patch 2.0.5
 
-## warfare
+ [X] Potential mission count increased to 6 from 4
+
+ [ ] Removed being a subject blocking declaring using conquest war goal
+
+## Warfare
 
  [X] Minimum warscore to demand peace reduced to 0 from 10
  [X] Separate peace block reduced to 0 months from 36 months
@@ -270,15 +274,37 @@
  	[X] Removed Triplex Acies, Phalanx, Padma Vyuha and Cavalry Skirmish
  	[X] Unit Reorganzation unit ability now increases supply limit by 50%
 
-## economy
+ [ ] Pops are no longer killed or enslaved in territories that have 5 pops or less
 
- [+] Aqueducts
- 	[X] No longer require 30 civilization
- 	[X] Now provide 1 civilization cap
- 	[X] Construction time increased to 360 days from 180 days
- 	[X] Now capped at 12
+## Economy
 
- [?] Remove scaling costs for provincial investment
+ [+] Buildings
+ 	[+] Aqueducts
+ 		[X] No longer require 30 civilization
+ 		[X] Now provide +1 civilization cap
+ 		[X] Construction time increased to 360 days from 180 days
+ 		[X] Now capped at 12
+ 	[+] Forts 
+ 		[X] Reduced base maintenance cost from -0.4 to -0.2
+ 		[X] Added +0.02 monthly Provincial Loyalty
+ 	[+] Barracks
+ 		[X] Added +550 Manpower Cap
+ 	[+] Tribal Settlement
+ 		[X] Added +600 food capcity
+ 	[+] Foundry
+ 		[X] Added +1 base resource output
+ 	[+] Farming Settlement
+ 		[X] Added +1 base resource output
+ 	[+] Mine
+ 		[X] Added +1 base resource output
+ 	[+] Slave Estate
+ 		[X] Added +0.25% monthly pop growth
+ 	[+] Provincial Legation
+ 		[X] Added +0.1 monthly Provincial Loyalty
+ 		[X] Added +1 assimilation and conversion speed
+ 		[X] Added +15% conversion speed modifier
+
+ [X] Remove scaling gold cost for provincial investment
 
  [X] Earthenware surplus now provides 5% population cap instead of 3% freeman output
 
@@ -289,11 +315,11 @@
  	[X] Maintenance increase on high pay decreased to 15% from 25%
 
  [+] Tax policies
-	[X] Swapped +10 Population Happiness for 0.2 Monthly Provincial Loyalty in Lax Tax
+	[X] Swapped +10 Population Happiness for 0.2 monthly Provincial Loyalty in Lax Tax
 	[X] Increased Research Points malus to 30% from 20% in Harsh Taxation
 	[X] Added +12% National Freeman Output to Harsh Taxation
 
-## diplomacy
+## Diplomacy
 
  [X] Travel days reduced to 0 from 30
 
@@ -301,12 +327,12 @@
 
  [X] Removed limited diplomacy from Colony subject type
 
-## religion
+## Religion
 
  [X] Added a year long modifier granted at game start that discounts deity swap by 99%
  ⭐ LOC DEBT ⭐
 
-## culture
+## Culture
 
  [+] Found colony cultural decision overhaul
  	[X] now targets the provincial capital
@@ -316,7 +342,7 @@
  	[X] Added 0.5 assimilation speed to the territory colony modifier
  	[X] cultural modifier now runs out after 10 years
 
-## government
+## Government
 
  [X] Change governor policy no longer costs PI
  ⭐ LOC DEBT ⭐
@@ -418,9 +444,10 @@
 
  	[+] Autocratic Monarchy
  		[X] Added base modifier of 5% monthly political influence modifier
+ 		[X] Added base modifier of +0.05 monthly tyranny
  		[X] Increased slave output bonus from 6% to 12%
  		[X] Added government bonus of +8% freemen output
- 		[X] Added government bonus of +0.05 monthly tyranny
+ 		[ ] Added government bonus of -2 slaves needed for surplus
  	[+] Aristocratic Monarchy
  		[X] Added base modifier of 4% city noble desired ratio
  		[X] Removed government bonus of +10% desired freeman ratio
@@ -447,7 +474,7 @@
  		[X] Added one civic idea slot
  		[X] Added base modifier of 0.1 monthly political influence modifier
  		[X] Added base modifier of 0.25 slave output
- 		[X] Added base modifier of -2 slaves needed for surplus
+ 		[X] Added base modifier of -3 slaves needed for surplus
  		[X] Added government modifier of 0.15 national commerce income
  		[X] Added government modifier of -0.15 build cost
  		[X] Added government modifier of -0.25 naval maintenance cost
@@ -500,50 +527,57 @@
  		[X] Removed monotheistic relegion block
  		[X] Reduced Stability loss to 10 from 30
 
+ [+] Ideas
+ 	[+] Oratory
+ 		[ ] Added -0.1 monthly war exhaustion to Military Administration
+
 ### Republics
 
- [X] prominence and statesmanship divider for electability reduced to 150 from 200
- [X] family prestige divider for electability increased to 5000 from 4000
- [X] family prestige cap for electability decreased to 16% from 20%
- [X] not same party malus for electability decreased to 20% from 40%
- [X] party leader bonus for electability decreased to 10% from 50% 
- [X] fixed prominence display being hijacked by statesmanship !conflicts with better UI
- [ ] fixed succession support tooltip
- [ ] fixed party allegiance portrait gfx
+ [X] Prominence and statesmanship divider for electability reduced to 150 from 200
+ [X] Family prestige divider for electability increased to 5000 from 4000
+ [X] Family prestige cap for electability decreased to 16% from 20%
+ [X] Not same party malus for electability decreased to 20% from 40%
+ [X] Party leader bonus for electability decreased to 10% from 50% 
+ [X] Fixed prominence display being hijacked by statesmanship !conflicts with better UI
+ [ ] Fixed succession support tooltip
+ [ ] Fixed party allegiance portrait gfx
 
- [ ] strengthen smear reputation, damage prominence
+ [ ] Strengthen smear reputation, damage prominence
 
  [X] Enabled co-ruler for all Republics
+
+### Monarchies
+
+ [X] Summon War Council cooldown reduced to 5 years from 10
 
 ## Innovations
 
  [?] Remove exclusive inventions probably
 
-### Civic Advances
+### Advances
 
- [X] greek advanced mechanics made into a generic invention
- ⭐ LOC DEBT ⭐
- [X] tribal reserve, devolve responsibility and cultural judiciary removed
- [X] coloniae now requires slave latifundia
- [X] land tithe changed to 6% freemen output from 12% tribesmen output
- [X] land tithe changed to grants 6 freemen pops from 6 tribesmen pops
- ⭐ LOC DEBT ⭐
+ [+] Civic
+	 [X] greek advanced mechanics made into a generic invention
+	 ⭐ LOC DEBT ⭐
+	 [X] tribal reserve, devolve responsibility and cultural judiciary removed
+	 [X] coloniae now requires slave latifundia
+	 [X] land tithe changed to 6% freemen output from 12% tribesmen output
+	 [X] land tithe changed to grants 6 freemen pops from 6 tribesmen pops
+	 ⭐ LOC DEBT ⭐
 
-### Oratory Advances
+ [+] Oratory 
+	 [X] Centralized Comites changed to -0.02 corruption from -20% change policy cost
+	 [X] Added Aggressive Protection as a possible requirement for Book Binding
+	 [X] Removed Permanent Ambassadors
+	
+	 [+] Imperium Invention
+	 	[X] Takes over Permanent Ambassadors' position in the oratory advances tree
+	 	[X] Grants 5% monthly political influence
+	 	[X] Unlocks Empire tier governments
+	 	⭐ LOC DEBT ⭐
 
- [X] Centralized Comites changed to -0.02 corruption from -20% change policy cost
- [X] Added Aggressive Protection as a possible requirement for Book Binding
- [X] Removed Permanent Ambassadors
-
- [+] Imperium Invention
- 	[X] Takes over Permanent Ambassadors' position in the oratory advances tree
- 	[X] Grants 5% monthly political influence
- 	[X] Unlocks Empire tier governments
- 	⭐ LOC DEBT ⭐
-
-### Religious Advances
-
- 	[X] Increased Omen Power bonus in Hierarchical Haruspication to 12.5% from 2.5%
+ [X] Religious
+ 	 [X] Increased Omen Power bonus in Hierarchical Haruspication to 12.5% from 2.5%
 
 ## Characters
 
@@ -551,9 +585,27 @@
  [X] Request marriage opinion requirement lowered to 0 from 40
  [?] Deal with request marriage in multiplayer
 
- [ ] home country in ruins loyalty malus reduced to 15 from 20
+ [X] Monthly statesmanship gain from finesse increased to 0.035 from 0.025
 
- [X] monthly statesmanship gain from finesse increased to 0.035 from 0.025
+ [ ] Prove Legitimacy now allows any culture to have a chance of spawning a bloodline
+
+ [ ] Remove traits that reduce WS cost
+
+ [X] Removed revoked offices loyalty penalty
+
+## Regions
+
+ [+] New Regions
+ 	[X] Epirus provinces: Epirus (from Greece), Illyria Graeca (from Greece) and Aetolia (from Greece)
+ 	[X] Attica provinces: Attica (from Greece), Boeotia (from Greece) and Euboea (from Greece)
+ 	[X] Peloponnese provinces: Achaea (from Greece), Arcadia (from Greece) and Laconia (from Greece)
+ 	[X] Aegean provinces: Crete (from Greece), Cyclades (from Greece) and Sporades (from Asia)
+ 	[X] Sardinia et Corsica provinces: Corsica (from Italia), Sardinia Borealis (from Italia) and Sardinia Australis (from Italia)
+
+ [+] Changed Regions
+ 	[ ] Moesia moved provinces: Dindaria (from Macedonia) and Dardania (from Macedonia)
+
+ [ ] Removed Region: Greece
 
 ## Tags
 
@@ -787,6 +839,9 @@
 
  	[+] Removed Mission Tree: Hellenic Contender
 
+ [ ] Converted all Pannonian and Illyrian pops to druidic
+ [ ] Converted all Pannonian and Illyrian tags to druidic
+
  [ ] add rivers?
 
 ### Athens
@@ -819,6 +874,8 @@
 
  	[X] Removed Mission Tree: Ancient Rivals
 
+ [ ] Remove or improve the really bad exclusive state interactions
+
  [ ] add rivers?
 
 ### Macedon
@@ -849,6 +906,16 @@
 ### Ptolemids
  [!] Mission Overhaul
  [ ] add rivers?
+
+## Generic Missions
+
+ [ ] Generic greeks no longer blocked from generic mission trees until their exclusive tree is completed
+
+ [+] Matter of [Region] # Generic Conquest Tree
+ 	[+] Control [Province]
+ 		[ ] Third reward roll now only targets the provincial capital
+ 	[+] Acquire [Province] 
+ 		[X] No longer requires uncolonized provinces
 
 ### Removed Tags
  [X] All Indian and Tibetan minors
@@ -882,10 +949,6 @@
  [X] Taexalia (TXL), Pinnatra Castra (2133) and Venicones (2115) annexed into Caledonia (CAL)
  [X] Carnonacia (CAN), Ouirouedroum Akron (2131) and Orcades (2132) annexed into Cornavia (CON)
 
-## global
-
- [X] Control [province] mission's 3rd reward roll now only targets the provincial capital
-
 ----------------------------------------------------------------------------------------------------------------------
 next patch
 
@@ -910,3 +973,14 @@ wish list
 	bottleneck and envelopment affect combat width
 	citizen output visual bug fixed
 	laws that enable/disable co ruler
+
+----------------------------------------------------------------------------------------------------------------------
+imports
+
+	if you're the author of any of these mods and would like for me remove anything i imported just shoot me a dm
+		discord username: lusopero
+
+	Imperators' Navigable Rivers - Licarious Fenrir
+	https://steamcommunity.com/sharedfiles/filedetails/?id=1727566868
+
+	 	map_data/

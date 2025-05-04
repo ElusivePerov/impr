@@ -1082,12 +1082,24 @@ generic_mission_conquer_region = { #Conquer Region
 			exists = scope:first_follow
 		} 
 		allow = { 
-			owns_or_subject_owns_area = scope:first_follow
+			scope:first_follow = {
+				any_area_province = {
+					AND = { 
+						has_owner = yes
+						count = all
+					}
+					OR = {
+						owner = ROOT
+						owner = { is_subject_of = ROOT }
+					}
+				}
+			}
 		} 
 		
 		highlight = {
 			scope:province = {
 				exists = area
+				has_owner = yes
 				this.area = scope:first_follow
 			}
 		}

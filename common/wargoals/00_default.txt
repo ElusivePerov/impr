@@ -79,9 +79,6 @@ imperial_conquest_wargoal = {
 
 conquer_wargoal = {
 	type = take_province
-	allow = {
-		is_subject = no
-	}
 	
 	attacker = {
 		conquer_cost = 0.5
@@ -107,7 +104,6 @@ independence_wargoal = {
 	}
 }
 
-
 raiding_wargoal = {
 	type = superiority
 	allow = {
@@ -121,7 +117,6 @@ raiding_wargoal = {
 	}
 	ticking_war_score = 0.5
 }
-
 
 naval_wargoal = {
 	type = naval_superiority

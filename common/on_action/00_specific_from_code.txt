@@ -2125,6 +2125,10 @@ on_game_initialized = {
 		startup_cultural_decisions_effect = yes
 		### Other ###
 		add_country_modifier = { name = starting_deity_swap_discount duration = 365 }
+		if = {
+			limit = { is_ai = no }
+			set_legion_recruitment = enabled
+		}
 		add_innovation = {
 			value = oratory_tech
 		}

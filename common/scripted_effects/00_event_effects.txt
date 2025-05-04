@@ -6559,10 +6559,6 @@ clear_loyalty_effect = {
 		remove_loyalty = loyalty_office_gained
 	}
 	if = {
-		limit = { has_loyalty = loyalty_office_lost }
-		remove_loyalty = loyalty_office_lost
-	}
-	if = {
 		limit = { has_loyalty = given_free_hands }
 		remove_loyalty = given_free_hands
 	}

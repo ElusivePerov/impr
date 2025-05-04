@@ -63,9 +63,10 @@ monarchy_military_reforms = {
 	relaxed_recruiting_standards = { #Noble Retinues - Macedon
 		modifier = {
 			levy_size_multiplier = 0.125
-			mercenary_land_maintenance_cost = -0.10
-			recruit_mercenary_cost_modifier = -0.10
-			max_mercenary_stacks = 2
+			army_maintenance_cost = -0.2
+			mercenary_land_maintenance_cost = 0.15
+			manpower_recovery_speed = 0.35
+			global_manpower_modifier = 0.35
 			land_morale_modifier = -0.05
 			discipline = -0.025
 		}
@@ -94,10 +95,9 @@ monarchy_military_reforms = {
 	mercenary_reliance = {
 		modifier = {
 			levy_size_multiplier = 0.125
-			army_maintenance_cost = -0.2
-			mercenary_land_maintenance_cost = 0.15
-			manpower_recovery_speed = 0.35
-			global_manpower_modifier = 0.35
+			mercenary_land_maintenance_cost = -0.10
+			recruit_mercenary_cost_modifier = -0.10
+			max_mercenary_stacks = 2
 			land_morale_modifier = -0.05
 			discipline = -0.025
 		}

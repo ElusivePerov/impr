@@ -262,6 +262,7 @@ despotic_monarchy = { #stepping stone/starting type
 	bonus = {
 		global_slaves_output = 0.12
 		global_freemen_output = 0.08
+		global_goods_from_slaves = -2
 	}
 	base = {
 		country_civilization_value = 15
