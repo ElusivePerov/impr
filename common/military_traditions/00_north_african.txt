@@ -56,7 +56,7 @@
 
 	north_african_army_path_7 = { ###North Aftica 2AA
 		modifier = { 
-			warelephant_offensive = 0.1
+			light_cavalry_offensive = 0.1
 		}
 		icon = north_african_army_path_7
 		requires = { north_african_army_path_1 }
@@ -107,7 +107,7 @@
 
 	north_african_army_path_5 = { ###North Aftica 3AA
 		modifier = { 
-			warelephant_maintenance_cost = -0.15
+			light_cavalry_maintenance_cost = -0.15
 		}
 		icon = north_african_army_path_5
 		requires = {north_african_army_path_7}

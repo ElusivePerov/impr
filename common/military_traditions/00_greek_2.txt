@@ -34,7 +34,7 @@
 	
 	greek_seleucid_path_1 = {
 		modifier = {
-			heavy_cavalry_morale = 0.1
+			light_cavalry_morale = 0.1
 			light_infantry_morale = 0.1
 		}
 		icon = greek_seleucid_path_1
@@ -43,7 +43,7 @@
 	
 	greek_seleucid_path_5 = {
 		modifier = { 
-			heavy_cavalry_offensive = 0.15
+			light_cavalry_offensive = 0.15
 		}
 		requires = { greek_seleucid_path_1 }
 		icon = greek_seleucid_path_5
@@ -60,7 +60,7 @@
 	greek_seleucid_path_end_bonus = {
 		modifier = { 
 			mercenary_land_maintenance_cost = -0.1
-			heavy_cavalry_maintenance_cost = -0.15
+			heavy_infantry_maintenance_cost = -0.15
 		}
 		requires = { greek_persian_enable greek_states_path_4 }
 		icon = greek_seleucid_path_end_bonus
@@ -189,7 +189,7 @@
 	
 	greek_states_path_1 = {
 		modifier = { 
-			heavy_infantry_morale = 0.1
+			heavy_infantry_morale = 0.075
 		}
 		requires = { greek_antigonid_path_1 } 
 		icon = greek_states_path_1 
@@ -197,7 +197,7 @@
 	
 	greek_states_path_end_bonus = {
 		modifier = { 
-			heavy_infantry_offensive = 0.15
+			heavy_infantry_offensive = 0.10
 		}
 		requires = { greek_states_path_1 } 
 		icon = greek_states_path_end_bonus 

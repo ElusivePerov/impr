@@ -41,7 +41,7 @@
 	}
 
 	north_african_latin_enable = { ###North Aftica 2A
-		modifier = { heavy_infantry_offensive = 0.125 }
+		modifier = { heavy_infantry_offensive = 0.075 }
 		icon = latin_tribal_path_end_bonus
 		requires = { north_african_tribal_path_end_bonus }
 	}

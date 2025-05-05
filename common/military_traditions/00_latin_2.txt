@@ -88,8 +88,7 @@
 	
 	latin_support_path_7 = { ###Latin 3A
 		modifier = { 
-			light_cavalry_defensive = 0.1
-			heavy_cavalry_defensive = 0.1
+			light_cavalry_defensive = 0.15
 		}
 		
 		requires = { latin_tribal_path_2 }

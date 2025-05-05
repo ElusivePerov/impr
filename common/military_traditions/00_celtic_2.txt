@@ -151,8 +151,7 @@
 
 	celtic_britannic_path_6 = { ###Celtic 1B
 		modifier = { 
-			light_cavalry_morale = 0.1
-			chariots_morale = 0.1
+			light_cavalry_morale = 0.15
 		}
 		icon = celtic_britannic_path_6
 		requires = { celtic_germanic_path_4 }
@@ -173,7 +172,7 @@
 
 	celtic_philosophy_start_bonus = {
 		modifier = { 
-			chariots_defensive = 0.2
+			light_cavalry_defensive = 0.2
 		}
 		icon = celtic_philosophy_start_bonus
 		requires = {  }
@@ -181,7 +180,7 @@
 
 	celtic_britannic_path_1 = { ###Celtic 2BA
 		modifier = { 
-			chariots_offensive = 0.20
+			light_cavalry_offensive = 0.20
 		}
 		icon = celtic_britannic_path_1
 		requires = { celtic_britannic_path_5 }
@@ -189,7 +188,7 @@
 
 	celtic_britannic_path_5 = { ###Celtic 2BB
 		modifier = { 
-			chariots_discipline = 0.1
+			light_cavalry_discipline = 0.1
 		}
 		icon = celtic_britannic_path_5
 		requires = { celtic_philosophy_start_bonus }
@@ -242,7 +241,7 @@
 
 	celtic_gallic_path_5 = { ###Celtic 5B
 		modifier = {
-			happiness_for_wrong_culture_modifier = wrong_culture_large
+			global_population_happiness = 0.04
 		}
 		icon = celtic_gallic_path_5
 		requires = { celtic_germanic_path_2 }

@@ -44,11 +44,11 @@
 			country_culture_group = meroitic_group
 		}
 		trigger_else_if = {
-			limit = { heritage = ptolemys_heritage }
+			limit = { heritage = antigonid_heritage }
 			custom_tooltip = {
 				text = "began_with_tradition_group"
 			}
-			heritage = ptolemys_heritage
+			heritage = antigonid_heritage
 		}
 		trigger_else = {
 			OR = {
@@ -61,7 +61,7 @@
 
 	levantine_arabian_path_end_bonus = { ###Levantine 1A
 		modifier = { 
-			camels_discipline = 0.1
+			light_cavalry_discipline = 0.1
 		}
 		icon = levantine_arabian_path_end_bonus
 		requires = {}
@@ -83,7 +83,7 @@
 
 	
 	levantine_philosophy_start_bonus = { ###
-		modifier = { camels_morale = 0.1 }
+		modifier = { light_cavalry_morale = 0.1 }
 		icon = levantine_arabian_path_2
 		requires = { levantine_arabian_path_7 }
 	}
@@ -91,9 +91,7 @@
 
 	levantine_arabian_path_7 = { ###Levantine 3AB
 		modifier = { 
-			light_cavalry_cost = -0.15
-			camels_cost = -0.15
-			heavy_cavalry_cost = -0.15
+			light_cavalry_cost = -0.25
 		}
 		icon = levantine_arabian_path_7
 		requires = { levantine_arabian_path_4 }
@@ -103,7 +101,7 @@
 
 	levantine_egyptian_path_6 = { ###Levantine 4AA
 		modifier = { 
-			camels_defensive = 0.15
+			light_cavalry_defensive = 0.15
 		}
 		icon = levantine_egyptian_path_6
 		requires = { levantine_philosophy_start_bonus }
@@ -111,7 +109,7 @@
 
 	levantine_arabian_path_3 = { ###Levantine 4AB
 		modifier = { 
-			camels_offensive = 0.15
+			light_cavalry_offensive = 0.15
 		}
 		icon = levantine_arabian_path_3
 		requires = { levantine_philosophy_start_bonus }

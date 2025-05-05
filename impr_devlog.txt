@@ -49,76 +49,105 @@
 
  [X] Capital City modifier now increases Fort Defense by 10%
 
- [+] Military Traditions Stacking Block
+ [+] Military Traditions Rebalance
  	[+] Celtic
- 		[X] no longer enabled by Italic Tribe traditions
- 		[X] no longer enables Roman or Italic traditions
- 		[X] Embrace Celto-Italic Influence heavy infantry offense bonus increased to 12.5% from 2.5%
+ 		[X] No longer enabled by Italic Tribe traditions
+ 		[X] No longer enables Roman or Italic traditions
+ 		[X] Embrace Celto-Italic Influence heavy infantry offense bonus increased to 7.5% from 2.5%
+ 		[X] Changed the modifiers in Strike From Afar to benefit Light Infantry instead of Archers
+ 		[X] Changed the modifiers in Take Up Arms to benefit Light Infantry instead of Archers
+ 		[X] Changed the modifiers in Hail of Stones to benefit Light Infantry instead of Archers
+ 		[X] Removed Archers Discipline bonus of 10% from Adaptability and increased the Light Infantry Discipline bonus to 15% from 10%
  		⭐ LOC DEBT ⭐
  	[+] Britannic
- 		[X] no longer enabled by Italic Tribe traditions
- 		[X] no longer enables Punic or Numidian traditions
+ 		[X] No longer enabled by Italic Tribe traditions
+ 		[X] No longer enables Punic or Numidian traditions
  		[X] Embrace Celtiberian-African Influence light cavalary defense bonus increased to 15% from 5%
+ 		[X] Removed Chariot Morale bonus of 10% from Selective Breeding and increased the Light Cavalry Morale bonus to 15% from 10%
+ 		[X] A People on the Move now grants +4% Population Happiness instead of +6% Unintegrated Culture Happiness
+ 		[X] Removed +20% Chariot Defense from Chariot Culture and added +5% Light Cavalry Defense
+ 		[X] Removed +10% Chariot Discipline from Chariot Mastery and added +5% Light Cavalry Discipline
+ 		[X] Removed +20% Chariot Offense from Scythed Chariots and added 10% Chariot Offense 
  		⭐ LOC DEBT ⭐
  	[+] Greek Poleis
- 		[X] no longer enabled by Roman or Levantine Maritime traditions
- 		[X] no longer enables Levantine Kingdom or Levantine Maritime traditions
+ 		[X] No longer enabled by Roman or Levantine Maritime traditions
+ 		[X] No longer enables Levantine Kingdom or Levantine Maritime traditions
  		[X] Embrace Graeco-Levantine Influence open sea combat bonus increased to 7.5% from 5%
+ 		[X] Reduced the Heavy Infantry Offense bonus in Modernized Phalanx to 7.5%% from 15%
+ 		[X] Changed the modifiers in Specialist Infantry to benefit Light Infantry instead of Archers
+ 		[X] Added -10% Army attrition to Specialist Infantry
+ 		[X] Removed the +10% Heavy Cavalry Defense in Hipparchos and added +5% Light Cavalry Discipline
  		⭐ LOC DEBT ⭐
  	[+] Greek Kingdom
- 		[X] no longer enabled by Roman or Levantine Maritime traditions
- 		[X] no longer enables Persia or Persian Rural traditions
+ 		[X] No longer enabled by Roman or Levantine Maritime traditions
+ 		[X] No longer enables Persia or Persian Rural traditions
  		[X] Embrace Graeco-Persian Influence plains combat bonus increased to 7.5% from 5%
+ 		[X] Reduced the Heavy Infantry Morale bonus in The Sarissa to 7.5% to 10%
+ 		[X] Reduced the Heavy Infantry Offense bonus in The Silver Shields to 10%% from 15%
+ 		[X] Changed the modifiers in Agema to benefit Light Cavalry instead of Heavy Cavalry
+ 		[X] Changed the modifiers in Katapraktoi to benefit Light Cavalry instead of Heavy Cavalry
+ 		[X] Changed the modifiers in Deep Coffers to benefit Heavy Infantry instead of Heavy Cavalry
  		⭐ LOC DEBT ⭐
  	[+] Roman
- 		[X] no longer enabled by Celtic or Numidian traditions
- 		[X] no longer enables Greek Poleis or Greek Kingdom traditions
+ 		[X] No longer enabled by Celtic or Numidian traditions
+ 		[X] No longer enables Greek Poleis or Greek Kingdom traditions
  		[X] Embrace Italo-Greek Influence plains combat bonus increased to 7.5% from 5%
+ 		[X] Reduced the Heavy Infantry Offense bonus in Principes to 10% from 15%
  		⭐ LOC DEBT ⭐
  	[+] Italic Tribe
- 		[X] no longer enabled by Celtic or Numidian traditions
- 		[X] no longer enables Celtic or Britannic Traditions
+ 		[X] No longer enabled by Celtic or Numidian traditions
+ 		[X] No longer enables Celtic or Britannic Traditions
  		[X] Embrace Italo-Celtic Influence forest combat bonus increased to 7.5% from 5%
+ 		[X] Removed the +10% Heavy Cavalry Defense in Foederati and added +5% Light Cavalry Discipline
  		⭐ LOC DEBT ⭐
  	[+] Levantine Kingdom
- 		[X] no longer enabled by Persian or Greek Poleis or Punic
- 		[X] no longer enables Punic or Numidian traditions
- 		[X] Embrace Afro-Punic Influence plains combat bonus increased to 7.5% from 5%
+ 		[X] No longer enabled by Persian or Greek Poleis or Punic
+ 		[X] No longer enables Punic or Numidian traditions
+ 		[X] No longer enabled by Heritage of Ptolemaios
+ 		[X] Now enabled by Heritage of Antigonos
+  		[X] Embrace Afro-Punic Influence plains combat bonus increased to 7.5% from 5%
+ 		[X] Changed the modifiers in Trained Camelry to benefit Light Cavalry instead of Camels
+ 		[X] Removed the -15% Camels and Heavy Cavalry Cost in Oasis Trade and added -10% Light Cavalry
+ 		[X] Changed the modifiers in Pathfinders to benefit Light Cavalry instead of Camels
+ 		[X] Changed the modifiers in Thick Hide to benefit Light Cavalry instead of Camels
+ 		[X] Changed the modifiers in Beasts of Burden to benefit Light Cavalry instead of Camels
  		⭐ LOC DEBT ⭐
  	[+] Levantine Maritime
- 		[X] no longer enabled by Persian or Greek Poleis or Punic
- 		[X] no longer enables Greek Poleis or Greek Kingdom traditions
+ 		[X] No longer enabled by Persian or Greek Poleis or Punic
+ 		[X] No longer enables Greek Poleis or Greek Kingdom traditions
+ 		[X] Now enabled by Heritage of Antigonos
+ 		[X] Now enabled by Heritage of Ptolemaios
  		[X] Embrace Levantine-Greek Influence coastal sea combat bonus increased to 7.5% from 5%
  		⭐ LOC DEBT ⭐
  	[+] Indian Kingdom
- 		[X] no longer enabled by Persian traditions
+ 		[X] No longer enabled by Persian traditions
  	[+] Indian Tribe
- 		[X] no longer enabled by Persian traditions
- 		[X] no longer enables Persian or Persian Rural traditions
+ 		[X] No longer enabled by Persian traditions
+ 		[X] No longer enables Persian or Persian Rural traditions
  		[X] Embrace Indo-Persian Influence plains combat bonus increased to 7.5% from 5%
  		⭐ LOC DEBT ⭐
  	[+] Punic
- 		[X] no longer enabled by Britannic or Levantine Kingdom traditions
- 		[X] no longer enables Levantine Kingdom or Levatine Maritime traditions
+ 		[X] No longer enabled by Britannic or Levantine Kingdom traditions
+ 		[X] No longer enables Levantine Kingdom or Levatine Maritime traditions
  		[X] Embrace Afro-Levantine Influence open sea combat bonus increased to 7.5% from 5%
+ 		[X] Changed the modifiers in Devastating Charge to benefit Light Cavalry instead of War Elephants
+ 		[X] Changed the modifiers in The African Elephant to benefit Light Cavalry instead of War Elephants
  		⭐ LOC DEBT ⭐
  	[+] Numidian
- 		[X] no longer enabled by Britannic or Levantine Kingdom traditions
- 		[X] no longer enables Roman or Italic Tribe traditions
- 		[X] Embrace Punic-Italic Influence now grants a heavy infantry offense bonus of 12.5%
+ 		[X] No longer enabled by Britannic or Levantine Kingdom traditions
+ 		[X] No longer enables Roman or Italic Tribe traditions
+ 		[ ] Embrace Punic-Italic Influence now grants a heavy infantry offense bonus of 7.5%
  		⭐ LOC DEBT ⭐
  	[+] Persian
- 		[X] no longer enabled by Greek Kingdom or Indian Tribe traditions
- 		[X] no longer enables 
+ 		[X] No longer enabled by Greek Kingdom or Indian Tribe traditions
+ 		[X] No longer enables 
  		[X] Embrace Perso-Indian Influence jungle combat bonus increased to 7.5% from 5%
  		⭐ LOC DEBT ⭐
  	[+] Persian Rural
- 		[X] no longer enabled by Greek Kingdom or Indian Tribe traditions
- 		[X] no longer enables Levantine Kingdom or Levantine Maritime traditions
+ 		[X] No longer enabled by Greek Kingdom or Indian Tribe traditions
+ 		[X] No longer enables Levantine Kingdom or Levantine Maritime traditions
  		[X] Embrace Perso-Levantine Influence open sea combat bonus increased to 7.5% from 5%
  		⭐ LOC DEBT ⭐
-
- [!] Military Traditions Rebalance
 
  [+] Standardized Military Laws
  	[+] Mercenary Reliance
@@ -276,7 +305,10 @@
  		[X] Removed from Celtic Traditions
 
  	[X] Removed Triplex Acies, Phalanx, Padma Vyuha and Cavalry Skirmish
- 	[X] Unit Reorganzation unit ability now increases supply limit by 50%
+
+ [+] Unit Abilities
+ 	[X] Unit Reorganization unit ability now decreases attrition by -100%
+ 	[ ] Removed Slave Raid and Port Assault
 
  [ ] Pops are no longer killed or enslaved in territories that have 5 pops or less
 
@@ -644,9 +676,9 @@
  	⭐ LOC DEBT ⭐
 
  [+] Changed Regions
- 	[ ] Moesia moved provinces: Dindaria (from Macedonia) and Dardania (from Macedonia)
+ 	[X] Moesia moved provinces: Dindaria (from Macedonia) and Dardania (from Macedonia)
 
- [ ] Removed Region: Greece
+ [X] Removed Region: Greece
 
 ## Tags
 

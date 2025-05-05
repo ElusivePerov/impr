@@ -43,6 +43,13 @@
 			}
 			country_culture_group = meroitic_group
 		}
+		trigger_else_if = {
+			limit = { heritage = antigonid_heritage }
+			custom_tooltip = {
+				text = "began_with_tradition_group"
+			}
+			heritage = antigonid_heritage
+		}
 		trigger_else = {
 			OR = {
 				has_military_bonus = persian_levantine_enable
