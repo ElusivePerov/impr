@@ -970,12 +970,24 @@
 
  [ ] add rivers?
 
-### Seleukids
- [!] Mission Overhaul
- [ ] add rivers?
-
 ### Ptolemids
  [!] Mission Overhaul
+ 	[+] Greater Empire
+ 		[X] Moved Alexandrian Shipyards, Safe Routes and Naval Power from Thalassocracy
+
+ 		[+] Ruler of Africa
+ 			[X] No longer grants claims on completion
+
+ 		[X] Removed missions: Sicilian Ventures, Western Greeks and King of the Western Seas
+
+ 	[X] Removed Mission Trees: The Eastern Border and Thalassocracy
+
+ [ ] add rivers?
+
+### Seleukids
+ [!] Mission Cleanup
+ 	[X] Removed Mission Trees: Syrian Ambitions, Western Dreams and To the Borders of Egypt
+
  [ ] add rivers?
 
 ## Generic Missions
@@ -1000,7 +1012,7 @@
  	[+] Conquer [Province]
  		[X] No longer requires uncolonized provinces
 
- [+] Pearl of [Region] # Generic Infrastructure Tree
+ [+] Pearl of/Growth of/Stablize and Grow [Region] # Generic Infrastructure Tree
  	[X] No longer permanently blocks a region from being targeted again, instead its just blocked for 20 years
 
 ### Removed Tags

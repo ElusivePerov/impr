@@ -324,34 +324,6 @@
         }
     }
 
-    egypt_mission_3_empire_task_6 = { # Sicilian Ventures
-        icon = "task_expansion"
-
-        highlight = {
-            scope:province = {
-                is_in_region = magna_graecia_region
-                is_port = yes
-            }
-		}
-
-        allow = {
-            custom_tooltip = {
-                text = egypt_mission_3_empire_task_6.tt
-                any_owned_province = {
-                    is_in_region = magna_graecia_region
-                    is_port = yes
-                }
-            }
-        }
-
-        on_completion = {
-            trigger_event = { id = me_egypt_3_empire.9 }
-            custom_tooltip = me_egypt_3_empire.9.a.tt
-            custom_tooltip = me_egypt_3_empire.9.a.tt.2
-            custom_tooltip = me_egypt_3_empire.9.a.tt.3
-        }
-    }
-
     egypt_mission_3_empire_task_7 = { # The People of Cyrenaica
         icon = "task_political"
         duration = 90
@@ -677,111 +649,10 @@
         }
     }
 
-    egypt_mission_3_empire_task_12 = { # King of the Western Seas
-        icon = "task_expansion"
-
-        requires = { egypt_mission_3_empire_task_9 egypt_mission_3_empire_task_10 }
-
-        prevented_by = { egypt_mission_3_empire_task_11 }
-
-        bypass = {
-        	has_completed_mission_task = egypt_mission_3_empire_task_11
-        }
-
-        highlight = {
-            scope:province = {
-                OR = {
-                    is_in_area = balearides_area
-                    is_in_area = sardinia_meridionalis
-                    province_id = 1470
-                    province_id = 1471
-                }
-                NOT = {
-                    owner = root
-                }
-            }
-		}
-
-        allow = {
-            owns_or_subject_owns_area = balearides_area
-            owns_or_subject_owns_area = sardinia_meridionalis
-            owns_or_subject_owns = 1470
-            owns_or_subject_owns = 1471
-        }
-
-        on_completion = {
-            trigger_event = { id = me_egypt_3_empire.18 }
-            custom_tooltip = me_egypt_3_empire.18.a.tt
-            custom_tooltip = me_egypt_3_empire.9.a.tt.2
-        }
-    }
-
-    egypt_mission_3_empire_task_13 = { #Western Greeks
-        icon = "task_expansion"
-
-        requires = { egypt_mission_3_empire_task_6 }
-
-        highlight = {
-            scope:province = {
-                OR = {
-                    province_id = 93
-                    province_id = 84
-                    province_id = 91
-                    province_id = 86
-                    province_id = 85
-                    province_id = 82
-                    province_id = 80
-                    province_id = 99
-                    province_id = 72
-                    province_id = 73
-                    province_id = 75
-                    province_id = 78
-                    province_id = 52
-                    province_id = 54
-                    province_id = 55
-                    province_id = 56
-                }
-            }
-        }
-
-        allow = {                     
-            calc_true_if = {                         
-                amount >= 9
-                owns_or_subject_owns = p:93
-                owns_or_subject_owns = p:84 
-                owns_or_subject_owns = p:91
-                owns_or_subject_owns = p:86
-                owns_or_subject_owns = p:85
-                owns_or_subject_owns = p:82
-                owns_or_subject_owns = p:80
-                owns_or_subject_owns = p:99
-                owns_or_subject_owns = p:72
-                owns_or_subject_owns = p:73
-                owns_or_subject_owns = p:75
-                owns_or_subject_owns = p:78
-                owns_or_subject_owns = p:52
-                owns_or_subject_owns = p:54
-                owns_or_subject_owns = p:55
-                owns_or_subject_owns = p:56
-            }
-        }
-
-        on_completion = {
-            trigger_event = { id = me_egypt_3_empire.20 }
-            custom_tooltip = me_egypt_3_empire.20.a.tt
-            show_as_tooltip = {
-                add_country_modifier = {
-                    name = grain_trade_monopoly_mod
-                    duration = -1
-                }
-            }
-        }
-    }
-
     egypt_mission_3_empire_task_final = { # Ruler of Africa
         icon = "task_diplomatic"
 
-        requires = { egypt_mission_3_empire_task_5 egypt_mission_3_empire_task_11 egypt_mission_3_empire_task_12 }
+        requires = { egypt_mission_3_empire_task_5 egypt_mission_3_empire_task_11 }
 
         final = yes
 
@@ -821,6 +692,168 @@
                 }
                 custom_tooltip = me_egypt_3_empire.19.a.tt
                 custom_tooltip = me_egypt_3_empire.19.a.tt.2
+            }
+        }
+    }
+
+    egypt_mission_1_sea_task_1 = { # Alexandrian Shipyards      
+        icon = "task_expansion"
+
+        highlight = {
+            scope:province = {
+                province_id = 516
+            }
+        }
+
+        allow = {
+            trigger_if = {
+               limit = {
+                    NOT = { owns = 516 }
+                }
+               owns = 516
+            }
+            trigger_if = {
+                limit = { is_ai = no }
+                has_military_bonus = greek_states_path_5
+                hidden:p:516 = {
+                    custom_tooltip = {
+                        text = egypt_mission_1_sea_task_1.tt
+                        num_of_port_building >= egypt_mission_1_sea_task_1_foundry_total
+                    }              
+                }
+                hidden:p:516.state = {
+                    custom_tooltip = {
+                        text = egypt_mission_1_sea_task_1_trigger_1
+                        trade_good_surplus = {
+                            target = wood
+                            value >= egypt_mission_1_sea_task_1_trade_total
+                        }
+                    }
+                }
+            }
+            trigger_else = { treasury > 600 }
+        }
+
+        on_completion = {
+            if = {
+                limit = { is_ai = yes }
+                add_treasury = -300
+                p:516 = {
+                    while = {
+                        limit = { num_of_port_building < egypt_mission_1_sea_task_1_foundry_total }
+                        if = {
+                            limit = { free_building_slots < 1 }
+                            destroy_building_effect = yes
+                        }
+                        add_building_level = port_building
+                    }
+                }
+            }
+            trigger_event = { id = me_egypt_1_sea.16 }
+            show_as_tooltip = {
+                p:516 = {
+                    add_province_modifier = {
+                        name = alexandria_shipyard_modifier
+                        duration = -1
+                    }
+                }
+                custom_tooltip = me_egypt_1_sea.16.a.tt
+            }
+        }
+    }
+
+    egypt_mission_1_sea_task_2 = { #Safe Routes
+        icon = "task_conquest"
+
+        highlight = {
+            scope:province = {
+                owner = root
+                has_province_modifier = pirate_haven_modifier
+            }
+        }
+
+        allow = {
+            trigger_if = {
+                limit = { is_ai = no }
+                has_law = antipiracy_edict
+                custom_tooltip = {
+                    text = egypt_mission_1_sea_task_2.tt
+                    any_owned_province = {
+                        has_province_modifier = pirate_haven_modifier
+                        count = egypt_mission_1_sea_task_2_pirates_total
+                    }
+                }
+            }
+            trigger_else = {
+                treasury >= 600
+                political_influence >= 100
+            }
+        }
+
+        on_completion = {
+            if = {
+                limit = { is_ai = yes }
+                add_treasury = -300
+                add_political_influence = -50
+                if = {
+                    limit = {
+                        any_owned_province = { has_province_modifier = pirate_haven_modifier }
+                    }
+                    every_owned_province = {
+                        limit = { has_province_modifier = pirate_haven_modifier }
+                        remove_province_modifier = pirate_haven_modifier
+                    }
+                }
+                if = {
+                    limit = {
+                        NOT = { has_law = antipiracy_edict }
+                    }
+                    change_law = antipiracy_edict
+                }
+            }
+            trigger_event = {id = me_egypt_1_sea.17 }
+            show_as_tooltip = {
+                add_1_free_province_investments = yes
+                custom_tooltip = me_egypt_1_sea.17.a.tt
+            }
+        }
+    }
+
+    egypt_mission_1_sea_task_4 = { #Naval Power
+        icon = "task_expansion"
+
+        requires = { egypt_mission_1_sea_task_1 egypt_mission_1_sea_task_2 }
+
+        allow = {
+            trigger_if = {
+                limit = { is_ai = no }
+                custom_tooltip = {
+                    text = egypt_mission_1_sea_task_4_ship_trigger              
+                    num_of_ships >= egypt_mission_1_sea_task_4_ship_total
+                }
+                custom_tooltip = {  
+                    text = egypt_mission_1_sea_task_4_galley_trigger             
+                    num_of_unit_type = {               
+                       type = mega_galley
+                       value >= egypt_mission_1_sea_task_4_galley_total
+                    }
+                }
+                custom_tooltip = {                  
+                    text = egypt_mission_1_sea_task_4_liburnian_trigger_1
+                    egy_liburnian_tracker_svalue <= egy_total_tracker_svalue
+                }
+            }
+            trigger_else = { num_of_ships > 120 }
+        }
+
+        on_completion = {
+            trigger_event = { id = me_egypt_1_sea.19 }
+            show_as_tooltip = {
+                add_country_modifier = { 
+                    name = "egyptian_fleet"
+                    duration = -1
+                }
+                add_military_experience = 10
             }
         }
     }
