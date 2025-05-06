@@ -9,15 +9,15 @@
     }
 
     potential = {
-        #NOT = { has_variable = seleukid_mission_01_babylonia }
-        #has_dlc = "Heirs of Alexander"
-    	#OR = {
-        #    tag = SEL
-        #    has_variable = sel_unique_mech
-        #}
-        #is_subject = no
-        #has_civil_war = no
-        #is_monarchy = yes
+        NOT = { has_variable = seleukid_mission_01_babylonia }
+        has_dlc = "Heirs of Alexander"
+    	OR = {
+            tag = SEL
+            has_variable = sel_unique_mech
+        }
+        is_subject = no
+        has_civil_war = no
+        is_monarchy = yes
     }
 
     abort = {

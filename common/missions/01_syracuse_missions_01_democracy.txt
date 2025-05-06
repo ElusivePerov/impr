@@ -13,7 +13,7 @@
 		}
 		is_monarchy = yes
 		country_culture_group = hellenic
-		#current_date > 452.1.1
+		current_date > 452.1.1
 		custom_tooltip = {
 			text = democracy_eligible_tooltip
 			current_ruler = {

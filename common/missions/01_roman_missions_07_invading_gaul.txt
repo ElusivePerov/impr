@@ -12,12 +12,12 @@
 		NOT = { has_variable = roman_mission_07_invading_gaul }
 		has_dlc = "The Punic Wars"
 		tag = ROM
-	 	#owns = 3549
-	 	#OR = {
-	 	#	has_completed_mission = roman_3_cisalpine_gaul
-	 	#	owns_or_subject_owns_region = cisalpine_gaul_region
-	 	#}
-	 	#has_civil_war = no
+	 	owns = 3549
+	 	OR = {
+	 		has_completed_mission = roman_3_cisalpine_gaul
+	 		owns_or_subject_owns_region = cisalpine_gaul_region
+	 	}
+	 	has_civil_war = no
 	}
 
 	abort = {

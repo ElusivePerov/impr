@@ -411,6 +411,7 @@ subject_colony = {
 	subject_can_cancel = no
 	
 	has_limited_diplomacy = no
+	allowed_to_declare_war_against_others = yes
 	only_trade_with_overlord = no
 	
 	overlord_modifier = {

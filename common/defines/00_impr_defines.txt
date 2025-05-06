@@ -14,6 +14,18 @@ NCountry = {
 	POTENTIAL_MISSION_COUNT = 6 # Number of random missions to pick between
 }  
 
+NPop = {
+	DEATH_BEFORE_SLAVERY = 0.15
+}
+
+NCombat = {
+	EXPERIENCE_GAIN = 100
+}
+
+NUnit = {
+	INITIAL_FOOD_RESERVES_IN_MONTHS = 6000 # Im really not happy about not being able to change starting province food
+}
+
 NDiplomacy = {
 	MIN_WARSCORE_TO_DEMAND = 0
 	
@@ -70,6 +82,7 @@ NSuccession = {
 }
 
 NProvince = {
+	ENSLAVEMENT_MONTHS_COOLDOWN = 120
 	#State
 	TOO_DISLOYAL_THRESHOLD = 20
 }

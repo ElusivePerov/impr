@@ -14,8 +14,6 @@
 
  [X] Potential mission count increased to 6 from 4
 
- [ ] Removed being a subject blocking declaring using conquest war goal
-
  Imperators' Navigatable Rivers is now a requirement to run this mod
 
  [X] Added a crossing between Ektonopolis and Yendi
@@ -25,20 +23,23 @@
  [X] Minimum warscore to demand peace reduced to 0 from 10
  [X] Separate peace block reduced to 0 months from 36 months
 
- [X] AE increase of non target reduced to 0 from 0.33
- [X] WS increase of non target reduced to 0 from 0.33
+ [X] AE increase of non target reduced to 0% from 33%
+ [X] WS increase of non target reduced to 0% from 33%
 
- [X] WS increase of conquest CB increased to 0.5 from -0.25 for attacker and 0.5 from 0 for defender
- [X] WS increase of taking from owner's accepted culture increased to 0.33 from 0.10
- [X] WS increase of taking from owner's accepted religion increased to 0.33 from 0.10
+ [X] WS increase of conquest CB increased to 125% from -25% for attacker and 125% from 0% for defender
+ [X] WS increase of taking from owner's accepted culture increased to 33% from 10%
+ [X] WS increase of taking from owner's accepted religion increased to 33% from 10%
+
+ [X] Removed civil war mechanics from Legacy of Alexander and Imperial Challenge CBs
+ ⭐ LOC DEBT ⭐
+ [X] WS increase of Legacy of Alexander CB increased to 75% from 60% for both attacker and defender
+ [X] WS increase of Imperial Challenge CB increased to 100% from 60% for both attacker and defender
+
+ [X] Removed being a subject blocking being able to declare wars
 
  [X] PI cost decrease of fabricate claim to 10 from 20
  
  [X] First fort cap usage reduced to 2 from 3
-
- [ ] Remove enforceable white peace
-
- [?] Timegated stronger CBs
 
  [X] WE increase of raising levies reduced to 0 from 0.5
  [X] WE increase per month of raised levies timer raised to 12 months from 6 months
@@ -116,7 +117,6 @@
  		[X] No longer enabled by Persian or Greek Poleis or Punic
  		[X] No longer enables Greek Poleis or Greek Kingdom traditions
  		[X] Now enabled by Heritage of Antigonos
- 		[X] Now enabled by Heritage of Ptolemaios
  		[X] Embrace Levantine-Greek Influence coastal sea combat bonus increased to 7.5% from 5%
  		⭐ LOC DEBT ⭐
  	[+] Indian Kingdom
@@ -263,14 +263,13 @@
  	Macedonia (31/46) 24 Heavy Infantry | 4 Light Cavalry | 3 Supply Trains
  	[X] Antigonids
  	High Standards Recruitment
- 	Syria (40/28) 	32 Heavy Infantry | 4 Light Cavalry | 4 Supply Train
- 	#Phyrgia (27/27) 17 Heavy Infantry | 8 Light Cavalry | 2 Supply Train
- 	#Cilicia (8/8)	 7 Heavy Infantry | 1 Supply Train
- 	#Assyria (8/8)	 7 Heavy Infantry | 1 Supply Train
+ 	Syria (30/28) 	22 Heavy Infantry | 4 Light Cavalry | 4 Supply Train
+ 	Phrygia (30/27) 22 Heavy Infantry | 4 Light Cavalry | 4 Supply Train
+ 	Cilicia (8/8)	 7 Heavy Infantry | 1 Light Cavalry
+ 	Assyria (8/8)	 7 Heavy Infantry | 1 Light Cavalry
  	[X] Seleukids
  	High Standards Recruitment
- 	Mesopotamia (40/30) 32 Heavy Infantry | 4 Light Cavalry | 4 Supply Trains
- 	#Persis (16/16) 10 Heavy Infantry | 5 Light Cavalry | 1 Supply Train
+ 	Mesopotamia (40/47) 32 Heavy Infantry | 4 Light Cavalry | 4 Supply Trains
  	[X] Egypt
  	High Standards Recruitment
  	Lower Egypt (40/59) 32 Heavy Infantry | 4 Light Cavalry | 4 Supply Trains
@@ -308,9 +307,15 @@
 
  [+] Unit Abilities
  	[X] Unit Reorganization unit ability now decreases attrition by -100%
- 	[ ] Removed Slave Raid and Port Assault
+ 	[X] Removed Slave Raid from Greek Poleis Traditions
+ 	[X] Disabled Port Assault and Capture Port
+ 	[X] Military Colonies now costs 6000 manpower
 
- [ ] Pops are no longer killed or enslaved in territories that have 5 pops or less
+ [X] Enslavement immunity raised to 120 months from 60
+ [X] Enslavement death reduced to 15% from 33%
+
+ [X] Increased initial food reserves to 6000 months from 3 (Doesn't even max out armies' food capacity)
+ [X] Increased battle XP gain from 40 to 100
 
 ## Economy
 
@@ -399,12 +404,12 @@
  [ ] Anoint heir now grants loyalty to the targeted character
 
  [+] Changed ai will do for governor policies
- 	[X] religious conversion takes first priority until all territories in the province have a plurality of correct religion
- 	[X] cultural assimilation takes second priority until all territories in the province have a plurality of correct culture
- 	[X] civilization effort takes third priority until all territories in the province have a minimum of 20 civilization
- 	[X] encourage trade takes fourth priority
- 	[X] harsh treatment overrides all the above if the province is below 40 loyalty
- 	[X] acquisition of wealth, bleed them dry, social mobility, local autonomy, borderlands, centralize, decentralize voided
+ 	[X] Religious conversion takes first priority until all territories in the province have a plurality of correct religion
+ 	[X] Cultural assimilation takes second priority until all territories in the province have a plurality of correct culture
+ 	[X] Civilization effort takes third priority until all territories in the province have a minimum of 20 civilization
+ 	[X] Encourage trade takes fourth priority
+ 	[X] Harsh treatment overrides all the above if the province is below 40 loyalty
+ 	[X] Acquisition of wealth, bleed them dry, social mobility, local autonomy, borderlands, centralize, decentralize voided
 
  [X] Granted Monarchy's religious laws to Republics
  ⭐ LOC DEBT ⭐
@@ -416,15 +421,15 @@
  [ ] Bellicose stance now provides AE decay instead of ws cost reduction
 
  [+] Prominence from titles reduced
- 	[X] general reduced to 15 from 30 and monthly gain reduced to 0.05 from 0.2
- 	[X] admiral reduced to 8 from 15 and monthly gain reduced to 0.02 from 0.1
- 	[X] legate reduced to 10 from 30 and monthly gain reduced to 0.05 from 0.2
- 	[X] tribune reduced to 5 from 25 
- 	[X] deployed tribune reduced to 5 from 20 and monthly gain reduced to 0.01 from 0.2
- 	[X] researcher reduced to 3 from 30 and monthly gain voided
- 	[X] governor unchanged but monthly gain reduced to 0.02 from 0.1
- 	[X] party leader unchanged but monthly gain reduced to 0.02 from 0.35
- 	[X] great work construction leader reduced to 5 from 30 and monthly gain reduced to 0.01 from 0.1
+ 	[X] General reduced to 15 from 30 and monthly gain reduced to 0.05 from 0.2
+ 	[X] Admiral reduced to 8 from 15 and monthly gain reduced to 0.02 from 0.1
+ 	[X] Legate reduced to 10 from 30 and monthly gain reduced to 0.05 from 0.2
+ 	[X] Tribune reduced to 5 from 25 
+ 	[X] Deployed tribune reduced to 5 from 20 and monthly gain reduced to 0.01 from 0.2
+ 	[X] Researcher reduced to 3 from 30 and monthly gain voided
+ 	[X] Governor unchanged but monthly gain reduced to 0.02 from 0.1
+ 	[X] Pparty leader unchanged but monthly gain reduced to 0.02 from 0.35
+ 	[X] Great Work construction leader reduced to 5 from 30 and monthly gain reduced to 0.01 from 0.1
  [X] Monthly Statesmanship gain from researcher title reduced to -0.05 from 0.25
  [X] Martial, Finesse, Charisma and Zeal now provide 1.6 prominence per point
 
@@ -994,7 +999,7 @@
  			[X] Reduced time to complete from 365 days to 180
  		[+] Formalize Divinity
  			[X] Now requires Antigoneia's Port and Poseidon's Throne
- 		
+
  		[X] Removed missions: Pragmatic Alliance, Demetrios' Playground, Reiterate Tyre Proclamation, Hellenic Liberator, League of Korinthos, Diadochi
  		Conquest and Rhodian Closure
 
@@ -1103,6 +1108,8 @@ wish list
 	bottleneck and envelopment affect combat width
 	citizen output visual bug fixed
 	laws that enable/disable co ruler
+	prevent pops from being killed or enslaved in territories that have 5 pops or less
+	ability to change starting province food
 
 ----------------------------------------------------------------------------------------------------------------------
 imports

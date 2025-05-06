@@ -10232,32 +10232,10 @@ antigonid_legion_setup_effect = {
 				add_subunit = heavy_infantry
 				add_subunit = heavy_infantry
 				add_subunit = heavy_infantry
-				add_subunit = heavy_infantry
-				add_subunit = heavy_infantry
-				add_subunit = heavy_infantry
-				add_subunit = heavy_infantry
-				add_subunit = heavy_infantry
-				add_subunit = heavy_infantry
-				add_subunit = heavy_infantry
-				add_subunit = heavy_infantry
-				add_subunit = heavy_infantry
-				add_subunit = heavy_infantry
-				add_subunit = heavy_infantry
-				add_subunit = heavy_infantry
-				add_subunit = heavy_infantry
-				add_subunit = heavy_infantry
-				add_subunit = heavy_infantry
-				add_subunit = heavy_infantry
-				add_subunit = heavy_infantry
-				add_subunit = heavy_infantry
-				add_subunit = heavy_infantry
-				add_subunit = heavy_infantry
-				add_subunit = heavy_infantry
 				add_subunit = light_cavalry
 				add_subunit = light_cavalry
 				add_subunit = light_cavalry
 				add_subunit = light_cavalry
-				add_subunit = supply_train
 				add_subunit = supply_train
 				add_subunit = supply_train
 				add_subunit = supply_train
@@ -10348,10 +10326,29 @@ antigonid_legion_setup_effect = {
 			}
 		}
 	}
-	region:syria_region.governorship = {
+	capital_scope.governorship.legion = {
+		create_unit = {
+			name = "Basilike Taxis"
+			location = p:7902 # Salamis
+			sub_unit = heavy_infantry
+			save_scope_as = legion_scope
+			add_subunit = heavy_infantry
+			add_subunit = heavy_infantry
+			add_subunit = heavy_infantry
+			add_subunit = heavy_infantry
+			add_subunit = heavy_infantry
+			add_subunit = heavy_infantry
+			add_subunit = heavy_infantry
+			add_subunit = heavy_infantry
+			add_subunit = heavy_infantry
+			add_subunit = heavy_infantry
+			add_subunit = supply_train
+		}
+	}
+	p:1934.governorship = {
 		raise_legion = {
 			create_unit = {
-				location = p:789 # Potamoi Karon
+				location = p:790 # Antigoneia
 				sub_unit = heavy_infantry
 				save_scope_as = legion_scope
 				add_subunit = heavy_infantry
@@ -10370,14 +10367,17 @@ antigonid_legion_setup_effect = {
 				add_subunit = heavy_infantry
 				add_subunit = heavy_infantry
 				add_subunit = heavy_infantry
+				add_subunit = heavy_infantry
+				add_subunit = heavy_infantry
+				add_subunit = heavy_infantry
+				add_subunit = heavy_infantry
+				add_subunit = heavy_infantry
 				add_subunit = light_cavalry
 				add_subunit = light_cavalry
 				add_subunit = light_cavalry
 				add_subunit = light_cavalry
-				add_subunit = light_cavalry
-				add_subunit = light_cavalry
-				add_subunit = light_cavalry
-				add_subunit = light_cavalry
+				add_subunit = supply_train
+				add_subunit = supply_train
 				add_subunit = supply_train
 				add_subunit = supply_train
 			}
@@ -10387,10 +10387,10 @@ antigonid_legion_setup_effect = {
 			}
 		}
 	}
-	assyria_region.governorship = {
+	p:1883.governorship = {
 		raise_legion = {
 			create_unit = {
-				location = p:789 # Potamoi Karon
+				location = p:1883 # Tarsos
 				sub_unit = heavy_infantry
 				save_scope_as = legion_scope
 				add_subunit = heavy_infantry
@@ -10399,7 +10399,7 @@ antigonid_legion_setup_effect = {
 				add_subunit = heavy_infantry
 				add_subunit = heavy_infantry
 				add_subunit = heavy_infantry
-				add_subunit = supply_train
+				add_subunit = light_cavalry
 			}
 			if = {
 				limit = { has_dlc = "Heirs of Alexander" }
@@ -10407,10 +10407,10 @@ antigonid_legion_setup_effect = {
 			}
 		}
 	}
-	region:cilicia_region = {
+	p:818.governorship = {
 		raise_legion = {
 			create_unit = {
-				location = p:789 # Potamoi Karon
+				location = p:1881 # Mallos
 				sub_unit = heavy_infantry
 				save_scope_as = legion_scope
 				add_subunit = heavy_infantry
@@ -10419,7 +10419,7 @@ antigonid_legion_setup_effect = {
 				add_subunit = heavy_infantry
 				add_subunit = heavy_infantry
 				add_subunit = heavy_infantry
-				add_subunit = supply_train
+				add_subunit = light_cavalry
 			}
 			if = {
 				limit = { has_dlc = "Heirs of Alexander" }

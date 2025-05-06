@@ -636,7 +636,7 @@
 	antigonid_02_aspiration_6 = { # Blades of Tainaron
 		icon = task_conquest
 		duration = 60
-		requires = { antigonid_02_aspiration_9 }
+		requires = { }
 		monthly_on_action = antigonid_02_aspiration_6_pulse
 
 		allow = { treasury >= 75 }
@@ -707,7 +707,7 @@
 
 	antigonid_02_aspiration_14 = { # Stable Dynasty
 		icon = task_political
-		requires = { antigonid_02_aspiration_10 }
+		requires = { antigonid_01_vision_1 }
 
 		allow = {
 			custom_tooltip = {
@@ -885,7 +885,7 @@
 
 	antigonid_03_birthright_12 = { # Ports of the East
 		icon = task_expansion
-		requires = { antigonid_03_birthright_1 }
+		requires = { antigonid_03_birthright_1 antigonid_01_vision_3 }
 
 		allow = {
 			owns_or_subject_owns_area = north_phoenicia_area
