@@ -685,6 +685,8 @@
 
  [X] Removed Region: Greece
 
+ [ ] Removed most Indian, all Tibetan and some Central Asian territories
+
 ## Tags
 
 ### Rome
@@ -1025,6 +1027,8 @@
  [!] Mission Cleanup
  	[X] Removed Mission Trees: Syrian Ambitions, Western Dreams and To the Borders of Egypt
 
+ [ ] Removed elephant cohorts from the first option of The Eastern Satrapies Event
+
  [ ] add rivers?
 
 ## Generic Missions
@@ -1083,6 +1087,10 @@
  # Britain
  [X] Taexalia (TXL), Pinnatra Castra (2133) and Venicones (2115) annexed into Caledonia (CAL)
  [X] Carnonacia (CAN), Ouirouedroum Akron (2131) and Orcades (2132) annexed into Cornavia (CON)
+
+ # Scandinavia
+ [ ] Grania (RUG) annexed into Aetelrugia (VDL)
+
 
 ----------------------------------------------------------------------------------------------------------------------
 next patch
