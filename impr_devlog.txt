@@ -1089,8 +1089,23 @@
  [X] Carnonacia (CAN), Ouirouedroum Akron (2131) and Orcades (2132) annexed into Cornavia (CON)
 
  # Scandinavia
- [ ] Grania (RUG) annexed into Aetelrugia (VDL)
+ [X] Grania (RUG) annexed into Aetelrugia (VDL)
+ [X] Avionia (AVO) annexed into Teutonia (TIT)
+ [X] Eudosia (EUD) annexed into Anglia (ANG)
+ [X] Raumaricia (RAM), Rane (6024) and Tivedia (6027) annexed into Leuonia (LEU)
+ [X] Dania (DAN) annexed into Burgundia (BUR)
+ [X] Suionia (SWE) and Vineta (6010) annexed into Guthonia (GIT)
 
+ # Germany
+ [ ] Angrivaria (AGR) annexed into Chaucia (CHC)
+ [ ] Lemovia (LVA) and Rugia (RGG) annexed into Gothonia (GTH)
+ [ ] Fosia (FOS) annexed into Langobardia (LGB)
+ [ ] Sciria (SCI) annexed into Lugia (LGI)
+ [ ] Venedia (VND), Galindia (AES) and Saloia (SLO) annexed into Sudinoia (SUD)
+ [ ] Manarmanis (3832), Flevum (3852), Baduhenna (3847), Traiectum (3848), Chamoria (3850), Isala (3851), Tubantia (3854), Carvium (3776), Vidrosia (3781),
+ Noviliacum (3834), Salia Chasuaria (3779), Teuderium (3780) and Mediolnanum Belgicum (3778) into Frisia (SXS)
+ [ ] Ansibara (3835), Dulgia (3831), Marsia (3830), Amsivaria Bructeriorum (3782), Caesia (3783), Dorsten (3777), Alesia Germanica (3784) and Amisia (3826)
+ annexed into Cheruscia (CRS)
 
 ----------------------------------------------------------------------------------------------------------------------
 next patch

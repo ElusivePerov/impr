@@ -12435,7 +12435,20 @@ country = {
 			capital = 7805
 
 			own_control_core = {
-				7805 7804 7836 7835 7807 7834 7806 7808 4864 4865 6285 7830 7831 7832 7833 6286 6282 6283 6287 7298
+				7805 7804 7836 7835
+			}
+		}
+
+		SLO = {
+			government = tribal_chiefdom
+			primary_culture = aestian
+			religion = matrist_religion
+			centralization = -50
+
+			capital = 7807
+
+			own_control_core = {
+				7807 7834 7806 7808
 			}
 		}
 
