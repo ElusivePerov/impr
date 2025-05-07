@@ -31,7 +31,7 @@
  [X] WS increase of taking from owner's accepted religion increased to 33% from 10%
 
  [X] Removed civil war mechanics from Legacy of Alexander and Imperial Challenge CBs
- ⭐ LOC DEBT ⭐
+ ⭐ LOC DEBT PAID ⭐
  [X] WS increase of Legacy of Alexander CB increased to 75% from 60% for both attacker and defender
  [X] WS increase of Imperial Challenge CB increased to 100% from 60% for both attacker and defender
 
@@ -151,7 +151,7 @@
 
  [+] Standardized Military Laws
  	[+] Mercenary Reliance
- 	⭐ LOC DEBT ⭐
+ 	⭐ LOC DEBT PAID ⭐
  		[X]	12.5% Levy Size
  		[X] Unrestricted Recruitment
  		[X] -10% Mercenary Maintenance Cost
@@ -160,7 +160,7 @@
  		[X] -5% Land Morale
  		[X] -2.5% Discipline
  	[+] No Standards Recruitment
- 	⭐ LOC DEBT ⭐
+ 	⭐ LOC DEBT PAID ⭐
  		[X]	12.5% Levy Size
  		[X] Unrestricted Recruitment
  		[X] -35% Legion Maintenance Cost
@@ -170,7 +170,7 @@
  		[X] -10% Land Morale
  		[X] -7.5% Discipline
  	[+] Low Standards Recruitment
- 	⭐ LOC DEBT ⭐
+ 	⭐ LOC DEBT PAID ⭐
  		[X]	12.5% Levy Size
  		[X] Unrestricted Recruitment
  		[X] -20% Legion Maintenance Cost
@@ -179,8 +179,8 @@
  		[X] +35% Manpower Maximum
  		[X] -5% Land Morale
  		[X] -2.5% Discipline
- 	[+] High Standards Recruitment
- 	⭐ LOC DEBT ⭐
+ 	[+] Elite Recruitment
+ 	⭐ LOC DEBT PAID ⭐
  		[X] 12.5% Levy Size
  		[X] Unrestricted Recruitment
  		[X] +25% Mercenary Maintenace Cost
@@ -371,7 +371,7 @@
 ## Religion
 
  [X] Added a year long modifier granted at game start that discounts deity swap by 99%
- ⭐ LOC DEBT ⭐
+ ⭐ LOC DEBT PAID ⭐
 
 ## Culture
 
@@ -386,11 +386,11 @@
 ## Government
 
  [X] Change governor policy no longer costs PI
- ⭐ LOC DEBT ⭐
+ [X] Province disloyalty threshold lowered to 20 from 33
  [ ] Relocate capital block threshold lowered to 20 loyalty from 50 loyalty
  [X] Relocate provincial capital no longer costs loyalty
- [ ] Relocate provincial capital threshold reduced to 20 loyalty from 33
- ⭐ LOC DEBT ⭐
+ [X] Relocate provincial capital threshold reduced to 20 loyalty from 33
+ ⭐ LOC DEBT PAID ⭐
 
  [+] Added Scorched Earth governor policy
  	[X] Decreases Supply Limit by 50%, Monthly Civilization by 0.25%, Population Output by 40%, Migration Attraction by 6
@@ -412,11 +412,6 @@
  	[X] Acquisition of wealth, bleed them dry, social mobility, local autonomy, borderlands, centralize, decentralize voided
 
  [X] Granted Monarchy's religious laws to Republics
- ⭐ LOC DEBT ⭐
- [X] Grant it to rome too lol
- ⭐ LOC DEBT ⭐
-
- [ ] Province disloyalty threshold lowered to 20 from 33
 
  [ ] Bellicose stance now provides AE decay instead of ws cost reduction
 
@@ -480,7 +475,7 @@
  		[X] Added government modifier of +25% freeman output
  		[X] Added government modifier of +5% land morale
  		[X] inherits election age, term and delay from Aristocratic Republic
- 		⭐ LOC DEBT ⭐
+ 		⭐ LOC DEBT PAID ⭐
  	[+] Sacrosanct Republic
  		[X] Added one religious idea slot
  		[X] Added base modifier of 10% monthly political influence modifier
@@ -489,7 +484,7 @@
  		[X] Added government modifier of +20% correct religion happiness
  		[X] Added government modifier of +20% monthly conversion speed modifier
  		[X] inherits election age, term and delay from Theocratic Republic
- 		⭐ LOC DEBT ⭐
+ 		⭐ LOC DEBT PAID ⭐
  	[+] Mercantile Republic
  		[X] Added one civic idea slot
  		[X] Added base modifier of 10% monthly political influence modifier
@@ -498,7 +493,7 @@
  		[X] Added government modifier of -25% build cost
  		[X] Added government modifier of -30% naval maintenance cost
  		[X] inherits election age, term and delay from Plutocratic Republic
- 		⭐ LOC DEBT ⭐
+ 		⭐ LOC DEBT PAID ⭐
 
  	[+] Autocratic Monarchy
  		[X] Added base modifier of +5% monthly political influence modifier
@@ -551,7 +546,7 @@
  		[X] Added government modifier of +15% national commerce income
  		[X] Added government modifier of -25% build cost
  		[X] Added government modifier of -30% naval maintenance cost
- 		⭐ LOC DEBT ⭐
+ 		⭐ LOC DEBT PAID ⭐
  	[+] Cosmopolitan Monarchy
  		[X] Added one oratory idea slot
  		[X] Added base modifier of +10% monthly political influence modifier
@@ -559,34 +554,34 @@
  		[X] Added government modifier of +30% monthly assimilation speed
  		[X] Added government modifier of +24% citizen output
  		[X] Added government modifier of +12% population happiness
- 		⭐ LOC DEBT ⭐
+ 		⭐ LOC DEBT PAID ⭐
 
  [+] Change government decisions
  	[X] Proclaim the Invicibility of the Republic
  	Requires: 400 territories, Imperium invention, 60% senate approval, be a Republic and not an empire tier government
  	Effect: lose 10 stability, adopt Indomitable Republic government, gain 3 province investments, disables changing to dictatorship
- 	⭐ LOC DEBT ⭐
+ 	⭐ LOC DEBT PAID ⭐
  	[X] Rule of the Wealthy
  	Requires: 400 territories, Imperium invention, 60% senate approval, be a Republic and not an empire tier government
  	Effect: lose 10 stability, adopt Mercantile Republic government, gain 3 province investments, disables changing to dictatorship
- 	⭐ LOC DEBT ⭐
+ 	⭐ LOC DEBT PAID ⭐
  	[X] Adopt the Athenian Republic
  	Requires: 400 territories, Imperium invention, 60% senate approval, be a Republic and not an empire tier government
  	Effect: lose 10 stability, adopt Athenian Republic government, gain 4 province investments, disables changing to dictatorship
- 	⭐ LOC DEBT ⭐
+ 	⭐ LOC DEBT PAID ⭐
  	[X] Proclaim the Sanctity of the Republic
  	Requires: 200 territories, 4 deified rulers, Imperium invention, 60% senate approval, be a Republic and not an empire tier government
  	Effect: lose 10 stability, adopt Sacrosanct Republic government, gain 4 province investments, disables changing to dictatorship
- 	⭐ LOC DEBT ⭐
+ 	⭐ LOC DEBT PAID ⭐
 
  	[X] Imperial Opulence
  	Requires: 400 territories, Imperium invention, 90 ruler popularity, be a Monarchy and not an empire tier government
  	Effect: lose 10 stability, adopt Gilded Monarchy government, gain 3 province investments
- 	⭐ LOC DEBT ⭐
+ 	⭐ LOC DEBT PAID ⭐
  	[X] Empire of the Many
  	Requires: 400 territories, Imperium invention, 90 ruler popularity, be a Monarchy and not an empire tier government
  	Effect: lose 10 stability, adopt Cosmopolitan Monarchy government, gain 3 province investments
- 	⭐ LOC DEBT ⭐
+ 	⭐ LOC DEBT PAID ⭐
 
  	[X] Proclaim Theocratic Republic/Monarchy no longer requires 6 religious advances
 
@@ -630,13 +625,13 @@
 ### Advances
 
  [+] Civic
-	 [X] greek advanced mechanics made into a generic invention
-	 ⭐ LOC DEBT ⭐
-	 [X] tribal reserve, devolve responsibility and cultural judiciary removed
-	 [X] coloniae now requires slave latifundia
-	 [X] land tithe changed to 6% freemen output from 12% tribesmen output
-	 [X] land tithe changed to grants 6 freemen pops from 6 tribesmen pops
-	 ⭐ LOC DEBT ⭐
+	 [X] Advanced Mechanics made into a generic invention
+	 ⭐ LOC DEBT PAID ⭐
+	 [X] Tribal Reserve, Devolve Responsibility and Cultural Judiciary removed
+	 [X] Coloniae now requires slave latifundia
+	 [X] Land Tithe changed to 6% freemen output from 12% tribesmen output
+	 [X] Land Tithe changed to grants 6 freemen pops from 6 tribesmen pops
+	 ⭐ LOC DEBT PAID ⭐
 
  [+] Oratory 
 	 [X] Centralized Comites changed to -0.02 corruption from -20% change policy cost
@@ -647,7 +642,7 @@
 	 	[X] Takes over Permanent Ambassadors' position in the oratory advances tree
 	 	[X] Grants 5% monthly political influence
 	 	[X] Unlocks Empire tier governments
-	 	⭐ LOC DEBT ⭐
+	 	⭐ LOC DEBT PAID ⭐
 
  [X] Religious
  	 [X] Increased Omen Power bonus in Hierarchical Haruspication to 12.5% from 2.5%
@@ -670,29 +665,28 @@
 
  [+] New Regions
  	[X] Epirus provinces: Epirus (from Greece), Illyria Graeca (from Greece) and Aetolia (from Greece)
- 	⭐ LOC DEBT ⭐
+ 	⭐ LOC DEBT PAID  ⭐
  	[X] Attica provinces: Attica (from Greece), Boeotia (from Greece) and Euboea (from Greece)
- 	⭐ LOC DEBT ⭐
+ 	⭐ LOC DEBT PAID ⭐
  	[X] Peloponnese provinces: Achaea (from Greece), Arcadia (from Greece) and Laconia (from Greece)
- 	⭐ LOC DEBT ⭐
+ 	⭐ LOC DEBT PAID ⭐
  	[X] Aegean provinces: Crete (from Greece), Cyclades (from Greece) and Sporades (from Asia)
- 	⭐ LOC DEBT ⭐
+ 	⭐ LOC DEBT PAID ⭐
  	[X] Sardinia et Corsica provinces: Corsica (from Italia), Sardinia Borealis (from Italia) and Sardinia Australis (from Italia)
- 	⭐ LOC DEBT ⭐
+ 	⭐ LOC DEBT PAID ⭐
 
  [+] Changed Regions
  	[X] Moesia moved provinces: Dindaria (from Macedonia) and Dardania (from Macedonia)
 
  [X] Removed Region: Greece
 
- [ ] Removed most Indian, all Tibetan and some Central Asian territories
+ [X] Removed most Indian, all Tibetan and some Central Asian territories
 
 ## Tags
 
 ### Rome
  [+] Harmonic religion
  	[X] Added harmonic religion with 6% global happiness -60% monthly conversion speed modifier +33% omen power
- 	⭐ LOC DEBT ⭐
  	[X] Converted the religion of all roman culture pops to harmonic religion
  	[X] Set the religion of rome to harmonic
  	[X] Assigned roman gods to the harmonic pantheon
@@ -706,10 +700,10 @@
  		[X] Deification effect is assimilation
  		[X] Unlockable only by mission
  		[X] Added gfx
+ 		⭐ LOC DEBT PAID ⭐
 
  [+] Italic religion
   	[X] Added italic religion with 5% discipline modifier
-  	⭐ LOC DEBT ⭐
  	[X] Converted the religion of all non-roman italic culture pops to italic religion 
  	(except for the druidic ones)
  	[X] Set the religion of etruria and all italic minors to italic
@@ -722,104 +716,105 @@
  [+] Mission Overhaul
  	[+] Italia
  		[+] Destroy Italian Allies
- 			[X] now requires italian colonia and is a requirement for roman hegemony
- 			[X] assim and happiness penalty duration reduced to 5 years from 75
- 			[X] stab penalty reduced to 5 from 25
+ 			[X] Now requires italian colonia and is a requirement for roman hegemony
+ 			[X] Assimilation and Happiness penalties duration reduced to 5 years from 75
+ 			[X] Stability penalty reduced to 5 from 25
  			[X] AE increase reduced to 5 from 10
  			[ ] Added 10 years of -2 diplo rep to the tooltip
  		[+] Pan-Italic Congress
- 			[X] now requires end the etruscans
- 			[X] now requires greater than 0 opinion with target nations
- 			[X] targets are sabinia, picentia and frinatia and they start with -200 opinion of etruria
- 			⭐ LOC DEBT ⭐
- 			[X] etruria no longer starts with an alliance with frinatia
- 			[X] reward overhauled to decisions instead of an event chain
- 			⭐ LOC DEBT ⭐
- 			[X] the decision costs 125g and turns the target into a feudatory
- 			⭐ LOC DEBT ⭐
+ 			[X] Now requires end the etruscans
+ 			[X] Now requires greater than 0 opinion with target nations
+ 			[X] Targets are Sabinia, Picentia and Frinatia which now start with -200 opinion of etruria
+ 			⭐ LOC DEBT PAID ⭐
+ 			[X] Etruria no longer starts with an alliance with Frinatia
+ 			[X] Reward overhauled to decisions instead of an event chain
+ 			⭐ LOC DEBT PAID ⭐
+ 			[X] The decision costs 125 gold and turns the target into a feudatory
+ 			⭐ LOC DEBT PAID ⭐
  		[+] Approach Greeks
- 			[X] now requires Crush Samnites instead of Vanquish Lucanians
- 			[X] targets are sipontum, ancona and elea		
- 			[X] reward overhauled to a decision instead of an event chain
- 			[X] the decision costs 180g 5pi and turns the target into a league city
+ 			[X] Now requires Crush Samnites instead of Vanquish Lucanians
+ 			[X] Targets are Sipontum, Hipponion and Elea		
+ 			[X] Reward overhauled to a decision instead of an event chain
+ 			[X] The decision costs 180 gold, 5 political influence and turns the target into a league city
  	[+] Subduing Gaul
  		[X] To the Rhenus and The Gallic Heartlands removed
  		[X] Gateway to the North and Into the West no longer give claims
- 		⭐ LOC DEBT ⭐
+ 		⭐ LOC DEBT PAID ⭐
 
  	[+] The Roman Faith
- 		[X] new mission tree that allows rome to choose which religion to go with, requires that etruria no longer exists
- 		⭐ LOC DEBT ⭐
+ 		[X] New mission tree that allows rome to choose which religion to go with, requires that etruria no longer exists
+ 		⭐ LOC DEBT PAID ⭐
 
- 		[X] faith_vestal
- 		duration: one year
- 		reward: 5 year modifier for 33% temple discount and triggers an event that grants a 12 zeal character
- 		⭐ LOC DEBT ⭐
- 		[X] faith_temples
- 		requires: faith_vestal
- 		task: build 12 great temples
- 		reward: 10 year modifier for 75% change deity discount and 0.10 monthly stab gain
- 		⭐ LOC DEBT ⭐
+ 		[X] Make Offerings to Vesta
+ 		Duration: 365 days
+ 		Reward: 5 year modifier for 33% temple discount and triggers an event that grants a 12 zeal character
+ 		⭐ LOC DEBT PAID ⭐
+ 		[X] New Temples
+ 		Requires: Make Offerings to Vesta
+ 		Task: build 12 great temples
+ 		Reward: 10 year modifier for 75% change deity discount and 0.10 monthly stab gain
+ 		⭐ LOC DEBT PAID ⭐
 
- 		italic branch
- 		[X]	faith_italia
- 		requires faith_temples, prevents other branches 
- 		task: build 12 farming settlements and 12 granaries on completio
- 		reward: permanent modifier for 12% global monthly food and 60 base food capacity
- 		⭐ LOC DEBT ⭐
- 		[X] faith_peace
- 		requires faith_italia
- 		task: be at peace
- 		reward: 12 year modifier for 1.5% national pop growth for rome and all italic countries
- 		⭐ LOC DEBT ⭐
- 		[X] faith_italic
- 		requires faith_peace
- 		tasK: augur and pontifex must have 60 or greater loyalty
- 		reward: changes country and all country characters religion to italic
- 		⭐ LOC DEBT ⭐
+ 		# Italic Branch
+ 		[X]	The Faith of Italia
+ 		Requires: New Temples, prevents other branches 
+ 		Task: build 12 farming settlements and 12 granaries
+ 		Reward: permanent modifier for 12% global monthly food and 60 global base food capacity
+ 		⭐ LOC DEBT PAID ⭐
+ 		[X] Prosperity
+ 		Requires: The Faith of Italia
+ 		Task: be at peace
+ 		Reward: 12 year modifier for 1.5% national pop growth for rome and all italic countries
+ 		⭐ LOC DEBT PAID ⭐
+ 		[X] One Italic Faith
+ 		Requires: Prosperity
+ 		Task: augur and pontifex must have 60 or greater loyalty
+ 		Reward: changes country and all country characters religion to italic
+ 		⭐ LOC DEBT PAID ⭐
 
- 		hellenic branch
- 		[X] faith_greece
- 		requires faith_temples, prevents other branches
- 		task: integrate italiotian
- 		duration: takes 2 years to complete
- 		mission pulse: events fire to spawn hellenic italiotian pops in owned cities in magna graecia, 6 waves of 6 pops in the campania (2x), apulia, tarentum, lucania
- 		and bruttium areas
- 		⭐ LOC DEBT ⭐
- 		[X] faith_olympia
- 		requires faith_greece
- 		task: have 500 or more gold
- 		reward: fires an event for the owner of olympia to choose between allowing rome to make offerings to the temple of zeus or refuse them
+ 		# Hellenic Branch
+ 		[X] The Faith of Greece
+ 		Requires: New Temples, prevents other branches
+ 		Task: integrate italiotian
+ 		Duration: takes 2 years to complete
+ 		Mission Pulse: events fire to spawn hellenic italiotian pops in owned cities in magna graecia, 6 waves of 6 pops in the campania (2x),
+ 		apulia, tarentum, lucania and bruttium areas
+ 		⭐ LOC DEBT PAID ⭐
+ 		[X] Glory
+ 		Requires: The Faith of Greece
+ 		Task: have 500 or more gold
+ 		Reward: fires an event for the owner of olympia to choose between allowing rome to make offerings to the temple of zeus or refuse them
  		if they allow, rome gains a 12 year modifier for 33% omen power and 33% monthly conversion speed
- 		⭐ LOC DEBT ⭐
- 		[X] faith_hellenic
- 		requires faith_olympia
- 		task: augur and pontifex must have 60 or greater loyalty
- 		reward: changes country and all country characters religion to hellenic
+ 		⭐ LOC DEBT PAID ⭐
+ 		[X] Hellenic Aspirations
+ 		Requires: The Faith of Greece
+ 		Task: augur and pontifex must have 60 or greater loyalty
+ 		Reward: changes country and all country characters religion to hellenic
+ 		⭐ LOC DEBT PAID ⭐
 
- 		harmonic branch
- 		[X] faith_orbis
- 		requires faith_temples, prevents other branches
- 		task: requires a 12 zeal augur with 60 or greater loyalty
- 		reward: 3 year modifier for 0.6 monthly conversion speed and 120% monthly conversion speed modifier
- 		⭐ LOC DEBT ⭐
- 		[X] faith_harmony
- 		requires faith_orbis
- 		task: have greater than 60% religious unity
+ 		# Hharmonic Branch
+ 		[X] The Faith of Romulus
+ 		Requires: New Temples, prevents other branches
+ 		Task: requires a 12 zeal augur with 60 or greater loyalty
+ 		Reward: 3 year modifier for 0.6 monthly conversion speed and 120% monthly conversion speed modifier
+ 		⭐ LOC DEBT PAID ⭐
+ 		[X] Harmony
+ 		Requires: The Faith of Romulus
+ 		Task: have greater than 60% religious unity
  		reward: permanent 0.12 monthly conversion speed and 30% monthly conversion speed modifier
- 		⭐ LOC DEBT ⭐
- 		[X] faith_the_capitoline_triad
- 		requires faith_harmony
- 		task: have 800 or more gold, rome must be a metropolis
- 		reward: the holy site in rome swaps from jupiter to the capitoline triad, jupiter, juno and minerva are removed from the pantheon
+ 		⭐ LOC DEBT PAID ⭐
+ 		[X] Triad Ascendant
+ 		Requires: Harmony
+ 		Task: have 800 or more gold, Rome must be a metropolis
+ 		Reward: the holy site in rome swaps from jupiter to the capitoline triad, jupiter, juno and minerva are removed from the pantheon
  		and the triad is Added combining the passives of all three with a pop growth omen
- 		⭐ LOC DEBT ⭐
+ 		⭐ LOC DEBT PAID ⭐
 
  	[X] Removed Mission Trees: First Provincia, Punic Rivals, Greece, Eastern Glory, Hispanian Ambition
 
- [ ] removed Across the Adriatic event
+ [X] Removed Cradle of Civilization, Across the Adriatic and Roma Invicta events
  [ ] add rivers
- [ ] swap integration speed in heritage for manpower recovery
+ [X] Swapped +0.1 integration speed in heritage for +12% manpower recovery
 
 ### Carthage
  [+] Mission Overhaul
@@ -838,7 +833,7 @@
  		[+] Restoring Tartessos
  			[X] Added completion rewards of -10 Aggressive Expansion, the trade good in Tartessos gets Swapped for precious metals 
  			and the 'Tin Mines of Tartessos' modifier which grants 5% tax income bonus
- 			⭐ LOC DEBT ⭐
+ 			⭐ LOC DEBT PAID ⭐
 
  	[X] Removed Mission Trees: An End to Sicilian Warfare, Entering Magna Graecia, End the Roman Wolf, Liberating Phoenicia
  	and Iberian Investments
@@ -1097,14 +1092,14 @@
  [X] Suionia (SWE) and Vineta (6010) annexed into Guthonia (GIT)
 
  # Germany
- [ ] Angrivaria (AGR) annexed into Chaucia (CHC)
- [ ] Lemovia (LVA) and Rugia (RGG) annexed into Gothonia (GTH)
- [ ] Fosia (FOS) annexed into Langobardia (LGB)
- [ ] Sciria (SCI) annexed into Lugia (LGI)
- [ ] Venedia (VND), Galindia (AES) and Saloia (SLO) annexed into Sudinoia (SUD)
- [ ] Manarmanis (3832), Flevum (3852), Baduhenna (3847), Traiectum (3848), Chamoria (3850), Isala (3851), Tubantia (3854), Carvium (3776), Vidrosia (3781),
+ [X] Angrivaria (AGR) annexed into Chaucia (CHC)
+ [X] Lemovia (LVA) and Rugia (RGG) annexed into Gothonia (GTH)
+ [X] Fosia (FOS) annexed into Langobardia (LGB)
+ [X] Sciria (SCI) annexed into Lugia (LGI)
+ [X] Venedia (VND), Galindia (AES) and Saloia (SLO) annexed into Sudinoia (SUD)
+ [X] Manarmanis (3832), Flevum (3852), Baduhenna (3847), Traiectum (3848), Chamoria (3850), Isala (3851), Tubantia (3854), Carvium (3776), Vidrosia (3781),
  Noviliacum (3834), Salia Chasuaria (3779), Teuderium (3780) and Mediolnanum Belgicum (3778) into Frisia (SXS)
- [ ] Ansibara (3835), Dulgia (3831), Marsia (3830), Amsivaria Bructeriorum (3782), Caesia (3783), Dorsten (3777), Alesia Germanica (3784) and Amisia (3826)
+ [X] Ansibara (3835), Dulgia (3831), Marsia (3830), Amsivaria Bructeriorum (3782), Caesia (3783), Dorsten (3777), Alesia Germanica (3784) and Amisia (3826)
  annexed into Cheruscia (CRS)
 
 ----------------------------------------------------------------------------------------------------------------------
@@ -1133,6 +1128,8 @@ wish list
 	laws that enable/disable co ruler
 	prevent pops from being killed or enslaved in territories that have 5 pops or less
 	ability to change starting province food
+	replish army food on friendly land 
+	 why can't i eat my vassals lunch?
 
 ----------------------------------------------------------------------------------------------------------------------
 imports

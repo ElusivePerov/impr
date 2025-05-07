@@ -123,7 +123,7 @@
 	}
 	
 	roman_1_italia_persuade_greeks = {
-		requires = { roman_1_italia_subdue_samnites }
+		#requires = { roman_1_italia_subdue_samnites }
 		on_completion = {
 			custom_tooltip = roman_1_italia_persuade_greeks_tooltip
 			set_variable = {

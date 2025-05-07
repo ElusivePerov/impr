@@ -1,5 +1,28 @@
 ﻿l_english:
 
+ TOP_BAR_VERSION:2 "Exe Git Version: $BuildRevision$ \n$VersionNumber$ ($VersionName$)\nMP Checksum: $MPChecksum$\n$RandomLogInfo$ $BuildRevisionTime$"
+ TOP_BAR_VERSION_LIVE:1 "Version: $VersionNumber$ ($VersionName$) \n MP Checksum: $MPChecksum$"
+
+#####
+#######  [ Warfare ]
+########
+
+ imperial_conquest_wargoal:0 "Imperial Challenge"
+ war_goal_imperial_conquest_wargoal:0 "Imperial Challenge"
+ war_goal_imperial_conquest_wargoal_desc:0 "War Goal is to show superiority. Participants will gain war score from winning battles.\nAccumulating more than $THRESHOLD|Y%$ warscore from won battles will grant you a ticking war score."
+ war_goal_diadochi_wargoal:0 "Legacy of Alexander"
+ war_goal_diadochi_wargoal_desc:1 "War Goal is to show superiority. Participants will gain war score from winning battles.\nAccumulating more than $THRESHOLD|Y%$ warscore from won battles will grant you a ticking war score."
+ 
+ tradition_unlock_requirement_base:0 "Removed mechanic."
+ tradition_unlock_requirement_short:0 "Removed mechanic."
+ tradition_unlock_requirement_levantine:0 "Removed mechanic."
+ tradition_unlock_requirement_celtic:0 "Removed mechanic."
+ tradition_unlock_requirement_greek:0 "Removed mechanic."
+ tradition_unlock_requirement_indian:0 "Removed mechanic."
+ tradition_unlock_requirement_persian:0 "Removed mechanic."
+ tradition_unlock_requirement_latin:0 "Removed mechanic."
+ tradition_unlock_requirement_north_african:0 "Removed mechanic."
+
 #####
 #######  [ Religion ]
 ######## 
@@ -35,12 +58,135 @@
  athenian_republic_co_ruler:0 "Co-Archon"
  athenian_republic_co_ruler_female:0 "Co-Archon"
 
+ relaxed_recruiting_standards:2 "Low Standards Recruitment"
+ relaxed_recruiting_standards_desc:2 ""
+ recruit_from_nobles:1 "No Standards Recruitment"
+ recruit_from_nobles_desc:1 ""
+ mercenary_reliance:1 "Mercenary Reliance"
+ mercenary_reliance_desc:0 ""
+ work_for_the_best:2 "Elite Recruitment"
+ work_for_the_best_desc:2 ""
+ republican_recruitment_1:0 "Low Standards Recruitment""
+ republican_recruitment_1_desc:1 ""
+ republican_recruitment_2:0 "No Standards Recruitment"
+ republican_recruitment_2_desc:1 ""
+ republican_recruitment_3:1 "Mercenary Reliance"
+ republican_recruitment_3_desc:1 ""
+ republican_recruitment_4:0 "Elite Recruitment"
+ republican_recruitment_4_desc:2 ""
+ starting_deity_swap_discount:0 "Deity Swap Discount"
+ desc_starting_deity_swap_discount:1 ""
+ 
+ move_capital_title_confirm_desc:1 "Do you want to relocate the capital of [ROOT.GetProvince.GetOwner.GetName] to the city of #Y [ROOT.GetProvince.GetName]#!?\n[ROOT.GetProvince.GetOwner.GetName] loses #R -[SCOPE.ScriptValue('move_capital_pop_difference_cost')]#! Political Influence @political_influence!"
+ move_provincial_capital_title_confirm_desc:2 "Do you want to relocate the provincial capital of #Y [ROOT.GetProvince.GetState.GetShortName]#! to the city of #Y [ROOT.GetProvince.GetName]#!?"
+ 
+ indomitable_republic:0 "Indomitable Republic"
+ indomitable_republic_desc:0 ""
+ sacrosanct_republic:0 "Sacrosanct Republic"
+ sacrosanct_republic_desc:0 ""
+ mercantile_republic:0 "Mercantile Republic"
+ mercantile_republic_desc:0 ""
+ gilded_monarchy:0 "Gilded Monarchy"
+ gilded_monarchy_desc:0 ""
+ cosmopolitan_monarchy:0 "Cosmopolitan Monarchy"
+ cosmopolitan_monarchy_desc:0 ""
+
+ imperial_opulence:0 "Imperial Opulence"
+ imperial_opulence_desc:0 ""
+ empire_of_the_many:0 "Empire of the Many"
+ empire_of_the_many_desc:0 ""
+ invicible_republic:0 "Proclaim the Invincibility of the Republic"
+ invicible_republic_desc:0 ""
+ wealthy_rule:0 "Rule of the Wealthy"
+ wealthy_rule_desc:0 ""
+ adopt_athenian:0 "Adopt the Athenian Republic"
+ adopt_athenian_desc:0 ""
+ sanctify_republic:0 "Proclaim the Sanctity of the Republic"
+ sanctify_republic_desc:0 ""
+
 #####
 #######  [ Innovations ]
 ########
 
  imperium_inv:0 "Imperium"
  imperium_inv_desc:0 "It is no longer enough to present our state as its current title, our elevated position must be made clear to our lessers."
+ imperium_inv_tooltip:0 " Enables #Y Empire Tier #!governments."
+
+ greek_advanced_mechanics_inv:0 "Advanced Mechanics"
+ greek_advanced_mechanics_inv_desc:0 "Our civil engineers adopted the use of chain drives, lever systems, and piston mechanics in construction and practical applications, greatly simplifying the requirements of advanced engineering."
+
+ global_tribesmen_output_inv_3_desc:0 "Tolerating foreign men on our land can make some uneasy, but the institution of a tithe on the land they occupy is likely to calm those voices, and earn us a pretty penny in the meantime."
+ land_tithe_tooltip:0 " A random [THIS.GetCountry.GetAdjective] [territory|E] will receive #Y 6#! Freemen @freemen! [pops|E]."
+
+#####
+#######  [ Regions ]
+######## 
+  
+ sardinia_et_corsica_region:0 "Sardinia et Corsica"
+ epirus_region:0 "Epirus"
+ attica_region:0 "Attica"
+ peloponnese_region:0 "Peloponnesus"
+ aegean_region:0 "Aegean"
+
+#####
+#######  [ Missions ]
+######## 
+  
+ roman_1_italia_latin_congress_tooltip_2:0 "Unlocks decisions that vassalize the targeted countries."
+ offer_protection_sab:0 "Offer Sabinia protection"
+ offer_protection_sab_desc:0 ""
+ offer_protection_pie:0 "Offer Picentia protection"
+ offer_protection_pie_desc:0 ""
+ offer_protection_fnt:0 "Offer Frinatia protection"
+ offer_protection_fnt_desc:0 ""
+ offer_protection_sio:0 "Offer Sipious protection"
+ offer_protection_sio_desc:0 ""
+ offer_protection_hpo:0 "Offer Hipponion protection"
+ offer_protection_hpo_desc:0 ""
+ offer_protection_ele:0 "Offer Elea protection"
+ offer_protection_ele_desc:0 ""
+
+ roman_10_faith:0 "The Roman Faith"
+ roman_10_faith_BUTTON_TOOLTIP:0 "We must decide which faith better suits our ambitions."
+ roman_10_faith_BUTTON_DETAILS:0 ""
+ roman_10_faith_DESCRIPTION:0 "For centuries the roman people have worshipped their gods and allowed worship of other gods, Rome now stands at a crossroads. Should it embrace the greek gods and attain closer ties with the greek people? Should it adopt the italic gods and further solidify its position as the rightful ruler of the italic peoples? Or should Rome elevate its own traditions and further the glory of the harmonious gods?"
+ roman_10_faith_CRITERIA_DESCRIPTION:0 "Choose Rome's state religion."
+ roman_10_faith_REWARD_DESCRIPTION:0 ""
+ roman_10_faith_vesta:0 "Make Offerings to Vesta"
+ roman_10_faith_vesta_DESC:0 ""
+ roman_10_faith_temples:0 "New Temples"
+ roman_10_faith_temples_DESC:0 ""
+ roman_10_faith_italia:0 "The faith of Italia"
+ roman_10_faith_italia_DESC:0 ""
+ roman_10_faith_peace:0 "Prosperity"
+ roman_10_faith_peace_DESC:0 ""
+ roman_10_faith_italic:0 "One Italic Faith"
+ roman_10_faith_italic_DESC:0 ""
+ roman_10_faith_orbis:0 "The faith of Romulus"
+ roman_10_faith_orbis_DESC:0 ""
+ roman_10_faith_harmony:0 "Harmony"
+ roman_10_faith_harmony_DESC:0 ""
+ roman_10_faith_the_capitoline_triad:0 "Triad Ascendant"
+ roman_10_faith_the_capitoline_triad_DESC:0 ""
+ deity_triad:0 "$omen_triad$"
+ omen_triad:0 "Capitoline Triad"
+ roman_10_faith_greece:0 "The faith of Greece"
+ roman_10_faith_greece_DESC:0 ""
+ roman_10_faith_greece_tooltip_a:0 "For the duration of the mission greek settlers will be attracted to our cities in the south."
+ roman_10_faith_greece_tooltip_b:0 "Wealthy greeks will arrive in one of our cities in Campania."
+ roman_10_faith_olympia:0 "Glory"
+ roman_10_faith_olympia_DESC:0 ""
+ roman_10_faith_olympia_tooltip:0 "We'll send the gold as an offering to the holder of Olympus. If the offering is accepted Rome gains a strong country modifier for 12 years. If refused Rome gains claims on the region of Achaea."
+ roman_10_faith_hellenic:0 "Hellenic Aspirations"
+ roman_10_faith_hellenic_DESC:0 ""
+
+ roman_temple_architecture:0 "Roman Architecture"
+ roman_polytheism:0 "Surge in Polytheism"
+ roman_italia:0 "Plentiful Faith"
+ italic_boom:0 "Celebrations"
+ harmonic_wave:0 "Harmonic Fervour"
+ zeus_offerings:0 "Olympian Offers"
+ harmonic_awakening:0 "Harmonic Awakening"
 
 #####
 #######  [ Carthage ]
@@ -48,3 +194,4 @@
 
  PROV3256_carthaginian:0 "Qart Hadasht"
  carthage_area:0 "Qart Hadasht"
+ carthage_tartessos_tin_mines:0 "Tin Mines of Tartessos"

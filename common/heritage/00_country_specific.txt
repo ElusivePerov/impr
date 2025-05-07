@@ -2,7 +2,7 @@
 	modifier = {
 		#good
 		levy_size_multiplier = 0.025
-		integrate_speed = 0.1
+		manpower_recovery_speed = 0.12
 		
 		#bad
 		naval_morale_modifier = -0.05

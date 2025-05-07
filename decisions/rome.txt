@@ -156,18 +156,19 @@ country_decisions = {
 			set_variable = { name = sio_protected }
 		}
 	}
-	offer_protection_ano = {
+	offer_protection_hpo = {
 		potential = {
 			tag = ROM
 			has_variable = persuade_greeks
-			NOT = { has_variable = ano_protected }
+			NOT = { has_variable = hpo_protected }
 			c:ANO = { has_land = yes }
 		}
 		effect = {
 			add_treasury = -180
 			add_political_influence = -5
+			c:BRT = { release_subject = c:HPO }
 			ROOT = { make_subject = { target = c:ANO type = subject_league_city_state } }
-			set_variable = { name = ano_protected }
+			set_variable = { name = hpo_protected }
 		}
 	}
 	offer_protection_ele = {

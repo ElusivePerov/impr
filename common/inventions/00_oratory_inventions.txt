@@ -324,6 +324,7 @@
 		modifier = { monthly_political_influence = 0.05 }
 		keystone = yes
 		requires_or = { relation_inv_2 tribute_income_modifier_inv_2 }
+		on_activate = { custom_tooltip = "imperium_inv_tooltip" }
 	}
 
 	# Level 7 Specific

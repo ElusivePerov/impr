@@ -36,7 +36,7 @@ roman_10_faith = {
     	complete_mission_effect = yes
     }
 
-	roman_10_faith_vestal = {
+	roman_10_faith_vesta = {
 		duration = 365
 		on_completion = {
 			c:ROM = {
@@ -51,7 +51,7 @@ roman_10_faith = {
 	}
 
 	roman_10_faith_temples = {
-		requires = { roman_10_faith_vestal }
+		requires = { roman_10_faith_vesta }
 
 		allow = {
 			any_owned_province = {
@@ -200,10 +200,11 @@ roman_10_faith = {
 
 		on_start = {
 			set_variable = { name = ongoing_mission_pulse_flag days = 730 }
+			custom_tooltip = roman_10_faith_greece_tooltip_a
 		}
 
 		on_completion = {
-			custom_tooltip = roman_10_faith_greece_tooltip
+			custom_tooltip = roman_10_faith_greece_tooltip_b
 			c:ROM = { trigger_event = { id = me_roman_10_faith.7 } }
 		}
 
@@ -220,6 +221,7 @@ roman_10_faith = {
 
 		on_completion = {
 			p:439 = { owner = { trigger_event = { id = me_roman_10_faith.8 } } }
+			custom_tooltip = roman_10_faith_olympia_tooltip
 		}
 
 		icon = task_expansion

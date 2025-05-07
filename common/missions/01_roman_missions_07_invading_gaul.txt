@@ -645,7 +645,6 @@
 		
 		on_completion = {
 			rome_mission_conquest_effect = yes
-			custom_tooltip = roman_7_western_foothold_claims_tt
 			c:ROM = {
 				trigger_event = { id = roman_conquest.72 }
 			}
@@ -677,7 +676,6 @@
 		
 		on_completion = {
 			rome_mission_conquest_effect = yes
-			custom_tooltip = roman_7_eastern_foothold_claims_tt
 			c:ROM = {
 				trigger_event = { id = roman_conquest.73 }
 			}

@@ -18,9 +18,9 @@
 		}
 		trigger_if = {
 			limit = {
-				state_loyalty < 33
+				state_loyalty < 20
 			}
-			state_loyalty >= 33
+			state_loyalty >= 20
 		}
 		hidden:root.owner = {
 			political_influence >= move_capital_pop_difference_cost
@@ -79,9 +79,9 @@ move_province_capital_button = {
 		is_state_capital = no
 		trigger_if = {
 			limit = {
-				state_loyalty < 10
+				state_loyalty < 20
 			}
-			state_loyalty >= 10
+			state_loyalty >= 20
 		}
 		hidden:root.owner = {
 			trigger_if = {
